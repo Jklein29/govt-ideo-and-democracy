@@ -1,0 +1,2312 @@
+﻿===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 4 (2011-2016)
+
+                 CODEBOOK PART 6: STUDY DESIGNS AND WEIGHTS
+
+                       FULL RELEASE - MAY 29, 2018
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 4 
+FULL RELEASE [dataset and documentation]. May 29, 2018 version. 
+doi:10.7804/cses.module4.2018-05-29
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-0817701,
+SES-1154687, and SES-1420973, the GESIS - Leibniz Institute for the Social 
+Sciences, the University of Michigan, in-kind support of participating 
+election studies, the many organizations that sponsor planning meetings 
+and conferences, and the numerous organizations that fund national 
+election studies by CSES collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+ 
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+
+
+))) OVERVIEW OF "CODEBOOK PART 6: STUDY DESIGNS AND WEIGHTS"
+
+
+))) HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+
+
+))) LIST OF TABLES IN CODEBOOK PART 6
+
+
+))) OVERVIEW OF STUDY DESIGN AND WEIGHTS BY POLITY
+    >>> POLITY WEIGHTS IN CSES
+    >>> TYPE OF POLITY WEIGHTS BY ELECTION STUDY
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ARGENTINA (2015)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - AUSTRALIA (2013)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - AUSTRIA (2013)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - BRAZIL (2014)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - BULGARIA (2014)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - CANADA (2011)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - CANADA (2015)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - CZECH REPUBLIC (2013)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - FINLAND (2015)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - FRANCE (2012)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - GERMANY (2013)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - GREAT BRITAIN (2015)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - GREECE (2012)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - GREECE (2015)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - HONG KONG (2012) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ICELAND (2013) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - IRELAND (2011) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ISRAEL (2013) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - JAPAN (2013) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - KENYA (2013) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - LATVIA (2011)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - LATVIA (2014)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - MEXICO (2012) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - MEXICO (2015) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - MONTENEGRO (2012) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - NEW ZEALAND (2011)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - NEW ZEALAND (2014)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - NORWAY (2013) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - PERU (2016)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - PHILIPPINES (2016) 
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - POLAND (2011)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - PORTUGAL (2015)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ROMANIA (2012)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ROMANIA (2014)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SERBIA (2012)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SLOVAKIA (2016)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SLOVENIA (2011)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SOUTH AFRICA (2014)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SOUTH KOREA (2012)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SWEDEN (2014)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SWITZERLAND (2011)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - TAIWAN (2012)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - THAILAND (2011)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - TURKEY (2015)
+    >>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - UNITED STATES (2012)
+
+
+===========================================================================
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+===========================================================================
+
+This dataset and all accompanying documentation is the "Full Release"
+of CSES Module 4 (2011-2016).
+
+Users of the Final Release may wish to monitor the errata for
+CSES Module 4 on the CSES website, to check for known errors which may 
+impact their analyses. To view errata for CSES Module 4, go to the Data
+Center on the CSES website, navigate to the CSES Module 4 download page, 
+and click on the Errata link in the gray box to the right of the page.
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 6: STUDY DESIGNS AND WEIGHTS"
+===========================================================================
+
+Part 6 of the CSES Codebook provides users with general information about
+the design of each election study included in Module 4 as well as the 
+original polity level weights for each study. 
+
+The purpose of these overviews is to provide users with a quick summary 
+of the study and the weights including information about the sample size, 
+the fieldwork period, sample selection procedures, the mode(s) of interview,
+and the language(s) the survey was administered in. 
+
+For more detailed information about each study's design and its weights, 
+users are advised to consult the Design Reports for each polity included
+in the study which are available on the CSES Module 4 Study Page (see
+http://www.cses.org/datacenter/module4/module4.htm). 
+
+
+===========================================================================
+))) HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+===========================================================================
+
+In the CSES Module 4 dataset, all variables begin with the letter "D" 
+(D being the fourth letter of the English alphabet and thus signifying 
+Module 4).
+
+The CSES codebook is especially extensive and users are advised that the 
+best way to navigate it is electronically. It is a .txt format which 
+allows it to be accessed via a variety of programmes. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header 
+
+>>> = Sub-section Header 1
+
+<<>> = Sub-section Header 2 
+
++++ = Tables
+
+VARIABLES NOTES = Notes for particular variables 
+
+ELECTION STUDY NOTES = Notes for a particular election study  
+
+For further details on the CSES Module 4 documentation, users are advised
+to consult Part 1 of the CSES codebook. 
+
+
+===========================================================================
+))) LIST OF TABLES IN CODEBOOK PART 6
+===========================================================================
+
+Below, we list the Tables located in Codebook Part 6. Tables can be 
+accessed in the electronic version of the CSES Codebook by searching for
+"+++". 
+
+   - TYPE OF POLITY WEIGHTS BY INDIVIDUAL ELECTION STUDIES
+
+
+===========================================================================
+))) OVERVIEW OF STUDY DESIGN AND WEIGHTS BY POLITY
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> POLITY WEIGHTS IN CSES
+---------------------------------------------------------------------------
+
+CSES provides users with up to three original weights from each 
+national election study (see variable D1010_) namely:
+
+  - SAMPLE WEIGHT (variable D1010_1): 
+    intended to correct for unequal selection probabilities resulting from 
+    booster samples procedures for selection within the household, 
+    non-response, or other sample design features 
+
+  - DEMOGRAPHIC WEIGHT (variable D1010_2): 
+    intended to adjust sample distributions of socio-demographic 
+    characteristics to more closely resemble the characteristics of the 
+    population
+
+  - POLITICAL WEIGHT (variable D1010_3): 
+    intended to reconcile discrepancies in the reported electoral behavior
+    of respondents vis-a-vis official electoral counts. 
+
+Users are advised to read carefully about the different weights in CSES to 
+ascertain whether their analyses should be subjected to weighting and if so 
+which kind. The CSES project does not provide advice as to which weights are
+appropriate to use in particular circumstances. This is best left to 
+analysts to decide based on their detailed knowledge of the research 
+question under investigation. We advise analysts to consult each Polity's
+Design Report on the CSES Module 4 Study Page (see
+http://www.cses.org/datacenter/module4/module4.htm). 
+For information on derivative weights calculated for the Cross-National 
+Dataset, users should consult Part 1 and Part 2 (variables D1011-D1014) 
+of the CSES Codebook. 
+
+
+---------------------------------------------------------------------------
+>>> TYPE OF POLITY WEIGHTS BY ELECTION STUDY
+---------------------------------------------------------------------------
+
+         | +++ TABLE: TYPE OF POLITY WEIGHTS  
+         |            BY INDIVIDUAL ELECTION STUDIES
+         |
+         |                          Sample     Demographic   Political  
+         | POLITY (ELEC YEAR)       Weight       Weight       Weight  
+         | -----------------------------------------------------------
+         | AUSTRALIA (2013)           -            X            -
+         | AUSTRIA (2013)             -            X            -
+         | BRAZIL (2014)              X            -            -
+         | BULGARIA (2014)            -            X            -
+         | CANADA (2011)              X            -            -     
+         | CANADA (2015)              X            -            -
+         | CZECH REPUBLIC (2013)      -            -            X    
+         | FINLAND (2015)             -            X            X 
+         | FRANCE (2012)              -            X            X
+         | GERMANY (2013)             X            X            -
+         | GREAT BRITAIN (2015)       X            X            -  
+         | GREECE (2012)              -            X            -  
+         | GREECE (2015)              -            X            X
+         | HONG KONG (2012)           -            X            -
+         | IRELAND (2011)             -            X            X
+         | JAPAN (2013)               -            X            -
+         | KENYA (2013)               X            -            -
+         | LATVIA (2011)              X            X            -
+         | LATVIA (2014)              X            -            -
+         | MEXICO  (2012)             X            X            -
+         | MEXICO (2015)              -            X            -
+         | MONTENEGRO (2012)          -            X            -
+         | NEW ZEALAND (2011)         -            X            X 
+         | NEW ZEALAND (2014)         -            X            X
+         | NORWAY (2013)              -            X            -
+         | PERU (2016)                X            X            X
+         | PHILIPPINES (2016)         X            -            -
+         | POLAND (2011)              -            X            -
+         | PORTUGAL (2015)            -            X            -
+         | ROMANIA (2012)             X            X            X
+         | ROMANIA (2014)             X            X            X
+         | SERBIA (2012)              X            X            -
+         | SLOVAKIA (2016)            -            X            -
+         | SOUTH AFRICA (2014)        -            X            -
+         | SWITZERLAND (2011)         X            -            X
+         | TAIWAN (2012)              -            X            -
+         | THAILAND (2011)            X            -            -
+         | TURKEY (2015)              -            X            -
+         | UNITED STATES (2012)       X            X            -
+         | -----------------------------------------------------------
+         | KEY: X = available; - = not available.
+         |
+         | Weights are unavailable for ARGENTINA (2015), ICELAND (2013), 
+         | ISRAEL (2013), SLOVENIA (2011), SOUTH KOREA (2012) and
+         | SWEDEN (2014). 
+         
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ARGENTINA (2015)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+Elections in Argentina were held on October 25, 2015. The post-election
+Interviewing began on November 21 (27 days after the Election day) and
+lasted for 39 days, ending on December 30, 2015. The face-to-face mode was
+employed for all interviews. The Argentinian election study was conducted
+as a panel study in two waves. CSES questions were distributed in the
+second wave, which contained in total 1149 respondents. Of those
+respondents, 780 had been sampled initially for the first survey (panel
+attrition between two waves was 68%), and 369 respondents were a refresh
+sample. The fieldwork was conducted by MBC Mori. The questionnaire was
+administered in the Spanish language, and the target population for the
+study was all Argentian citizens older than 18 years.
+
+A multistage sample design with a total of six stages was used. In the 
+first stage, the country's 23 provinces (plus the federal district of 
+Buenos Aires) were divided into four electoral strata based on 2011
+presidential election results, using as the stratifying variable the 
+percentage of valid votes obtained by incumbent Kirchner. Provinces were
+classified into these four strata and cities/towns were selected within 
+each stratum. Stages two through six were conducted according to standard
+household sampling procedures, using different types of probabilistic 
+selection procedures at stages two to five, where the population is 
+composed of geographic areas or households. These procedures included 
+sampling of census fractions and census radiuses with Probability 
+Proportional to Size (stages 2 and 3) as well as a simple random sampling
+of blocks within census radiuses (stage 4) and systematic random sampling
+of households within blocks (stage 5). Finally, a quota procedure was
+employed for stage six where individuals within households were sampled.
+More detailed information about the sampling procedure is available in
+the Design Report.
+
+<<>> POLITY WEIGHTS
+
+No weights provided. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - AUSTRALIA (2013)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The Australian Election Study was carried out between September 6, 2013 and
+January 7, 2014. The mode of the interview was a mail-back questionnaire.
+The fieldwork period began one day before the Federal Election on
+September 7, and in total took 123 days. The questionnaire was administered
+in  English and the fieldwork was carried out by the Survey Research
+Centre Pty Ltd. 
+
+The study collected information from voters, that is Australian adults 
+aged 18 years or over who were enrolled on the electoral register, and 
+eligible to vote. A stratified random sampling procedure was used 
+to compile a sample of respondents from the Australian Electoral Register
+which is administered by the Australia Electoral Commission (AEC). 
+Initially, 15,000 records were provided, 100 from each electorate. 
+The sample was provided by the AEC for use only for this study. Due to 
+budget considerations, only 12,200 of the original sample
+was selected for the initial mail-out. 
+
+The following strategy was used for sub-selection:
+1) Randomly select 81 voters from each electorate (totally 12,150)
+2) After Step 1, randomly select 1 additional voter from 50 randomly 
+   selected electorates.
+
+Sample records with an overseas mailing address were removed from the
+mailing sample. A total of 3,955 Surveys (3,379 via mail-back and 576
+online) were received.
+
+<<>> POLITY WEIGHTS
+
+The Australian Election Study provides a DEMOGRAPHIC WEIGHT. This weight
+was calculated to correct for the following: the disproportionate
+probability of selection, non-response in the survey, and to match known
+demographic characteristics of the population. This weight was calculated
+using rim weighting adjusting to four benchmarks. Figures for age,
+gender, and the state of residence were obtained from the AEC enrollment
+data for the 2013 election. Figures for voting came from the AEC Final
+Election Vote Tallies. For the category "(Voted Informal)/Did not vote,"
+"Voted informally" is bracketed as this response is included in the
+dataset but not in the benchmark. The numbers represent only the number
+of enrolled voters who did not vote, i.e., the difference between the
+vote tally and the number of enrollments). Counts of invalid votes were
+obtained. However, it was impossible to ascertain how many invalid votes
+were deliberate (in which the case the respondent would give the
+"invalid vote" response) and how many were unintended (in which case the
+respondent would most likely not realize their vote was invalid and
+respond with their voting intention).
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - AUSTRIA (2013)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The elections in Austria were held on September 29, 2013. The survey
+interviewing began on October 1, and lasted for 29 days. The interviews
+were conducted via the telephone by Jaksch & Partner Institute for
+statistics. All interviews were conducted in the German language. The total
+of 1000 interviews have been completed for the Austrian study, and the
+sample is meant to be representative of the Austrian population, persons
+aged 16 and older, eligible to vote in the national election 2013. The
+sampling method employed was stratified random sampling. The primary
+sampling factor was the nine Austrian provinces ("Bundeslaender"). Only
+within these provinces, an unlimited random sample was drawn. The
+provinces were then divided into administrative districts proportional to
+their population size. Phone numbers were randomly selected using dual
+sampling frame (RDD: 89.1% and RLD: 10.9%). The last birthday method was
+used to randomly select the respondent within each household. The
+characteristics used for stratification were geographic (provinces,
+administrative districts and city/town sizes).
+
+<<>> POLITY WEIGHTS
+
+The Austrian Election Study provides a DEMOGRAPHIC WEIGHT. These are 
+necessary to even out minor offsets in the sample that did not perfectly 
+coincide with the target population. It was created on the basis of 
+socio-demographic characteristics (gender, age, education, household size, 
+region/Bundesland, and employment status).
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - BRAZIL (2014)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The survey was administered between November 1, 2014, and November 19, 
+2014. The interviewing started 5 days after the second round of elections
+in Brazil. The face-to-face mode was used for the study, and interviews
+were conducted in the Portuguese language. The fieldwork was coordinated by
+IBOPE Inteligencia.
+Sampling was conducted in three stages and is meant to be representative of
+the Brazilian population over 16 years that is registered to vote. Random
+probability  sampling was implemented in two of the three stages:
+I) Cities within stratum (state) [Systematic PPS (Probability 
+Proportional to Size)];
+II) Census tracts within cities [Systematic PPS];
+III) The household selection was made by quota: gender, age, education and 
+the line of work.
+
+The primary sampling units are composed of cities. The sample is 
+stratified per state. In case of states with metropolitan areas, 
+its universe is stratified across metropolitan areas and countryside. 
+The cities are probabilistically selected through systematic PPS 
+(Probability Proportional to Size) in each stratum, based on the 
+population of those above 16 years of age. Through this method, 194 
+cities were selected. The total of 3136 interviews were completed in
+Brazilian study.
+For research reasons, the state of Sao Paulo has a complement sample 
+in the capital, suburbs and interior to allow interpretation of the 
+results for each of these areas. The selection of cities in the 
+periphery and interior follows the same criterion for other strata, 
+i.e., systematic PPS based on population aged 16 or more.
+
+<<>> POLITY WEIGHTS
+
+The Brazilian Election Study provides a SAMPLE WEIGHT. It is constructed 
+to correct for oversampling in the state of Sao Paulo. Oversampling occurred
+because of deliberate oversampling of the Sao Paulo region (for more 
+details see study design description above). The weights are constructed so 
+that complementary sample of the state of Sao Paulo has the proportional 
+effect in the whole sample.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - BULGARIA (2014)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The post-election survey, containing the CSES Module 4 questionnaire,
+was conducted between January 23-31, 2015, slightly more than three 
+months after the election. All respondents were surveyed in face-to-face 
+mode and interviews were conducted in the Bulgarian language. The fieldwork
+was coordinated by TNS BBSS SEE research agency in Bulgaria. The total of
+999 interviews were completed, and the sample is meant to be representative
+of adult (18+ years old) population of people living in Bulgaria.
+
+The sampling points were distributed proportionally to regional and 
+urbanization characteristics of the population. The number of sampling
+points in each region for the different type of settlements was calculated
+based on the ratio regional center/other urban area/rural area. On a 
+regional level, separately for each region, the settlements belonging to 
+the same urbanization group were put in alphabetical order. The 
+settlements included in the survey were selected at random from that list. 
+Additionally, for the biggest cities (capital Sofia, Plovdiv, and Varna), 
+sampling points were distributed in smaller administrative units 
+(municipalities) proportionally to the size of the population in the
+respective city. Institutionalized persons were excluded from the sample,
+which is estimated to be 3% of total population.
+
+<<>> POLITY WEIGHTS
+
+The Bulgarian Election Study provides a DEMOGRAPHIC WEIGHT. It ensures that
+the sample is representative of the population. Weights tend to adjust for 
+gender, age, urbanization level, and region of residence (NUTSII-level).
+These weights were constructed by using a weight matrix based on
+information about the statistical distribution of the population
+according to the National Statistical Institute of Bulgaria.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - CANADA (2011)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was part of a panel study. A pre-election campaign study (CPS)
+started on March 26, 2011. It originally included new 2011 RDD sample
+respondents (n=3,458), and individuals who had already participated in
+the Canadian Election Study in 2004, 2006 or 2008 (n = 850). However,
+the latter were removed from the CSES data. The interviewing was conducted
+via phone, for this phase of the study, and performed by Institute for
+Social Research and Jolicoeur & Associates which did interviewing in
+Quebec.
+
+The RDD sample for the 2011 campaign study was designed to represent the
+adult population of Canada: Canadian citizens 18 years of age or older who
+speak one of Canada's official languages, English or French, and reside in
+private homes in the ten Canadian provinces. The sample was selected via a
+modified random digit dialing (RDD) sample along with the birthday
+selection method within households. Residents of the three Northern
+territories were excluded from the sample as well as institutionalized
+persons and military personnel. That makes around 1.5% of the population.
+Additionally, 1.1% of households in Canada are without a phone. The
+interviews were conducted in English and French languages.
+
+The sample for the post-election surveys was comprised of respondents to
+the CPS. At the end of the CPS, the interviewer ensured that they had a
+first name or some other identifier (such as the respondent's initials or
+position in the household, e.g., mother). This information, as well as
+the sex and year of birth of the CPS respondent, and the respondent's
+telephone number was recorded on a "cover sheet."
+
+The elections in Canada were held on May 2, 2011. Calling for the
+post-election study (PES) started on May 3. The interviewer called and
+asked for the person by name or identifier. By day 30, more than 80% of
+the interviews were completed, but small numbers of interviews were only
+completed by early July. In total, 3,362 PES interviews were completed,
+of which 2,595 were from the new 2011 RDD sample.
+
+At the end of the post-election survey, respondents were asked to provide
+their address so they could be sent the mail-back survey (MBS). 30% of the
+PES respondents declined to provide an address. The PES respondents who
+provided mailing addresses received up to five contacts encouraging them to
+complete and return the mail-back questionnaire. The number of mail-back
+completions was 1,567. Of those who provided an address and were sent the
+MBS, 67% returned a completed questionnaire, and this represents 47% of all
+PES respondents.
+
+<<>> POLITY WEIGHTS
+
+The Canadian Election Study provides a SAMPLE WEIGHT. In order to produce
+national estimates, this weight correct for both the unequal probability of
+selection at the household stage and the unequal probability of selection
+based on province of residence. The weight variable is the product of two
+original weights, the household, and the province weight.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - CANADA (2015)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was part of the panel study. Three waves of the panel were
+conducted. The first wave, campaign period study (CPS) began on September 8
+2015. By the October 19, the Election Day, 4,202 interviews were completed
+in the first wave.
+
+Interviews were conducted using the CATI (Computer Assisted Telephone
+Interviewing) technique in English and French. Fieldwork was conducted by
+Institute for Social Research.
+
+Respondents were drawn from random digit-dialing (RDD), a sample
+representing the adult population of Canada: Canadian citizens 18 years of
+age or older who speak one of Canada's official languages, English or
+French, and reside in private homes in the ten Canadian provinces. The
+birthday selection method was used to select respondents within the
+households.
+
+Residents of the Northern territories were excluded from the
+sample since they are difficult to sample. Additionally, institutionalized
+persons, as well as military personnel, were excluded from the sample. The
+excluded territories and groups contain around 1.5% of the population.
+
+Post-election study (PES) began on October 20, the day after the election.
+All respondents from the first (CPS) wave of the study, that could be
+contacted and wanted to take part in the survey, were interviewed. Again,
+the CATI technique was used for the PES interviewing. After 64 days, by
+the December 23 (last day of fieldwork for PES) 2,988 interviews were
+completed. The PES reinterview rate in 2015 was 71%.
+
+The third wave of the study was conducted as a mail-back survey (MBS). In
+the PES respondents were asked at the end to provide their addresses so
+that they could be sent the mail-back survey. The mail-back survey was
+hence sent only to those respondents who voluntarily gave the address and
+agreed to participate in this part of the study. Of those who provided an
+address at the end of the PES (70%) and were sent the MBS, 62% percent
+returned a completed questionnaire. In total, 1,289 respondents completed
+and sent back the survey. 
+
+CSES questions were distributed among these three different components.
+
+<<>> POLITY WEIGHTS
+
+The Canadian Election Study provides a SAMPLE WEIGHT. It corrects for 
+unequal probabilities of selection at the household stage and the unequal
+probabilities of selection based on province of residence. The provided
+variable is the product of household weight and a province weight.
+Household weight is included because the probability of an adult member
+of the household being selected for an interview varies inversely with the
+number of eligible adults living in that household. Regarding the province
+weight, because the sample was stratified, the distribution is not
+proportional to the population size of the provinces. Therefore, the data
+must be weighted before national estimates are derived.
+Weights are obtained by dividing the proportion of households in the
+province by the proportion of the households in the sample for that
+province.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - CZECH REPUBLIC (2013)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The interviewing for the Czech election study started two days after the
+elections in the country, and the survey was administered between October
+28, 2013 and November 14, 2013. The mode of interviews was face-to-face/in
+person in the Czech language. The fieldwork was conducted by CVVM (Center
+for public opinion research) at the Institute of Sociology, Czech Academy
+of Sciences.
+ 
+For the Czech study, respondents were chosen according to a quota system
+which was designed for each of the 14 Czech regions (which correspond to
+the electoral districts). Quotas were based on age, gender, and education.
+The sample includes 1,653 respondents (Czech citizens older than 18 years)
+and is meant to be representative of all Czech Republican citizens of 18
+years and older. Around 1% of the population, people who don't live in a
+house or apartment could not be reached, and that is why were excluded from
+the sample. 
+
+<<>> POLITY WEIGHTS
+
+The Czech Election Study provides a POLITICAL WEIGHT. The weight adjusts the
+sample to percise results of the national election and were constructed 
+based on election results. Parties who received less than 3% of the vote in
+the election were included in a combined category, labeled "other parties."
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - FINLAND (2015)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module 4 was implemented in the 2015 Finland Post-Election
+study that was carried out in the aftermath of the lower house elections
+which took place on April 19, 2015. The survey was administered between
+April 24 and July 7, 2015 (fieldwork lasting in total 74 days), using
+face-to-face interviews and drop-off questionnaires, in Finnish and
+Swedish language. The fieldwork was conducted by TNS Gallup Oy.
+
+The sample is a quota sample that is meant to be representative of all
+Finish citizens, 18 years and older, who were entitled to vote in 2015
+Finish parliamentary election. In the first stage of the sampling
+procedure, the population was divided based on gender and age. The number
+of respondents required for the sample was then divided along NUTS2 
+regions and in a next step, along municipality lines. Interviewers
+were conducted with those persons in targeted households that fulfilled
+the age and gender criteria. Within their areas, interviewers themselves
+could choose any household, i.e., they were not provided with a list of
+target households by the survey company. 
+
+Excluded from the sample were all Finish citizens living in the region of
+Asland Islands (equivalent to 0.49% of the total eligible population).
+Overall, 11,500 people were selected from the sampling frame. 1,587 of
+the selected people completed the interview. Of the 1,587 respondents,
+684 returned the drop-off questionnaire which they were offered to fill
+out immediately after the interview (to be returned by mail). The
+drop-off questionnaire included questions on eight different variables
+from the CSES core module. For more information, see election study
+notes for variables D1007 (Sample Component) and D1023 (Survey Mode) in
+the Part 2 of CSES Codebook.
+
+<<>> POLITY WEIGHTS
+
+The Finnish Election Study provides a combined DEMOGRAPHIC and POLITICAL 
+WEIGHT. These weights are constructed to correct the distributions for those
+of the eligible Finnish voting population with respect to mother tongue, 
+age, gender, electoral district distribution and an actual vote share of 
+parties in the election. The weights are combined and thus both the weights 
+listed under variable D1010_2 and D1010_3 for Finland (2015) are identical. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - FRANCE (2012)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The interviewing for France election study began on May 10, 2012, 4 days
+after the second round of Elections in France, and lasted until June 9,
+2012, lasting in total 30 days. TNS-Sofres conducted fieldwork.
+Interviews were held face-to-face in the French language.
+
+The sample is meant to be representative of the eligible population, French
+citizens, who are 18 years or older and registered to vote.
+Institutionalized persons and 4.5% of the population living in the overseas
+territories were excluded from the sampling frame because of the costs
+linked to interviewing in these regions. The sample was drawn as a
+stratified three stage probability sample. For the stratification, a table
+with 21 regions and five agglomeration classes were built. Each cell
+contained the corresponding population size. In the first stage of the
+sampling, 400 primary sampling units (districts) were allocated to the
+defined cells, using Cox's 'Method of controlled rounding.' The PSUs
+(municipalities, arrondissements of bigger cities or villages grouped in
+cantons) were selected from the cells according to the allocation
+proportional to population size. In the second stage, 5 (+20) addresses of
+the PSUs were selected via the random route. Failed addresses could be
+replaced by an extension of the random route. In stage three, individuals
+within households were selected via the 'Last-Birthday-Method.' In total,
+2009 interviews were completed in the France election study.
+
+<<>> POLITY WEIGHTS
+
+The French Election Study provides two weights: a DEMOGRAPHIC WEIGHT and a 
+POLITICAL WEIGHT. The demographic weights correct the distribution of known
+sociodemographic characteristics (sex, age, and occupation). The
+political weight adjusts vote to the official election results of the first
+and the second round of the presidential election.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - GERMANY (2013)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES module is part of the German post-election cross-sectional study, 
+for which the fieldwork was conducted between September 23 and December 23, 
+2013, by MARPLAN Media- und Sozialforschungsgesellschaft mbH. Data 
+collection started one day after the federal election on September 22 and 
+lasted for 92 days in total. The questionnaire was administered in German 
+and in person (CAPI).
+
+The sample is designed to be representative of all German citizens resident
+in the Federal Republic of Germany, who were living in private households, 
+aged 18 or older, and who were eligible to vote. Originally the sample also
+included an additional number of 19 persons of age 16-17, but these were 
+excluded from the CSES as they are not eligible to vote. 
+
+The sampling method used was the Address-Random Method (ADM) design, with 
+all private German households as the base population. 306 sampling points
+(voting districts) were randomly selected - 211 in West Germany and 95 in
+East Germany. In West Germany, 1,400 interviews or 6.6 interviews per
+sampling point on average were aimed for and in East Germany 700, or 7.4
+interviews per sampling point on average, resulting in an oversampling of
+East Germany. In every sampling point, 60 households' addresses were 
+randomly selected using the random  route sampling. From this list of
+confirmed addresses, 25 households per sampling point were selected 
+randomly. The third step was the selection of the target person via the
+Kish-Selection-Grid. A minimum of four attempts were made to contact a
+potential respondent, at different times of the day and days of the week,
+before declaring it a non-contact. There are 1889 completed interviews in
+the sample.
+
+<<>> POLITY WEIGHTS
+
+The German Election Study provides two weights: a SAMPLE WEIGHT and a 
+DEMOGRAPHIC WEIGHT. The sample weight controls for the oversampling of East
+Germans and household size. The demographic weight controls for education,
+age, gender and size of the communities. User are advised that the weights
+were calculated by the German Election Study while still including 19 
+respondents who were ineligible to vote in the 2013 election. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - GREAT BRITAIN (2015)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES module was part of the British Election Study post-election cross-
+sectional survey. The survey was conducted between May 7 and September 29, 
+2015, a timespan of 146 days, with data collection beginning the day of the
+election. GfK UK Ltd was responsible for data collection. Whereas the main
+study was conducted face to face (CAPI), the CSES module was administered
+separately via self-completion after the interviewer had left the household.
+Respondents were free to complete the questionnaire either via paper-and-
+pencil (PAPI) or online (CAWI). All interviews were conducted in English.
+The sample was designed to be representative of citizens living in Great
+Britain, aged 18+ and who were eligible to vote in the 2015 general 
+election. Those who are eligible to vote are British Citizens, Citizen of
+the Republic of Ireland or citizen of a Commonwealth Country who has a 
+"right to remain" in the UK.
+
+The sample was selected based on a multi-stage design, summarized as:
+1) A stratified random sample of 300 Parliamentary constituencies (primary
+sampling units)
+2) Two Lower Layer Super Output Areas (LSOAs) per constituency were selected
+with probability proportional to size
+3) Selection of addresses from the Small user Postcode Address File (PAF)
+4) One individual randomly selected per address by the interviewer
+
+The exclusion of the Northern islands from the sample led to the exclusion
+of about 0.25% of the eligible population. Additionally, some sections of 
+the population fell outside this sampling frame, e.g. elderly people in
+residential care, prisoners and military personnel living in defense 
+establishments. This led to the exclusion of another 2% of the eligible
+population. 
+
+1567 respondents completed the main study and the CSES module. Before the
+study, all respondents received an incentive of 5 GBP together with a letter
+announcing the survey. After completion of the main study, participants
+received gift vouchers with varying values. Another voucher worth 5 GPB was
+given to those respondents who announced participation in the self-
+administered CSES module. For initial non-contacts, incentives were raised
+from 5 to 15 GBP.
+
+For much more detailed information on each step of the sampling and methods,
+please refer to the design report.
+
+<<>> POLITY WEIGHTS
+
+The British Election Study includes two different weights: a SAMPLE WEIGHT 
+and a DEMOGRAPHIC WEIGHT.
+The Sample weight corrects for unequal selection probabilities, which might
+have occurred whenever an interviewer was left with the following choices:
+1. To select a dwelling (typically flats) from a selected address 
+2. To select an individual household from a dwelling
+3. To select an eligible person from the household
+A person's chance of being interviewed was calculated by multiplying the
+number of dwellings by the number of households within the selected 
+dwelling, multiplied by the number of adults in the selected household. 
+As the probability of selection is the inverse of this number, respondents
+were weighted by the result of the multiplication. The selection weight was
+capped at 5 (affecting 14 cases). Afterwards, the weight was rescaled to
+arrive at the original sample size.
+
+The Demographic weight accounts for differing levels of response from 
+various groups in the population. For this second weight, demographics that
+were corrected were age, gender, and region, based on the Office for 
+National Statistics (ONS) mid-year population estimates for 2014. 
+The demographic weight was calculated after the selection weights had been 
+applied.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - GREECE (2012)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2012 Hellenic (Greek) National Election Voter Study was conducted as a
+mixed-mode survey in the period between October 19, 2012 and January 5, 
+2013. Fieldwork started 124 days after the second 2012  parliamentary
+election on June 17, 2017 and lasted for 79 days. The Aristotle University
+of Thessaloniki, School of Political Sciences, Laboratory of Applied 
+Political Research and To The Point Research Consulting Communication S.A.
+were responsible for data collection. The questionnaire was administered in
+Greek.
+
+The sample was designed to be representative of Greek voters, that is, Greek
+citizens with a minimum age of 18 registered to vote (with registration
+taking place automatically for all citizens born in 1994 or later). Half of
+the sample was designed to be collected online, complemented by face-to-face
+interviews. This is because collaborators expected that the 55+ age group
+would be greatly under-represented in the web survey sample, as the rural
+population. In contrast, the regions of Attiki (region of the capital 
+Athens) and Thessaloniki were expected to be over-represented.
+
+The online sample was selected randomly (using RDD) by area proportional to
+total population. Thus, households were the primary sampling unit. The
+selected respondents were called and asked to provide their email address in
+case they agreed to participate. The face-to-face sample was designed as a
+cluster sample, with the regions of Attiki and Thessaloniki being excluded
+because of prior expectations outlined above. In each selected cluster,
+systematic sampling was used, i.e. the interviewers selected the first house
+randomly, continuing in the cluster by selecting every kth house. 
+Additionally, a quota on age was employed, with 30% of respondents aged 54
+or younger. There are 1029 completed interviews in the sample, of which 500
+were realized face-to-face and 529 online.
+
+<<>> POLITY WEIGHTS
+
+The Greek Election Study provides one combined DEMOGRAPHIC and POLITICAL 
+WEIGHT. It was constructed using the method of ranking, adjusting for 
+gender, age, education, region, and valid votes in the 2012 Greek elections. 
+The weights are combined and thus both the weights listed under variable 
+D1010_2 and D1010_3 for Greece (2012) are identical. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - GREECE (2015)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The 2015 Hellenic (Greek) National Election Voter Study was conducted as a
+mixed-mode survey in the period between June 12 and September 8, 2015.
+Fieldwork started 138 days after the legislative election on January 25,
+2015 and lasted for 89 days.
+The Aristotle  University of Thessaloniki, School of Political Sciences was
+responsible for data collection. Interviews were conducted in Greek. The
+sample is meant to be representative of Greek citizens with a minimum age of
+18 who were registered to vote (with registration taking place automatically
+for all citizens born in 1996 or later). 
+
+Initially, respondents were recruited via telephone (CATI), with households 
+being the primary sampling unit. Therefore, Greek households without a phone
+were excluded from the sampling frame (about 18 % of the eligible
+population). The main data collection phase was implemented as a web survey
+(CAWI). For respondents neither having access to the internet nor an e-mail
+address, telephone interviews (CATI) were conducted as an auxiliary method.
+The recruitment of the respondents was based on a random selection of
+telephone numbers, that is, Random Digital Dialing (RDD). Before the initial
+selection process, the geographical area was sampled at the first stage, the 
+area code was identified and the telephone numbers were completed during the
+second stage by random sampling. The recruitment process lasted from June 12
+until July 16. The individual who answered the phone call was asked to 
+participate in the survey after verifying that the respondent was eligible 
+to vote.Selected respondents were asked to provide their e-mail address in
+case they agreed to participate in a web survey conducted by the Aristotle
+University of Thessaloniki. Every e-mail address collected during the 
+recruitment phase was uploaded to the epolls.gr web survey system and an 
+e-mail with the invitation and the link to the survey was sent to the
+respondent. Invitations were also sent to about 400 respondents of the 2012
+voter study who had indicated that they would be willing to participate in
+future ELNES surveys. In the following weeks after the initial invitation,
+reminders were sent to the respondents who had not completed the
+questionnaire. To increase the response rate of the survey, a maximum of six
+follow-up reminders was sent via email to the respondents. 1008 respondents
+completed the interview.
+
+<<>> POLITY WEIGHTS
+
+The Greek Election Study provides one combined DEMOGRAPHIC and POLITICAL 
+WEIGHT. It was constructed using the method of raking, adjusting
+for gender, age, education, region and vote share (valid votes). 
+If there were vote share differences between the sample estimates
+and the official election results prior to adjusting to the share of valid
+votes, a final round of raking was run including vote share as an additional
+variable. The weights are combined and thus both the weights listed under 
+variable D1010_2 and D1010_3 for Greece (2015) are identical. 
+A detailed report is available at:  Andreadis, Ioannis. Weights
+for the 2015 Hellenic Voter Study. Ann Arbor, MI: Inter-university 
+Consortium for Political and Social Research [distributor], 06/08/2016.
+http://doi.org/10.3886/E74764V1, Date accessed: February 6, 2017.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - HONG KONG (2012) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was conceptualized as a post-election telephone survey and
+conducted between September 13 and September 21, 2012, a period of nine 
+days. Fieldwork realized by the Public Governance Programme started four
+days after the Legislative Council election on September 9. The 
+questionnaire was administered in Chinese (Cantonese and Putonghua). The
+sample is meant to be representative of the eligible (Chinese- speaking)
+voting population in Hong Kong, which is defined as permanent residents of
+Hong Kong who are aged 18 or above and registered to vote. Institutionalized
+persons, who make up to 0.3% of the population, were excluded from the
+sample. The same is true for military personnel, who are from mainland China
+and hence do not have permanent residency. Other possible exclusions could
+result from an unknown percentage of residents without a fixed-line phone
+connection. The residential fixed-line penetration rate of 2012, which is
+100.6%, was used as a proxy. As some households have more than one fixed 
+line, the number of households without a fixed line is unknown. The total
+percentage of excluded persons from the sample was estimated to accumulate
+to less than 1%.  
+
+Two stages of random sampling were used to generate the sample. In the first
+stage, samples of phone numbers were selected randomly from the pool of the
+Hong Kong Telephone Directory. The last two digits of the sample numbers 
+were exchanged with random numbers. In the second stage, individual
+respondents were randomly selected from the eligible members of the
+respective households, which were the primary sampling unit. Interviews were
+conducted via the CATI mode. All interviewers were undergraduate students of
+the Lingnan University who had received basic training in survey interviews
+and the CATI system. Before declaring a household a non-sample, five trials
+of contact at different times and days were made. The average number of 
+contact attempts made per successful interview was 1.69. If a household
+refused the interview on the first call, a second contact attempt was made
+to ask for the interview. In total, the dataset contains 1044 completed
+interviews.
+
+<<>> POLITY WEIGHTS
+
+The Hong Kong Election Study includes a DEMOGRAPHIC WEIGHT. It was 
+constructed to correct for known divergences of the sample in comparison to 
+the population of registered voters. The weights take the distributions of 
+age, sex, and level of education into account, as indicated by official 
+statistics.
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ICELAND (2013) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module was included in a post-election telephone study which was 
+fielded between May 4 and September 10, 2013, amounting to a period of 130
+days. Data collection was realized by the Social Science Research Institute
+of the University of Iceland and started one week after the parliamentary 
+election on April 27, 2013. The questionnaire was administered in Icelandic.
+The sample is meant to be representative of Icelandic voters between 18 and
+80 years of age. Eligibility requirements include the age of 18 onwards and
+Icelandic citizenship. Voters do not need to register themselves before
+elections. Apart from persons under age or non- citizens, a group of persons
+listed on a "Do not call" list in the national register was excluded from
+the sampling frame. This latter group amounts to around 9.9% of the total
+eligible population. Further, persons without access to a landline or mobile
+phone could not be sampled. According to the Post and Telecom Administration
+in Iceland, this pertains to less than 1% of the population. 
+
+The sample is a simple random sample of voters living in Iceland, which was
+drawn from the National Register. Therefore, individuals were the primary
+sampling unit. Every individual had the same probability to be selected.
+Before the respondents were interviewed by phone, a letter was sent to them.
+Persons who did not speak Icelandic, were not reachable within the time-
+limit of the survey, too sick to reply or passed away were designated as
+non-sample. The average number of necessary attempts to contact a person per
+household was 5.4 times. In total, the dataset includes 1479 completed
+interviews.
+
+<<>> POLITY WEIGHTS
+
+No weights provided. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - IRELAND (2011) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was conceptualized as a mixed- mode post-election survey and
+conducted between March 6 and April 10, a period of 36 days. Data collection
+started nine days after the Irish general election on February 25, 2011. The
+interviews of the main survey were conducted in English and in person,
+supplemented by a drop-off self-completion questionnaire. CSES questions
+were spread through both questionnaires. The Irish sample restricts to Irish
+citizens aged 18 years and older, excluding institutionalized persons and
+military personnel based on a military facility (about 3% of the total
+eligible population).
+
+The sampling process involved multiple stages. The primary sampling unit
+consisted of 320 geographical locations, so-called district electoral
+divisions (DEDs), which are low-level administrative areas.In these DEDs
+covering all 43 electoral districts, a non-business address was chosen at
+random from a geo-directory as the starting point for a random walk. The
+interviewer was asked to call into every fifth house rather than one
+consecutive house after another. At each household, the interviewer
+interviewed the person with the next birthday who fitted into an unfilled
+quota. This approach was continued until all sampling point-specific quotas
+were achieved. Quotas were set on gender, age, and social class, making use
+of the Irish Census lists. In total 1853 people of voting age were
+interviewed, with 18 to 66 respondents per constituency. The employed
+interviewers were all professional interviews from the Red C Research &
+Marketing Ltd, the Irish research center responsible for data collection.
+Note that the Irish election study was a CSES pilot study, based on an
+earlier pilot version of the CSES Module 4 questionnaire, and not the final
+version. Any differences with the final version of the CSES Module 4
+questionnaire are spelled out in the Election Study notes for IRELAND 
+(2011).
+
+<<>> POLITY WEIGHTS 
+
+The Irish Election Study includes two different weights: a DEMOGRAPHIC 
+WEIGHT and a POLITICAL WEIGHT. The demographic weight ensures that the 
+sample reflects the Irish population. It is based on age, gender, and 
+social class, according to the Irish Central Statistics Office. 
+The political weight akes the demographic weight into account and ensures
+that the voting sample matches the outcome of the distribution of votes in 
+the 2011 election. 
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ISRAEL (2013) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was conceptualized as a post- election telephone survey which was
+fielded between February 18 and March 13, 2013, a period of 24 days. Data
+collection was conducted by the B.I. and Lucille Cohen Institute for Public
+Opinion Research and started 27 days after the Israeli legislative election
+on January 22, 2013. The questionnaire was administered in Hebrew, Arabic,
+and Russian. The study is meant to be representative of the population of 
+citizens of the state of Israel, aged 18 or older. Institutionalized persons
+were excluded from the sampling frame. The same holds for the 23,6 % of the
+population without a stationary phone and an unknown proportion of the
+population with unlisted telephone numbers. 
+
+All survey respondents were sampled in a three-stage random sampling
+process. The primary sampling units were statistical areas, stratified by
+religion, the geographical area, religiosity and the socio-economic level of
+respondents. All of the statistical areas were sorted by strata, such that
+the probability of each statistical area to be included in the sample was
+proportionate to the size of its population. In the next stage of selection,
+households were sampled in every stratum, based on matching the telephone
+number database with the statistical area sampled. The list of telephone
+numbers used for surveys included stationary telephone line owners, numbered
+in sequential order. The sampling was performed out of this list. In the
+final stage, each interviewer received a list of households (telephone
+numbers) to be interviewed. Within the selected household one adult 18 years
+old or above was interviewed, without any further specification. The
+resulting sample consists of 1,017 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+No weights provided. 
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - JAPAN (2013) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The post-election study for CSES Module 4 was carried out between July 22 
+and August 25, 2013, as a face-to-face survey. Fieldwork lasted for 35 days.
+Data collection was realized by the Nippon Research Center, starting the day
+after the Japanese Upper House election on July 21, 2013. The questionnaire
+was administered in Japanese and translated back into English. The original
+sample was part of a panel study with a population of registered Japanese
+voters aged 20 years or older. Additional addresses were added to this 
+sample to enlarge the total sample size. The CSES module is included in the
+last wave of the four-wave panel survey.
+
+Therefore, the CSES survey contains three different types of respondents:
+a) The respondents from the first wave: n1 = 365.
+b) The respondents drawn for the second wave from the same PSU: n2 = 535.
+c) The respondents drawn for the fourth wave from the same PSU: n4 = 1037. 
+The total number of respondents is 1,937: N = n1 + n2 + n4.
+Please note that no additional sample was drawn for the third wave. The
+total panel attrition rate between the first wave of the study and the wave
+that included the CSES Module is 85.1%, as 365 of the 2443 respondents of
+the first panel wave were successfully re-interviewed in wave four.
+
+The initial sample was selected through stratified two-stage random
+sampling. Electoral district's “chiten” (comparable to precincts in the US)
+were the primary sampling unit, stratified by region (eleven categories) and
+city size (five categories). This resulted in an 11 x 5 table with 55 cells.
+The number of chitens (150 in total) was assigned to each cell proportion-
+ally to the size of the population. The probabilities of the particular
+chiten's selection were proportional to the relative size of the chiten.
+Lists of registered voters compiled by municipalities served as the sampling
+frame for the second stage of the sampling process. Nippon Research Center
+fielded 143 interviewers for 150 primary sampling units during the data
+collection period. Interviewers were mostly female. Before the interview,
+respondents received a postcard announcing the interview. Additionally,
+respondents received a voucher worth 1000 Japanese Yen (roughly 10 USD)
+after the completion of the interview.
+
+<<>> POLITY WEIGHTS 
+
+The Japanese Election Study contains a DEMOGRAPHIC WEIGHT. It adjusts the 
+sample distributions to the Japanese population. To create the weight, age 
+was coded into seven categories (20s, 30s, 40s, 50s, 60s, 70s, and 80s), 
+while the area comprises six categories (Hokkaido, Tohoku, Kanto, 
+Tokai/Hokuriku/Shinetsu, Kinki and Shikoku/Chugoku/Kyushu).
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - KENYA (2013) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The post-election study was administered between October 21 and November 28,
+2013, as a face-to-face survey. Fieldwork lasted for 39 days. Data
+collection was realized by the Institute for Development Studies, University
+of Nairobi, starting seven months and 18 days after the Kenyan general
+election on March 4, 2013. Interviews were conducted in English, Luo, Kamba,
+Kikuyu, and Kiswahili. 
+
+The design is a representative cross-sectional sampling based on a
+stratified multistage cluster sampling methodology. The sample consists of
+1200 respondents, and only Kenyan citizens of voting age (18 and older) were
+targeted. Inmates and military personnel were excluded from the sample. The
+primary sampling unit (PSU) was the census enumerator area, the secondary
+sampling unit (SSU) was the parliamentary constituency. The 210 SSUs were
+stratified by province and within each province by whether a constituency
+was predominantly urban or rural. 30 constituencies were selected with
+probability proportionate to sample size (PPPS), out of which ten were urban
+and 20 were rural. Within each constituency, Enumeration Areas (EAs) were
+randomly selected (PPPS). In turn, a fixed number of households were
+randomly selected from each sampled EA. Furthermore, a quota was employed
+for gender.
+
+<<>> POLITY WEIGHTS 
+
+The Kenyan Election Study contains a SAMPLE WEIGHT. It makes the sample 
+representative of the population. Of the 30 constituencies selected for the 
+study, some were oversampled to obtain a representative set of answers for 
+the MP questions. Weights were constructed by province and compensate for 
+the disproportionate probability of selection. They are meant to match the 
+population by region and the urban-rural population distribution.
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - LATVIA (2011)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN 
+
+The study was a post- election face-to-face survey and conducted between 
+October 16 and November 7, 2011. TNS Latvia was responsible for data 
+collection, starting 29 days after the Latvian election on September 17. 
+Interviews were conducted in Latvian and Russian. The sample is meant to 
+be representative of Latvian citizens residing in Latvia, who are between 
+18 and 74 years old. About five percent of the eligible population were 
+excluded from the sampling frame. 
+
+The sample can be described as a stratified multistage-quasi-random
+probability sample. In total there were four stages within the sampling
+process: 
+1) the selection of sampling points; 
+2) the selection of addresses; 
+3) the selection of households; and 
+4) the selection of respondents.
+
+Primary sampling units were sampling points which were selected system-
+atically from the complete list of Latvia's populated points, with the
+number of citizens as a size measure (Probability Proportional to Size).
+Populated points were sorted by region, district and urbanization level to
+keep regional and urban proportions in the sample. The planned number of
+sample points was calculated with the assumption of 10 interviews in each
+sample point. A random number determined the point in the list of cities or
+parishes from which the selection began. In the second sampling stage, the
+random starting address for an interviewer's route was selected within each
+sampling point. The selection within urban areas was based on lists of
+dwellings (addresses). In a third stage, households were selected according
+to route instructions - each second dwelling in apartment buildings, each
+second home in an area of individual houses; ascending or descending se-
+quence varying on odd and even sizes of streets. Finally, respondents were
+sampled from households by "the principle of the youngest man in the
+household". This principle demands that at each address, the interviewer
+clarifies who of the household members being at home is the youngest man. If
+no man is at home, the youngest woman within the household is asked to
+participate in the interview. If a respondent refused to participate or had
+not been contacted within two visits, the respondent was not replaced by
+another household member. After participating in the interview, respondents
+received a small gift (chocolate or pen). The sample contains 1004 completed
+interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Latvian Election Study contained a combined SAMPLE and DEMOGRAPHIC 
+WEIGHT. It accounts for unequal selection probabilities. The weight was 
+constructed by taking into age, nationality, region, area of residency, and
+gender. The weights are combined and thus both the weights listed under 
+variable D1010_2 and D1010_3 for Latvia (2011) are identical. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - LATVIA (2014) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was conducted as a face-to-face, post-election survey. Data
+collection, conducted by TNS Latvia, started on November 7, 2014, 34 days
+after the Latvian parliamentary election. The last interviews were conducted
+on November 20, 2014. Questionnaires were administered in Latvian and
+Russian. The sample is representative of the Citizens of the Republic of
+Latvia, aged 18-74, residing in Latvia. About five percent of the eligible
+population were excluded from the sampling frame.
+
+Respondents were selected in a four- stage quasi-random probability sample.
+For the first stage, a systematic PPS-sample (Probability Proportional to
+Size) of sampling points was selected from the complete list of Latvia's
+populated points, with the number of citizens as a size measure. Populated
+points were sorted by region, district and urbanization level to keep
+regional and urban proportions in the sample. The planned number of sample
+points was calculated with the assumption of 10 interviews in each sample
+point. A random number determined the point in the list of cities or
+parishes, from which the selection began. Starting from this point,
+considering certain steps, cities or parishes, to be included in the sample,
+were selected. From each sampling point, a random starting address for an
+interviewer' route was selected, based on lists of dwellings. Households
+were then selected according to the route instructions – each second
+dwelling in apartment buildings, each second home in an area of individual
+houses; ascending or descending sequence varying on odd and even sides of
+streets. In the last step, the youngest man that was present in the
+household was selected to be interviewed. If no man was at home during the
+interview, the youngest woman within the household was asked to participate
+in the interview. If a respondent refused to participate or had not been
+contacted within two visits, the respondent was not replaced by another
+household member. After participating in the interview, respondents received
+a small gift (chocolate or pen). 1036 respondents completed the interview.
+
+<<>> POLITY WEIGHTS 
+
+The Latvian Election Study contained a combined SAMPLE WEIGHT to get the 
+sample division as close as possible to the universe. Criteria that were 
+used for the data weighting are age, nationality, region, type of residence,
+and gender.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - MEXICO (2012) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+This post-election study was conducted face- to-face between July 13 and
+July 19, 2012, and focused on the 2012 Mexican presidential and legislative
+elections. CAMPO, S. C. was responsible for data collection, which lasted
+for seven days and started 12 days after the general election on July 1. The
+questionnaire was administered in Spanish. The study is representative of
+the national population aged 18 years or older, excluding those who were
+institutionalized at the time the survey was being conducted (approx. 0.06%
+of the total eligible population).
+
+The sample was selected by a multistage procedure. The universe was divided
+into four regions: states with a PAN governor, Northern States with a PRI
+governor, Center-South states with PRI governors and states with a PRD
+governor. An independent sample was drawn within each region. In each
+region, precincts were ordered by the vote for PRI in the last election and
+divided into four groups of the same number of precincts. Within each group,
+precincts are clustered by county. This resulted in groups from the same
+county with a similar vote for PRI, which served as the primary sampling
+unit. The first selection stage was done with this list, clustering 
+precincts within each group with probability proportional to size (PPS),
+being turnout the size of the cluster. In the second stage, precincts were
+selected with PPS. Fieldwork teams received the sample of precincts. In the
+field, the third stage, blocks were randomly selected in the precinct area.
+In each block, houses were selected following systematic methods of random
+start. Within each household, respondents were chosen with the last-birthday
+method. In case the selected household member could not be interviewed after
+two contact attempts, interviewers moved on to the third household on the
+left. The sample consists of 2400 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Mexican Election Study contains two weights, a SAMPLE WEIGHTS and a 
+DEMOGRAPHIC WEIGHT. The sample weight corrects for unequal selection 
+probability of sampling units. The DEMOGRAPHIC WEIGHT corrects for 
+non-response and to match the sample to known population characteristics 
+(gender and age), based on census data from 2010.
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - MEXICO (2015)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was conceptualized as a post- election survey and administered
+between June 20 and June 28, 2015 employing face-to-face interviews. CAMPO,
+S. C. was responsible for data collection, which started 13 days after the
+Mexican legislative election on June 7, 2015. Interviews were conducted in
+Spanish. The study is representative of the national population aged 18
+years or older, excluding those who were institutionalized at the time the
+survey was being conducted (approx. 0.06% of the total eligible population).
+
+The sampling was done in a multistage procedure. The universe was divided
+into three regions: states with a PAN governor, states with a PRI governor,
+and states with a PRD governor (stratification). An independent sample was
+drawn within each region. In each region, precincts were ordered by the vote
+for PRI in the last election and divided into four groups of the same number
+of precincts. Within each group, precincts were clustered by county
+(municipality), resulting in groups with a similar vote for the PRI and
+located in the same county (municipality). These groups served as the
+primary sampling unit. The first stage selection was executed on the basis
+of this list, clustering precincts within each group with probability
+proportional to size (PPS), being turnout the size of the cluster. In the
+second stage, precincts were selected with PPS. Fieldwork teams received the
+sample of precincts. In the third stage of sampling, blocks were randomly
+selected in the precinct area. In each block, houses were selected following
+systematic methods of random start. Respondents within the households were
+randomly selected by listing all household members over 18 years and
+determining which birthday was closest to the current date. In case the
+selected household member could not be interviewed after two contact
+attempts, interviewers moved on to the third household on the left. The
+sample consists of 1197 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Mexican Election Study contains two weights, a SAMPLE WEIGHTS and a 
+DEMOGRAPHIC WEIGHT. The sample weight corrects for unequal selection 
+probability of sampling units. The DEMOGRAPHIC WEIGHT corrects for 
+non-response and to match the sample to known population characteristics 
+(gender and age), based on census data from 2010.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - MONTENEGRO (2012) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The post-election study was conducted as a face-to-face survey, from
+February to March 2013. Data collection was realized by the De Facto
+Consultancy, starting around four months after the parliamentary election on
+October 14, 2012. Interviews were conducted in Montenegrin. The sample is
+meant to be representative of the eligible Montenegrin population aged 18
+years or older. It consists of mainly five ethnic groups, Montenegrins,
+Serbs, Bosniaks, Albanians, and Muslims. 
+
+The sampling was conceptualized as a multistage random procedure, with three
+stages in total: In the first stage, the population was divided into three
+regions, stratified by the proportion of the population, the distribution of
+ethnic groups within a region, age groups, and the region's geography,
+economy and history. These regions were the primary sampling unit. Second,
+'mjesna zajednica' (the smallest municipal unit which is at the same time a
+unit for voting) were chosen randomly within a region. In the third and
+final stage, a random procedure based on 'step-and-go' was employed inside
+of 'mjesna zajednica' to choose the household. The last person to have had
+their birthday within the household was interviewed. 967 respondents
+completed the interview.
+
+<<>> POLITY WEIGHTS 
+
+The Montenegrin Election Study contains a DEMOGRAPHIC WEIGHT, which is based
+on census data from 2011. The demographic weight is composed of two separate
+weights, one adjusting for the four main national groups, the other 
+adjusting for gender and age groups (18-34, 35-54, 55+). The weight included
+in D1010_2 is a multiplication of the two individual weights. 
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - NEW ZEALAND (2011) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The interviews from New Zealand were conducted within a post-election study,
+from November 30, 2011, through April 4, 2012. Data collection was realized
+by the Centre for Methods and Policy Applications in the Social Sciences
+(COMPASS) and started four days after the general election on November 26,
+2011. Respondents were contacted by mail and could respond with a self-
+administered mail- back questionnaire or with an online version of the
+questionnaire. Both versions were administered in English. The sample is
+meant to be representative of persons aged 18 and over on the electoral
+rolls, which cover 94% of the eligible voters. 
+
+The primary sampling unit were individuals clustered within age groups
+(18-26 and 27 and over) and electorates (general and Maori), with over-
+samples of the young (18-26) and those in Maori electorates. For the CSES
+release, the over-sampled groups have been re-sampled to bring them in line
+with the proportions of those groups on the electoral rolls. As an incentive
+to participate in the study, collaborators conducted a 300 New Zealand
+dollar draw. A further effort was made to convert refusals. Specifically,
+respondents not answering the survey received a reminder postcard, a second
+questionnaire, a final reminder and a thank-you postcard. The CSES sample
+consists of 1374 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+The New Zealand Election Study includes two weights, a DEMOGRAPHIC WEIGHT 
+and a combined DEMOGRAPHIC-POLITICAL WEIGHT. The demographic weight adjusts 
+the sample distribution to the real household income distribution 
+(quintiles). Based on this demographic weight, the political weight adjusts 
+for the electoral outcome in terms of both party vote and turnout. 
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - NEW ZEALAND (2014) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module 4 was part of the 2014 New Zealand general election post-
+election study, which was fielded between September 23, 2014 and February 6,
+2015. Data collection was realized by the Centre for Methods and Policy
+Applications in the Social Sciences (COMPASS) and started three days after
+the general election on September 20, 2014. Respondents were contacted by
+mail and could respond with a self-administered mail-back questionnaire or
+with an online version of the questionnaire. Both versions were administered
+in English. 
+
+The sample is representative of all eligible voters (minimum age: 18 years)
+who were listed on the electoral rolls (approx. 92% of all New Zealan
+citizens who are eligible to vote are enrolled). Respondents were randomly
+sampled from the electoral rolls. The primary sampling unit were individuals
+clustered within age groups (18-26 and 27 and over) and electorates (general
+and Maori), with over-samples of the young (18-26) and those in Maori
+electorates. For the CSES release, the oversampled groups have been re-
+sampled to bring them in line with the proportions of those groups on the
+electoral rolls. As an incentive to participate in the study, collaborators
+conducted a 300 New Zealand dollar draw. A further effort was made to
+convert refusals. Specifically, respondents not answering the survey
+received a reminder postcard, a second questionnaire, a final reminder and a
+thank-you postcard. The total N in the sample was 5200, and 1412 interviews
+were completed. After adjusting for oversampling of the young voters
+(18-26 years) and the Maori, the remaining sample for CSES has a total N of
+1224 respondents.
+
+<<>> POLITY WEIGHTS 
+
+The New Zealand Election Study includes two weights, a DEMOGRAPHIC WEIGHT 
+and a combined DEMOGRAPHIC-POLITICAL WEIGHT. the demographic weight adjusts
+for age and education to match known characteristics in the population. 
+Based on this demographic weight, the political weight adjusts for party 
+vote and turnout – predominantly weighting up nonvoters, who were less 
+likely to have participated in the survey. 
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - NORWAY (2013) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study is a post-election, mixed-mode survey, which was fielded between
+September 10, 2013, and January 30, 2014. Data collection was realized by
+Statistics Norway, starting the day after the Norwegian parliamentary
+election on September 8 and 9, 2013. Interviews were conducted in Norwegian, 
+either by phone or face-to-face. Those whose phone number was not listed
+were interviewed face-to-face. The sample is meant to be representative of
+the Norwegian citizens aged between 18 and 80. Norwegians living abroad for
+more than six months were excluded from the sampling frame (1.6 % of the
+eligible population).
+
+The sample was drawn from the public register as a cross-sectional
+probability sample. It is part of a rolling cross-sectional panel study with
+about half of the sample being interviewed for the second time. The sample
+consists of 1727 respondents aged 18-79 who were sampled in a two-stage
+design by Statistics Norway. The sampling frame is based on registers
+covering all Norwegian inhabitants. In the first stage, the country was
+divided into 363 primary sampling units (psus), based on the local munici-
+palities. All psus with more than 30,000 inhabitants and some with a 
+population number between 25,000 and 30,000 constitute separate strata. For
+the remaining psus, strata were formed as homogeneously as possible.
+Stratification variables were industrial structure, number of inhabitants,
+centrality, communication structures, commuting patterns, trade areas and
+(local) media coverage. The stratification was done separately for each
+county and in such a way that no psu had less than 7% of the total
+population in its stratum. Thus, it is possible to give unbiased estimates
+for each county. After stratification, one psu was selected from each
+stratum. Those psus which constituted separate strata were included with
+certainty. For the remaining strata, one unit was drawn with probability
+proportional to the number of inhabitants. In the second stage of the
+sampling, survey units (individuals) were drawn from the population
+register, selected from the 109 sampling areas, using systematic random
+sampling. The sampling fraction at the second stage is proportional to the
+inverse selection probability at the first stage. The final sample then is
+self-weighting when both stages are taken into consideration. If a sampled
+unit from the panel sample had moved out of their original psu, it was still
+included in the sample. Before the interview, respondents received a letter
+announcing the study.
+
+<<>> POLITY WEIGHTS 
+
+The Norwegian Election Study contains a DEMOGRAPHIC WEIGHT. The weight was 
+constructed after collaborators found non-response in the survey was 
+related to particular demographic chracterisitics. The weight adjusts for
+individual turnout (controlled against electoral roll), gender, age, and 
+education, dividing the sample into 36 different strata.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - PERU (2016)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The survey employed face-to-face interviews and was conducted between May 7
+and May 17, 2016, between the rounds of the Peruvian presidential election.
+The Instituto de Opinion Publica de la Pontificia Universidad Catolica del
+Peru was responsable for data collection, starting 27 days after the first
+election round on April 10, 2016. Interviews were conducted in Spanish. The
+sample is meant to be representative of registered Peruvian voters with a
+minimum age of 18. The 35 provinces of 19 regions of the country where the
+interviews were done covered approximately 67.7% of the national population,
+such that 32.3 % of the total eligible population were excluded from the
+sampling frame. The same holds for institutionalized persons (0.3%), which
+were not interviewed either.
+
+The sample was selected by a multi-stage stratified sampling procedure with
+stratification according to geographical units. Clusters representing either
+housing blocks in cities or towns in rural areas were defined as primary
+sampling units. The random selection at the first stage was executed with
+probabilities proportional to cluster size. At the second stage, households
+were randomly selected from the drawn clusters using systematic sampling.
+Within households, individuals were chosen according to sex and age quotas
+with a maximum of one individual being interviewed per household. Households
+were contacted once, and non- residential sample points, vacant households,
+or households in which all members were ineligible were declared non-
+samples. No non-sample replacement methods were used. However, in cases of
+refusal in a selected household, replacement was performed in the adjacent
+houses in the same housing block. The sample contains 1572 completed 
+interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Peru Election Study contains two weights, a SAMPLE WEIGHT and a 
+POLITICAL WEIGHT. Both weights account for unequal probabilities of 
+selection. The first combines these design weights with demographic weights
+based on the population distribution of age and gender. The second weighting
+variable combines the design weights with political weights based on the
+results of the first presidential election round. 
+The political weights are absent for 123 cases: 105 respondents who did not 
+cast a vote in the presidential elections (D3005_PR_1) and 18 respondents 
+who did not specify their vote choice in the presidential elections 
+(D3006_PR_1). These cases were coded 0 on the political weighting variable
+and will thus be dropped from the analysis if the weight variable 
+is applied to analysis. 
+
+
+--------------------------------------------------------------------------- 
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - PHILIPPINES (2016) 
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was conducted with face-to-face interviews which were held between
+June 24 and June 27, 2016. The Social Weather Stations were responsible for
+data collection, which started 46 days after the Philippine presidential and
+legislative elections on May 9, 2016. The survey was fielded in seven
+languages (Filipino, Iluko, Hiligaynon, Cebuano, Bicol, Waray and Maranao)
+and is meant to be representative of Philippine citizens aged 18 years and
+older. 
+
+Multi-stage probability sampling was used to select sample spots. In a first
+step, the country was divided into four study areas: The National Capital
+Region (NCR), Balance Luzon, Visayas, and Mindanao. From all areas except
+the National Capital region, 21 provinces were selected altogether, with
+probability proportional to size within each region. In a second stage, 140
+sample municipalities were identified within the sample provinces and the
+National Capital Region. From these, 60 sample spots, the primary sampling
+unit (Barangays), were selected within each of the four regions, with
+probability proportional to size (PPS). In the next stage, in each of the
+sample spots, five sample households were chosen by systematic sampling. 
+Designated starting points were randomly assigned - it was either: 
+1) a municipal/barangay hall, 2.) a school, 3.) the barangay captain's 
+house, 4.) a church/chapel/mosque, 5.) a health facility, or 6.) a basket-
+ball court. From there, a random start from the first to the 6th household
+was defined. Thus, if a particular spot had a random start of 4, the first
+sample household should be the 4th household from the designated starting
+point. Subsequent sample households were chosen using a fixed interval of 5
+households in between the sampled ones; i.e. every 6th household was 
+sampled. In the last stage of the sampling, a respondent was randomly chosen
+among the household members who were 18 years of age or older, using a
+probability selection table. The sample contains 1200 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Philippines Election Study includes a SAMPLE WEIGHT. To yield 
+representative figures at the national level, a census-based population 
+weight was constructed for the survey data. Since the sample is equally 
+allocated across the four major areas (National Capital Region or NCR, 
+the rest of Luzon outside NCR, Visayas and Mindanao), weights are used
+to adjust to known area population distribution. The weight projection is
+computed by dividing the projected population in the area by the sample size
+of the same area.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - POLAND (2011)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+This post-electoral study was carried out via face-to-face interviews
+between October 20 and November 13, 2011. Fieldwork, which was conducted by
+the Public Opinion Research Center (Centrum Badania Opinii Spolecznej, 
+CBOS), started 11 days after the Polish parliamentary election on October 9,
+2012. The questionnaire was administrated in Polish. The study collects
+information from voters (Polish citizens aged 18 years or over, registered
+and eligible to vote). Eligible citizens are automatically registered as
+voters. 
+
+The sample can be characterized as a stratified multistage probability 
+sample, with municipalities as the primary sampling unit.
+In the first stage, 81 strata were selected based on 16 regions 
+(voivodeship) and the size of the municipalities (six categories). Strata
+were obtained as an intersection of region and municipality size. As not
+every type of municipality occurs within each region, the number of strata
+was 81 instead of 96. In a second stage, municipalities were sampled in each
+stratum according to Hartley-Rao scheme. Next, for each selected
+municipality one street (or village in case of rural areas) was drawn. In
+each stratum, at least two streets or villages were sampled.  Finally, for
+each street (or village) eight respondents were drawn based on their
+National Identification Number. The sample consists of 1919 completed 
+interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Polish Election Study contains one DEMOGRAPHIC WEIGHT, adjusting the 
+sample to population estimates for gender, age, level of education and size
+of residence.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - PORTUGAL (2015)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The post-election study was administered between October 17 and December 9, 
+2015, as a face-to-face survey. GfK Portugal - Metris was responsible for
+fieldwork, which started 13 days after the Portuguese legislative election
+on October 4, 2015. Interviews were conducted in Portuguese.
+The sample is meant to be representative of individuals aged 18 years or
+older, who were living in private households in continental Portugal at the
+time the survey was being conducted. Portuguese citizenship was not required
+to participate in the interview. The autonomous  regions (archipelagos) of
+Madeira and Azores were excluded from the sample frame (4,87% of the 
+eligible population). The same holds for institutionalized persons (about
+0,13%).
+
+The sample was stratified according to NUTS and habitat. As the autonomous
+regions of Madeira and Azores were not included in the sample,
+stratification of primary sampling units (urban areas and rural districts)
+ was done in the five first-level NUTS existing in Continental Portugal:
+Lisboa (the capital), Norte, Centro, Alentejo, and Algarve. The random
+selection of towns was carried out in accordance with the places included in
+the General Population Census, considering the matrix sampling of NUTS and
+habitat. 
+
+In each designated town, sample points were selected randomly (105 in
+total). Afterward, households were selected through the random-route 
+method. Finally, in each household, the person who had the most recent
+birthday was selected for the interview. Substitution of individuals was
+permitted. If the selected person was not available, three more visits were 
+made in an attempt to reach the potential interviewee. After a fourth
+unsuccessful visit, the selected individual was replaced by another person
+with similar characteristics (sex, age group and habitat) from a different
+household. 
+Prior to the interview, a letter was sent to respondents. The sample
+consists of 1499 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Portuguese Election Study includes a DEMOGRAPHIC WEIGHT. It is designed
+to match known demographic characteristics of the population and 
+incorporates region, gender, age, and education. To correct for non-response
+individuals in under-represented groups got a weight larger than 1, while 
+those in over-represented groups got a weight smaller than 1.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ROMANIA (2012)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module 4 was implemented in the 2012 Romania Post-Election study
+and consists of two components, a cross-sectional component and a post-
+election survey from a two-wave Pre-/Post-Election panel. Interviews were
+carried out in the aftermath of the lower house elections, which took place
+on December 9, 2012. Fieldwork, which was conducted by KANTAR TNS (CSOP), 
+started six days after the election and lasted from December 15, 2012, to
+January 30, 2013. Interviews were conducted face-to-face in Romanian. 
+This sample is meant to be representative of the non-institutionalized
+eligible Romanian population, i.e. Romanian citizens of at least 18 years.
+As the sampling frame is based on Romanian's electoral register, only
+registered voters were sampled. Although registration happens automatically,
+the register only covers persons listed by local authorities. Therefore,
+unlisted persons were excluded, as were institutionalized persons (amounting
+to around 0,5% of the total eligible population).
+
+The sample can be described as a stratified two-stage probability sample. 
+Stratification was based on 18 cultural areas and seven types of 
+municipalities (poor communes, medium developed communes, developed 
+communes, cities with less than 30,000 inhabitants, cities of 30-100,000
+inhabitants, cities of 100-200,000 inhabitants, cities with more than
+200,000 inhabitants), resulting in 96 different strata. 
+Voting districts from the Local Elections in 2012 were used as the primary
+sampling unit (PSU). The number of PSUs to be selected within a stratum was
+obtained by multiplying the sample size n with the share pi of each stratum
+in the electorate (i.e. proportional to the number of registered voters 
+within a stratum). Then, ten respondents were chosen randomly from the
+electoral register of each selected voting district, resulting in the main
+sample. Another ten respondents were selected for a reserve list to
+compensate for refusals, using the same procedure. The final sample included
+1,248 households for the panel component (1,080 completed interviews) and
+1,763 for the cross-sectional component (1,203 completed interviews). The
+panel attrition rate between the pre- and the post-study of the panel
+component was 13.5%. Respondents of the panel-component were offered a 
+10 RON (about 3 USD) food coupon after participation, or in case they were
+reluctant to participate. 
+
+Overall, the 2012 Romanian sample includes 2,283 respondents (20% of the
+interviews were verified in the aftermath of the study). 
+
+<<>> POLITY WEIGHTS 
+
+The 2012 Romanian Election Study includes three weights: a SAMPLE WEIGHT, a
+DEMOGRAPHIC WEIGHT, and a POLITICAL WEIGHT. 
+
+The Sample Weight (D1010_1) corrects for the variance in the probability of
+being selected into the sample, an issue that arose from different poll 
+sizes. 
+
+The demographic weight (D1010_2) is designed to match known characteristics
+in the population (gender and age) and further accounts for residence 
+(urban/rural) and region (Transylvania, Muntenia, Moldavia, and Bucharest).
+
+The political weight (D1010_3) corrects for discrepancies between the 
+reported vote choice and the actual election results. 
+
+The demographic and the political weight are cumulative weights, that is,
+the demographic weight also takes the sample weight into account and the
+political weight takes  both the sample and the demographic weight into 
+account. The weights were created separately for each of the two sample 
+components (see D1007). Therefore, they can be applied when working with the
+full sample.    
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - ROMANIA (2014)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module 4 was implemented in the 2014 Romania Post-Election study.
+Interviews were carried out in the aftermath of the second round of the
+Presidential Elections which took place on November 16, 2014 (Round one took
+place on November 2, 2014). Fieldwork conducted by KANTAR TNS (CSOP) started
+four days after the second round on November 20, 2014, and ended on December
+8, 2014. Interviews were conducted in Romanian.
+
+This sample is meant to be representative of the non-institutionalized
+eligible Romanian population, i.e. Romanian citizens of at least 18 years.
+As the sampling frame is based on Romanian's electoral register, only
+registered voters were sampled. Although registration happens automatically,
+the register only covers persons listed by local authorities. Therefore,
+unlisted persons were excluded, as were institutionalized persons (amounting
+to around 0,5% of the total eligible population).
+
+The sample can be described as a stratified two-stage probability sample,
+with stratification of the primary sampling units (voting districts for the
+2014 presidential elections) proportional to the number of secondary units
+(adults registered in the electoral register). Specifically, voting
+districts were stratified with regard to 8 regions of development and 7
+types of municipalities (rural areas under 2000 inhabitants, with 2000 to
+4000 inhabitants and more than 4000 inhabitants; as well as cities under
+30,000 inhabitants, cities with 30,000 to 100,000 inhabitants, cities with a
+population of 100,000 to 200,000 people, and cities with more than 200,000
+inhabitants). This way, 53 strata were created. Voting districts were
+selected from each stratum, proportional to their number of registered
+voters. In the second stage, ten respondents were selected by systematic
+random sampling from the electoral register of each selected voting
+district, resulting in the main sample. A reserve sample of ten respondents
+was selected to compensate for refusals, using the same procedure. The final
+sample includes 1112 completed interviews. 20% of the interviews were
+verified in the aftermath of the study. 
+
+<<>> POLITY WEIGHTS 
+
+The 2014 Romanian Election Study includes three weights: a SAMPLE WEIGHT, a
+DEMOGRAPHIC WEIGHT, and a POLITICAL WEIGHT. 
+
+The Sample Weight (D1010_1) corrects for the variance in selection
+probabilities of individual respondents. The demographic weight (D1010_2) is
+designed to adjust the sample to known characteristics in the population
+(gender and age) and further accounts for residence (urban/rural) and
+region. Finally, the political weight (D1010_3) corrects for discrepancies
+between the reported vote choice and the actual election results for both
+Presidential Election Rounds simultaneously. 
+
+The demographic and the political weight are cumulative weights, that is,
+the demographic weight also takes the sample weight into account and the
+political weight includes both the sample and the demographic weight. All
+weights were created by dividing the known population distributions by the
+sample statistics.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SERBIA (2012)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module 4 was included in the Serbian Post-Election Study, running
+from December 21, 2012, until February 10, 2013, using face-to-face,
+computer-assisted interviews. Ipsos Strategic Marketing conducted fieldwork,
+starting 229 days (i.e. 7,5 months) after the Serbian parliamentary election
+on May 6, 2012, which was held simultaneously with the first round of the
+presidential election. Interviews were conducted in Serbian, but the
+questionnaires were also prepared in Hungarian and Albanian.
+
+The Serbia Public Opinion Study is designed to be a representative national
+sample of eligible voters in Serbia (i.e. adult citizens aged 18 on election
+day older). Institutionalized persons and military persons were excluded
+from the sampling frame, as were the regions of Kosovo and Metohija (about
+8% of the total eligible population).
+
+The sample is address-based, using the database provided by the national
+post office of Serbia (Posta Srbije). For mail delivery, Posta Srbije
+divides the country into geographic regions named Reons. At the first
+sampling stage, the project team randomly selected a set of 150 lines from
+the database, i.e. intersections of settlements and postal Reons. These
+lines were the primary sampling unit. For each Line, the Posta Srbije was
+asked to provide the addresses from odd-numbered PAKs (Postal Address Codes)
+for residential households. In addition to the addresses, the Posta Srbije
+also provided the number of households per address. This allowed the project
+team to convert the list of addresses to a list of households. From among
+the list of households, 3300 households were randomly selected with equal
+probability, aiming for 1800 completed interviews. If more than one
+household member was found to be eligible, the respondent was randomly
+selected from within the respective household. After completing the
+interview, respondents received a package of coffee as a thank-you gift.
+Furthermore, for respondents who were reluctant to participate, interviewers
+left a letter at the household.  Additionally, they were offered another
+package of coffee. The sample contains 1568 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Serbian Election Study includes two weights, a SAMPLE WEIGHT and a
+DEMOGRAPHIC WEIGHT. The sample weight compensates for differing numbers of
+eligible persons in the household and an oversampling of low-response areas.
+The demographic weight adjusts the sample to the known urban-rural
+population distribution (based on 2011 census data).
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SLOVAKIA (2016)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module 4 was implemented in the 2016 Slovak Post-Election study 
+that was carried out in the aftermath of the lower house elections that
+took place on March 5, 2016. TNS Slovakia s.r.o. was responsible for data 
+collection, which started 222 days (i.e. 7 months and 8 days) after the 
+election. The survey was administered between October 13 and November 28, 
+2016. Interviews were conducted face-to-face and in Slovak. This sample is
+meant to be representative of the eligible Slovak population, i.e. citizens
+of at least 18 years who have permanent residence in Slovakia.
+
+The sample was randomly drawn in two stages. First, territorial units, the 
+primary sampling units, were randomly drawn from the Slovak register
+containing all communities (i.e., villages and cities). Selection was based
+on the proportion of eligible voters within a community and community size. 
+
+In total, 220 territorial units were drawn. Households for interviews within
+these territories were then selected by random walk. Three to eight
+interviews were carried out in each of the selected units. Of all eligible
+persons within the household, the person with the closest birthday was
+selected for the interview. 
+
+The final sample includes 1150 completed interviews. 10% of the interviews
+were verified by calling respondents back and asking them about their
+characteristics and control questions that were included in the
+questionnaire. 
+
+<<>> POLITY WEIGHTS 
+
+The Slovakian Election Study contains a DEMOGRAPHIC WEIGHT that corrects for 
+characteristics of the target population (age, gender, education level, size
+of resident's community, and region). The weight can also be helpful in 
+reducing discrepancies in the reported vote choice, particularly for the 
+Direction-Social Democracy (Smer) party whose electorate is
+overrepresented in the sample. For more information, see Election Study Note
+on D3006_LH_PL in the Variable Section of the Codebook.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SLOVENIA (2011)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+This post-electoral study was carried out via face-to-face interviews
+between March 29 and May 28, 2012. Fieldwork, which was realized by CJMMK
+(Public Opinion and Mass Communication Research Centre), started 116 days
+(i.e., 3 months, 25 days) after the Slovenian parliamentary election on
+December 4, 2011. The questionnaire was administrated in Slovenian. 
+The study's sampling frame corresponds to the Central Register of Population 
+(CRP) and includes all residents older than 18 years with a permanent 
+address, including both citizens and non-citizens. Institutionalized people
+were excluded from the sampling frame (less than 1% of the total eligible
+population).
+
+The study employed a two-stage stratified random sample from the Central
+Register of Population, where every population unit has an equal selection
+probability. So-called clusters of enumeration areas (CEAs) were the primary
+sampling unit (PSU). In the first stage, 120 PSUs were selected with
+probability proportional to the size of the respective CEA. The CEAs were
+stratified according to 12 regions x 6 types of settlements. At the second
+stage, 15 people were selected (120x15) by systematic random selection
+inside each CEA. Persons selected from the Central Population Register were
+identified by name and address. No efforts were made to persuade respondents
+who were reluctant to be interviewed. However, respondents received a letter
+prior to the study. The sample consists of 1031 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+No weights provided. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SOUTH AFRICA (2014)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was conceptualized as a post-election face-to-face survey and
+conducted between February 2 and February 26, 2015. Fieldwork was realized
+by Citizen Surveys and started 271 days (i.e., 8 months, 26 days) after the
+South African general election on May 7, 2014. Interviews were conducted in
+eleven different languages (English, Afrikaans, Ndebele, IsiXhosa/Xhosa,
+SePedi/North Sotho, SeSotho/South Sotho, SetTswana/Tswana, Shangaan, Swazi,
+Venda, and IsiZulu/Zulu). The sample is meant to be representative of adult
+South African citizens, aged 18 or above. Institutionalized persons and
+military personnel were excluded from the sampling frame (about 0,43% of the
+total eligible population).
+
+Within each EA, interviewers were sent to a random starting point which had
+been marked on a map of the EA. From this starting point, interviewers
+turned into a designated direction, selecting every 10th household by
+considering dwellings on both sides of the street. Once the household was
+chosen, the interviewer had to randomly select the individual respondent. A
+quota was employed for gender, such that every other respondent had to be
+female. For the random selection of respondents within the household,
+numbered cards were assigned to each member. Afterwards, the head of the
+household was asked to randomly select one of these. In case a household was
+vacant, all members of a household were ineligible, the selected person did
+not answer after two callbacks or refused to participate, interviewers were
+instructed to move to the next house in the walking pattern. Substitution
+within a household was not permitted. The sample includes 1300 completed
+interviews.
+
+<<>> POLITY WEIGHTS 
+
+The South African Election Study includes a DEMOGRAPHIC WEIGHT based on the
+2011 census data. The weight adjusts the realized to the original sample, 
+by correcting for household size, age and oversampling of the colored and 
+Indian population and respondents in the Northern Cape province.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SOUTH KOREA (2012)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+This post-election study consists of face-to-face interviews, which were
+conducted from April 12 to April 29, 2012. Fieldwork started the day after
+the South Korean legislative election on April 11, 2012, and was realized by
+the Korean Social Science Data Center. Interviews were conducted in Korean.
+The sample is meant to be representative of registered South Korean voters
+aged 19 and above. People living on Cheju Island and other small islands
+were excluded from the sample frame. This is common for Korean national
+surveys, as people living in these regions are difficult to contact and make
+up less than 0.5% of the population. 
+
+A multistage sampling procedure was used in which electoral districts
+represented the primary sampling units. 80 electoral districts were randomly
+selected from a list of all electoral districts. At the second stage, voting
+districts within each sampled electoral district were randomly sampled. In a
+final step, a simple random sample of voters could be drawn within each
+voting district, based on the voters' list provided by the Central Election
+Management Committee. Prior to the study, a token gift was sent to the
+sampled individuals. The sample includes 1000 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+No weights provided. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SWEDEN (2014)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+This post-election study was administered as a face-to-face survey between
+September 15 and November 17, 2014. Statistics Sweden, SCB was responsible
+for fieldwork, which started the day after the Swedish general election on
+September 14, 2014. Interviews were conducted in Swedish.
+
+The study is conceptualized as a two-wave rolling panel design, meaning that
+respondents are contacted in two successive elections. Thus, while half of
+the respondents were already interviewed in 2010, the other half was newly
+sampled in 2014. This latter half of respondents were randomly drawn from a
+list of all Swedish voters who were eligible to cast their vote in the 2014
+Swedish National Election. Therefore, individuals were the primary sampling
+unit. Eligible Swedish citizens living abroad were excluded from the sample
+frame (about 2% of the population). 
+
+The sample is meant to be representative of Swedish citizens living in
+Sweden who were entitled to vote and between 18 and 80 years old. However,
+due to the two-wave panel design, the 2014 sample includes some respondents
+sampled in 2010 who are older than 80. Overall, the sample is composed of 
+832 completed interviews from respondents of ages 18 to 84. To facilitate
+participation, chosen respondents were sent letters to inform them about the
+purpose of the study.
+
+<<>> POLITY WEIGHTS 
+
+No weights provided. 
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - SWITZERLAND (2011)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The Swiss interviews were held between October 24 and November 24, 2011, by
+telephone, in French, German or Italian. Fieldwork was conducted by
+DemoSCOPE RESEARCH & MARKETING and started the day after the Swiss federal
+election on October 23, 2011. Telephone interviews were supplemented with a
+self-administrated mail-back and web survey component, which was sent to a
+considerable proportion of respondents of the first part of the study. The
+fielding period for the self-administered interview parts ended on December
+12, 2011. The sample is meant to be representative of all Swiss citizens
+residing in Switzerland who were at least 18 years old at the beginning of
+October 2011. 
+
+The Swiss Federal Statistical Office randomly drew the sample, based on a
+sampling frame that includes all individuals (not households) resident in
+Switzerland. Thus, individuals were the primary sampling unit. While the
+sampling frame provides information on respondents' address, marital status,
+age and sex, telephone numbers were only listed for about two-thirds of the
+selected addresses. To obtain telephone numbers for the remaining
+individuals, collaborators considered other databases and searched for them
+manually. Additionally, a 20CHF incentive was sent to those individuals for
+whom a phone number could not be found, asking them to provide a phone
+number where they could be reached. 
+
+Nevertheless, for 15% of the initially sampled persons, no phone number
+could be matched to the sampling frame. Therefore, these persons could not
+be interviewed. This number is close to other estimates of households
+without a registered landline and/ or mobile phone. Furthermore, Swiss
+voters living abroad were excluded from the sampling frame (another 2,6% of
+the total eligible population). 
+
+The sample size was stratified to include a minimum of 100 respondents per
+canton in each of the 26 cantons and to have at least 600 respondents in the
+cantons of Zurich, Geneva, and Tessin. Prior to the study, a letter was sent
+to sampled individuals. 4391 persons were successfully interviewed.
+
+<<>> POLITY WEIGHTS 
+
+The Swiss Election Study contains a SAMPLE WEIGHT and a POLITICAL WEIGHT.
+The sample weight controls for an oversampling of persons in the smaller as
+well as the three largest cantons. The political weight controls for the
+overall turnout and the vote share of parties, multiplied by the sample 
+weight mentioned above.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - TAIWAN (2012)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module was included in a post-election face-to-face survey which
+was fielded between January 15 and March 6, 2012. Data collection was
+realized by the Department of Political Science, National Taiwan University
+and started the day after the Taiwan legislative and presidential elections
+on January 14, 2012. Interviews were conducted in Chinese. The sample is
+meant to be representative of qualified voters in Taiwan, i.e. Taiwanese
+citizens above 20 years. Institutionalized persons were excluded from the
+sample frame.
+
+The sampling of the other respondents was realized by a probability
+proportional to size (PPS) three-stage systematic sampling. In the first
+stage, legislative constituencies were sampled according to six major
+geographic regions. In the second stage, urban villages (li) or rural
+villages (cun) were selected as sampling units. Finally, respondents were
+selected from household registration data provided by the Ministry of the
+Interior. Prior to the study, respondents received a letter announcing the
+survey. Additionally, they received a gift after completion of the
+interview. A total of 1,826 interviews were completed.
+
+<<>> POLITY WEIGHTS 
+
+The Taiwanese Election Study includes a DEMOGRAPHIC WEIGHT. To generalize 
+to the population of eligible voters in the 2012 presidential election, the
+data should be weighted using the demographic weight provided, which 
+accounts for gender, age (5 groups), education (5 groups), and area 
+(6 regions). The method of raking was used to create the weight.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - THAILAND (2011)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The study was conceptualized as a post-election face-to-face survey and
+conducted between July 3 and September 10, 2011. Fieldwork was realized by
+the King Prajadhipok's Institute and started on July 3, 2011, the day of the
+Thai general election 2011. Interviews were conducted in Thai, Malay and
+Tribe language such as Lahu. The multi-stage systematic random sample is
+meant to be representative of the eligible voting population of Thailand,
+i.e. citizens aged 18 years or above who are registered to vote.
+
+For this survey, the country was divided into five regions corresponding to
+the four regions of Thailand plus Bangkok. For the first stage of sampling,
+a list of Amphoe (districts) per region was randomly selected. These
+districts were the primary sampling units. In the second stage, a number of
+Tambol (subdistricts) were randomly selected within each Amphoe. The third
+stage consisted in randomly selecting a number of villages within each
+Tambol. The fourth stage of sampling determined the number of people to be
+surveyed within a village. In each stage, the numbers of units to be sampled
+within a geographic area were all chosen proportional to the size of the
+population. In the final stage, individual respondents were systematically
+sampled with information provided by the Community Department of the
+Ministry of Interior. In Bangkok, a list of sub-districts was randomly
+selected in the first stage. Afterward, systematic sampling was applied to
+select individual respondents from voter lists, which were available for the
+Bangkok region. After the interview, respondents received a book and a pen
+to thank them for participation. The sample includes 1500 completed
+interviews.
+
+<<>> POLITY WEIGHTS 
+
+The Thai Election Study includes a SAMPLE WEIGHT, which was constructed to
+weight the data according to the distribution of the population within the 
+five regions, which were also used for the first sampling stage (see above).
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - TURKEY (2015)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The CSES Module was included in a post-election face-to-face survey which
+was implemented between July 18 and September 10, 2015. Data collection was
+realized by Frekans Arastirma and started 41 days after the Turkish general
+election on June 7, 2015. Interviews were conducted in Turkish. The sample
+is meant to be representative of the voting age population of Turkey living
+in urban as well as rural areas – that is, Turkish citizens aged 18 years 
+or older. Institutionalized persons and military personnel were excluded 
+from the sample frame (about 1,59% of the total eligible population).
+
+The sampling procedure started with the use of Turkish Statistical
+Institute's (TUIK) NUTS-2 regions. The target sample was stratified
+according to each region's share of urban and rural population given by the
+Address-Based Population Registration System (ADNKS) records as of the end
+of 2014. Next, TUIK's block data were used with block size set at 400
+residents. Address blocks were the primary sampling unit. Twenty voters 
+were targeted to be reached within each block, and no substitution was 
+allowed. The probability proportionate to population size (PPPS) principle 
+was used in distributing the blocks to NUT1 regions. For each of the 20 
+addresses, up to three visits were carried out with the expectation that 
+approximately 50% of the addresses would result in a completed interview. 
+In rural areas where TUIK was unable to provide addresses, collaborators 
+contacted the village's headman (muhtar) and selected 20 addresses in a 
+systematic random sample from the list of households in the village. To 
+select an individual within the sampled household, names of all reported 
+individuals of 18 years or older were written on cards. Then, a person in
+the household was asked to randomly select one card with the name of the 
+individual to be interviewed. If for any reason that individual could not 
+participate in the survey at the first visit, the same household was 
+visited up to three times to obtain the interview. If the interview could
+not be conducted after three trials, the respective household was dropped
+from the sample without being substituted. However, respondents who were
+reluctant to be interviewed were shown a letter containing information on
+the collaborators, the nature of the project and collaborators' privacy
+commitment. Overall, 1086 interviews  were completed.
+
+<<>> POLITY WEIGHTS 
+
+The Turkish Election Study includes a DEMOGRAPHIC WEIGHT. The weight 
+adjusts the sample to known population distributions on gender, six age 
+groups (18-24, 25-34, 35-44, 45-54, 55-64, and 65+), and five education 
+levels. Weights to correct deviations from these 60 cells were multiplied 
+with 12 separately calculated regional weights to correct regional 
+deviations in the sample.
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF STUDY DESIGN AND WEIGHTS - UNITED STATES (2012)
+---------------------------------------------------------------------------
+
+<<>> STUDY DESIGN
+
+The American National Election Study (ANES) 2012 Time Series has a
+pre-post-election panel design in which respondents were interviewed twice:
+once pre-election and once in a post-election survey. The study
+features a dual-mode design combining the traditional ANES face-to-face
+interviewing with a separate sample interviewed on the Internet. Although
+the CSES was included in both modes, the sample provided here only consists
+of face-to-face interviews, due to the low-response rate in the online
+component. Post-election face-to-face interviews featuring the CSES module
+were administered between November 7, 2012, and January 13, 2013, starting
+the day after the U.S. presidential election on November 6, 2012. Data was
+collected by Abt SRBI. The questionnaires were administered in English and
+Spanish.
+
+The sample is meant to be representative of U.S. citizens aged 18 or older
+as of election day. Institutionalized persons, military personnel residing
+in on-base housing, and the states of Alaska and Hawaii were excluded from
+the sampling frame. The same holds for addresses where mail is not
+delivered, as the sampling frame consisted of the Delivery Sequence File
+(DSF) used by the United States Postal Service for the residential delivery
+of mail. However, collaborators made further efforts to compensate this. 
+For more information, please consult the design report. 
+
+An address-based, stratified, multi-stage cluster sample in 125 census
+tracts was used. In addition to a nationally-representative main sample,
+there were two oversamples, one of blacks and one of Hispanics. The first
+stage of the sampling involved stratifying the 48 contiguous states and the
+District of Columbia into nine regions corresponding to Census Divisions.
+These Census divisions constitute the study's strata. Within each region,
+census tracts were then randomly selected, with the number of tracts being
+proportional to the region's proportion of the U.S. adult population
+(probability proportional to size). The second stage of sampling consisted
+of the random selection of residential addresses from the DSF within each
+tract. Addresses for the black and Hispanic oversamples were selected from
+tracts with high proportions of one or both of these populations. The third
+and final stage of sampling was the selection of one eligible person per
+household. Screening was accomplished by sending an interviewer to the
+sampled address and completing a brief interview in which eligible
+respondents were listed. The interviewer's computer then randomly selected
+one person from the list. No substitutions were acceptable.
+
+Prior to the interview, respondents received an advance letter. Furthermore,
+face-to-face respondents were offered money to complete the interview.
+Depending on the level of pre-election incentivization, respondents were
+initially offered $50 or $100. These amounts were increased to $75 and $125,
+respectively, at the end of the field period. Additionally, eligible
+respondents reluctant to participate were sent a customized letter
+addressing their specific concern. For the face-to-face component, panel
+attrition rate was 7%. The sample consists of 1929 completed interviews.
+
+<<>> POLITY WEIGHTS 
+
+The American National Election Study includes a combined DEMOGRAPHIC AND 
+SAMPLE WEIGHT. The weight is post-stratified to produce estimates that 
+match known population proportions for age, race/ethnicity, educational 
+attainment, martial status, income, census region, home ownership, 
+nation of birth and cross-classifications of age and gender, and of 
+race/ethnicity and educational attainment.
+
+
+/// END OF FILE

@@ -1,0 +1,2534 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 4 (2011-2016)
+
+                 CODEBOOK PART 4: PRIMARY ELECTORAL DISTRICTS
+
+                       FULL RELEASE - MAY 29, 2018
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 4 
+FULL RELEASE [dataset and documentation]. May 29, 2018 version. 
+doi:10.7804/cses.module4.2018-05-29
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-0817701,
+SES-1154687, and SES-1420973, the GESIS - Leibniz Institute for the Social 
+Sciences, the University of Michigan, in-kind support of participating 
+election studies, the many organizations that sponsor planning meetings 
+and conferences, and the numerous organizations that fund national 
+election studies by CSES collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+
+
+))) OVERVIEW OF "CODEBOOK PART 4: PRIMARY ELECTORAL DISTRICTS"
+
+
+))) LIST OF TABLES IN CODEBOOK PART 4
+
+
+))) HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+
+
+))) PRIMARY ELECTORAL DISTRICTS CLASSIFICATIONS FOR CSES MODULE 4 BY POLITY
+    >>> PRIMARY ELECTORAL DISTRICTS: ARGENTINA (2015)
+    >>> PRIMARY ELECTORAL DISTRICTS: AUSTRALIA (2013)
+    >>> PRIMARY ELECTORAL DISTRICTS: AUSTRIA (2013)
+    >>> PRIMARY ELECTORAL DISTRICTS: BRAZIL (2014)
+    >>> PRIMARY ELECTORAL DISTRICTS: BULGARIA (2014)
+    >>> PRIMARY ELECTORAL DISTRICTS: CANADA (2011)
+    >>> PRIMARY ELECTORAL DISTRICTS: CANADA (2015)
+    >>> PRIMARY ELECTORAL DISTRICTS: CZECH REPUBLIC (2013)      
+    >>> PRIMARY ELECTORAL DISTRICTS: FINLAND (2015)
+    >>> PRIMARY ELECTORAL DISTRICTS: FRANCE (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: GERMANY (2013)
+    >>> PRIMARY ELECTORAL DISTRICTS: GREAT BRITAIN (2015)    
+    >>> PRIMARY ELECTORAL DISTRICTS: GREECE (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: GREECE (2015)
+    >>> PRIMARY ELECTORAL DISTRICTS: HONG KONG (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: ICELAND (2013)
+    >>> PRIMARY ELECTORAL DISTRICTS: IRELAND (2011)
+    >>> PRIMARY ELECTORAL DISTRICTS: ISRAEL (2013)    
+    >>> PRIMARY ELECTORAL DISTRICTS: JAPAN (2013)
+    >>> PRIMARY ELECTORAL DISTRICTS: KENYA (2013)
+    >>> PRIMARY ELECTORAL DISTRICTS: LATVIA (2011)
+    >>> PRIMARY ELECTORAL DISTRICTS: LATVIA (2014)
+    >>> PRIMARY ELECTORAL DISTRICTS: MEXICO (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: MONTENEGRO (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: NEW ZEALAND (2011)
+    >>> PRIMARY ELECTORAL DISTRICTS: NEW ZEALAND (2014)
+    >>> PRIMARY ELECTORAL DISTRICTS: NORWAY (2013)
+    >>> PRIMARY ELECTORAL DISTRICTS: PERU (2016)
+    >>> PRIMARY ELECTORAL DISTRICTS: PHILIPPINES (2016)    
+    >>> PRIMARY ELECTORAL DISTRICTS: POLAND (2011)
+    >>> PRIMARY ELECTORAL DISTRICTS: PORTUGAL (2015)
+    >>> PRIMARY ELECTORAL DISTRICTS: ROMANIA (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: ROMANIA (2014)
+    >>> PRIMARY ELECTORAL DISTRICTS: SERBIA (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: SLOVAKIA (2016)
+    >>> PRIMARY ELECTORAL DISTRICTS: SLOVENIA (2011)
+    >>> PRIMARY ELECTORAL DISTRICTS: SOUTH AFRICA (2014)
+    >>> PRIMARY ELECTORAL DISTRICTS: SOUTH KOREA (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: SWEDEN (2014)
+    >>> PRIMARY ELECTORAL DISTRICTS: SWITZERLAND (2011)
+    >>> PRIMARY ELECTORAL DISTRICTS: TAIWAN (2012)
+    >>> PRIMARY ELECTORAL DISTRICTS: THAILAND (2011)
+    >>> PRIMARY ELECTORAL DISTRICTS: TURKEY (2015)
+    >>> PRIMARY ELECTORAL DISTRICTS: UNITED STATES (2012)
+
+
+===========================================================================
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+===========================================================================
+
+This dataset and all accompanying documentation is the "Full Release"
+of CSES Module 4 (2011-2016).
+
+Users of the Final Release may wish to monitor the errata for
+CSES Module 4 on the CSES website, to check for known errors which may 
+impact their analyses. To view errata for CSES Module 4, go to the Data
+Center on the CSES website, navigate to the CSES Module 4 download page, 
+and click on the Errata link in the gray box to the right of the page.
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 4: PRIMARY ELECTORAL DISTRICTS"
+===========================================================================
+
+Part 4 of the CSES Codebook presents the primary electoral districts by
+polity, which refer to the constituency/riding/district in which an 
+individual respondent in a survey votes. 
+These value labels refer to coders reported in variable 
+D2032 "PRIMARY ELECTORAL DISTRICT" detailed in CSES Codebook Part 2. 
+
+These districts are sometimes identified "indirectly," through postal 
+codes, etc... by the CSES Secretariat with the assistance of the 
+national collaborators. Where postal codes, etc., were ambiguous,
+cases are coded missing. Wherever possible, CSES uses the labels used 
+by each country's electoral commission. 
+
+Only districts where respondents are in the CSES data are listed (see 
+second column of Table below). Polities are listed in alphabetical order.  
+
+         | +++ TABLE: TOTAL NUMBER OF ELECTORAL DISTRICTS PER POLITY AND
+         |            TOTAL NUMBER OF ELECTORAL DISTRICTS REPRESENTED IN
+         |            CSES DATA
+         |
+         |                       Total number of      Total number of       
+         | POLITY (ELEC YEAR)   Electoral Districts Electoral Districts
+         |                          in Polity           in CSES (%)  
+         | -------------------------------------------------------------     
+         | 
+         | ARGENTINA (2015)              24               14  (58%)
+         | AUSTRALIA (2013)             150              150 (100%)
+         | AUSTRIA (2013)                39               39 (100%)
+         | BRAZIL (2014)                 27               27 (100%)
+         | BULGARIA (2014)               31               31 (100%)
+         | CANADA (2011)                308              301  (98%)
+         | CANADA (2015)                338              332  (98%)
+         | CZECH REPUBLIC (2013)         14               14 (100%)
+         | FINLAND (2015)                13               12  (92%)
+         | FRANCE (2012)                  1                1 (100%)
+         | GERMANY (2013)               299              200  (67%)
+         | GREAT BRITAIN (2015)         650              292  (45%)
+         | GREECE (2012)                 56               49  (88%)
+         | GREECE (2015)                 56               52  (93%)
+         | HONG KONG (2012)               5                5 (100%)
+         | ICELAND (2013)                 6                6 (100%)
+         | IRELAND (2011)                43               43 (100%)
+         | ISRAEL (2013)                  1                1 (100%)
+         | JAPAN (2013)                  49               45  (92%)
+         | KENYA (2013)                 290               56  (19%)
+         | LATVIA (2011)                  5                5 (100%)
+         | LATVIA (2014)                  5                5 (100%)
+         | MEXICO (2012)                300              130  (43%)
+         | MONTENEGRO (2012)              1                1 (100%)
+         | NEW ZEALAND (2011)            70               70 (100%)
+         | NEW ZEALAND (2014)            71               71 (100%)
+         | NORWAY (2013)                 19               19 (100%)
+         | PERU (2016)                   26               19  (73%)
+         | POLAND (2011)                 41               41 (100%)
+         | PORTUGAL (2015)               22               19  (87%)
+         | ROMANIA (2012)               315               63  (20%)
+         | ROMANIA (2014)                 1                1 (100%)
+         | SERBIA (2012)                  1                1 (100%)
+         | SLOVAKIA (2016)                1                1 (100%)
+         | SLOVENIA (2011)               62               62 (100%)
+         | SOUTH AFRICA (2014)            9                9 (100%)
+         | SOUTH KOREA (2012)           246              119  (48%)
+         | SWEDEN (2014)                 29               29 (100%)
+         | SWITZERLAND (2011)            26               26 (100%)
+         | TAIWAN (2012)                  1                1 (100%)
+         | THAILAND (2011)              375               74  (20%)
+         | TURKEY (2015)                 85               47  (55%)
+         | UNITED STATES (2012)          51               41  (80%)   
+         | -------------------------------------------------------------
+         | 
+         | District data are unavailable for MEXICO (2015) and 
+         | PHILIPPINES (2016).  
+
+
+===========================================================================
+))) LIST OF TABLES IN CODEBOOK PART 4
+===========================================================================
+
+Below, we list the Tables located in Codebook Part 1. Tables can be 
+accessed in the electronic version of the CSES Codebook by searching for
+"+++". 
+
+   - TOTAL NUMBER OF ELECTORAL DISTRICTS PER POLITY AND TOTAL NUMBER OF 
+     ELECTORAL DISTRICTS REPRESENTED IN CSES DATA
+
+
+===========================================================================
+))) HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+===========================================================================
+
+CSES Codebook is produced in .txt format to allow for easy accessibility 
+and as such the Codebook can be read into a variety of programs. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header 
+
+>>> = Sub-section Header 1
+
+<<>> = Sub-section Header 2 
+
++++ = Tables
+
+VARIABLES NOTES = Notes for particular variables 
+
+ELECTION STUDY NOTES = Notes for a particular election study  
+
+
+===========================================================================
+))) PRIMARY ELECTORAL DISTRICTS CLASSIFICATIONS FOR CSES MODULE 4 BY POLITY
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ARGENTINA (2015)
+---------------------------------------------------------------------------
+
+00001.  Buenos Aires Capital          00008.  La Rioja
+00002.  Buenos Aires State            00009.  Mendoza 
+00003.  Chaco                         00010.  Neuquen
+00004.  Cordoba                       00011.  Rio Negro 
+00005.  Corrientes                    00012.  Santa Fe 
+00006.  Entre Rios                    00013.  Santiage del Estero
+00007.  Jujuy                         00014.  Tucuman
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: AUSTRALIA (2013)
+---------------------------------------------------------------------------
+
+00001. Adelaide                       00076. Hume
+00002. Aston                          00077. Hunter
+00003. Ballarat                       00078. Indi
+00004. Banks                          00079. Isaacs
+00005. Barker                         00080. Jagajaga
+00006. Barton                         00081. Kennedy
+00007. Bass                           00082. Kingsford Smith
+00008. Batman                         00083. Kingston
+00009. Bendigo                        00084. Kooyong
+00010. Bennelong                      00085. La Trobe
+00011. Berowra                        00086. Lalor
+00012. Blair                          00087. Leichhardt
+00013. Blaxland                       00088. Lilley
+00014. Bonner                         00089. Lindsay
+00015. Boothby                        00090. Lingiari
+00016. Bowman                         00091. Longman
+00017. Braddon                        00092. Lyne
+00018. Bradfield                      00093. Lyons
+00019. Brand                          00094. Macarthur
+00020. Brisbane                       00095. Mackellar
+00021. Bruce                          00096. Macquarie
+00022. Calare                         00097. Makin
+00023. Calwell                        00098. Mallee
+00024. Canberra                       00099. Maranoa
+00025. Canning                        00100. Maribyrnong
+00026. Capricornia                    00101. Mayo
+00027. Casey                          00102. McEwen
+00028. Charlton                       00103. McMahon
+00029. Chifley                        00104. McMillan
+00030. Chisholm                       00105. McPherson
+00031. Cook                           00106. Melbourne
+00032. Corangamite                    00107. Melbourne Ports
+00033. Corio                          00108. Menzies
+00034. Cowan                          00109. Mitchell
+00035. Cowper                         00110. Moncrieff
+00036. Cunningham                     00111. Moore
+00037. Curtin                         00112. Moreton
+00038. Dawson                         00113. Murray
+00039. Deakin                         00114. New England
+00040. Denisonv                       00115. Newcastle
+00041. Dickson                        00116. North Sydney
+00042. Dobell                         00117. O'Connor
+00043. Dunkley                        00118. Oxley
+00044. Durack                         00119. Page
+00045. Eden-Monaro                    00120. Parkes
+00046. Fadden                         00121. Parramatta
+00047. Fairfax                        00122. Paterson
+00048. Farrer                         00123. Pearce
+00049. Fisher                         00124. Perth
+00050. Flinders                       00125. Petrie
+00051. Flynn                          00126. Port Adelaide
+00052. Forde                          00127. Rankin
+00053. Forrest                        00128. Reid
+00054. Fowler                         00129. Richmond
+00055. Franklin                       00130. Riverina
+00056. Fraser                         00131. Robertson
+00057. Fremantle                      00132. Ryan
+00058. Gellibrand                     00133. Scullin
+00059. Gilmore                        00134. Shortland
+00060. Gippsland                      00135. Solomon
+00061. Goldstein                      00136. Stirling
+00062. Gorton                         00137. Sturt
+00063. Grayndler                      00138. Swan
+00064. Greenway                       00139. Sydney
+00065. Grey                           00140. Tangney
+00066. Griffith                       00141. Throsby
+00067. Groom                          00142. Wakefield
+00068. Hasluck                        00143. Wannon
+00069. Herbert                        00144. Warringah
+00070. Higgins                        00145. Watson
+00071. Hindmarsh                      00146. Wentworth
+00072. Hinkler                        00147. Werriwa
+00073. Holt                           00148. Wide Bay
+00074. Hotham                         00149. Wills
+00075. Hughes                         00150. Wright
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: AUSTRIA (2013)
+---------------------------------------------------------------------------
+
+00001. Northern Burgenland           00021. Lungau / Pinzgau / Pongau
+00002. Southern Burgenland           00022. Graz and Surroundings
+00003. Klagenfurt                    00023. Eastern Styria
+00004. Villach                       00024. Western Styria
+00005. Western Carinthia             00025. Upper Styria
+00006. Eastern Carinthia             00026. Innsbruck
+00007. Weinviertel                   00027. Innsbruck Land
+00008. Waldviertel                   00028. Lowlands
+00009. Mostviertel                   00029. Highlands
+00010. Central Lower Austria         00030. Eastern Tyrol
+00011. Southern Lower Austria        00031. Northern Vorarlberg
+00012. Vienna Surroundings           00032. Southern Vorarlberg
+00013. South-East Lower Austria      00033. Vienna City South
+00014. Linz And Surroundings         00034. Vienna City West
+00015. Innviertel                    00035. Vienna City East
+00016. Hausruckviertel               00036. Southern Vienna
+00017. Traunviertel                  00037. South-West Vienna
+00018. Muehlviertel                  00038. North-West Vienna
+00019. Salzburg City                 00039. Northern Vienna
+00020. Flachgau/Tennengau
+
+
+--------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: BRAZIL (2014)
+---------------------------------------------------------------------------
+
+00001.  Alagoas                       00015.  Para
+00002.  Bahia                         00016.  Espirito Santo
+00003.  Ceara                         00017.  Minas Gerais
+00004.  Maranhao                      00018.  Rio de Janeiro
+00005.  Paraiba                       00019.  Sao Paulo
+00006.  Pernambuco                    00020.  Parana
+00007.  Piaui                         00021.  Rio Grande do Sul
+00008.  Rio Grande do Norte           00022.  Santa Catarina
+00009.  Sergipe                       00023.  Acre
+00010.  Amazonas                      00024.  Amapa
+00011.  Distrito Federal              00025.  Rondonia
+00012.  Goias                         00026.  Roraima
+00013.  Mato Grosso                   00027.  Tocantins
+00014.  Mato Grosso do Sul   
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: BULGARIA (2014)
+---------------------------------------------------------------------------
+
+00001.  Blagoevgrad                   00018.  Rousse 
+00002.  Bourgas                       00019.  Silistra 
+00003.  Varna                         00020.  Sliven
+00004.  Veliko Tarnovo                00021.  Smolyan 
+00005.  Vidin                         00023.  Sofia region
+00006.  Vratsa                        00024.  Stara Zagora
+00007.  Gabrovo                       00025.  Targovishte
+00008.  Dobrich                       00026.  Haskovo
+00009.  Kardzhali                     00027.  Shoumen
+00010.  Kyustendil                    00028.  Yambol
+00011.  Lovech                        01616.  Plovdiv (16)/Plovdiv City
+00012.  Montana                       01617.  Plovdiv (17)/Plovdiv Province
+00013.  Pazardzhik                    02223.  Sofia city (23)
+00014.  Pernik                        02224.  Sofia city (24)
+00015.  Pleven                        02225.  Sofia city (25)
+00017.  Razgrad
+
+
+--------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: CANADA (2011)
+---------------------------------------------------------------------------
+
+10001.	Avalon
+10002.	Bonavista-Gander-Grand Falls-Windsor
+10003.	Humber-St. Barbe-Baie Verte
+10004.	Labrador
+10005.	Random - Burin - St. George's
+10006.	St. John's East / St. John's-Est
+10007.	St. John's South - Mount Pearl / St. John's-Sud - Mount Pearl
+11001.	Cardigan
+11002.	Charlottetown
+11003.	Egmont
+11004.  Malpeque
+12001.	Cape Breton - Canso
+12002.	Central Nova / Nova-Centre
+12003.	Dartmouth - Cole Harbour
+12004.	Halifax
+12005.	Halifax West / Halifax-Ouest
+12006.	Kings - Hants
+12007.	Cumberland - Colchester - Musquodoboit Valley
+12008.	Sackville - Eastern Shore
+12009.	South Shore - St. Margaret's
+12010.	Sydney - Victoria
+12011.	West Nova / Nova-Ouest
+13001.	Acadie - Bathurst
+13002.	Beausejour
+13003.	Fredericton
+13004.	Fundy Royal
+13005.	Madawaska - Restigouche
+13006.	Miramichi
+13007.	Moncton - Riverview - Dieppe
+13008.	New Brunswick Southwest / Nouveau-Brunswick-Sud-Ouest
+13009.	Saint John
+13010.	Tobique - Mactaquac
+24001.	Abitibi - Temiscamingue
+24002.	Ahuntsic
+24003.	Alfred-Pellan
+24004.	Argenteuil - Papineau - Mirabel
+24005.	Beauce
+24006.	Beauharnois - Salaberry
+24007.	Beauport - Limoilou
+24008.	Berthier - Maskinonge
+24009.	Bourassa
+24010.	Brome - Missisquoi
+24011.	Brossard - La Prairie
+24012.	Chambly - Borduas
+24013.	Charlesbourg - Haute-Saint-Charles
+24014.	Montmorency - Charlevoix - Haute-Cote-Nord
+24015.	Chateauguay - Saint-Constant
+24016.	Chicoutimi - Le Fjord
+24017.	Compton - Stanstead
+24018.	Drummond
+24019.	Gaspesie - Iles-de-la-Madeleine
+24020.	Gatineau
+24021.	Hochelaga
+24022.	Honore-Mercier
+24023.	Hull--Aylmer
+24024.	Jeanne-Le Ber
+24025.	Joliette
+24026.	Jonquiere - Alma
+24027.	Lac-Saint-Louis
+24028.	La Pointe-de-l'Ile
+24029.	LaSalle - Emard
+24030.	Laurentides - Labelle
+24031.	Laurier - Sainte-Marie
+24033.	Laval - Les Iles
+24034.	Levis - Bellechasse
+24035.	Longueuil - Pierre-Boucher
+24036.	Lotbiniere - Chutes-de-la-Chaudiere
+24037.	Louis-Hebert
+24038.	Louis-Saint-Laurent
+24039.	Manicouagan
+24040.	Marc-Aurele-Fortin
+24041.	Haute-Gaspesie--La Mitis--Matane--Matapedia
+24042.	Megantic - L'Erable
+24043.	Montcalm
+24044.	Mount Royal/Mont-Royal
+24045.	Notre-Dame-de-Grace - Lachine
+24046.	Abitibi - Baie-James - Nunavik - Eeyou
+24047.	Outremont
+24048.	Papineau
+24049.	Pierrefonds - Dollard
+24050.	Pontiac
+24051.	Portneuf - Jacques - Cartier
+24052.	Quebec
+24053.	Repentigny
+24054.	Bas-Richelieu - Nicolet -Becancour
+24055.	Richmond - Arthabaska
+24056.	Rimouski-Neigette - Temiscouata - Les Basques
+24057.	Riviere-des-Mille-Iles
+24058.	Montmagny - L'Islet - Kamouraska - Riviere-du-Loup
+24059.	Riviere-du-Nord
+24060.	Roberval - Lac-Saint-Jean
+24061.	Rosemont - La Petite-Patrie
+24062.	Saint-Bruno - Saint-Hubert
+24063.	Saint-Hyacinthe - Bagot
+24064.	Saint-Jean
+24065.	Saint-Lambert
+24066.	Saint-Laurent - Cartierville
+24067.	Saint-Leonard - Saint-Michel
+24068.	Saint-Maurice - Champlain
+24069.	Shefford
+24070.	Sherbrooke
+24071.	Terrebonne - Blainville
+24072.	Trois-Rivieres
+24073.	Vaudreuil-Soulanges
+24074.	Vercheres - Les Patriotes
+24075.	Westmount - Ville-Marie
+35001.	Ajax - Pickering
+35002.	Algoma - Manitoulin--Kapuskasing
+35003.	Ancaster - Dundas - Flamborough - Westdale
+35004.	Barrie
+35005.	Beaches - East York
+35006.	Bramalea - Gore - Malton
+35007.	Brampton - Springdale
+35008.	Brampton West / Brampton-Ouest
+35009.	Brant
+35010.	Burlington
+35011.	Cambridge
+35012.	Carleton - Mississippi Mills
+35013.	Chatham-Kent - Essex
+35014.	Durham
+35015.	Davenport
+35016.	Don Valley East / Don Valley-Est
+35017.	Don Valley West / Don Valley-Ouest
+35018.	Dufferin - Caledon
+35019.	Eglinton - Lawrence
+35020.	Elgin - Middlesex - London
+35021.	Essex
+35022.	Etobicoke Centre / Etobicoke-Centre
+35023.	Etobicoke - Lakeshore
+35024.	Etobicoke North / Etobicoke-Nord
+35025.	Glengarry - Prescott - Russell
+35026.	Bruce - Grey - Owen Sound
+35027.	Guelph
+35028.	Haldimand - Norfolk
+35029.	Haliburton - Kawartha Lakes - Brock
+35030.	Halton
+35031.	Hamilton Centre / Hamilton-Centre
+35032.	Hamilton East - Stoney Creek / Hamilton-Est - Stoney Creek
+35033.	Hamilton Mountain
+35034.	Huron - Bruce
+35035.	Kenora
+35036.	Kingston and the Islands / Kingston et les Iles
+35037.	Kitchener Centre / Kitchener-Centre
+35038.	Kitchener - Conestoga
+35039.	Kitchener - Waterloo
+35040.	Lanark - Frontenac - Lennox and Addington
+35041.	Leeds - Grenville
+35042.	London - Fanshawe
+35043.	London North Centre / London-Centre-Nord
+35044.	London West / London-Ouest
+35045.	Markham - Unionville
+35046.	Lambton - Kent - Middlesex
+35047.	Mississauga - Brampton South / Mississauga - Brampton-Sud
+35048.	Mississauga East - Cooksville / Mississauga-Est - Cooksville
+35049.	Mississauga - Erindale
+35050.	Mississauga South / Mississauga-Sud
+35051.	Mississauga - Streetsville
+35052.	Nepean - Carleton
+35053.	Newmarket - Aurora
+35054.	Niagara Falls
+35055.	Niagara West - Glanbrook / Niagara-Ouest - Glanbrook
+35056.	Nickel Belt
+35057.	Nipissing - Timiskaming
+35058.	Northumberland - Quinte West
+35059.	Oak Ridges - Markham
+35060.	Oakville
+35061.	Oshawa
+35062.	Ottawa Centre / Ottawa-Centre
+35063.	Ottawa - Orleans
+35064.	Ottawa South / Ottawa-Sud
+35065.	Ottawa - Vanier
+35066.	Ottawa West - Nepean / Ottawa-Ouest - Nepean
+35067.	Oxford
+35068.	Parkdale - High Park
+35069.	Parry Sound - Muskoka
+35070.	Perth - Wellington
+35071.	Peterborough
+35072.	Pickering - Scarborough East / Pickering - Scarborough-Est
+35073.	Prince Edward - Hastings
+35074.	Renfrew - Nipissing - Pembroke
+35075.	Richmond Hill
+35076.	St. Catharines
+35077.	St. Paul's
+35078.	Sarnia - Lambton
+35079.	Sault Ste. Marie
+35080.	Scarborough - Agincourt
+35081.	Scarborough Centre / Scarborough-Centre
+35082.	Scarborough - Guildwood
+35083.	Scarborough - Rouge River
+35084.	Scarborough Southwest / Scarborough-Sud-Ouest
+35085.	Simcoe - Grey
+35086.	Simcoe North / Simcoe-Nord
+35087.	Stormont - Dundas - South Glengarry
+35088.	Sudbury
+35089.	Thornhill
+35090.	Thunder Bay - Rainy River
+35091.	Thunder Bay - Superior North / Thunder Bay - Superior-Nord
+35092.	Timmins - James Bay / Timmins - Baie James
+35093.	Toronto Centre / Toronto-Centre
+35094.	Toronto - Danforth
+35095.	Trinity - Spadina
+35096.	Vaughan
+35097.	Welland
+35098.	Wellington - Halton Hills
+35099.	Whitby - Oshawa
+35100.	Willowdale
+35101.	Windsor - Tecumseh
+35102.	Windsor West / Windsor-Ouest
+35103.	York Centre / York-Centre
+35104.	York - Simcoe
+35105.	York South - Weston / York-Sud - Weston
+35106.	York West / York-Ouest
+46001.	Brandon - Souris
+46002.	Charleswood - St. James - Assiniboia
+46003.	Churchill
+46004.	Dauphin - Swan River - Marquette
+46005.	Elmwood - Transcona
+46007.	Portage - Lisgar
+46008.	Provencher
+46009.	Saint Boniface / Saint-Boniface
+46010.	Selkirk - Interlake
+46011.	Winnipeg Centre / Winnipeg-Centre
+46012.	Winnipeg North / Winnipeg-Nord
+46013.	Winnipeg South / Winnipeg-Sud
+46014.	Winnipeg South Centre / Winnipeg-Centre-Sud
+47001.	Battlefords - Lloydminster
+47002.	Blackstrap
+47003.	Desnethe - Missinippi - Churchill River / Desnethe - 
+        Missinippi- Riviere Churchill
+47004.	Cypress Hills - Grasslands
+47005.	Palliser
+47006.	Prince Albert
+47007.	Regina - Lumsden - Lake Centre
+47008.	Regina - Qu'Appelle
+47009.	Saskatoon - Humboldt
+47010.	Saskatoon - Rosetown - Biggar
+47011.	Saskatoon - Wanuskewin
+47012.	Souris - Moose Mountain
+47013.	Wascana
+47014.	Yorkton - Melville
+48001.	Fort McMurray - Athabasca
+48002.	Calgary East / Calgary-Est
+48003.	Calgary Centre-North / Calgary-Centre-Nord
+48004.	Calgary Northeast / Calgary-Nord-Est
+48005.	Calgary - Nose Hill
+48006.	Calgary Centre / Calgary-Centre
+48007.	Calgary Southeast / Calgary-Sud-Est
+48008.	Calgary Southwest / Calgary-Sud-Ouest
+48009.	Calgary West / Calgary-Ouest
+48010.	Crowfoot
+48011.	Edmonton - Mill Woods--Beaumont
+48012.	Edmonton Centre / Edmonton-Centre
+48013.	Edmonton East / Edmonton-Est
+48014.	Edmonton - Leduc
+48015.	Edmonton - St. Albert
+48016.	Edmonton - Sherwood Park
+48017.	Edmonton - Spruce Grove
+48018.	Edmonton - Strathcona
+48019.	Lethbridge
+48020.	Macleod
+48021.	Medicine Hat
+48022.	Peace River
+48023.	Red Deer
+48024.	Vegreville - Wainwright
+48025.	Westlock - St. Paul
+48026.	Wetaskiwin
+48027.	Wild Rose
+48028.	Yellowhead
+59001.	Abbotsford
+59002.	Burnaby - Douglas
+59004.	Cariboo - Prince George
+59005.	Chilliwack - Fraser Canyon
+59006.	Delta--Richmond East / Delta - Richmond-Est
+59007.	Pitt Meadows - Maple Ridge - Mission
+59008.	Esquimalt - Juan de Fuca
+59009.	Fleetwood - Port Kells
+59011.	Kelowna - Lake Country
+59012.	Kootenay - Columbia
+59013.	Langley
+59014.	Nanaimo - Alberni
+59015.	Nanaimo - Cowichan
+59016.	Newton - North Delta / Newton - Delta-Nord
+59017.	New Westminster - Coquitlam
+59018.	Okanagan - Shuswap
+59019.	North Vancouver
+59020.	Okanagan - Coquihalla
+59021.	Port Moody - Westwood - Port Coquitlam
+59022.	Prince George - Peace River
+59023.	Richmond
+59024.	Saanich - Gulf Islands
+59025.	Skeena - Bulkley Valley
+59026.	British Columbia Southern Interior / Colombie-Britannique-Southern 
+        Interior
+59027.	South Surrey - White Rock - Cloverdale / Surrey-Sud - White Rock -
+        Cloverdale
+59028.	Surrey North / Surrey-Nord
+59029.	Vancouver Centre / Vancouver-Centre
+59030.	Vancouver East / Vancouver-Est
+59031.	Vancouver Island North / Ile de Vancouver-Nord
+59032.	Vancouver Kingsway
+59033.	Vancouver Quadra
+59034.	Vancouver South / Vancouver-Sud
+59035.	Victoria
+59036.	West Vancouver - Sunshine Coast - Sea to Sky Country
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: CANADA (2015)
+---------------------------------------------------------------------------
+
+10001.	Avalon
+10002.	Bonavista–Burin–Trinity
+10003.	Coast of Bays–Central–Notre Dame
+10004.	Labrador
+10005.	Long Range Mountains
+10006.	St. John's East
+10007.	St. John's South–Mount Pearl
+11001.	Cardigan
+11002.	Charlottetown
+11003.	Egmont
+11004.	Malpeque
+12001.	Cape Breton–Canso
+12002.	Central Nova
+12003.	Cumberland–Colchester
+12004.	Dartmouth–Cole Harbour
+12005.	Halifax
+12006.	Halifax West
+12007.	Kings–Hants
+12008.	Sackville–Preston–Chezzetcook
+12009.	South Shore–St. Margarets
+12010.	Sydney–Victoria
+12011.	West Nova
+13001.	Acadie–Bathurst
+13002.	Beausejour
+13003.	Fredericton
+13004.	Fundy Royal
+13005.	Madawaska–Restigouche
+13006.	Miramichi–Grand Lake
+13007.	Moncton–Riverview–Dieppe
+13008.	New Brunswick Southwest
+13009.	Saint John–Rothesay
+13010.	Tobique–Mactaquac
+24001.	Abitibi–Baie-James–Nunavik–Eeyou
+24002.	Abitibi–Temiscamingue
+24003.	Ahuntsic-Cartierville
+24004.	Alfred-Pellan
+24005.	Argenteuil–La Petite-Nation
+24006.	Avignon–La Mitis–Matane–Matapedia
+24007.	Beauce
+24008.	Beauport–Limoilou
+24009.	Becancour–Nicolet–Saurel
+24010.	Bellechasse–Les Etchemins–Levis
+24011.	Beloeil–Chambly
+24012.	Berthier–Maskinonge
+24013.	Therese-De Blainville
+24014.	Pierre-Boucher–Les Patriotes–Vercheres
+24015.	Bourassa
+24016.	Brome–Missisquoi
+24017.	Brossard–Saint-Lambert
+24018.	Rimouski-Neigette–Témiscouata–Les Basques
+24019.	Charlesbourg–Haute-Saint-Charles
+24020.	Beauport–Cote-de-Beaupre–Ile d'Orleans–Charlevoix
+24021.	Chateauguay–Lacolle
+24022.	Chicoutimi–Le Fjord
+24023.	Compton–Stanstead
+24024.	Dorval–Lachine–LaSalle
+24025.	Drummond
+24026.	Gaspesie–Les Iles-de-la-Madeleine
+24027.	Gatineau
+24028.	Hochelaga
+24029.	Honore-Mercier
+24030.	Hull–Aylmer
+24031.	Joliette
+24032.	Jonquiere
+24033.	La Pointe-de-l'Ile
+24034.	La Prairie
+24035.	Lac-Saint-Jean
+24036.	Lac-Saint-Louis
+24037.	LaSalle–Emard–Verdun
+24038.	Laurentides–Labelle
+24039.	Laurier–Sainte-Marie
+24040.	Laval–Les Iles
+24041.	Longueuil–Charles-LeMoyne
+24042.	Levis–Lotbiniere
+24043.	Longueuil–Saint-Hubert
+24044.	Louis-Hebert
+24045.	Louis-Saint-Laurent
+24046.	Manicouagan
+24047.	Megantic–L'Erable
+24048.	Mirabel
+24049.	Montarville
+24050.	Montcalm
+24051.	Montmagny–L'Islet–Kamouraska–Riviere-du-Loup
+24052.	Mont-Royal
+24053.	Notre-Dame-de-Grace–Westmount
+24054.	Outremont
+24055.	Papineau
+24056.	Pierrefonds–Dollard
+24057.	Pontiac
+24058.	Portneuf–Jacques-Cartier
+24059.	Quebec
+24060.	Repentigny
+24061.	Richmond–Arthabaska
+24062.	Riviere-des-Mille-Iles
+24063.	Riviere-du-Nord
+24064.	Rosemont–La Petite-Patrie
+24065.	Marc-Aurele-Fortin
+24066.	Saint-Hyacinthe–Bagot
+24067.	Saint-Jean
+24068.	Saint-Laurent
+24069.	Saint-Leonard–Saint-Michel
+24070.	Saint-Maurice–Champlain
+24071.	Salaberry–Suroit
+24072.	Shefford
+24073.	Sherbrooke
+24074.	Vaudreuil–Soulanges
+24075.	Terrebonne
+24076.	Trois-Rivieres
+24077.	Ville-Marie–Le Sud-Ouest–Ile-des-Soeurs
+24078.	Vimy
+35001.	Ajax
+35002.	Algoma–Manitoulin–Kapuskasing
+35003.	Aurora–Oak Ridges–Richmond Hill
+35004.	Barrie–Innisfil
+35005.	Barrie–Springwater–Oro-Medonte
+35006.	Bay of Quinte
+35007.	Beaches–East York
+35008.	Brampton Centre
+35009.	Brampton East
+35010.	Brampton North
+35011.	Brampton South
+35012.	Brampton West
+35013.	Brantford–Brant
+35014.	Bruce–Grey–Owen Sound
+35015.	Burlington
+35016.	Cambridge
+35017.	Chatham-Kent–Leamington
+35018.	Davenport
+35019.	Don Valley East
+35020.	Don Valley North
+35021.	Don Valley West
+35022.	Dufferin–Caledon
+35023.	Durham
+35024.	Eglinton–Lawrence
+35025.	Elgin–Middlesex–London
+35026.	Essex
+35027.	Etobicoke Centre
+35028.	Etobicoke–Lakeshore
+35029.	Etobicoke North
+35030.	Flamborough–Glanbrook
+35031.	Glengarry–Prescott–Russell
+35032.	Guelph
+35033.	Haldimand–Norfolk
+35034.	Haliburton–Kawartha Lakes–Brock
+35035.	Hamilton Centre
+35036.	Hamilton East–Stoney Creek
+35037.	Hamilton Mountain
+35038.	Hamilton West–Ancaster–Dundas
+35039.	Hastings–Lennox and Addington
+35040.	Huron–Bruce
+35041.	Kanata–Carleton
+35043.	King–Vaughan
+35044.	Kingston and the Islands
+35045.	Kitchener Centre
+35046.	Kitchener–Conestoga
+35047.	Kitchener South–Hespeler
+35048.	Lambton–Kent–Middlesex
+35049.	Lanark–Frontenac–Kingston
+35050.	Leeds–Grenville–Thousand Islands and Rideau Lakes
+35051.	London–Fanshawe
+35052.	London North Centre
+35053.	London West
+35054.	Markham–Stouffville
+35055.	Markham–Thornhill
+35056.	Markham–Unionville
+35057.	Milton
+35058.	Mississauga Centre
+35059.	Mississauga East–Cooksville
+35060.	Mississauga–Erin Mills
+35061.	Mississauga–Lakeshore
+35062.	Mississauga–Malton
+35063.	Mississauga–Streetsville
+35064.	Nepean
+35065.	Newmarket–Aurora
+35066.	Niagara Centre
+35067.	Niagara Falls
+35068.	Niagara West
+35069.	Nickel Belt
+35070.	Nipissing–Timiskaming
+35071.	Northumberland–Peterborough South
+35072.	Oakville
+35073.	Oakville North–Burlington
+35074.	Oshawa
+35075.	Ottawa Centre
+35076.	Orleans
+35077.	Ottawa South
+35078.	Ottawa–Vanier
+35079.	Ottawa West–Nepean
+35080.	Oxford
+35081.	Parkdale–High Park
+35082.	Parry Sound–Muskoka
+35083.	Perth–Wellington
+35084.	Peterborough–Kawartha
+35085.	Pickering–Uxbridge
+35086.	Renfrew–Nipissing–Pembroke
+35087.	Richmond Hill
+35088.	Carleton
+35089.	St. Catharines
+35090.	Toronto–St. Paul's
+35091.	Sarnia–Lambton
+35092.	Sault Ste. Marie
+35093.	Scarborough–Agincourt
+35094.	Scarborough Centre
+35095.	Scarborough–Guildwood
+35096.	Scarborough North
+35097.	Scarborough–Rouge Park
+35098.	Scarborough Southwest
+35099.	Simcoe–Grey
+35100.	Simcoe North
+35101.	Spadina–Fort York
+35102.	Stormont–Dundas–South Glengarry
+35103.	Sudbury
+35104.	Thornhill
+35105.	Thunder Bay–Rainy River
+35106.	Thunder Bay–Superior North
+35107.	Timmins–James Bay
+35108.	Toronto Centre
+35109.	Toronto–Danforth
+35110.	University–Rosedale
+35111.	Vaughan–Woodbridge
+35112.	Waterloo
+35113.	Wellington–Halton Hills
+35114.	Whitby
+35115.	Willowdale
+35116.	Windsor–Tecumseh
+35117.	Windsor West
+35118.	York Centre
+35119.	York–Simcoe
+35120.	York South–Weston
+35121.	Humber River–Black Creek
+46001.	Brandon–Souris
+46002.	Charleswood–St. James–Assiniboia–Headingley
+46003.	Churchill–Keewatinook Aski
+46004.	Dauphin–Swan River–Neepawa
+46005.	Elmwood–Transcona
+46006.	Kildonan–St. Paul
+46007.	Portage–Lisgar
+46008.	Provencher
+46009.	Saint Boniface–Saint Vital
+46010.	Selkirk–Interlake–Eastman
+46011.	Winnipeg Centre
+46012.	Winnipeg North
+46013.	Winnipeg South
+46014.	Winnipeg South Centre
+47001.	Battlefords–Lloydminster
+47002.	Cypress Hills–Grasslands
+47005.	Moose Jaw–Lake Centre–Lanigan
+47006.	Prince Albert 
+47007.	Regina–Lewvan
+47008.	Regina–Qu'Appelle 
+47009.	Regina–Wascana 
+47010.	Saskatoon–Grasswood
+47011.	Saskatoon–University
+47012.	Saskatoon West
+47013.	Souris–Moose Mountain 
+47014.	Yorkton–Melville 
+48001.	Banff–Airdrie
+48002.	Battle River–Crowfoot
+48003.	Bow River
+48004.	Calgary Centre
+48005.	Calgary Confederation
+48006.	Calgary Forest Lawn
+48007.	Calgary Heritage
+48008.	Calgary Midnapore
+48009.	Calgary Nose Hill
+48010.	Calgary Rocky Ridge
+48011.	Calgary Shepard
+48012.	Calgary Signal Hill
+48013.	Calgary Skyview
+48014.	Edmonton Centre
+48015.	Edmonton Griesbach
+48016.	Edmonton Manning
+48017.	Edmonton Mill Woods
+48018.	Edmonton Riverbend
+48019.	Edmonton Strathcona
+48020.	Edmonton West
+48021.	Edmonton–Wetaskiwin
+48022.	Foothills
+48023.	Fort McMurray–Cold Lake
+48024.	Grande Prairie–Mackenzie
+48025.	Lakeland
+48026.	Lethbridge
+48027.	Medicine Hat–Cardston–Warner
+48028.	Peace River–Westlock
+48029.	Red Deer–Mountain View
+48030.	Red Deer–Lacombe
+48031.	St. Albert–Edmonton
+48032.	Sherwood Park–Fort Saskatchewan
+48033.	Sturgeon River–Parkland
+48034.	Yellowhead
+59001.	Abbotsford
+59002.	Burnaby North–Seymour
+59003.	Burnaby South
+59004.	Cariboo–Prince George
+59005.	Central Okanagan–Similkameen–Nicola
+59006.	Chilliwack–Hope
+59007.	Cloverdale–Langley City
+59008.	Coquitlam–Port Coquitlam
+59009.	Courtenay–Alberni
+59010.	Cowichan–Malahat–Langford
+59011.	Delta
+59012.	Fleetwood–Port Kells
+59013.	Kamloops–Thompson–Cariboo
+59014.	Kelowna–Lake Country
+59015.	Kootenay–Columbia
+59016.	Langley–Aldergrove
+59017.	Mission–Matsqui–Fraser Canyon
+59018.	Nanaimo–Ladysmith
+59019.	New Westminster–Burnaby
+59020.	North Okanagan–Shuswap
+59021.	North Vancouver
+59022.	Pitt Meadows–Maple Ridge
+59023.	Port Moody–Coquitlam
+59024.	Prince George–Peace River–Northern Rockies
+59025.	Richmond Centre
+59026.	Esquimalt–Saanich–Sooke
+59027.	Saanich–Gulf Islands
+59028.	Skeena–Bulkley Valley
+59029.	South Okanagan–West Kootenay
+59030.	South Surrey–White Rock
+59031.	Steveston–Richmond East
+59032.	Surrey Centre
+59033.	Surrey–Newton
+59034.	Vancouver Centre
+59035.	Vancouver East
+59036.	Vancouver Granville
+59037.	North Island–Powell River
+59038.	Vancouver Kingsway
+59039.	Vancouver Quadra
+59040.	Vancouver South
+59041.	Victoria
+59042.	West Vancouver–Sunshine Coast–Sea to Sky Country
+
+
+         | ELECTION STUDY NOTES - CANADA (2015): PRIMARY ELECTORAL
+         |                                       DISTRICTS
+         |
+         | There were changes in primary electoral districts in
+         | Canada for the 2015 poll. The reform, by which Canada now has 338
+         | electoral districts (ridings) was adopted in 2013. Compared to 
+         | the 2011 Canadian Elections, a total of 30 districts were added.
+         | Users are advised that when electorate boundaries change, 
+         | existing district names may be retained but district boundaries 
+         | may have altered significantly. In sum, name continuity does not
+         | necessarily mean the continuity of the area the district covers.   
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: CZECH REPUBLIC (2013)
+---------------------------------------------------------------------------
+
+00001.  Hlavni mesto Praha
+00002.  Jihocesky
+00003.  Jihomoravsky
+00004.  Karlovarsky
+00005.  Vysocina
+00006.  Kralovehradecky
+00007.  Liberecky
+00008.  Moravskoslezsky
+00009.  Olomoucky
+00010.  Pardubicky
+00011.  Plzensky
+00012.  Stredocesky
+00013.  Ustecky
+00014.  Zlinsky
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: FINLAND (2015)
+---------------------------------------------------------------------------
+
+00001.  Helsinki              00008.  Savo-Karelia          
+00002.  Uusimaa               00009.  Vaasa
+00003.  Varsinais-Suomi       00010.  Central Finland
+00004.  Satakunta             00011.  Oulu
+00005.  Haeme                 00012.  Lapland
+00006.  Pirkanmaa
+00007.  South East Finland                                                
+
+         | ELECTION STUDY NOTES - FINLAND (2015): PRIMARY ELECTORAL 
+         |                                        DISTRICTS
+         |
+         | In total, there are 13 electoral districts in Finland. 
+         | However, the 2015 national election study did not sample 
+         | respondents from the electoral district of Aland. Hence, CSES has
+         | not assigned a code to this district and no district data was
+         | collect. In addition, four electoral districts were merged for  
+         | 2015 to create two new districts, thus reducing the total number
+         | of districts from 15 in 2011 to the 13 in 2015.  
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: FRANCE (2012)
+---------------------------------------------------------------------------
+
+99996.     NATIONWIDE DISTRICT (PRESIDENTIAL ELECTION)
+
+         | ELECTION STUDY NOTES - FRANCE (2012): PRIMARY ELECTORAL
+         |                                       DISTRICTS
+         |
+         | France operates a nationwide electoral district for Presidential
+         | elections.         
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: GERMANY (2013)
+---------------------------------------------------------------------------
+
+00001. Flensburg - Schleswig
+00004. Rendsburg-Eckernfoerde
+00005. Kiel
+00006. Ploen - Neumuenster
+00007. Pinneberg
+00009. Ostholstein - Stormarn-Nord
+00010. Herzogtum Lauenburg - Stormarn-Sued
+00011. Luebeck
+00012. Schwerin - Ludwigslust-Parchim I - Nordwestmecklenburg I
+00014. Rostock - Landkreis Rostock II
+00015. Vorpommern-Ruegen - Vorpommern-Greifswald I
+00016. Mecklenburgische Seenplatte I - Vorpommern-Greifswald II
+00017. Mecklenburgische Seenplatte II - Landkreis Rostock III
+00018. Hamburg-Mitte
+00019. Hamburg-Altona
+00020. Hamburg-Eimsbuettel
+00021. Hamburg-Nord
+00022. Hamburg-Wandsbek
+00023. Hamburg-Bergedorf - Harburg
+00025. Unterems
+00026. Friesland - Wilhelmshaven - Wittmund
+00027. Oldenburg - Ammerland
+00034. Osterholz - Verden
+00036. Harburg
+00039. Stadt Osnabrueck
+00040. Nienburg II - Schaumburg
+00041. Stadt Hannover I
+00043. Hannover-Land I
+00044. Celle - Uelzen
+00045. Gifhorn - Peine
+00046. Hameln-Pyrmont - Holzminden
+00048. Hildesheim
+00049. Salzgitter - Wolfenbuettel
+00050. Braunschweig
+00052. Goslar - Northeim - Osterode
+00053. Goettingen
+00054. Bremen I
+00055. Bremen II - Bremerhaven
+00056. Prignitz - Ostprignitz-Ruppin - Havelland I
+00058. Oberhavel - Havelland II
+00059. Maerkisch-Oderland - Barnim II
+00060. Brandenburg an der Havel - Potsdam-Mittelmark I - Havelland III
+       - Teltow-Flaeming I
+00061. Potsdam - Potsdam-Mittelmark II - Teltow-Flaeming II
+00062. Dahme-Spreewald - Teltow-Flaeming I
+00064. Cottbus - Spree-Neisse
+00065. Elbe-Elster - Oberspreewald-Lausitz
+00066. Altmark
+00067. Boerde - Jerichower Land
+00068. Harz
+00069. Magdeburg
+00070. Dessau - Wittenberg
+00071. Anhalt
+00072. Halle
+00073. Burgenland - Saalekreis
+00074. Mansfeld
+00075. Berlin-Mitte
+00076. Berlin-Pankow
+00077. Berlin-Reinickendorf
+00078. Berlin-Spandau - Charlottenburg Nord
+00079. Berlin-Steglitz-Zehlendorf
+00080. Berlin-Charlottenburg-Wilmersdorf
+00081. Berlin-Tempelhof-Schoeneberg
+00082. Berlin-Neukoelln
+00083. Berlin-Friedrichshain-Kreuzberg - Prenzlauer Berg Ost
+00084. Berlin-Treptow-Koepenick
+00085. Berlin-Marzahn-Hellersdorf
+00086. Berlin-Lichtenberg
+00087. Aachen I
+00089. Heinsberg
+00092. Euskirchen - Rhein-Erft-Kreis II
+00094. Koeln II
+00095. Koeln III
+00096. Bonn
+00097. Rhein-Sieg-Kreis I
+00098. Rhein-Sieg-Kreis II
+00100. Rheinisch-Bergischer Kreis
+00101. Leverkusen - Koeln IV
+00102. Wuppertal I
+00104. Mettmann I
+00105. Mettmann II
+00106. Duesseldorf I
+00107. Duesseldorf II
+00109. Moenchengladbach
+00110. Krefeld I - Neuss II
+00111. Viersen
+00115. Duisburg I
+00116. Duisburg II
+00118. Muelheim - Essen I
+00119. Essen II
+00120. Essen III
+00122. Recklinghausen II
+00123. Gelsenkirchen
+00124. Steinfurt I - Borken I
+00125. Bottrop - Recklinghausen III
+00126. Borken II
+00129. Muenster
+00132. Bielefeld - Guetersloh II
+00134. Minden-Luebbecke I
+00136. Hoexter - Lippe II
+00137. Paderborn - Guetersloh III
+00138. Hagen - Ennepe-Ruhr-Kreis I
+00139. Ennepe-Ruhr-Kreis II
+00140. Bochum I
+00141. Herne - Bochum II
+00142. Dortmund I
+00144. Unna I
+00146. Soest
+00147. Hochsauerlandkreis
+00148. Siegen-Wittgenstein
+00150. Maerkischer Kreis II
+00151. Nordsachsen
+00154. Leipzig-Land
+00155. Meissen
+00156. Bautzen I
+00157. Goerlitz
+00159. Dresden I
+00160. Dresden II - Bautzen II
+00161. Mittelsachsen
+00162. Chemnitz
+00163. Chemnitzer Umland - Erzgebirgskreis
+00164. Erzgebirgskreis I
+00165. Zwickau
+00166. Vogtlandkreis
+00168. Kassel
+00170. Schwalm-Eder
+00171. Marburg
+00173. Giessen
+00174. Fulda
+00175. Main-Kinzig - Wetterau II - Schotten
+00176. Hochtaunus
+00179. Wiesbaden
+00181. Main-Taunus
+00182. Frankfurt am Main I
+00184. Gross-Gerau
+00186. Darmstadt
+00187. Odenwald
+00189. Eichsfeld - Nordhausen - Unstrut-Hainich-Kreis I
+00190. Eisenach - Wartburgkreis - Unstrut-Hainich-Kreis II
+00191. Kyffhaeuserkreis - Soemmerda - Weimarer Land I
+00193. Erfurt - Weimar - Weimarer Land II
+00194. Gera - Jena - Saale-Holzland-Kreis
+00195. Greiz - Altenburger Land
+00196. Sonneberg - Saalfeld-Rudolstadt - Saale-Orla-Kreis
+00200. Koblenz
+00202. Kreuznach
+00204. Trier
+00205. Montabaur
+00206. Mainz
+00208. Ludwigshafen/Frankenthal
+00210. Kaiserslautern
+00211. Pirmasens
+00212. Suedpfalz
+00213. Altoetting
+00218. Muenchen-Nord
+00219. Muenchen-Ost
+00221. Muenchen-West/Mitte
+00223. Rosenheim
+00225. Traunstein
+00226. Weilheim
+00230. Rottal-Inn
+00233. Regensburg
+00234. Schwandorf
+00235. Weiden
+00236. Bamberg
+00238. Coburg
+00242. Erlangen
+00243. Fuerth
+00244. Nuernberg-Nord
+00247. Aschaffenburg
+00250. Schweinfurt
+00252. Augsburg-Stadt
+00253. Augsburg-Land
+00254. Donau-Ries
+00255. Neu-Ulm
+00258. Stuttgart I
+00259. Stuttgart II
+00260. Boeblingen
+00261. Esslingen
+00263. Goeppingen
+00264. Waiblingen
+00266. Neckar-Zaber
+00267. Heilbronn
+00268. Schwaebisch Hall - Hohenlohe
+00270. Aalen - Heidenheim
+00271. Karlsruhe-Stadt
+00272. Karlsruhe-Land
+00274. Heidelberg
+00275. Mannheim
+00279. Pforzheim
+00281. Freiburg
+00282. Loerrach - Muellheim
+00286. Schwarzwald-Baar
+00287. Konstanz
+00289. Reutlingen
+00290. Tuebingen
+00291. Ulm
+00292. Biberach
+00296. Saarbruecken
+00297. Saarlouis
+00299. Homburg
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: GREAT BRITAIN (2015)
+---------------------------------------------------------------------------
+
+00005 West Aberdeenshire and         00312 Hexham                         
+      Kincardine                     00313 Heywood and Middleton   
+00008 Aldridge-Brownhills            00317 Hornchurch and Upminster 
+00009 Altrincham and Sale West       00320 Houghton and Sunderland South 
+00012 Angus                          00321 Hove
+00016 Arfon                          00325 Kingston upon Hull West
+00018 Arundel and South Downs              and Hessle
+00019 Ashfield                       00326 Huntingdon
+00020 Ashford                        00327 Hyndburn
+00022 Aylesbury                      00328 Ilford North
+00023 Ayr, Carrick and Cumnock       00334 Islington North
+00025 North Ayrshire and Arran       00337 Jarrow
+00026 Banbury                        00339 Kenilworth and Southam
+00029 Barnsley Central               00343 Kingston and Surbiton
+00030 Barnsley East                  00344 Kingswood
+00035 Bassetlaw                      00345 Kirkcaldy and Cowdenbeath
+00036 Bath                           00349 West Lancashire
+00041 Bedford                        00353 Leeds North East
+00050 Berwick-upon-Tweed             00357 Leicester South
+00051 Berwickshire, Roxburgh         00362 Lewes
+      and Selkirk                    00365 Lewisham West and Penge
+00053 Beverley and Holderness        00366 Leyton and Wanstead
+00054 Bexhill and Battle             00367 Lichfield
+00055 Bexleyheath and Crayford       00368 Lincoln
+00056 Birkenhead                     00369 Linlithgow and East Falkirk
+00057 Birmingham, Edgbaston          00371 Liverpool, Walton
+00058 Birmingham, Erdington          00373 Liverpool, West Derby
+00059 Birmingham, Hall Green         00377 Loughborough
+00060 Birmingham, Hodge Hill         00378 Louth and Horncastle
+00062 Birmingham, Northfield         00379 Ludlow
+00063 Birmingham, Perry Barr         00383 Maidenhead
+00064 Birmingham, Selly Oak          00385 Makerfield
+00065 Birmingham, Yardley            00386 Maldon
+00066 Bishop Auckland                00388 Manchester, Gorton
+00067 Blackburn                      00390 Mansfield
+00071 Blaenau Gwent                  00394 Middlesbrough
+00072 Blaydon                        00396 Midlothian
+00073 Blyth Valley                   00398 Milton Keynes South
+00075 Bolsover                       00400 Mole Valley
+00077 Bolton South East              00402 Montgomeryshire
+00078 Bolton West                    00404 Morecambe and Lunesdale
+00083 Bournemouth West               00406 Motherwell and Wishaw
+00085 Bradford East                  00409 New Forest East
+00086 Bradford South                 00411 Newark
+00091 Brent North                    00412 Newbury
+00093 Brentwood and Ongar            00416 Newcastle upon Tyne North
+00095 Bridgwater and West Somerset   00418 Newport West
+00096 Brigg and Goole                00421 Mid Norfolk
+00098 Brighton, Pavilion             00426 Normanton, Pontefract and
+00099 Bristol East                         Castleford
+00102 Bristol West                   00427 Northampton North
+00104 Bromley and Chislehurst        00428 Northampton South
+00105 Bromsgrove                     00431 Norwich South
+00106 Broxbourne                     00444 Oxford West and Abingdon
+00107 Broxtowe                       00446 Paisley and Renfrewshire South
+00109 Burnley                        00447 Pendle
+00111  Bury North                    00448 Penistone and Stocksbridge
+00114 Caerphilly                     0449  Penrith and The Border
+00117 Camberwell and Peckham         00450 Perth and North Perthshire
+00120 North East Cambridgeshire      00452 Plymouth, Moor View
+00122 South Cambridgeshire           00453 Plymouth, Sutton and Devonport
+00123 South East Cambridgeshire      00454 Pontypridd
+00124 Cannock Chase                  00460 Preston
+00125 Canterbury                     00461 Pudsey
+00126 Cardiff Central                00462 Putney
+00129 Cardiff West                   00464 Reading East
+00134 Castle Point                   00471 Ribble Valley
+00136 Charnwood                      00474 Rochdale
+00137 Chatham and Aylesford          00475 Rochester and Strood
+00140 Chelsea and Fulham             00477 Romford
+00143 City of Chester                00478 Romsey and Southampton North
+00145 Chichester                     00482 Rotherham
+00149 Chorley                        00483 Rugby
+00150 Christchurch                   00485 Runnymede and Weybridge
+00151 Cities of London and           00486 Rushcliffe
+      Westminster                    00488 Rutland and Melton
+00152 Clacton                        00489 Saffron Walden  
+00155 Clwyd West                     00490 St Albans 
+00157 Colchester                     00491 St Austell and Newquay 
+00162 North Cornwall                 00492 St Helens North 
+00163 South East Cornwall            00493 St Helens South and Whiston 
+00164 The Cotswolds                  00494 St Ives 
+00166 Coventry North West            00497 Scarborough and Whitby 
+00168 Crawley                        00501 Selby and Ainsty 
+00171 Croydon North                  00502 Sevenoaks 
+00173 Cumbernauld, Kilsyth and       00504 Sheffield Central 
+      Kirkintilloch East             00505 Sheffield Hallam 
+00174 Cynon Valley                   00506 Sheffield Heeley 
+00175 Dagenham and Rainham           00507 Sheffield South East 
+00176 Darlington                     00511 North Shropshire 
+00178 Daventry                       00512 Sittingbourne and Sheppey 
+00179 Delyn                          00513 Skipton and Ripon 
+00180 Denton and Reddish             00514 Sleaford and North Hykeham 
+00181 Derby North                    00515 Slough 
+00182 Derby South                    00518 North East Somerset 
+00185 North East Derbyshire          00521 South Ribble 
+00189 East Devon                     00522 South Shields 
+00190 North Devon                    00524 Southampton, Test 
+00194 Don Valley                     00526 Southport 
+00195 Doncaster Central              00528 Stafford 
+00197 Mid Dorset and North Poole     00529 Staffordshire Moorlands 
+00198 North Dorset                   00530 South Staffordshire 
+00200 West Dorset                    00531 Stalybridge and Hyde 
+00206 Dulwich and West Norwood       00532 Stevenage 
+00208 Dumfriesshire, Clydesdale      00533 Stirling 
+      and Tweeddale                  00534 Stockport 
+00210 West Dunbartonshire            00538 Stoke-on-Trent North 
+00213 Dunfermline and West Fife      00544 Streatham 
+00220 Ealing, Southall               00545 Stretford and Urmston 
+00224 East Lothian                   00548 Suffolk Coastal 
+00226 Eastleigh                      00549 South Suffolk 
+00229 Edinburgh North and Leith      00551 Sunderland Central 
+00231 Edinburgh South West           00553 Surrey Heath 
+00233 Edmonton                       00556 Sutton and Cheam 
+00234 Ellesmere Port and Neston      00559 Swansea West 
+00235 Elmet and Rothwell             00562 Tamworth 
+00239 Epping Forest                  00565 Telford 
+00247 Faversham and Mid Kent         00566 Tewkesbury 
+00251 Filton and Bradley Stoke       00568 South Thanet 
+00252 Finchley and Golders Green     00569 Thirsk and Malton 
+00254 Forest of Dean                 00571 Thurrock 
+00258 Garston and Halewood           00572 Tiverton and Honiton 
+00259 Gateshead                      00574 Tooting 
+00261 Gillingham and Rainham         00575 Torbay 
+00265 Glasgow North East             00579 Truro and Falmouth 
+00267 Glasgow South                  00580 Tunbridge Wells 
+00269 Glenrothes                     00588 Vale of Clwyd 
+00271 Gordon                         00589 Vale of Glamorgan 
+00272 Gosport                        00597 Wantage 
+00274 Grantham and Stamford          00602 North Warwickshire 
+00276 Great Grimsby                  00607 Weaver Vale 
+00277 Great Yarmouth                 00608 Wellingborough 
+00279 Guildford                      00610 Welwyn Hatfield 
+00280 Hackney North and Stoke        000612 West Bromwich East 
+      Newington                      00614 West Ham 
+00282 Halesowen and Rowley Regis     00616 Westmorland and Lonsdale 
+00283 Halifax                        00617 Weston-Super-Mare
+00286 Hammersmith                    00618 Wigan      
+00287 East Hampshire                 00621 Wimbledon      
+00288 North East Hampshire           00627 Witney      
+00290 Hampstead and Kilburn          00628 Woking      
+00291 Harborough                     00629 Wokingham      
+00292 Harlow                         00635 West Worcestershire      
+00294 Harrow East                    00636 Workington      
+00297 Harwich and North Essex        00642 Wycombe      
+00299 Havant                         00643 Wyre and Preston North      
+00300 Hayes and Harlington           00644 Wyre Forest      
+00302 Hemel Hempstead                00647 Ynys Mon      
+00304 Hendon                         00648 York Central            
+00309 North East Hertfordshire       00649 York Outer            
+00310 South West Hertfordshire             
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: GREECE (2012)
+---------------------------------------------------------------------------
+
+00001. A' Athinon                    00028. Kavalas
+00002. A' Peiraios                   00030. Kerkyras 
+00003. A' Thessalonikis              00031. Kilkis
+00004. Aitoloakarnanias              00032. Korinthias
+00005. Argolidos                     00033. Kozanis 
+00006. Arkadias                      00034. Xanthis
+00007. Artas                         00035. Kykladon
+00008. Attikis                       00036. Lakonias 
+00009. Achaias                       00037. Larisas 
+00010. B' Athinon                    00040. Lesvou 
+00011. B' Peiraios                   00041. Magnesias
+00012. B' Thessalonikis              00042. Messinias
+00013. Dodekanisou                   00043. Pellas
+00014. Dramas                        00044. Pierias
+00015. Eyvoias                       00045. Prevezas
+00016. Evrou                         00046. Rethymnis
+00018. Florinas                      00047. Rodopis              
+00019. Fokidas                       00049. Serron
+00020. Fthiotidas                    00050. Thesprotias   
+00022. Ileias                        00051. Trikalon
+00023. Imathias                      00052. Voiotias             
+00024. Ioanninon                     00053. Chalkidiki 
+00025. Irakleiou                     00054. Chanion
+00026. Karditsas                     00056. Zakynthou 
+00027. Kastorias                    
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: GREECE (2015)
+---------------------------------------------------------------------------
+
+00002.  Aitoloakarnanias            00031. Lakonias
+00003.  Argolidos                   00032. Larisas
+00004.  Arkadias                    00033. Lasithiou
+00005.  Artas                       00034. Lesvou
+00007.  Achaias                     00036. Magnesias
+00008.  Voiotias                    00037. Messinias
+00009.  Grevenon                    00038. Xanthis
+00010.  Dramas                      00039. Pellas
+00011.  Dodekanisou                 00040. Pierias
+00012.  Evrou                       00041. Prevezas
+00013.  Eyvoias                     00042. Rethymnis
+00014.  Eyrytanias                  00043. Rodopis
+00015.  Zakynthou                   00045. Serron
+00016.  Ileias                      00046. Trikalon
+00017.  Imathias                    00047. Fthiotidas
+00018.  Irakleiou                   00048. Florinas
+00019.  Thesprotias                 00049. Fokidas
+00021.  Ioanninon                   00050. Chalkidikis
+00022.  Kavalas                     00051. Chanion
+00023.  Karditsas                   00061. A' Athinon
+00025.  Kerkyras                    00062. B' Athinon
+00026.  Kefallinias                 00063. A' Peiraios
+00027.  Kilkis                      00064. B' Peiraios
+00028.  Kozanis                     00065. Attikis
+00029.  Korinthias                  00071. A' Thessalonikis
+00030.  Kykladon                    00072. B' Thessalonikis
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: HONG KONG (2012)
+---------------------------------------------------------------------------
+00001. Hong Kong Island
+00002. Kowloon East
+00003. Kowloon West
+00004. New Territories East
+00005. New Territories West
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ICELAND (2013)
+---------------------------------------------------------------------------
+
+00001. North-East
+00002. North-West
+00003. South
+00004. South-West
+00005. Reykjavik North
+00006. Reykjavik South
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: IRELAND (2011)
+---------------------------------------------------------------------------
+
+00001. Carlow-Kilkenny               00023. Galway East
+00002. Cavan-Monaghan                00024. Galway West
+00003. Clare                         00025. Kerry North-West Limerick
+00004. Cork East                     00026. Kerry South
+00005. Cork North Central            00027. Kildare North
+00006. Cork North West               00028. Kildare South
+00007. Cork South Central            00029. Laois-Offaly
+00008. Cork South West               00030. Limerick
+00009. Donegal North East            00031. Limerick City
+00010. Donegal South West            00032. Longford-Westmeath
+00011. Dublin Central                00033. Louth
+00012. Dublin Mid-West               00034. Mayo
+00013. Dublin North                  00035. Meath East
+00014. Dublin North Central          00036. Meath West
+00015. Dublin North East             00037. Roscommon-South Leitrim
+00016. Dublin North West             00038. Sligo-North Leitrim
+00017. Dublin South                  00039. Tipperary North
+00018. Dublin South Central          00040. Tipperary South
+00019. Dublin South East             00041. Waterford
+00020. Dublin South West             00042. Wexford
+00021. Dublin West                   00043. Wicklow
+00022. Dun Laoghaire
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ISRAEL (2013)
+---------------------------------------------------------------------------
+
+00001. Israel 
+
+
+         | ELECTION STUDY NOTES - ISRAEL (2013): PRIMARY ELECTORAL
+         |                                       DISTRICTS
+         |
+         | Israel operates a nationwide electoral district. 
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: JAPAN (2013)
+---------------------------------------------------------------------------
+
+00001. Hokkaido                      00025. Shiga
+00002. Aomori                        00026. Kyoto
+00003. Iwate                         00027. Osaka
+00004. Miyagi                        00028. Hyogo
+00005. Akita                         00029. Nara
+00006. Yamagata                      00030. Wakayama
+00007. Fukushima                     00032. Shimane
+00008. Ibaraki                       00033. Okayama
+00009. Tochigi                       00034. Hiroshima
+00010. Gumma                         00035. Yamaguchi
+00011. Saitama                       00036. Tokushima
+00012. Chiba                         00037. Kagawa
+00013. Tokyo                         00038. Ehime
+00014. Kanagawa                      00039. Kochi
+00015. Niigata                       00040. Fukuoka
+00016. Toyama                        00041. Saga
+00017. Ishikawa                      00042. Nagasaki
+00018. Fukui                         00043. Kumamoto
+00020. Nagano                        00044. Oita
+00021. Gifu                          00045. Miyazaki
+00022. Shizuoka                      00046. Kagoshima
+00023. Aichi                         00047. Okinawa
+00024. Mie
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: KENYA (2013)
+---------------------------------------------------------------------------
+
+00001.  Changamwe                     00167.  Njoro 
+00002.  Jomvu                         00168.  Naivasha        
+00006.  Mvita                         00169.  Gilgil          
+00007.  Msambweni                     00183.  Kajiado North   
+00008.  Lungalunga                    00184.  Kajiado Central     
+00011.  Kilifi North                  00185.  Kajiado East      
+00016.  Malindi                       00186.  Kajiado West    
+00020.  Bura                          00190.  Ainamoi        
+00039.  Mandera West                  00193.  Sigowet/Soin  
+00040.  Banissa                       00209.  Shinyalu   
+00053.  Igembe North                  00217.  Sirisia 
+00062.  Tharaka                       00218.  Kabuchai
+00075.  Masinga                       00234.  Alego Usonga  
+00079.  Kathiani                      00238.  Kisumu East   
+00080.  Mavoko                        00240.  Kisumu Central
+00090.  Kipipiri                      00247.  Karachuonyo     
+00101.  Gichugu                       00263.  Bomachoge Borabu
+00111.  Gatundu South                 00265.  Bomachoge Chache
+00113.  Juja                          00274.  Westlands       
+00114.  Thika Town                    00275.  Dagoretti North 
+00115.  Ruiru                         00277.  Langata         
+00129.  Kapenguria                    00278.  Kibra           
+00132.  Pokot South                   00280.  Kasarani        
+00141.  Soy                           00282.  Embakasi South  
+00142.  Turbo                         00283.  Embakasi North  
+00154.  Chesumei                      00284.  Embakasi Central
+00155.  Emgwen                        00285.  Embakasi East   
+00166.  Molo                          00286.  Embakasi West   
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: LATVIA (2011)
+---------------------------------------------------------------------------
+
+00001.  Riga                          00004.  Zemgale
+00002.  Vidzeme                       00005.  Latgale
+00003.  Kurzeme                       
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: LATVIA (2014)
+---------------------------------------------------------------------------
+
+00001.  Riga                          00004.  Zemgale
+00002.  Vidzeme                       00005.  Latgale 
+00003.  Kurzeme                                    
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: MEXICO (2012)
+---------------------------------------------------------------------------
+
+00102.  Aguascalientes 2              01520.  Mexico 20
+00201.  Baja California 1             01521.  Mexico 21
+00202.  Baja California 2             01523.  Mexico 23
+00203.  Baja California 3             01524.  Mexico 24
+00204.  Baja California 4             01525.  Mexico 25
+00205.  Baja California 5             01531.  Mexico 31
+00207.  Baja California 7             01532.  Mexico 32
+00502.  Coahuila 2                    01535.  Mexico 35
+00503.  Coahuila 3                    01540.  Mexico 40
+00504.  Coahuila 4                    01602.  Michoacan 2
+00506.  Coahuila 6                    01603.  Michoacan 3
+00602.  Colima 2                      01605.  Michoacan 5
+00703.  Chiapas 3                     01607.  Michoacan 7
+00710.  Chiapas 10                    01610.  Michoacan 10
+00712.  Chiapas 12                    01701.  Morelos 1
+00801.  Chihuahua 1                   01705.  Morelos 5
+00803.  Chihuahua 3                   01803.  Nayarit 3
+00808.  Chihuahua 8                   01901.  Nuevo Leon 1
+00901.  Distrito Federal 1            01903.  Nuevo Leon 3
+00902.  Distrito Federal 2            01904.  Nuevo Leon 4
+00903.  Distrito Federal 3            01905.  Nuevo Leon 5
+00905.  Distrito Federal 5            01908.  Nuevo Leon 8
+00907.  Distrito Federal 7            01910.  Nuevo Leon 10
+00909.  Distrito Federal 9            01912.  Nuevo Leon 12
+00910.  Distrito Federal 10           02001.  Oaxaca 1
+00911.  Distrito Federal 11           02003.  Oaxaca 3
+00914.  Distrito Federal 14           02011.  Oaxaca 11
+00919.  Distrito Federal 19           02101.  Puebla 1
+00920.  Distrito Federal 20           02104.  Puebla 4
+00921.  Distrito Federal 21           02107.  Puebla 7
+00923.  Distrito Federal 23           02108.  Puebla 8
+00924.  Distrito Federal 24           02110.  Puebla 10
+00926.  Distrito Federal 26           02112.  Puebla 12
+01002.  Durango 2                     02113.  Puebla 13
+01004.  Durango 4                     02203.  Queretaro 3
+01103.  Guanajuato 3                  02204.  Queretaro 4
+01104.  Guanajuato 4                  02301.  Quintana roo 1
+01105.  Guanajuato 5                  02303.  Quintana roo 3
+01106.  Guanajuato 6                  02406.  San Luis Potosi 6
+01107.  Guanajuato 7                  02407.  San Luis Potosi 7
+01112.  Guanajuato 12                 02504.  Sinaloa 4
+01113.  Guanajuato 13                 02505.  Sinaloa 5
+01114.  Guanajuato 14                 02508.  Sinaloa 8
+01201.  Guerrero 1                    02602.  Sonora 2
+01202.  Guerrero 2                    02603.  Sonora 3
+01203.  Guerrero 3                    02702.  Tabasco 2
+01204.  Guerrero 4                    02703.  Tabasco 3
+01209.  Guerrero 9                    02803.  Tamaulipas 3
+01301.  Hidalgo 1                     02804.  Tamaulipas 4
+01302.  Hidalgo 2                     02805.  Tamaulipas 5
+01305.  Hidalgo 5                     02902.  Tlaxcala 2
+01405.  Jalisco 5                     03004.  Veracruz 4
+01407.  Jalisco 7                     03005.  Veracruz 5
+01409.  Jalisco 9                     03006.  Veracruz 6
+01412.  Jalisco 12                    03007.  Veracruz 7
+01414.  Jalisco 14                    03012.  Veracruz 12
+01418.  Jalisco 18                    03013.  Veracruz 13
+01501.  Mexico 1                      03014.  Veracruz 14
+01504.  Mexico 4                      03017.  Veracruz 17
+01511.  Mexico 11                     03020.  Veracruz 20
+01513.  Mexico 13                     03101.  Yucatan 1
+01515.  Mexico 15                     03103.  Yucatan 3
+01516.  Mexico 16                     03104.  Yucatan 4
+01518.  Mexico 18                     03201.  Zacatecas 1
+01519.  Mexico 19                     03203.  Zacatecas 3
+
+
+
+         | ELECTION STUDY NOTES - MEXICO (2012): PRIMARY ELECTORAL
+         |                                       DISTRICTS
+         |
+         | The first two values in the district codes correspond 
+         | to the Federal States. The last two values indicate the electoral
+         | district. 
+         | 
+         | Two alliances formed in the 2012 Mexican election. ALLIANCE 1,
+         | Commitment for Mexico, was an alliance of PARTY A (Institutional
+         | Revolutionary Party, PRI) and PARTY D (Ecological Green Party of 
+         | Mexico, PVEM) This alliance formed in some, but not all electoral
+         | districts. ALLIANCE 2, Progressive Movement, was an alliance of 
+         | PARTY C (Party of the Democratic Revolution, PRD), PARTY E (Labor
+         | Party, PT) and PARTY G (Citizens' Movement, MC).
+         | As no district-level information was available for the 
+         | individual parties composing the alliances, vote shares for the
+         | alliances are coded into the party variable of the biggest 
+         | party of the alliance (i.e., PARTIES A and C). Where applicable, 
+         | variables for the minor parties of the respective alliance are
+         | set to missing (PARTIES D, E, and G).
+
+
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: MONTENEGRO (2012)
+---------------------------------------------------------------------------
+
+00001.  MONTENEGRO
+
+
+         | ELECTION STUDY NOTES - MONTENEGRO (2012):
+         |
+         | Montenegro operates a nationwide electoral district. 
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS:  NEW ZEALAND (2011)
+---------------------------------------------------------------------------
+
+00001. Auckland Central              00036. Otaki
+00002. Bay of Plenty                 00037. Pakuranga
+00003. Botany                        00038. Palmerston North
+00004. Christchurch Central          00039. Papakura
+00005. Christchurch East             00040. Port Hills
+00006. Clutha-Southland              00041. Rangitata
+00007. Coromandel                    00042. Rangitikei
+00008. Dunedin North                 00043. Rimutaka
+00009. Dunedin South                 00044. Rodney
+00010. East Coast                    00045. Rongatai
+00011. East Coast Bays               00046. Rotorua
+00012. Epsom                         00047. Selwyn
+00013. Hamilton East                 00048. Tamaki
+00014. Hamilton West                 00049. Taranaki-King Country
+00015. Helensville                   00050. Taupo
+00016. Hunua                         00051. Tauranga
+00017. Hutt South                    00052. Te Atatu
+00018. Ilam                          00053. Tukituki
+00019. Invercargill                  00054. Waikato
+00020. Kaikoura                      00055. Waimakariri
+00021. Mana                          00056. Wairarapa
+00022. Mangere                       00057. Waitakere
+00023. Manukau East                  00058. Waitaki
+00024. Manurewa                      00059. Wellington Central
+00025. Maungakiekie                  00060. West Coast-Tasman
+00026. Mt Albert                     00061. Whanganui
+00027. Mt Roskill                    00062. Whangarei
+00028. Napier                        00063. Wigram
+00029. Nelson                        00064. Hauraki-Waikato (Maori)
+00030. New Lynn                      00065. Ikaroa-Rawhiti (Maori)
+00031. New Plymouth                  00066. Tamaki Makaurau (Maori)
+00032. North Shore                   00067. Te Tai Hauauru (Maori)
+00033. Northcote                     00068. Te Tai Tokerau (Maori)
+00034. Northland                     00069. Te Tai Tonga (Maori)
+00035. Ohariu                        00070. Waiariki (Maori)
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS:  NEW ZEALAND (2014)
+---------------------------------------------------------------------------
+
+00001. Auckland Central              00037. Otaki
+00002. Bay of Plenty                 00038. Pakuranga
+00003. Botany                        00039. Palmerston North
+00004. Christchurch Central          00040. Papakura
+00005. Christchurch East             00041. Port Hills
+00006. Clutha-Southland              00042. Rangitata
+00007. Coromandel                    00043. Rangitikei
+00008. Dunedin North                 00044. Rimutaka
+00009. Dunedin South                 00045. Rodney
+00010. East Coast                    00046. Rongotai
+00011. East Coast Bays               00047. Rotorua
+00012. Epsom                         00048. Selwyn
+00013. Hamilton East                 00049. Tamaki
+00014. Hamilton West                 00050. Taranaki-King Country
+00015. Helensville                   00051. Taupo
+00016. Hunua                         00052. Tauranga
+00017. Hutt South                    00053. Te Atatu
+00018. Ilam                          00054. Tukituki
+00019. Invercargill                  00055. Upper Harbour
+00020. Kaikoura                      00056. Waikato
+00021. Kelston                       00057. Waimakariri
+00022. Mana                          00058. Wairarapa
+00023. Mangere                       00059. Waitaki
+00024. Manukau East                  00060. Wellington Central
+00025. Manurewa                      00061. West Coast-Tasman
+00026. Maungakiekie                  00062. Whanganui
+00027. Mt Albert                     00063. Whangarei
+00028. Mt Roskill                    00064. Wigram
+00029. Napier                        00065. Hauraki-Waikato
+00030. Nelson                        00066. Ikaroa-Rawhiti
+00031. New Lynn                      00067. Tamaki Makaurau
+00032. New Plymouth                  00068. Te Tai Hauauru
+00033. North Shore                   00069. Te Tai Tokerau
+00034. Northcote                     00070. Te Tai Tonga
+00035. Northland                     00071. Waiariki
+00036. Ohariu
+
+         | ELECTION STUDY NOTES - NEW ZEALAND (2014): PRIMARY ELECTORAL 
+         |                                        DISTRICTS
+         |
+         | Compared to 2011, there are 71 instead of 70 electoral districts.  
+         | The district of Kelston (coded 00021) is a new district.
+         | Users are advised that when electorate boundaries change, 
+         | existing district names may be retained but district boundaries 
+         | may have altered significantly. In sum, name continuity does not
+         | necessarily mean the continuity of the area the district covers.                   
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: NORWAY (2013)
+---------------------------------------------------------------------------
+
+00001.  Ostfold                      00011.  Rogaland
+00002.  Akershus                     00012.  Hordaland
+00003.  Oslo                         00014.  Sogn og Fjordane
+00004.  Hedmark                      00015.  More og Romsdal
+00005.  Oppland                      00016.  Sor-Trondelag
+00006.  Buskerud                     00017.  Nord-Trondelag
+00007.  Vestfold                     00018.  Nordland
+00008.  Telemark                     00019.  Troms
+00009.  Aust-Agder                   00020.  Finnmark
+00010.  Vest-Agder                   
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: PERU (2016)
+---------------------------------------------------------------------------
+
+00002.  Ancash                        00013.  La Libertad
+00004.  Arequipa                      00014.  Lambayeque 
+00005.  Ayacucho                      00015.  Lima 
+00006.  Cajamarca                     00016.  Loreto 
+00007.  Callao                        00020.  Piura
+00008.  Cusco                         00021.  Puno 
+00009.  Huancavelica                  00022.  San Martin 
+00010.  Huanuco                       00023.  Tacna
+00011.  Ica                           00025.  Ucayali
+00012.  Junin 
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: PHILIPPINES (2016)
+---------------------------------------------------------------------------
+
+00001. Manila 5th District           00044. Laguna 2nd District
+00002. Manila 6th District           00045. Laguna 3rd District
+00003. Manila 3rd District           00046. Laguna 4th District
+00004. Manila 1st District           00047. Rizal 2nd Lone District
+00005. Manila 2nd District           00048. Rizal 1st District
+00006. Mandaluyong City Lone         00049. Rizal 2nd District
+       District                      00050. Palawan 2nd District
+00007. Marikina City 2nd             00051. Palawan 1st District
+       District                      00052. Camarines Sur 5th District
+00008. Pasig City 1st District       00053. Camarines Sur 4th District
+00009. Pasig City 2nd District       00054. Camarines Sur 2nd District
+00010. Quezon City 6th District      00055. Camarines Sur 1st District
+00011. Quezon City 3rd District      00056. Antique Lone District
+00012. Quezon City 2nd District      00057. Negros Oriental 2nd District
+00013. Quezon City 5th District      00058. Negros Oriental 1st District
+00014. Quezon City 1st District      00059. Negros Oriental 3rd District
+00015. Quezon City 4th District      00060. Cebu 3rd District
+00016. Las Pinas City Lone           00061. Cebu 5th District
+       District                      00062. Cebu 1st District
+00017. Makati City 1st District      00063. Cebu 2nd District
+00018. Makati City 2nd District      00064. Cebu 4th District
+00019. Muntinlupa City Lone          00065. Cebu 2nd Lone District
+       District                      00066. Cebu Lone District
+00020. Navotas City Lone             00067. Cebu 6th District
+       District                      00068. Leyte 5th District
+00021. Paranaque City 1st            00069. Leyte 3rd District
+       District                      00070. Leyte 2nd District
+00022. Paranaque City 2nd District   00071. Leyte 4th District
+00023. Valenzuela City 1st District  00072. Leyte 1st District
+00024. Caloocan City 1st             00073. Samar (Western Samar)2nd
+       District                                    District
+00025. Pasay City 1st District       00074. Samar (Western Samar) 1st 
+00026. Pasay City 2nd District                     District
+00027. Taguig City 1st District      00075. Zamboanga Del Norte 2nd
+00028. Ilocos Sur 2nd District              District
+00029. Ilocos Sur 1st District       00076. Zamboanga Del Norte 3rd
+00030. Cagayan 1st District                 District
+00031. Cagayan 3rd District          00077. Lanao Del Norte 1st District
+00032. Bulacan 1st District          00078. Lanao Del Norte 2nd District
+00033. Bulacan 4th District          00079. Lanao Del Norte Lone District
+00034. Bulacan 2nd District          00080. Agusan Del Sur 1st District
+00035. Bulacan 3rd District          00081. Agusan Del Sur 2nd District
+00036. Nueva Ecija 3rd District      00082. Davao Del Sur 1st District
+00037. Nueva Ecija 4th District      00083. Davao Del Sur 3rd Lone 
+00038. Pampanga 1st District                District
+00039. Pampanga 3rd District         00084. Sultan Kudarat 2nd District
+00040. Pampanga 4th District         00085. Sultan Kudarat 1st District
+00041. Cavite 4th District           00086. Lanao Del Sur 1st District
+00042. Cavite 7th District           00087. Lanao Del Sur 2nd District
+00043. Cavite 6th District           00088. Bulacan Lone District
+
+         | ELECTION STUDY NOTES - PHILIPPINES (2016): PRIMARY ELECTORAL 
+         |                                            DISTRICTS
+         |
+         | The list above only refers to the election of district
+         | candidates in the lower house election. The party-list tier
+         | and the Presidential election are contested on a nationwide 
+         | district basis. 
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: POLAND (2011)
+---------------------------------------------------------------------------
+
+00001. Legnica                       00022. Krosno
+00002. Walbrzych                     00023. Rzeszow
+00003. Wroclaw                       00024. Bialystok
+00004. Bydgoszcz                     00025. Gdansk
+00005. Torun                         00026. Gdynia
+00006. Lublin                        00027. Bielsko-Biala
+00007. Chelm                         00028. Czestochowa
+00008. Zielona Gora                  00029. Gliwice
+00009. Boat                          00030. Rybnik
+00010. Piotrkow Trybunalski          00031. Katowice
+00011. Sieradz                       00032. Sosnowiec
+00012. Krakow I                      00033. Kielce
+00013. Krakow II                     00034. Elblag
+00014. Nowy Sacz                     00035. Olsztyn
+00015. Tarnow                        00036. Kalisz
+00016. Plock                         00037. Konin
+00017. Radom                         00038. Saw
+00018. Siedlce                       00039. Poznan
+00019. Warsaw I                      00040. Koszalin
+00020. Warsaw II                     00041. Szczecin
+00021. Opole
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: PORTUGAL (2015)
+---------------------------------------------------------------------------
+
+00001. Aveiro                        00011.  Lisboa
+00002. Beja                          00012.  Portalegre
+00003. Braga                         00013.  Porto
+00004. Braganca                      00014.  Santarem
+00005. Castelo Branco                00015.  Setubal
+00006. Coimbra                       00016.  Viana do Castelo
+00007. Evora                         00017.  Vila Real
+00008. Faro                          00018.  Viseu
+00009. Guarda                        00021.  Europe and Outside Europe
+00010. Leiria                                (emigration districts)
+
+         | ELECTION STUDY NOTES - PORTUGAL (2015): PRIMARY ELECTORAL 
+         |                                        DISTRICTS
+         |
+         | In the case of Portugal (2015), the district variable contains
+         | respondents' answers to the question in which electoral district 
+         | they are registered. Six cases were coded "99999. Missing"
+         | containing two respondents saying "don't know" and four 
+         | respondents refusing to answer.
+         |
+         | There are two districts for people voting from outside Portugal
+         | (emigrants): "21. Europe" and "22. Outside Europe".
+         | However, in this case, they were summarized 
+         | in district code 21. The district level data represents the sum 
+         | of the seats of these two districts in D4001 and the averages of 
+         | the respective parties' election results (D4004_) in the two
+         | original districts as well as the average turnout in these two
+         | districts (D4005). The number of party lists presented in the 
+         | two districts (D4003) was 16 in both cases. 
+         |
+         | Two election districts were excluded from the 
+         | sample frame, namely the autonomous regions/archipelagos of 
+         | Madeira and Azores. This excluded 4.87% of the total eligible 
+         | population from the sample frame according to Portugal's 
+         | official statistics of 2014. 
+         | 
+         | Source of data: http://www.pordata.pt/en/
+         | Municipalities/Resident+population++estimates+at+December+31st-
+         | 120 
+         | (Date accessed: April, 2016).
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ROMANIA (2012)
+---------------------------------------------------------------------------
+
+00001. Alba 1                 00036. Ialomita 2
+00002. Arad 2                 00037. Olfov 3
+00003. Arad 3                 00038. Maramures 1
+00004. Arges 7                00039. Mehedinti 1
+00005. Arges 9                00040. Mures 1
+00006. Bacau 1                00041. Mures 2
+00007. Bacau 3                00042. Bucaresti 1
+00008. Bihor 9                00043. Bucaresti 2
+00009. Bistrita-Nasaud 1      00044. Bucaresti 26
+00010. Botosani 5             00045. Bucaresti 27
+00011. Botosani 6             00046. Bucaresti 6
+00012. Braila 1               00047. Bucaresti 7
+00013. Braila 3               00048. Bucaresti 8
+00014. Brasov 5               00049. Bucaresti 9
+00015. Brasov 8               00050. Neamt 1
+00016. Buzau 6                00051. Olt 1
+00017. Buzau 7                00052. Prahova 10
+00018. Calarasi 1             00053. Prahova 12
+00019. Caras-Severin 1        00054. Satu Mare 5
+00020. Cluj 1                 00055. Sibiu 1
+00021. Cluj 3                 00056. Suceava 1
+00022. Constanta 10           00057. Teleorman 3
+00023. Constanta 6            00058. Timis 1
+00024. Dolj 3                 00059. Timis 2
+00025. Dolj 4                 00060. Vrancea 1
+00026. Dambovita 4            00061. Vrancea 2
+00027. Galati 6               00062. Valcea 1
+00028. Galati 8               00063. Valcea 3
+00029. Giurgiu 1              
+00030. Gorj 5                 
+00031. Gorj 6                 
+00032. Harghita 1             
+00033. Hunedoara 6            
+00034. Iasi 8                 
+00035. Iasi 9                 
+
+         | ELECTION STUDY NOTES - ROMANIA (2012): PRIMARY ELECTORAL 
+         |                                        DISTRICTS
+         |
+         | The names refer to the constituencies of which there were 43 in
+         | the 2012 Romanian election. These constituencies were further 
+         | divided into electoral districts, referred to as 'electoral
+         | colleges'. The number following the constituency name indicates
+         | the number of the electoral district within the respective
+         | constituency. For instance, Alba 1 indicates the first electoral
+         | district in the Alba constituency. 
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ROMANIA (2014)
+---------------------------------------------------------------------------
+
+99996.     NATIONWIDE DISTRICT (PRESIDENTIAL ELECTION)
+
+
+         | ELECTION STUDY NOTES - ROMANIA (2014): PRIMARY ELECTORAL
+         |                                        DISTRICTS
+         |
+         | Romania operates a nationwide electoral district for Presidential
+         | elections.         
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SERBIA (2012)
+---------------------------------------------------------------------------
+
+00001.  Serbia. 
+
+
+         | ELECTION STUDY NOTES - SERBIA (2012): PRIMARY ELECTORAL
+         |                                       DISTRICTS
+         |
+         | Serbia operates a nationwide electoral district. 
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SLOVAKIA (2016)
+---------------------------------------------------------------------------
+
+00001.  Slovakia 
+
+
+         | ELECTION STUDY NOTES - SLOVAKIA (2016): PRIMARY ELECTORAL
+         |                                         DISTRICTS
+         |
+         | Slovakia operates a nationwide electoral district. 
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SLOVENIA (2011)
+---------------------------------------------------------------------------
+
+00001. Jesenice                      00032. Domzale II
+00002. Radovljica I                  00033. Sentjur
+00003. Radovljica II                 00034. Celje I
+00004. Kranj I                       00035. Celje II
+00005. Kranj II                      00036. Zalec I
+00006. Trzic                         00037. Zalec II
+00007. Skofja Loka I                 00038. Velenje I
+00008. Skofja Loka II                00039. Velenje II
+00009. Kamnik                        00040. Ravne na Koroskem
+00010. Idrija                        00041. Dravograd. Radlje
+00011. Tolmin                        00042. Crnomelj. Metlika
+00012. Izola                         00043. Novo mesto I
+00013. Koper I                       00044. Novo mesto II
+00014. Koper II                      00045. Trebnje
+00015. Sezana                        00046. Krsko
+00016. Ilirska Bistrica              00047. Hrastnik
+00017. Nova Gorica I                 00048. Trbovlje
+00018. Ajdovscina                    00049. Zagorje
+00019. Cerknica. Logatec             00050. Smarje pri Jelsah
+00020. Vrhnika                       00051. Slovenska Bistrica
+00021. LJ.Vic. Rudnik I              00052. Slovenske Konjice
+00022. LJ.Siska I                    00053. Ruse
+00023. LJ.Siska II                   00054. Maribor I
+00024. Kocevje                       00055. Maribor II
+00025. Grosuplje                     00056. Ljutomer
+00026. Litija                        00057. Murska Sobota I
+00027. LJ.Moste. Polje I             00058. Murska Sobota II
+00028. LJ.Moste. Polje II            00059. Gornja Radgona
+00029. LJ.Moste. Polje III           00060. Lenart
+00030. LJ. Bezigrad I                00061. Ptuj I
+00031. Domzale I                     00062. Ptuj II
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SOUTH AFRICA (2014)
+---------------------------------------------------------------------------
+
+00001.  Eastern Cape                 00006.  Mpumalanga
+00002.  Free State                   00007.  Northern Cape
+00003.  Gauteng                      00008.  North West
+00004.  KwaZulu Natal                00009.  Western Cape
+00005.  Limpopo
+
+         | ELECTION STUDY NOTES - SOUTH AFRICA (2014): PRIMARY ELECTORAL 
+         |                                             DISTRICTS
+         |
+         | The nine provinces as in D2028 constitute the primary
+         | electoral districts in South Africa.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SOUTH KOREA (2012)
+---------------------------------------------------------------------------
+
+00001. Seoul Yangcheon-gu Gab
+00002. Seoul Yangcheon-gu Ul
+00003. Seoul Guro-gu Gab
+00004. Seoul Geumcheon-gu
+00005. Seoul Yeongdeungpo-gu Gab
+00006. Seoul Yeongdeungpo-gu Ul
+00007. Seoul Dongjak-gu Gab
+00008. Seoul Dongjak-gu Ul
+00009. Seoul Seocho-gu Gab
+00010. Seoul Seocho-gu Ul
+00011. Seoul Gangnam-gu Gab
+00012. Seoul Gangnam-gu Ul
+00013. Seoul Songpa-gu Gab
+00014. Seoul Songpa-gu Ul
+00015. Seoul Songpa-gu Byeong
+00016. Seoul Gangdong-gu Gab
+00017. Seoul Gangdong-gu Ul
+00018. Seoul Jongno-gu
+00019. Seoul Gwangjin-gu Gab
+00020. Seoul Gwangjin-gu Ul
+00021. Seoul Dongdaemun-gu Gab
+00022. Seoul Dongdaemun-gu Ul
+00023. Seoul Seongbuk-gu Gab
+00024. Seoul Seongbuk-gu Ul
+00025. Seoul Gangbuk-gu Gab
+00026. Seoul Gangbuk-gu Ul
+00027. Seoul Eunpyeong-gu Gab 
+00028. Seoul Eunpyeong-gu Ul
+00029. Seoul Seodaemun-gu Gab
+00030. Seoul Seodaemun-gu Ul
+00031. Seoul Mapo-gu Gab
+00032. Seoul Mapo-gu Ul
+00033. Busan Yeongdo-gu
+00034. Busan Dongrae-gu
+00035. Busan Nam-gu Gab
+00036. Busan Nam-gu Ul
+00037. Busan Yeonje-gu
+00038. Busan Suyeong-gu
+00039. Busan Sasang-gu
+00040. Daegu Seo-gu
+00041. Daegu Buk-gu Gab
+00042. Daegu Buk-gu Ul
+00043. Daegu Suseong-gu Gab
+00044. Daegu Suseong-gu Ul
+00045. Daegu Dalseo-gu Gab
+00046. Daegu Dalseo-gu Ul 
+00047. Daegu Dalseo-gu Byeong
+00048. Incheon Jung-gu, Dong-gu, Ongjin-gun
+00049. Incheon Yeonsu-gu
+00050. Incheon Namdong-gu Gab
+00051. Incheon Namdong-gu Ul
+00052. Incheon Seo-gu, Ganghwa-gun Gab
+00053. Gwangju Dong-gu
+00054. Gwangju Gwangsan-gu Gab
+00055. Gwangju Gwangsan-gu Ul
+00056. Daejeon Dong-gu
+00057. Daejeon Jung-gu
+00058. Ulsan Dong-gu
+00059. Ulsan Buk-gu
+00060. Gyeonggi Anyang-si Manan-gu
+00061. Gyeonggi Anyang-si Dongan-gu Gab
+00062. Gyeonggi Anyang-si Dongan-gu Ul
+00063. Gyeonggi Gwangmyeong-si Gab
+00064. Gyeonggi Gwangmyeong-si Ul
+00065. Gyeonggi Pyeongtaek-si Ul
+00066. Gyeonggi Ansan-si Danwon-gu Gab
+00067. Gyeonggi Ansan-si Danwon-gu Ul
+00068. Gyeonggi Ansan-si Sangnok-gu Gab
+00069. Gyeonggi Ansan-si Sangnok-gu Ul
+00070. Gyeonggi Suwon-si Gab
+00071. Gyeonggi Suwon-si Ul
+00072. Gyeonggi Suwon-si Byeong
+00073. Gyeonggi Bucheon-si Ojeong-gu
+00074. Gyeonggi Bucheon-si Wonmi-gu Ul
+00075. Gyeonggi Siheung-si Gab
+00076. Gyeonggi Siheung-si Ul
+00077. Gyeonggi Gwacheon-si, Uiwang-si
+00078. Gyeonggi Yongin-si Ul
+00079. Gyeonggi Anseong-si
+00080. Gyeonggi Gimpo-si
+00081. Gyeonggi Hwaseong-si Gab
+00082. Gyeonggi Hwaseong-si Ul
+00083. Gyeonggi Gwangju-si
+00084. Gyeonggi Goyang-si Ilsandong-gu
+00085. Gyeonggi Goyang-si Ilsanseo-gu
+00086. Gyeonggi Goyang-si Deongyang-gu Gab
+00087. Gyeonggi Goyang-si Deongyang-gu Ul
+00088. Gyeonggi Yangju-si, Dongducheon-si
+00089. Gyeonggi Namyangju-si Gab
+00090. Gyeonggi Namyangju-si Ul
+00091. Gyeonggi Guri-si
+00092. Gyeonggi Yeoju-si, Yangpyeong-gun, Gapyeong-gun
+00093. Gangwon Wonju-si Gab
+00094. Gangwon Wonju-si Ul
+00095. Gangwon Chuncheon-si
+00096. Gangwon Sokcho-si, Goseong-gun, Yangyang-gun
+00097. Chungbuk Chungju-si
+00098. Chungbuk Jecheon-si, Danyang-gun
+00099. Chungbuk Cheongwon-gun
+00100. Chungnam Boryeong-si, Seocheon-gun
+00101. Chungnam Asan-si
+00102. Chungnam Hongseong-gun, Yesan-gun
+00103. Jeonbuk Gunsan-si
+00104. Jeonbuk Iksan-si Gab
+00105. Jeonbuk Iksan-si Ul
+00106. Jeonbuk Jinan-gun, Muju-gun, Jangsu-gun
+00107. Jeonnam Mokpo-si
+00108. Jeonnam Gwangyang-si, Gurye-gun
+00109. Jeonnam Goheung-gun, Boseong-gun
+00110. Gyeongbuk Gimcheon-si
+00111. Gyeongbuk Yeongcheon-si
+00112. Gyeongbuk Mungyeong-si, Yecheon-gun
+00113. Gyeongbuk Gunwi-gun, Uiseong-gun, Cheongsong-gun
+00114. Gyeongnam Jinju-si Gab
+00115. Gyeongnam Jinju-si Ul
+00116. Gyeongnam Masan-si Hoewon-gu
+00117. Gyeongnam Miryang-si, Changnyeong-gun
+00118. Gyeongnam Yangsan-si
+00119. Gyeongnam Uiryeong-gun, Haman-gun, Hapcheon-gun
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SWEDEN (2014)
+---------------------------------------------------------------------------
+00001. Stockholms City                00016. Goteborgs City 
+00002. Stockholms County              00017. Vastra Gotalands County, West
+00003. Uppsala County                 00018. Vastra Gotalands County, North 
+00004. Sodermanlands County           00019. Vastra Gotalands County, South
+00005. Ostergotlands County           00020. Vastra Gotalands County, East
+00006. Jonkopings County              00021. Varmlands County
+00007. Kronobergs County              00022. Orebro County
+00008. Kalmar County                  00023. Vastmanlands County
+00009. Gotlands County                00024. Dalarnas County
+00010. Blekinge County                00025. Gavleborgs County
+00011. Malmo City                     00026. Vasternorrlands County
+00012. Skane County, West             00027. Jamtlands County
+00013. Skane County, South            00028. Vasterbottens County
+00014. Skane County, North and East   00029. Norrbottens County
+00015. Hallands County
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SWITZERLAND (2011)
+---------------------------------------------------------------------------
+
+00001. Zuerich                        00014. Schaffhausen
+00002. Bern                           00015. Appenzell AR
+00003. Luzern                         00016. Appenzell AI
+00004. Uri                            00017. St. Gallen
+00005. Schwyz                         00018. Graubuenden
+00006. Obwalden                       00019. Aargau
+00007. Nidwalden                      00020. Thurgau
+00008. Glarus                         00021. Ticino
+00009. Zug                            00022. Vaud
+00010. Fribourg                       00023. Valais
+00011. Solothurn                      00024. Neuchatel
+00012. Basel-Stadt                    00025. Geneve
+00013. Basel-Land                     00026. Jura
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: TAIWAN (2012)
+---------------------------------------------------------------------------
+
+99996.     NATIONWIDE DISTRICT (PRESIDENTIAL ELECTION)
+
+         | ELECTION STUDY NOTES - TAIWAN (2012): PRIMARY ELECTORAL
+         |                                        DISTRICTS
+         |
+         | Taiwan operates a nationwide electoral district for Presidential
+         | elections.         
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: THAILAND (2011)
+---------------------------------------------------------------------------
+
+00101.  Bangkok 01                    02002.  Sisaket 02
+00102.  Bangkok 02                    02003.  Sisaket 03
+00108.  Bangkok 08                    02004.  Sisaket 04
+00116.  Bangkok 16                    02101.  Sakon Nakhon 01
+00122.  Bangkok 22                    02103.  Sakon Nakhon 03
+00124.  Bangkok 24                    02202.  Surin 02
+00131.  Bangkok 31                    02203.  Surin 03
+00207.  Chiang Rai 07                 02207.  Surin 07
+00301.  Chiang Mai 01                 02208.  Surin 08
+00303.  Chiang Mai 03                 02302.  Amnat Charoen 02
+00305.  Chiang Mai 05                 02402.  Udon Thani 02
+00403.  Tak 03                        02406.  Udon Thani 06
+00503.  Nakhon Sawan 03               02502.  Ubon Ratchathani 02
+00602.  Phichit 02                    02604.  Chachoengsao 04  
+00702.  Phrae 02                      02701. Chonburi 01
+00804.  Lampang 04                    02703. Chonburi 03
+00902.  Lamphun 02                    02707. Chonburi 07
+01001.  Uthai Thani 01                02802. Prachinburi 02
+01102.  Kalasin 02                    02803. Prachinburi 03
+01207.  Khon Kaen 07                  02806. Prachinburi 06
+01301.  Chaiyaphum 01                 02901. Phra Nakhon Si Ayutthaya 01
+01303.  Chaiyaphum 03                 02902. Phra Nakhon Si Ayutthaya 02
+01401.  Nakhon Phanom 01              02904. Phra Nakhon Si Ayutthaya 04
+01501.  Nakhon Ratchasima 01          03003. Phetchaburi 03
+01502.  Nakhon Ratchasima 02          03104. Ratchaburi 04
+01504.  Nakhon Ratchasima 04          03203. Samut Sakhon 03
+01505.  Nakhon Ratchasima 05          03204. Samut Sakhon 04
+01506.  Nakhon Ratchasima 06          03301. Sing Buri 01
+01509.  Nakhon Ratchasima 09          03402. Suphan Buri 02
+01514.  Nakhon Ratchasima 14          03404. Suphan Buri 04
+01602.  Buriram 02                    03502. Trung 02
+01603.  Buriram 03                    03609. Nakhon Si Thammarat 09
+01604.  Buriram 04                    03701. Narathiwat 01
+01703.  Maha Sarakham 03              03808. Songkhla 08
+01802.  Roi Et 02                     03902. Satun 02
+01805.  Roi Et 05                     04003. Surat Thani 03
+01904.  Loei 04                       04101. Phatthalung 01
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: TURKEY (2015)
+---------------------------------------------------------------------------
+
+00001.  Adana                         00024.  Kocaeli
+00002.  Afyon                         00025.  Konya
+00003.  Ankara                        00026.  Kilis
+00004.  Antalya                       00027.  Kutahya
+00005.  Aydin                         00028.  Malatya
+00006.  Balikesir                     00029.  Manisa
+00007.  Batman                        00030.  Mardin
+00008.  Burdur                        00031.  Mersin
+00009.  Bursa                         00032.  Mugla
+00010.  Denizli                       00033.  Nevsehir
+00011.  Diyarbakir                    00034.  Osmaniye
+00012.  Edirne                        00035.  Rize
+00013.  Elazig                        00036.  Sakarya
+00014.  Erzurum                       00037.  Samsun
+00015.  Eskisehir                     00038.  Tekirdag
+00016.  Gaziantep                     00039.  Trabzon
+00017.  Giresun                       00040.  Van
+00018.  Hatay                         00041.  Yalova
+00019.  Kahramanmaras                 00042.  Yozgat
+00020.  Kastamonu                     00043.  Zonguldak
+00021.  Kayseri                       00044.  Canakkale
+00022.  Kirikklae                     00045.  Sanliurfa
+00023.  Kirklareli                    00046.  Istanbul 
+                                      00047.  Izmir
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: UNITED STATES (2012)
+---------------------------------------------------------------------------
+
+00101. Alabama - AL01                02907. Missouri - MO07
+00501. Arkansas - AR01               03001. Montana - MT01
+00403. Arizona - AZ03                03103. Nebraska - NE03
+00406. Arizona - AZ06                03203. Nevada - NV03
+00603. California - CA03             03402. New Jersey - NJ02
+00607. California - CA07             03410. New Jersey - NJ10
+00610. California - CA10             03411. New Jersey - NJ11
+00611. California - CA11             03501. New Mexico - NM01
+00613. California - CA13             03601. New York - NY01
+00619. California - CA19             03606. New York - NY06
+00620. California - CA20             03609. New York - NY09
+00621. California - CA21             03612. New York - NY12
+00623. California - CA23             03614. New York - NY14
+00628. California - CA28             03621. New York - NY21
+00630. California - CA30             03623. New York - NY23
+00631. California - CA31             03625. New York - NY25
+00633. California - CA33             03701. North Carolina - NC01
+00634. California - CA34             03704. North Carolina - NC04
+00640. California - CA40             03710. North Carolina - NC10
+00642. California - CA42             03713. North Carolina - NC13
+00648. California - CA48             03901. Ohio - OH01
+00651. California - CA51             03904. Ohio - OH04
+00653. California - CA53             03908. Ohio - OH08
+00802. Colorado - CO02               03909. Ohio - OH09
+00807. Colorado - CO07               03913. Ohio - OH13
+00905. Connecticut - CT05            04001. Oklahoma - OK01
+01001. Delaware - DE01               04101. Oregon - OR01
+01202. Florida - FL02                04104. Oregon - OR04
+01203. Florida - FL03                04201. Pennsylvania - PA01
+01205. Florida - FL05                04205. Pennsylvania - PA05
+01207. Florida - FL07                04208. Pennsylvania - PA08
+01213. Florida - FL13                04209. Pennsylvania - PA09
+01216. Florida - FL16                04211. Pennsylvania - PA11
+01222. Florida - FL22                04214. Pennsylvania - PA14
+01227. Florida - FL27                04401. Rhode Island - RI01
+01302. Georgia - GA02                04501. South Carolina - SC01
+01306. Georgia - GA06                04507. South Carolina - SC07
+01308. Georgia - GA08                04701. Tennessee - TN01
+01309. Georgia - GA09                04702. Tennessee - TN02
+01310. Georgia - GA10                04707. Tennessee - TN07
+01311. Georgia - GA11                04804. Texas - TX04
+01702. Illinois - IL02               04805. Texas - TX05
+01705. Illinois - IL05               04808. Texas - TX08
+01707. Illinois - IL07               04811. Texas - TX11
+01708. Illinois - IL08               04814. Texas - TX14
+01712. Illinois - IL12               04816. Texas - TX16
+01802. Indiana - IN02                04817. Texas - TX17
+01805. Indiana - IN05                04819. Texas - TX19
+01806. Indiana - IN06                04821. Texas - TX21
+01901. Iowa - IA01                   04823. Texas - TX23
+02004. Kansas - KS04                 04827. Texas - TX27
+02101. Kentucky - KY01               04829. Texas - TX29
+02106. Kentucky - KY06               04830. Texas - TX30
+02202. Louisiana - LA02              04833. Texas - TX33
+02206. Louisiana - LA06              04834. Texas - TX34
+02403. Maryland - MD03               04835. Texas - TX35
+02408. Maryland - MD08               04836. Texas - TX36
+02503. Massachusetts - MA03          04903. Utah - UT03
+02508. Massachusetts - MA08          05103. Virginia - VA03
+02604. Michigan - MI04               05108. Virginia - VA08
+02608. Michigan - MI08               05109. Virginia - VA09
+02611. Michigan - MI11               05303. Washington - WA03
+02612. Michigan - MI12               05304. Washington - WA04
+02701. Minnesota - MN01              05306. Washington - WA06
+02705. Minnesota - MN05              05402. West Virginia - WV02
+02804. Mississippi - MS04            05503. Wisconsin - WI03
+02901. Missouri - MO01               05504. Wisconsin - WI04
+02902. Missouri - MO02
+
+         | ELECTION STUDY NOTES - UNITED STATES (2012): PRIMARY ELECTORAL
+         |                                              DISTRICTS
+         |
+         | For the Presidential election, the United States uses an 
+         | electoral college system, a system which sees the Presidential
+         | candidate who wins in a state awarded its electoral college 
+         | votes (except Maine and Nebraska where electoral votes are
+         | awarded on the basis of who wins congressional districts within
+         | the state. Hence, the state is listed first which refers to 
+         | the state the respondent resided in and thus relates to the
+         | district data for the 2012 Presidential election listed in 
+         | variables D4001-D4005. The Congressional District is listed
+         | after the state name. 
+
+
+//END OF FILE

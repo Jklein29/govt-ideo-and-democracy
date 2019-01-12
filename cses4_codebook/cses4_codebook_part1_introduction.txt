@@ -1,0 +1,3270 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 4 (2011-2016)
+
+                      CODEBOOK PART 1: INTRODUCTION
+
+                       FULL RELEASE - MAY 29, 2018
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 4 
+FULL RELEASE [dataset and documentation]. May 29, 2018 version. 
+doi:10.7804/cses.module4.2018-05-29
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-0817701,
+SES-1154687, and SES-1420973, the GESIS - Leibniz Institute for the Social 
+Sciences, the University of Michigan, in-kind support of participating 
+election studies, the many organizations that sponsor planning meetings 
+and conferences, and the numerous organizations that fund national 
+election studies by CSES collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+
+
+))) OVERVIEW OF "CODEBOOK PART 1: INTRODUCTION"
+
+
+))) LIST OF TABLES IN CODEBOOK PART 1
+
+
+))) THE COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) PROJECT OVERVIEW
+    >>> CSES PROJECT PROFILE
+    >>> CSES MODULE 4 STUDY DESCRIPTION - ABSTRACT
+    >>> CSES MODULE 4 PLANNING COMMITTEE
+    >>> CSES MODULE 5 PLANNING COMMITTEE
+    >>> CSES MODULE 4 COLLABORATORS
+    >>> CSES MODULE 4 SECRETARIAT
+
+
+))) CSES MODULE 4 - HOW TO ACCESS?
+    >>> THE CSES CODEBOOK
+    >>> THE CSES DATA FILES
+
+
+))) CSES MODULE 4 STUDY
+    >>> OVERVIEW OF CSES MODULE 4 DATA FILE PARTICULARS
+    >>> LIST OF ELECTION STUDIES INCLUDED IN CSES MODULE 4
+    >>> MICRO-LEVEL (SURVEY) COMPONENT
+    >>> CSES MODULE 4 COLLABORATOR INSTRUCTIONS FOR THE ADMINISTRATION
+        OF THE CSES QUESTIONNAIRE
+    >>> DISTRICT-LEVEL COMPONENT
+    >>> MACRO-LEVEL COMPONENT
+
+
+))) CSES MODULE 4 DOCUMENTATION - WHAT'S AVAILABLE AND HOW TO USE?
+    >>> CSES CODEBOOK OVERVIEW
+    >>> CSES CODEBOOK CONVENTIONS
+    >>> CSES CODEBOOK - VARIABLE NOTES AND ELECTION STUDY NOTES
+    >>> CSES ORIGINAL QUESTIONNAIRE FOR MODULE 4
+    >>> CSES - ADDITIONAL DOCUMENTATION
+    >>> HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+
+
+))) CSES MODULE 4 STUDY DATA AND CODEBOOK: ADDITIONAL INFORMATION
+    >>> IDENTIFICATION VARIABLES
+    >>> MISSING DATA
+    >>> WEIGHTS
+    >>> FREEDOM STATUS OF ELECTIONS
+    >>> CODING OF PARTIES/COALITIONS & LEADERS 
+    >>> PROCESSING CHECKS OF MODULE 4 DATASET BY THE CSES SECRETARIAT
+
+
+))) CSES MODULE 4 BIBLIOGRAPHY
+
+
+===========================================================================
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+===========================================================================
+
+This dataset and all accompanying documentation is the "Full Release"
+of CSES Module 4 (2011-2016).
+
+Users of the Final Release may wish to monitor the errata for
+CSES Module 4 on the CSES website, to check for known errors which may 
+impact their analyses. To view errata for CSES Module 4, go to the Data
+Center on the CSES website, navigate to the CSES Module 4 download page, 
+and click on the Errata link in the gray box to the right of the page.
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 1: INTRODUCTION"
+===========================================================================
+
+Part 1 of the CSES Codebook provides users with information about how to
+use the CSES Codebook and Data including the conventions adopted in the
+CSES  Codebook and how to load the data into various programs. Moreover, 
+overview of the national election studies included in CSES as well as
+CSES conventions concerning identification variables, missing data, 
+weights, and coding of parties/coalitions and leaders is available here. 
+Further, Part 1 of the Codebook provides users with an overview of the 
+CSES project, the governing council (Planning Committee), and details 
+of the national collaborators. 
+
+
+===========================================================================
+))) LIST OF TABLES IN CODEBOOK PART 1
+===========================================================================
+
+Below, we list the Tables located in Codebook Part 1. Tables can be 
+accessed in the electronic version of the CSES Codebook by searching for
+"+++". 
+
+   - OVERVIEW OF ELECTION STUDIES INCLUDED IN MODULE 4 WITH NUMBER OF 
+     OBSERVATIONS, MODE OF DATA COLLECTION, & FIELDWORK DATES
+
+
+===========================================================================
+))) THE COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) PROJECT OVERVIEW
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> CSES PROJECT PROFILE
+---------------------------------------------------------------------------
+
+The Comparative Study of Electoral Systems (CSES) is a collaborative
+program of research among election study teams from around the world.
+Participating countries include a common module of survey questions
+in their post-election studies. The resulting data are deposited along
+with voting, demographic, district and macro variables. The studies are
+then merged into a single, free, public dataset for use in comparative
+study and cross-level analysis.
+
+The CSES project focuses on respondents' behavior and attitudes during 
+the time of a national election, with a particular emphasis on voting and 
+turnout. Each CSES Module consists of a nationally-representative 
+post-election survey and additional variables about the context of the 
+overall country and electoral system within which the respondents find 
+themselves. Every five years a new CSES Module is designed with a 
+different substantive theme selected to address essential questions 
+in electoral studies and social science. 
+
+An international committee of leading scholars of electoral politics and 
+political science develop the research agenda, questionnaires, and study 
+design. The design is implemented in each country by their foremost 
+social scientists. By collaborating in this way, the CSES community hopes 
+to forward scientific inquiry into the relationship between electoral
+institutions and political behavior.
+
+The work of the CSES Secretariat is funded by the American National 
+Science Foundation, the GESIS - Leibniz Institute for the Social 
+Sciences, and the University of Michigan's Center for Political Studies. 
+Details of particular grants that provided funding for Module 4 are 
+available under the "HOW TO CITE THE CSES MODULE 4 STUDY". 
+The project also receives in-kind support from participating election 
+studies, additional organizations that sponsor planning committee 
+meetings and conferences, and the many organizations that fund national 
+election studies that participate in CSES. 
+
+This is the fourth iteration of CSES known as CSES Module 4. The remainder
+of the project description relates specifically to CSES Module 4. 
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 4 STUDY DESCRIPTION - ABSTRACT
+---------------------------------------------------------------------------
+CSES Module 4 has two themes. The first focused on distributional politics 
+and social protection. The goal of the module is to enhance knowledge of 
+voter preferences for policies that affect income and wealth distribution, 
+in a period of constrained growth, deficit reduction, and expenditure 
+constraint and austerity. It draws upon the literature in comparative 
+political economy and develops data that will enable scholars to 
+understand how political institutions condition voters' reactions 
+to the politics of budgetary restraint. The module is influenced by 
+the economic crises of the years before its implementation.
+The second subtheme focused on mobilization with a battery of questions 
+asking respondents about contacts by parties and candidates, and about 
+personal contacts intended to influence vote choice.
+
+CSES Module 4 data was collected from 2011 through 2016. 
+
+More information regarding the theme of Module 4 can be found in the
+CSES Module 4 Theoretical Statement available on the CSES website. 
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 4 PLANNING COMMITTEE
+---------------------------------------------------------------------------
+
+The CSES Module 4 Planning Committee was responsible for the design of
+CSES Module 4, and took initial responsibility for its implementation. 
+Besides the Chair, Planning Committee Members are listed alphabetically by 
+surname. The following persons were members of the CSES Module 4 
+Planning Committee: 
+
+ANDRE BLAIS (Module 4 Planning Committee Chair)
+University of Montreal, Canada
+
+BERNT AARDAL
+Institute for Social Research, Norway
+
+KEES AARTS
+University of Twente, The Netherlands
+
+JOHN ALDRICH
+Duke University, United States
+
+ULISES BELTRAN
+Centro de Investigacion y Docencia Economica (CIDE), Mexico
+
+GORAN CULAR
+University of Zagreb, Croatia
+
+RACHEL GIBSON
+University of Manchester, United Kingdom
+
+ELISABETH GIDENGIL
+McGill University, Canada
+
+SARA B. HOBOLT
+London School of Economics and Political Science, United Kingdom
+
+DAVID A. HOWELL (CSES Director of Studies, Ex-officio member)
+University of Michigan, United States
+
+CHI HUANG
+National Chengchi University, Taiwan R.O.C.
+
+KEN'ICHI IKEDA
+Doshisha University, Japan
+
+PEDRO MAGALHAES
+University of Lisbon, Portugal
+
+RADOSLAW MARKOWSKI
+Warsaw School of Social Sciences and Humanities, Poland
+
+RACHEL MENEGUELLO
+University of Campinas, Brazil
+
+DAVID SANDERS
+University of Essex, United Kingdom
+
+NICOLAS SAUGER
+Sciences Po, France
+
+MICHAL SHAMIR
+Tel Aviv University, Israel
+
+JACK VOWLES
+Victoria University of Wellington, New Zealand
+
+BERNHARD WESSELS
+WZB (Wissenschaftszentrum Berlin fuer Sozialforschung), Germany
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 5 PLANNING COMMITTEE
+---------------------------------------------------------------------------
+
+The CSES Module 5 Planning Committee took responsibility not only for 
+the design and implementation of Module 5 but also the responsibility for
+the remainder of CSES Module 4 until its completion. Besides the Chair,
+Planning Committee Members are listed alphabetically by surname. 
+The following persons were members of the CSES Module 5 Planning Committee: 
+
+
+JOHN ALDRICH (Module 5 Planning Committee Chair)
+Duke University, United States
+
+EVA ANDUIZA
+Universitat Autonoma de Barcelona, Spain
+
+ALI CARKOGLU
+Koc University, Turkey
+
+GORAN CULAR
+University of Zagreb, Croatia
+
+RACHEL GIBSON
+University of Manchester, United Kingdom
+
+ELISABETH GIDENGIL
+McGill University, Canada
+
+SARA B. HOBOLT
+London School of Economics and Political Science, United Kingdom
+
+DAVID A. HOWELL (CSES Director of Studies, Ex-officio member)
+University of Michigan, United States
+
+CHI HUANG
+National Chengchi University, Taiwan
+
+AIDA JUST
+Bilkent University, Turkey
+
+ORIT KEDAR
+The Hebrew University of Jerusalem, Israel
+
+GEORG LUTZ
+University of Lausanne, Switzerland
+
+PEDRO MAGALHAES
+University of Lisbon, Portugal
+
+RACHEL MENEGUELLO
+Universidade Estadual de Campinas, Brazil
+
+HENRIK OSCARSSON
+University of Gothenburg, Sweden
+
+STEPHEN QUINLAN (CSES Project Manager, Ex-officio member)
+GESIS - Leibniz Institute for the Social Sciences Mannheim, Germany
+
+NICOLAS SAUGER
+Sciences Po, France
+
+RUDIGER SCHMITT-BECK
+University of Mannheim, Germany
+
+CARLOS SHENGA
+Higher Institute of Public Administration, Mozambique
+
+ALBERTO SIMPSER
+Instituto Tecnologico Autonomo de Mexico (ITAM), Mexico
+
+WOUTER VAN DER BRUG
+University of Amsterdam, The Netherlands
+
+MARKUS WAGNER
+University of Vienna, Austria
+
+MASAHIRO YAMADA
+Kwansei Gakuin University, Japan
+
+ELIZABETH ZECHMEISTER
+Vanderbilt University, United States
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 4 COLLABORATORS
+---------------------------------------------------------------------------
+
+The CSES project is incredibly grateful to our Module 4 collaborators, who
+raised their own funds to include CSES Module 4 in a nationally
+representative post-election study in their country or province.
+
+Listed collaborators are those who appear in the Design Report for the
+respective study - they are not necessarily the parties who collected
+the data, and they are not necessarily the only investigators on each
+study. Most election studies benefited from the scientific input and data
+preparation skills of additional persons not listed here.
+
+Within each election study, collaborators are presented in the order in
+which they are listed in the Design Report deposited by each collaborator
+team. The affiliations listed are current as of the date when each
+election study's Design Report was deposited with CSES. The polities are
+listed in alphabetical order. 
+
+
+- ARGENTINA (2015)   NOAM LUPU
+                     Vanderbilt University, United States of America
+
+                     VIRGINIA OLIVEROS
+                     Tulane University, United States
+                     
+                     LUIS SCHIUMERINI
+                     University of Oxford, United Kingdom
+
+
+- AUSTRALIA (2013)   IAN MCALLISTER
+                     Australian National University, Australia
+
+                     JULIET PIETSCH
+                     Australian National University, Australia
+
+                     CLIVE BEAN
+                     Queensland University of Technology, Australia
+
+                     RACHEL GIBSON
+                     University of Manchester, United Kingdom
+
+
+- AUSTRIA (2013)     SYLVIA KRITZINGER
+                     University of Vienna, Austria
+
+                     WOLFGANG C. MUELLER
+                     University of Vienna, Austria
+
+                     KLAUS SCHOENBACH
+                     University of Vienna, Austria
+
+
+- BRAZIL (2014)      RACHEL MENEGUELLO 
+                     Center for Studies on Public Opinion, 
+                     Universidade de Campinas, Brazil
+
+
+- BULGARIA (2014)    ALINA DOBREVA
+                     European University Institute, Bulgaria
+
+
+- CANADA (2011)      PATRICK FOURNIER
+                     Universite de Montreal, Canada
+
+                     FRED CUTLER
+                     University of British Columbia, Canada
+
+                     STUART SOROKA, 
+                     University of Michigan, United States 
+
+                     DIETLIND STOLLE 
+                     McGill University, Canada
+
+
+- CANADA (2015)      PATRICK FOURNIER
+                     Universite de Montreal, Canada
+
+                     FRED CUTLER
+                     University of British Columbia, Canada
+
+                     STUART SOROKA, 
+                     University of Michigan, United States 
+
+                     DIETLIND STOLLE 
+                     McGill University, Canada
+
+
+- CZECH REPUBLIC     LUKAS LINEK
+  (2013)             Czech Academy of Sciences, Czech Republic
+
+   
+- FINLAND (2015)     KIMMO GROENLUND
+                     Abo Akademi University, Finland
+
+                     HANNA WASS
+                     University of Helsinki, Finland
+
+
+- FRANCE (2012)      NICOLAS SAUGER
+                     Sciences Po, France
+
+
+- GERMANY (2013)     BERNHARD WESSELS
+                     Wissenschaftszentrum Berlin fuer Sozialforschung 
+                     (WZB), Germany
+
+                     HANS RATTINGER
+                     University of Mannheim, Germany
+
+                     SIGRID ROSSTEUTSCHER
+                     Goethe University, Germany
+
+                     RUDIGER SCHMITT-BECK
+                     University of Mannheim, Germany
+
+                     CHRISTOF WOLF
+                     GESIS Leibniz-Institute for the Social Sciences, 
+                     Germany
+
+
+- GREAT BRITAIN      EDWARD FIELDHOUSE
+  (2015)             University of Manchester, Great Britain
+
+                     JANE GREEN
+                     University of Manchester, Great Britain
+
+                     GEOFFREY EVANS
+                     University of Oxford, Great Britain
+
+                     HERMANN SCHMITT
+                     University of Manchester, Great Britain
+
+                     CEES VAN DER EIJK
+                     University of Nottingham, Great Britain
+
+                     JONATHAN MELLON
+                     University of Oxford, Great Britain
+
+                     CHRISTOPHER PROSSER
+                     University of Manchester, Great Britain
+
+
+- GREECE (2012)      THEODORE CHADJIPADELIS
+                     Aristotle University of Thessaloniki, Greece
+
+                     IOANNIS ANDREADIS
+                     Aristotle University of Thessaloniki, Greece
+
+
+- GREECE (2015)      IOANNIS ANDREADIS
+                     Aristotle University of Thessaloniki, Greece
+
+                     THEODORE CHADJIPADELIS
+                     Aristotle University of Thessaloniki, Greece
+
+                     EFTICHIA TEPEROGLOU
+                     Aristotle University of Thessaloniki, Greece
+
+
+- HONG KONG (2012)   LI PANG-KWONG
+                     Lingnan University, Hong Kong
+
+
+- ICELAND (2013)     OLAFUR P. HARDARSON
+                     University of Iceland, Iceland
+
+                     HULDA PORISDOTTIR
+                     University of Iceland, Iceland
+
+                     EVA H. ONNUDOTTIR
+                     Centre for Doctoral Social and Behavioral Sciences 
+                     University of Mannheim, Germany
+
+
+- IRELAND (2011)     MICHAEL MARSH
+                     Trinity College Dublin, Ireland
+
+
+- ISRAEL (2013)      MICHAL SHAMIR
+                     Tel Aviv University, Israel
+
+                     ORIT KEDAR
+                     Hebrew University of Jerusalem, Israel
+
+
+- JAPAN (2013)       KEN'ICHI IKEDA
+                     Doshisha University, Japan
+
+                     MASAHIRO YAMADA
+                     Kwansei-Gakuin University, Japan
+
+                     YUKIO MAEDA
+                     University of Tokyo, Japan
+
+
+- KENYA (2013)       ROBERT MATTES
+                     University of Cape Town, South Africa
+
+                     WINNIE MITULLAH
+                     University of Nairobi, Kenya
+
+                     COLLETTE SHULZ-HERZENBERG
+                     Stellenbosch University, South Africa
+
+                     ABEL OYUKE
+                     University of Nairobi, Kenya
+
+
+- LATVIA (2011)      JANIS IKSTENS
+                     University of Latvia, Latvia
+
+
+- LATVIA (2014)      JANIS IKSTENS
+                     University of Latvia, Latvia
+
+
+- MEXICO (2012)      ULISES BELTRAN
+                     Centro de Investigacion y Docencia Economica (CIDE),
+                     Mexico
+
+                     ROSARIO AGUILAR
+                     Centro de Investigacion y Docencia Economica (CIDE),
+                     Mexico
+
+
+- MEXICO (2015)      ULISES BELTRAN
+                     Centro de Investigacion y Docencia Economica (CIDE),
+                     Mexico
+
+                     ROSARIO AGUILAR
+                     Centro de Investigacion y Docencia Economica (CIDE),
+                     Mexico
+
+
+- MONTENEGRO (2012)  OLIVERA KOMAR
+                     De Facto Consultancy, Montenegro
+
+                     PAVLE GEGAJ
+                     De Facto Consultancy, Montenegro
+
+                     MILOS BESIC
+                     De Facto Consultancy, Montenegro
+
+
+- NEW ZEALAND (2011) JACK VOWLES
+                     Victoria University of Wellington, New Zealand
+
+
+- NEW ZEALAND (2014) JACK VOWLES
+                     Victoria University of Wellington, New Zealand
+
+                     HILDE COFFE
+                     Victoria University of Wellington, New Zealand
+
+                     JENNIFER CURTIN
+                     University of Auckland, New Zealand
+
+                     GERARD COTTERELL
+                     University of Auckland, New Zealand
+
+
+- NORWAY (2013)      BERNT AARDAL
+                     University of Oslo, Norway
+
+                     JOHANNES BERGH
+                     Institute for Social Research, Oslo, Norway
+
+
+- PERU (2016)        DAVID SULMONT
+                     Pontificia Universidad Catolica del Peru, Peru
+
+                     VANIA MARTINEZ
+                     Instituto de Opinion Publica, Pontificia Universidad 
+                     Catolica del Peru, Peru
+
+
+- PHILIPPINES        LINDA LUZ GUERRERO
+  (2016)             Social Weather Stations, Philippines
+
+                     VLADYMIR JOSEPH LICUDINE 
+                     Social Weather Stations, Philippines
+
+
+- POLAND (2011)      RADOSLAW MARKOWSKI
+                     University of Social Sciences and Humanities, Poland
+
+                     MIKOLAJ CZESNIK
+                     University of Social Sciences and Humanities, Poland
+
+                     PAWEL GRZELAK
+                     Institute of Political Studies, Polish Academy of 
+                     Sciences, Poland
+
+                     MICHAL KOTNAROWSKI
+                     Institute of Political Studies, Polish Academy of 
+                     Sciences, Poland
+
+
+- PORTUGAL (2015)    MARINA COSTA LOBO
+                     University of Lisbon, Portugal
+
+                     PEDRO MAGALHAES
+                     University of Lisbon, Portugal
+
+                     JOAO TIAGO GASPAR 
+                     University of Lisbon, Portugal
+
+
+- ROMANIA (2012)     MIRCEA COMSA
+                     Babes-Bolyai University of Cluj-Napoca, Romania
+
+                     FLORIN N. FESNIC
+                     Babes-Bolyai University of Cluj-Napoca, Romania
+
+                     ANDREI GHEORGHITA
+                     Lucian Blaga University of Sibiu, Romania
+
+                     GABRIEL BADESCU
+                     Babes-Bolyai University of Cluj-Napoca, Romania
+
+                     CLAUDIU D. TUFIS
+                     University of Bucharest, Romania
+
+                     CRISTINA STANUS
+                     Lucian Blaga University of Sibiu, Romania
+
+                     BOGDAN VOICU
+                     Romanian Academy, Romania
+
+                     CAMIL POSTELNICU
+                     Babes-Bolyai University of Cluj-Napoca, Romania
+
+
+- ROMANIA (2014)     MIRCEA COMSA
+                     Babes-Bolyai University of Cluj-Napoca, Romania
+
+                     ANDREI GHEORGHITA
+                     Lucian Blaga University of Sibiu, Romania
+
+                     CRISTINA STANUS
+                     Lucian Blaga University of Sibiu, Romania
+
+                     CAMIL POSTELNICU
+                     Babes-Bolyai University of Cluj-Napoca, Romania
+
+                     CLAUDIU D. TUFIS
+                     University of Bucharest, Romania
+
+                     BOGDAN VOICU
+                     Romanian Academy, Romania
+
+                     FLORIN N. FESNIC
+                     Babes-Bolyai University of Cluj-Napoca, Romania
+
+                     GABRIEL BADESCU
+                     Babes-Bolyai University of Cluj-Napoca, Romania
+
+
+- SERBIA (2012)      BOJAN TODOSIJEVIC
+                     Center for Political Studies and Public Opinion 
+                     Research, Serbia
+
+                     ZORAN PAVLOVIC
+                     University of Belgrade, Serbia
+
+                     DAVID A. HOWELL
+                     University of Michigan, United States
+
+                     ALTIN ILIRJANI
+                     USAID, United States
+
+
+- SLOVAKIA (2016)    OLGA GYARFASOVA
+                     Comenius University, Slovakia
+
+                     MILOSLAV BAHNA
+                     Slovak Academy of Sciences (SU SAV), Slovakia
+
+
+- SLOVENIA (2012)    JANEZ STEBE
+                     Faculty of Social Sciences, University of Ljubljana, 
+                     Slovenia
+
+
+- SOUTH AFRICA       ROBERT MATTES
+  (2014)             University of Cape Town, South Africa
+         
+                     COLLETTE SHULZ-HERZENBERG
+                     Stellenbosch University, South Africa
+
+
+- SOUTH KOREA        NAM YOUNG LEE
+  (2012)             Korean Social Science Data Center, South Korea 
+
+                     WOOK KIM
+                     Paichai University, South Korea
+
+
+- SWEDEN (2014)      HENRIK OSCARSSON
+                     University of Gothenburg, Sweden
+
+
+- SWITZERLAND (2011) GEORG LUTZ
+                     FORS & University of Lausanne, Switzerland 
+
+
+- TAIWAN (2012)      CHI HUANG
+                     National Chengchi University, Taiwan
+
+
+- THAILAND (2011)    THAWILWADEE BUREEKUL
+                     King Prajadhipok's Institute, Thailand
+
+                     ROBERT B. ALBITTON
+                     University of Mississippi, United States
+
+                     RATCHAWADEE SANGMAHAMAD
+                     King Prajadhipok's Institute, Thailand
+
+
+- TURKEY (2015)      ALI CARKOGLU
+                     Koc University, Turkey
+
+                     SELIM ERDEN AYTAC
+                     Koc University, Turkey
+
+
+- UNITED STATES      DARRELL DONAKOWSKI
+  (2012)             University of Michigan, United States 
+
+                     VINCENT HUTCHINGS
+                     University of Michigan, United States
+
+                     SIMON JACKMAN
+                     Stanford University, United States
+
+                     GARY M. SEGURA
+                     Stanford University, United States
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 4 SECRETARIAT
+---------------------------------------------------------------------------
+
+The CSES Secretariat comprises the central staffing and operations for 
+the CSES project, under the leadership of the chair of the CSES Planning 
+Committee (listed above). Since June 2011, the Secretariat has been
+a collaboration between the GESIS Leibniz Institute for the Social
+Sciences, Germany, and the University of Michigan's Centre for Political
+Studies in the United States. 
+Professor Andre Blais of the University of Montreal, Chair of the CSES
+Module 4 Planning Committee, and Professor John Aldrich, Chair of the CSES
+Module 5 Planning Committee, have overseen the operations of CSES Module 4
+during their respective terms as Chair.
+
+The CSES Secretariat for Module 4 was comprised of the following persons: 
+David Howell served as the Director of Studies and Dr. Stephen Quinlan 
+served as the Project Manager. Andrei Artimof, Lion Behrens, 
+Dr. Kathrin Busch, Katharina Blinzler, Dr. Jessica Fortin-Rittberger, 
+Sebastian Netscher, Christian Schimpf, Hannah Schwarz, Annika Stein, Slaven
+Zivkovic, and Dr. Bojan Todosijevic were responsible for research support, 
+documentation, data preparation, data checking and cleaning, assisting
+with meeting and Conference organization, and providing additional 
+administrative support. 
+Cherolyn Brooks, Laurie Winslow, and Dr. Yioryos Nardis of the University
+of Michigan provided further administrative and public relations support to 
+the project.
+
+Support was received from various sources for the activities of the CSES
+Secretariat during the period of CSES Module 4:
+
+(1) American National Science Foundation (NSF) grant SES-0817701, "The
+    Dynamics of Political Choice: The Third Module of the Comparative Study
+    of Electoral Systems" with Principal Investigators Nancy Burns 
+    (University of Michigan), Ian McAllister (Australian National 
+    University), and Andre Blais (University of Montreal), supported CSES
+    Secretariat activities at the University of Michigan from 2008 
+    through 2012.
+
+(2) American National Science Foundation (NSF) grant SES-1154687, 
+    "Distributional Politics and Social Protection: the Fourth Module of 
+    the Comparative Study of Electoral Systems (CSES)" with Principal 
+    Investigators Nancy Burns (University of Michigan) and Andre Blais 
+    (University of Montreal), supported CSES Secretariat activities at 
+    the University of Michigan from 2012 through 2014.
+
+(3) American National Science Foundation (NSF) grant SES-1420973, "The 
+    Fifth Module of the Comparative Study of Electoral Systems (CSES)" with
+    Principal Investigators Nancy Burns (University of Michigan), Andre
+    Blais (University of Montreal), and John Aldrich (Duke University) 
+    supported CSES Secretariat activities at the University of Michigan 
+    beginning in 2014.
+
+(4) The CSES Secretariat activities at the GESIS Leibniz Institute for the
+    Social Sciences, Germany are funded by GESIS.
+
+(5) The Center for Political Studies at the University of Michigan provides
+    additional financial support.
+
+
+===========================================================================
+))) CSES MODULE 4 - HOW TO ACCESS?
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> THE CSES CODEBOOK
+---------------------------------------------------------------------------
+
+Users are advised to first download the CSES codebook file:
+
+  cses4_codebook.zip  Contains the six codebook files, including this 
+                      one, in text format.
+                   
+The codebook can also be navigated online the CSES Module 4 study page at: 
+         http://www.cses.org/datacenter/module4/module4.htm
+
+
+---------------------------------------------------------------------------
+>>> THE CSES DATA FILES
+---------------------------------------------------------------------------
+
+The following ZIP files, which contain the CSES data are available to 
+download from the CSES Module 4 study page at: 
+         http://www.cses.org/datacenter/module4/module4.htm
+         
+Users can download the data in a variety of formats depending on which 
+statistical packages) they intend to use with the data:
+
+  cses4_csv.zip       Contains a CSV file with variables names as column 
+                      headers but no additional metadata (for instance,
+                      no code labels are included).
+                                      
+  cses4_syntax.zip    Contains a raw data file and syntax statements to
+                      read the dataset into SAS, SPSS, and STATA. The
+                      instructions for doing so are found in the 
+                      headers of the syntax files for each statistical
+                      package: cses4.sas for SAS, cses4.sps for SPSS,
+                      and cses4.do for STATA. 
+                      
+  cses4_r.zip         Contains a R Workplace system file (.rdata), with
+                      the dataset already prepared and ready to be loaded
+                      into R. Missing data statements are not applied.
+  
+  cses4_sas.zip       Contains a SAS 7-8 system file (.sas7bdat), with
+                      the dataset already prepared and ready to be loaded
+                      into SAS. Missing data statements are not applied.
+  
+  cses4_spss.zip      Contains a SPSS system file (.sav), with the dataset
+                      already prepared and ready to be loaded into SPSS.
+                      Missing data statements are not applied.
+  
+  cses4_stata.zip     Contains a STATA 13 system file (.dta), with the
+                      dataset already prepared and ready to be loaded
+                      into STATA.  Missing data statements are not applied.
+
+Please note that all of the above packages will need a File Extractor 
+programme downloaded to their computer to be able to Unzip and open the
+above files. 
+
+We recommend that PC users create the following directory on their hard
+drive, and to download their files from this Module 4 release to that 
+location:
+                 "c:/cses/module4/20180529/"
+
+The subdirectory value "20180529" represents the version (release date) of 
+the dataset - this being 2018, and the 29 May version of CSES Module 4.
+This file structure is compatible with how the "cses4_syntax.zip" file
+(detailed above) is organized. The ,method allows users with multiple CSES
+datasets and/or versions to stay organized and not over-write their other 
+files. Users of other computer types (Macs, Unix, etc.) are recommended to 
+use a similar directory structure to organize their CSES files.
+
+
+===========================================================================
+))) CSES MODULE 4 STUDY
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> OVERVIEW OF CSES MODULE 4 DATA FILE PARTICULARS
+---------------------------------------------------------------------------
+
+Type of study:                CROSS-SECTIONAL
+Kind of data:                 SURVEY DATA FUSED WITH CONTEXTUAL MACRO DATA
+Primary Unit of Analysis:     INDIVIDUALS 
+Universe:                     ALL PERSONS OF ELIGIBLE VOTING AGE AND 
+                              ELIGIBLE TO VOTE IN THE NATIONAL ELECTION
+Geographic Coverage:          GLOBAL (Europe, North America, parts of Asia, 
+                                      and South America, Australia & New 
+                                      Zealand)
+File Structure:               RECTANGULAR 
+Total Case Count:             75,558
+Total Variable Count:            484
+Total Polities:                   39
+Total Election Studies:           45
+
+
+---------------------------------------------------------------------------
+>>> LIST OF ELECTION STUDIES INCLUDED IN CSES MODULE 4
+---------------------------------------------------------------------------
+
+The Final Release of CSES Module 4 contains data from the
+following 45 election studies in 39 countries. They are listed below in 
+alphabetic order with an overview of some particulars of each election
+study. 
+
+    | +++ TABLE: OVERVIEW OF ELECTION STUDIES INCLUDED IN MODULE 4 WITH
+    |            NUMBER OF OBSERVATIONS AND MODE OF DATA COLLECTION AND
+    |            FIELDWORK DATES
+    |
+    | POLITY (ELEC YEAR)     No of     Mode of      Dates of Fieldwork
+    |                    Observations Interview      (Start-End date)     
+    | ---------------------------------------------------------------------
+    | ARGENTINA (2015)       1,406      F2F      Nov 21, 2015-Dec 30, 2015 
+    | AUSTRALIA (2013)       3,953       MX      Sep  6, 2013-Jan  6, 2014 
+    | AUSTRIA (2013)         1,000       TP      Oct  1, 2013-Oct 29, 2013 
+    | BRAZIL (2014)          3,136      F2F      Nov  1, 2014-Nov 19, 2014 
+    | BULGARIA (2014)          999      F2F      Jan 23, 2015-Jan 31, 2015 
+    | CANADA (2011)          3,458       MX      Multi-wave study***
+    | CANADA (2015)          4,202       MX      Multi-wave study***
+    | CZECH REPUBLIC (2013)  1,653      F2F      Oct 28, 2013-Nov 14, 2013 
+    | FINLAND (2015)         1,587       MX      Apr 24, 2015-Jul  7, 2015 
+    | FRANCE (2012)          2,014      F2F      May  9, 2012-Jun  9, 2015 
+    | GERMANY (2013)         1,889      F2F      Sep 23, 2013-Dec 23, 2013 
+    | GREAT BRITAIN (2015)   1,567      F2F      May  9, 2015-Sep 13, 2015 
+    | GREECE (2012)          1,029       MX      Oct 19, 2012-Jan  5, 2013 
+    | GREECE (2015)          1,008       MX      Jun 12, 2015-Sep  8, 2015 
+    | HONG KONG (2012)       1,044       TP      Sep 13, 2012-Sep 22, 2013 
+    | ICELAND (2013)         1,479       TP      May  4, 2013-Sep 30, 2013
+    | IRELAND (2011)         1,853       TP      Mar  6, 2011-Apr 10, 2011 
+    | ISRAEL (2013)          1,017       TP      Feb  8, 2013-Mar 13, 2013 
+    | JAPAN (2013)           1,937      F2F      Jul 22, 2013-Aug 25, 2013   
+    | KENYA (2013)           1,200      F2F      Oct 21, 2013-Nov 28, 2013 
+    | LATVIA (2011)          1,004      F2F      Oct 16, 2011-Nov 11, 2011 
+    | LATVIA (2014)          1,036      F2F      Nov  7, 2014-Nov 20, 2014 
+    | MEXICO  (2012)         2,400      F2F      Jul 13, 2012-Jul 19, 2013   
+    | MEXICO (2015)          1,197      F2F      Jun 20, 2015-Jun 28, 2015
+    | MONTENEGRO (2012)        967      F2F      Feb     2013-Mar     2013 
+    | NEW ZEALAND (2011)     1,374       MX      Nov 30, 2011-Apr  4, 2012 
+    | NEW ZEALAND (2014)     1,224       MX      Sep 23, 2014-Feb  6, 2015 
+    | NORWAY (2013)          1,727       MX      Sep 12, 2013-Jan  6, 2014 
+    | PERU (2016)            1,572      F2F      May  7, 2016-May 17, 2016 
+    | PHILIPPINES (2016)     1,200      F2F      Jun 24, 2016-Jun 27, 2016 
+    | POLAND (2011)          1,919      F2F      Oct 20, 2011-Nov 13, 2011 
+    | PORTUGAL (2015)        1,499      F2F      Oct  7, 2015-Dec  9, 2015    
+    | ROMANIA (2012)         2,283      F2F      Dec 15, 2012-Jan 30, 2013 
+    | ROMANIA (2014)         1,112      F2F      Nov 20, 2014-Dec  8, 2014
+    | SERBIA (2012)          1,568      F2F      Dec  6, 2012-Feb 13, 2013 
+    | SLOVAKIA (2016)        1,150      F2F      Oct 13, 2016-Nov 28, 2016 
+    | SLOVENIA (2011)        1,031      F2F      Mar 29, 2012-May 28, 2012 
+    | SOUTH AFRICA (2014)    1,300      F2F      Feb  2, 2015-Feb 26, 2015 
+    | SOUTH KOREA (2012)     1,000      F2F      Apr 12, 2012-Apr 29, 2012 
+    | SWEDEN (2014)            832      F2F      Sep 15, 2014-Nov 17, 2014   
+    | SWITZERLAND (2011)     4,391       MX      Oct 24, 2011-Dec 12, 2011
+    | TAIWAN (2012)          1,826      F2F      Jan 15, 2012-Mar  6, 2012
+    | THAILAND (2011)        1,500      F2F      Jul 15, 2011-Aug 11, 2011 
+    | TURKEY (2015)          1,086      F2F      Jul 18, 2015-Sep 10, 2015
+    | UNITED STATES (2012)   1,929      F2F      Nov  7, 2012-Jan 12, 2013
+    | --------------------------------------------------------------------
+    | TOTAL                 75,558
+    | 
+    | Key: F2F=Face to Face; TP=Telephone, MB=Mailback; MX=Mixed. 
+    |
+    | *** = Study run across multiple waves. Please see variables
+    |       D1026-D1028 for comprehensive details for dates of fieldwork 
+    |       for each wave.         
+
+
+For election studies that are embedded in multi-wave panel studies, only
+those respondents who participated in the wave of the survey that included
+CSES Module 4 are included in the CSES Module 4 dataset.
+
+
+---------------------------------------------------------------------------
+>>> MICRO-LEVEL (SURVEY) COMPONENT
+---------------------------------------------------------------------------
+
+The core questionnaire ("Module") of CSES Module 4 was intended to be
+administered as a single, uninterrupted block of questions in a nationally
+representative post-election survey in each country.
+
+(A) The question text is included in the variable documentation of this
+    codebook. The questions are reported in the order in which they appear 
+    in the CSES questionnaire. For some questions, collaborator 
+    instructions for the administration of the CSES Questionnaire were 
+    important. These are reported in the next section.
+
+(B) Where there are known differences in the way a particular question was
+    administered in an election study, this is noted in the "ELECTION STUDY
+    NOTES" following the documentation of the corresponding variable.
+
+(C) There are several sets of party and leader evaluation items included
+    in the module. These correspond to parties labeled A-F, in descending
+    order of vote share, of the six most popular parties in the lower house
+    elections (or presidential elections if legislative elections were not
+    held). Where respondents were asked to evaluate other parties, these
+    evaluations have been included where possible and are labeled parties
+    G-I, regardless of their vote shares. The parties and leaders to which
+    these evaluations apply are identified in Part 3 of the Codebook.
+
+(D) There are several questions (including the vote choice and party
+    identification items) that ask the respondents to specify a political
+    party. The codes for these items are also reported in Codebook Part 3.
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 4 COLLABORATOR INSTRUCTIONS FOR THE ADMINISTRATION OF THE
+    CSES QUESTIONNAIRE
+---------------------------------------------------------------------------
+
+The following instructions appeared in the header to the questionnaire for
+CSES Module 4, as instructions to collaborators regarding the
+implementation of the questionnaire in their respective polity.
+
+( 1) CSES MODULE 4 QUESTIONNAIRE: ADMINISTRATIVE VARIABLES
+     The "Administrative Variables" section is a list of common
+     administrative variables that, if possible, should be provided at
+     the time data are deposited with the CSES Secretariat.
+
+     CSES MODULE 4 QUESTIONNAIRE: CSES MODULE
+     This is the CSES Module itself, a common module of survey questions
+     for researchers to include in their national post-election survey.
+     The CSES Module is intended to be administered exactly as it is
+     specified in this document.
+
+     CSES MODULE 4 QUESTIONNAIRE: DEMOGRAPHIC VARIABLES
+     Collaborators are asked to provide data on background (demographic)
+     characteristics of respondents, coded to an agreed upon set of
+     standards as indicated in this section. There is great international
+     variation in the ways that collaborators will go about soliciting
+     information on the background characteristics of their respondents.
+     The objective here is not standardization of the way collaborators
+     ask these background questions, but instead, standardization to a
+     common, cross-national scheme for coding each variable.
+
+( 2) The CSES Module is intended to be administered in its entirety as
+     a single, uninterrupted block of questions, unless noted otherwise
+     for particular questions. In most cases, the CSES Module is
+     included as part of a larger study. For reliable comparisons to be
+     made, it is important that any additional items investigators may
+     wish to include do not interrupt the CSES Module.
+
+( 3) The CSES module should be administered as a post-election
+     interview.
+
+( 4) Where the CSES module is included in a larger study, to ensure that
+     question-ordering effects are minimized, it is most preferable for
+     the CSES Module to be administered at the beginning of the survey
+     instrument. Where this is not possible, collaborators should be
+     sensitive to the effects questions asked immediately prior to the
+     module may have.
+
+( 5) NOTES often precede the question TEXT, and provide instructions for
+     the administration of the item. Where no question TEXT is provided,
+     collaborators should provide documentation of the question used.
+
+( 6) Show cards may be helpful for the administration of some questions.
+     For this reason, a Respondent Booklet is available for download
+     from the CSES website. The Respondent Booklet contains show cards
+     for select questions. It is indicated in the NOTES when a show card
+     is available for a question.
+
+( 7) The response options that should be read to the respondent are
+     contained in the body of the question TEXT.
+
+( 8) Where lower-case words appear in brackets [ ] collaborators should
+     select the words that are most appropriate.
+
+     For example:
+     [party/presidential candidate]
+     ...indicates that either the word "party" or the phrase
+     "presidential candidate" should be read, but not both.
+
+( 9) Where upper-case words appear in brackets [ ] collaborators should
+     substitute the words that are most appropriate.
+
+     For example:
+     [COUNTRY]
+     ...should be replaced with the name of the country where the
+     election was held (perhaps "Canada" or "the Philippines").
+
+     Another example:
+     [NUMBER OF YEARS BETWEEN THE PREVIOUS AND THE PRESENT ELECTION
+     OR CHANGE IN GOVERNMENT]
+     ...should be replaced with a number that indicates the amount of
+     years that have passed between the previous election and either the
+     current election or recent change in government.
+
+(10) Phrases that appear in parentheses ( ) contain words that are
+     optional - that collaborators (or their interviewers) can decide to
+     read or not read to respondents as needed.
+
+(11) Words in question text that are in upper-case but NOT within
+     brackets [ ] should be emphasized by the interviewer when reading
+     the question text.
+
+     For example, the word "COUNTRY" would be emphasized in the
+     following question when the interviewer reads the question to the
+     respondent:
+          "What COUNTRY do you live in?"
+
+     But in this next example, the interviewer does not emphasize the
+     word "[COUNTRY]". Instead, this is an instruction for the
+     collaborator to substitute the name of the respondent's country
+     into the question text (for more information, see the eighth
+     Collaborator Instruction above):
+         "How long have you lived in [COUNTRY]?"
+
+(12) Interviewer instructions are available for some questions. These
+     interviewer instructions, labeled as HELP, are intended to
+     provide advice to the interviewers to assist in administering the
+     question. It is also useful to discuss the interviewer instructions
+     as part of interviewer training. The interviewer instructions,
+     where available, appear after the question TEXT. In interviewer-
+     administered surveys, interviewer instructions should be available to
+     the interviewer, but not to the respondent. For example, in a computer
+     -assisted interview, the interviewer instructions might appear on the
+     screen in a special color, and interviewers trained to make use of
+     those instructions as necessary, but the interviewer should NOT read
+     the interviewer instructions to the respondent.
+
+(13) Some response options are followed by an arrow (->) and a skip
+     pattern instruction. If the respondent selects that response
+     option, the skip pattern instruction after the arrow is to be
+     executed.
+
+(14) Respondents who volunteer the response "DON'T KNOW" (or who have
+     REFUSED to answer a question) should be coded as such. Interviewers
+     should accept these responses and should NOT probe for additional
+     information or force a respondent to use one of the response
+     options provided in the text of the question.
+
+(15) Special care should be taken in the administration of the Vote
+     Choice items (Q5 and Q6 question series).
+
+     Wording for the Q5 and Q6 question series, which is to record
+     vote choice in the elections, should follow national standards.
+     Collaborators are invited to compare their own national instrument
+     with other instruments of countries that are part of the CSES and
+     look for convergence where this is possible.
+
+     For Q6 (previous election), ask about the previous national
+     election of the same type (whether legislative or presidential).
+     For countries where more than one institution is being currently
+     elected on the same day (e.g. president and legislature), please
+     consider asking about the previous lower house election if votes
+     have been recorded for the current lower house election.
+
+     For Q5 (current election), for countries where more than one
+     institution is elected on the same day (e.g., president and
+     legislature) using different votes, please ensure that all votes
+     are supplied. Consider including all national elections having been
+     held within three months before or after the study's data
+     collection period.
+
+     Please ensure all vote choices are supplied as separate variables
+     in the dataset that you deposit.
+
+     For countries where voters have two votes for the same institution
+     (e.g. parallel and mixed member proportional systems; double
+     ballot systems), please ensure that both/all votes are supplied.
+     For countries using preferential systems (e.g., STV, AV) please
+     provide first and second preference vote.
+
+(16) For questions asking about parties, collaborators should be advised
+     that they may add one or several party blocs to a list of
+     individual parties if they feel that it will be difficult for
+     respondents to recognize individual parties.
+
+(17) Collaborators in the Comparative Study of Electoral Systems shall
+     adhere to the following standards of data quality:
+
+     A) MODE OF INTERVIEWING: 
+     Interviews should be conducted face-to-face, unless local 
+     circumstances dictate that telephone or mail surveys will produce 
+     higher quality data.
+
+     B) TIMING OF INTERVIEWING: 
+     We strongly recommend that collaborators in the Comparative Study 
+     of Electoral Systems conduct their interviews in the weeks 
+     following their national election. Out of concern for data quality, 
+     data collection should be completed in as timely a fashion as 
+     possible. In the event of a runoff election, interviewing shall be 
+     conducted after the first round election. The date of interview 
+     shall be provided for each respondent.
+
+     C) PLACEMENT OF MODULE IN POST-ELECTION QUESTIONNAIRE: 
+     The questionnaire should be asked as a single, uninterrupted
+     block of questions. We leave it to each collaborator to select
+     an appropriate location for the module in their national survey
+     instrument. Collaborators should take steps to ensure that
+     questions asked immediately prior to the questionnaire module
+     do not contaminate the initial questions in the module.
+     Collaborators are also free to select an appropriate place in
+     their survey instrument to ask the turnout, vote choice,
+     and demographic questions.
+
+     D) POPULATION TO BE SAMPLED: 
+     National samples should be drawn from all age-eligible citizens. 
+     When non-citizens (or other non-eligible respondents) are included 
+     in the sample, a variable should be provided to permit the 
+     identification of those non-eligible respondents. When a 
+     collaborator samples from those persons who appear on voter 
+     registration lists, the collaborator should quantify the estimated 
+     degree of discrepancy between this population and the population 
+     of all age-eligible citizens.
+
+     E) SAMPLING PROCEDURES: 
+     We strongly encourage the use of random
+     samples, with random sampling procedures used at all stages of
+     the sampling process. Collaborators should provide detailed
+     documentation of their sampling practices.
+
+     F) SAMPLE SIZE: 
+     We strongly recommend that no fewer than 1,000 age-eligible 
+     respondents be interviewed.
+
+     G) INTERVIEWER TRAINING: 
+     Collaborators should pre-test their survey instrument and should 
+     train interviewers in the administration of the questionnaire. 
+     The Planning Committee will provide each collaborator with 
+     documentation that clarifies the purposes and objectives of each 
+     item and with rules with respect to probing "don't know" responses.
+
+     H) FIELD PRACTICES: 
+     Collaborators should make every effort to ensure a high response rate.
+     Investigators should be diligent in their effort to reach respondents
+     not interviewed on the initial contact with the household and should
+     e diligent in their effort to convert respondents who initially 
+     refuse to participate in the study. Data on the number of contact 
+     attempts, the number of contacts with sample persons, and special 
+     persuasion or conversion efforts undertaken should be coded for 
+     each respondent.
+
+     I) TRANSLATION (AND BACK-TRANSLATION): 
+     Each collaborator should translate the questionnaire module into 
+     their native language(s). To ensure the equivalence of the 
+     translation, collaborators shall perform an independent 
+     re-translation of the questionnaire back into English. Collaborators
+     engaged in translation of the questionnaire module into the same 
+     language (e.g., Spanish, French, English, German, and Portuguese) 
+     should collaborate  on the translation.
+
+
+---------------------------------------------------------------------------
+>>> DISTRICT-LEVEL COMPONENT
+---------------------------------------------------------------------------
+
+The district-level variables report the returns of the lower house (first
+segment) election for each respondent's district. Wherever possible,
+these data were collected from official electoral commissions (see
+Bibliography for details). In other cases, CSES has been grateful for the
+compilations of these data provided by third-party sources.
+
+
+---------------------------------------------------------------------------
+>>> MACRO-LEVEL COMPONENT
+---------------------------------------------------------------------------
+
+To supplement the micro (survey) data, the teams of researchers responsible
+for the collection of the public opinion data also compiled and deposited
+the following types of data: electoral legislation, political party
+platforms, and official electoral returns.
+
+To facilitate this process, a detailed questionnaire was constructed to
+serve as a framework for the macro component of the project. The Macro Data
+Reports, completed by the CSES collaborators, can be found on the CSES
+website in the Module 4 section under the "Data Center".
+
+Additional measures thought pertinent to the micro-district-macro design
+are also compiled and available in the CSES data files.
+
+Sources consulted for the macro level component are listed as appropriate
+in the Bibliography at the end of this part of the CSES Codebook. 
+
+
+===========================================================================
+))) CSES MODULE 4 DOCUMENTATION - WHAT'S AVAILABLE AND HOW TO USE?
+===========================================================================
+
+There are several components to the CSES documentation. We detail each in
+turn below: 
+
+
+---------------------------------------------------------------------------
+>>> CSES CODEBOOK OVERVIEW
+---------------------------------------------------------------------------
+
+The primary component  of documentation is the CSES Codebook. The 
+codebook consists of six components, namely: 
+
+1) PART 1: INTRODUCTION 
+   (file name: cses4_codebook_part1_introduction.txt)
+   Part 1 (This file) overview of the CSES study and data, information about 
+   how to use the files, election study descriptions, information on the
+   CSES datafile, the checks the CSES Secretariat conducts on the datafile
+   and information on the national collaborators of the CSES project for
+   each polity.  
+
+2) PART 2: CSES VARIABLES DESCRIPTION
+   (file name: cses4_codebook_part2_variables.txt)
+   Part 2 is the variable description file and includes the survey 
+   questions, code frames, general notes, election study notes, and 
+   details about sources for macro data. 
+
+3) PART 3: PARTIES AND LEADERS BY COUNTRY 
+   (file name: cses4_codebook_part3_parties_and_leaders.txt)
+   Part 3 details the party/coalition and leader numeric and alphabetical
+   coding for each polity included in the CSES Module 4 dataset. 
+
+4) PART 4: PRIMARY ELECTORAL DISTRICTS RESPONDENTS BY POLITY
+   (file name: cses4_codebook_part4_primary_electoral_districts.txt)
+   Part 4 details the primary electoral district by polity for each 
+   respondent included in the CSES Module 4 dataset. 
+
+5) PART 5: ELECTION SUMMARIES BY POLITY
+   (file name: cses4_codebook_part5_election_summaries.txt)
+   Part 5 contains short summaries of each election included in CSES Module 
+   4. It also provides analysts with details of additional sources they may 
+   wish to consult to understand the elections included in CSES in greater
+   detail. 
+
+6) PART 6: STUDY DESIGN AND WEIGHTS OVERVIEW BY POLITY
+   (file name: cses4_codebook_part6.txt)
+   Part 6 contains overviews of the design of each election study included 
+   in CSES Module 4. It also provides analysts with details regarding the 
+   polity weights provided by each election study. 
+
+The CSES Module 4 questionnaire is also available from the website or
+by referencing the corresponding variables in this codebook.
+
+For all election studies included in CSES, collaborators have provided 
+documentation to accompany their election studies. These documents, 
+where available, can be found on the CSES Module 4 download page 
+under "Data Center" on the CSES website (www.cses.org).
+
+Analysts will also want to become familiar with the CSES Module 4 errata
+page. It is accessible from the CSES Module 4 download page under "Data
+Center" on the CSES website. Information, updates, and error notifications
+and corrections are posted there, in real time, as they become available.
+Please regularly check for errata notifications to keep up to date.
+
+
+---------------------------------------------------------------------------
+>>> CSES CODEBOOK CONVENTIONS
+---------------------------------------------------------------------------
+
+The CSES project uses American English language and date standards 
+(MM-DD-YYYY). In the CSES Module 4 dataset, all variables begin with the 
+letter "D" (D being the fourth letter of the English alphabet and thus 
+signifying Module 4). This convention helps reduce the possibility of 
+overwriting data when merging with other CSES datasets.
+
+Variables are presented in five groupings:
+
+1) D1001-D1999 Identification, weight, and election study variables
+
+2) D2001-D2999 Demographic variables
+
+3) D3001-D3999 Micro-level (survey) data (the CSES Module 4 questionnaire)
+
+4) D4001-D4999 District-level data
+
+5) D5001-D5999 Macro-level data
+
+In the Variable Descriptions portion of the codebook, the headers for
+individual variables are surrounded by two lines of dashes. Variable
+names do not exceed eight characters in length.
+
+
+---------------------------------------------------------------------------
+>>> CSES CODEBOOK - VARIABLE NOTES AND ELECTION STUDY NOTES
+---------------------------------------------------------------------------
+
+<<>> VARIABLES NOTES
+
+Variable notes provide information on the rationale of a variable 
+as well as source information for that variable. It also details the 
+polity's for which no data for that particular variable are available. 
+VARIABLES NOTES are listed below the descriptive information for the said
+variable and can be navigated in the codebook by searching for 
+"VARIABLES NOTES" in Part 2 of the CSES codebook. 
+
+<<>> ELECTION STUDY NOTES
+
+A unique dimension of the CSES are the inclusion of ELECTION STUDY NOTES. 
+They are notes which are attached to each variable included in the dataset
+and refer to case-specific information regarding a particular variable. 
+Their purpose is to provide users with more detailed information on the 
+case or explain essential deviations specific to cases from CSES 
+conventions. They are also used to provide source data information for 
+users. Where applicable, ELECTION STUDY NOTES are listed below a particular
+variable and any VARIABLES NOTES in part 2 and 3 of the CSES codebook. They
+can be navigated in the codebook by searching for "ELECTION STUDY NOTES" in
+Parts 2-4 of the CSES codebook.
+
+
+---------------------------------------------------------------------------
+>>> CSES ORIGINAL QUESTIONNAIRE FOR MODULE 4
+---------------------------------------------------------------------------
+
+The CSES Module 4 original questionnaire is available from the CSES Module 
+4 study page at: 
+         http://www.cses.org/datacenter/module4/module4.htm
+
+or by referencing the corresponding variable descriptions in the CSES
+Module 4 Codebook (see Part 2).
+
+
+---------------------------------------------------------------------------
+>>> CSES - ADDITIONAL DOCUMENTATION
+---------------------------------------------------------------------------
+
+All election studies included in CSES provide numerous source material. 
+These documents include the following: 
+      - Macro reports 
+      - Design reports 
+      - Original questionnaires including the language of origin 
+We describe each in turn below. 
+
+<<>> MACRO REPORT
+
+Collaborators submit a macro report to the CSES Secretariat when depositing
+their national data. Its purpose is to provide a coherent link between 
+national level specialists and data specific to the election and polity 
+in question. It provides information on the election, the composition of 
+cabinet before and after election, expert assessments of the parties, 
+information on electoral rules operating in the polity, as well as original
+sources for the country level data. It aids the CSES Secretariat in 
+collating some of the macro level data for each polity included in the 
+country. Where available, macro reports can be found on the CSES Module 4 
+download page under "CSES Module 4 Election Study Archive" at:
+http://www.cses.org/datacenter/module4/module4.htm
+
+<<>> DESIGN REPORT
+
+Collaborators also submit a design report to the CSES Secretariat when 
+depositing their national data. It provides all information on the 
+implementation of each individual election study including details
+regarding fieldwork dates, mode of interview, sampling procedures, 
+sampling frame, response and refusal rates, information on translation
+procedures, and weights. Some of this data is included directly in the
+CSES data in variables D1001-D1034. Where available, design reports can 
+be found on the CSES Module 4 download page under "CSES Module 4 Election
+Study Archive" at: http://www.cses.org/datacenter/module4/module4.htm
+Further, Part 6 of the Codebook provides overviews of each polity's study
+design and polity level weights. It draws heavily on information from
+each polity's design report. 
+
+<<>> ORIGINAL QUESTIONNAIRES
+
+Where available, CSES provides the original language questionnaires from 
+each polity's national election study. Further, CSES requests that all 
+studies included provide the English language questionnaire used as the 
+basis for translation of the CSES questionnaire into a polity's native
+tongue(s). Where available, the questionnaires can be found on the CSES 
+Module 4 download page under "CSES Module 4 Election Study Archive" at:
+http://www.cses.org/datacenter/module4/module4.htm
+
+
+---------------------------------------------------------------------------
+>>> HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+---------------------------------------------------------------------------
+
+CSES Codebook is produced in .txt format to allow for easy accessibility 
+and as such the Codebook can be read into a variety of programs. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header 
+
+>>> = Sub-section Header 1
+
+<<>> = Sub-section Header 2
+
++++ = Tables
+
+VARIABLES NOTES = Notes for particular variables 
+
+ELECTION STUDY NOTES = Notes for a particular election study  
+
+
+===========================================================================
+))) CSES MODULE 4 STUDY DATA AND CODEBOOK: ADDITIONAL INFORMATION
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> IDENTIFICATION VARIABLES
+---------------------------------------------------------------------------
+
+There are several identification variables in CSES Module 4 which allow
+users to not only identify an individual respondent, but election studies, 
+and polities. 
+
+<<>> ELECTION STUDY IDENTIFIERS
+
+Each Election Study in CSES Module 4 is uniquely identified by two 
+variables, namely: 
+
+   - variable D1003 ID VARIABLE - ELECTION STUDY (NUMERIC POLITY)
+     This variable is an eight-digit numerical code constructed from two
+     components: the CSES polity code (variable D1006) and the 
+     year in which the election took place (D1008). The first three digits
+     represent the country codes assigned by the United Nations Statistics
+     Division. The fourth digit distinguishes between multiple election
+     studies within a single country for the same election. The final 
+     four digits represent the year of the election. 
+     E.g., 03602013. AUSTRALIA (2013)
+
+   - variable D1004 ID VARIABLE - ELECTION STUDY (ALPHABETIC POLITY)
+     This variable is an alphanumerical code constructed from two
+     components: the alpha-3 country codes assigned by the United Nations
+     Statistics Division´s. The remaining characters correspond 
+     to the year of the election. 
+     E.g., USA_2012 
+
+<<>> POLITY IDENTIFIERS
+
+Each Polity in CSES Module 4 is uniquely identified by two 
+variables, namely: 
+
+   - variable D1006_UN ID COMPONENT - POLITY UN CODE
+     This variable consists of the numeric country codes assigned by the 
+     United Nations Statistics Division to polities
+     E.g., 372. IRELAND (2011)
+
+   - variable D1006_NAM ID COMPONENT - POLITY NAME
+     This variable consists of polity names based on those used by the
+     United Nations Statistics Division. 
+     E.g., New Zealand 
+
+These polity identifiers allow for easy data bridging with other macro
+data sources such as the World Bank. 
+
+<<>> RESPONDENT IDENTIFIER
+
+Respondents can be uniquely identified in the dataset by variable D1005. It
+is an 18-character identifier. The first three characters are the numeric
+version of the country codes assigned by the United Nations Statistics
+Division. If applicable, the fourth character distinguishes between 
+multiple studies conducted within a single country, for the same election. 
+If only one study is in place for the election, this digit is 0. The fifth
+through eighth characters correspond to the election year (see variable
+D1008). The last ten characters are the respondent identifier from D1009,
+which is unique within each election study.
+
+
+---------------------------------------------------------------------------
+>>> MISSING DATA
+---------------------------------------------------------------------------
+
+Multiple response categories can relate to missing data relating from 
+not applicable to a respondent refusing to answer or failing to answer 
+a question. Users should consult individual variables for the specific
+missing designations assigned to each variable. 
+
+For some election studies in which we could not distinguish among various
+answers, the code "missing" may include cases where respondents refused 
+to answer the question, "don't know" responses, and cases where there
+a particular question went unanswered for other reasons.
+Moreover, while CSES guidelines request that the response categories 
+"Refused" and "Don't Know" be volunteered responses, this was not always 
+consistently applied. For instance, sometimes the options were offered 
+explicitly to respondents in mail-back surveys, which do not have the 
+benefit of an interviewer being present. To identify whether the response 
+options were volunteered (or not) in a particular election study, users 
+should refer to the original questionnaires of each country. These are
+available on the Module 4 page. 
+
+While there is no consistent CSES convention regarding the application of
+missing values, some commonalities exist, namely: 
+- Not applicable values are commonly designated as 7, 97, 997, 9997 etc...
+- Don't know values are commonly designated as 8, 98, 998, 9998 etc... 
+- Missing values are commonly designated as 9, 99, 999, 9999 etc...
+
+However, users are advised that the commonalities do not always hold
+and they are advised to consult individual variables for the specific
+missing designations assigned to the variable in question. 
+
+
+---------------------------------------------------------------------------
+>>> WEIGHTS
+---------------------------------------------------------------------------
+
+CSES provides a number of weight measures in the CSES data (see variables 
+D1010-D1014 inclusive). There is a strong degree of variance in the sample 
+designs used in the national election studies included in CSES. Hence, the
+weights provided by collaborators vary significantly. Users are advised
+to read carefully about the different weights in CSES to ascertain
+whether their analyses should be subjected to weighting and if so which
+kind. 
+
+CSES provides users with up to three original weights from each 
+national election study (see variable D1010_) namely:
+
+  - SAMPLE WEIGHT (variable D1010_1): 
+    intended to correct for unequal selection probabilities resulting from 
+    booster samples procedures for selection within the household, 
+    non-response, or other sample design features 
+
+  - DEMOGRAPHIC WEIGHT (variable D1010_2): 
+    intended to adjust sample distributions of socio-demographic 
+    characteristics to more closely resemble the characteristics of the 
+    population
+
+  - POLITICAL WEIGHT (variable D1010_3): 
+    intended to reconcile discrepancies in the reported electoral behavior
+    of respondents vis-a-vis official electoral counts. 
+
+For more information on polity weights, users are advised to consult Part 6
+of the CSES Codebook or the individual design reports of each study. 
+
+The remainder of the weight variables in the dataset are derivative
+variables, constructed from the original weights. They are: 
+ 
+  - FACTOR WEIGHTS (variable D1011)
+    These variables report the mean weight of each type, within each 
+    polity. The resulting factors are then used to create the derivative 
+    Polity Weights (D1012 explained below) 
+
+  - POLITY WEIGHTS (variable D1012)
+    These variables report standardized versions (with a mean 1 within the 
+    polity) of the original weights provided with the component election 
+    studies, described in D1010. They are the ratio of each weighting 
+    factor to the mean weight (D1011) of each type, calculated within each
+    polity.
+
+  - SAMPLE SIZE ADJUSTMENT WEIGHT (variable D1013)
+    This variable reports the ratio of the average sample size to each 
+    election study sample. The resulting factor is then used to create the
+    derivative Dataset Weights (D1014 explained below).
+
+  - DATASET WEIGHTS (variable D1014)
+    These variables are intended for micro-level analyses involving the 
+    entire CSES sample. Using the sample size adjustment (D1013), the 
+    centered weights (D1012) are corrected such that each election study
+    component contributes equally to the analysis, regardless of the 
+    original sample size. 
+
+Details of the calculation of the above derivative weights, including 
+the precise STATA code used to create the weights, can be found in the 
+variable notes for variables D1011, D1012, D1013, and D1014.     
+
+Analysts are advised to read the weight documentation carefully to ensure
+that their analyses are weighted appropriately (if applicable).The CSES 
+project does not provide advice as to which weights are appropriate to 
+use in particular circumstances. This is best left to analysts to decide 
+based on their detailed knowledge of the research question under 
+investigation. We advise analysts to consult variable notes D1010-D1014 
+for more specific information on each polities weight and the derivative 
+weights calculated for the Cross-National Dataset.
+
+
+---------------------------------------------------------------------------
+>>> FREEDOM STATUS OF ELECTIONS
+---------------------------------------------------------------------------
+
+The majority of studies that comprise CSES are collected in countries that
+have free or partly free elections. However, sometimes a collaborator will
+include the CSES module in a study of a polity that is a developing
+democracy or that is considered not free. If the data collection is judged
+to be of sufficiently high quality, the study is included in CSES datasets
+even if the country is considered to be not free. The decision regarding
+inclusion of particular polities in an analysis is thus left to users. 
+
+To assist users in making appropriate decisions concerning their 
+analysis, CSES Module 4 includes two measures about the freedom 
+and liberty of a polity in the year the election was held (and indeed
+the two preceding years), namely: 
+
+   - FREEDOM HOUSE RATING (variables D5050)
+     Freedom House assigns a numerical rating of a polity on a scale of 
+     1 to 7 providing an indication of freedom. 
+
+   - POLITY IV DEMOCRACY-AUTOCRACY RATING (variables D5051)
+     Polity IV assigns a numerical rating to a polity on a scale of -10 
+     to 10 indicating whether the country is strongly
+     democratic or strongly autocratic. 
+
+Freedom House and Polity IV are not affiliated with the CSES project.
+
+
+---------------------------------------------------------------------------
+>>> CODING OF PARTIES/COALITIONS & LEADERS
+---------------------------------------------------------------------------
+
+CSES codes parties/coalitions in its dataset numerically and 
+alphabetically. Below we provide explanations of both of these coding 
+schemes. The details of each party/leader classification is available in 
+Part 3 of the CSES Codebook. 
+
+<<>> CSES NUMERICAL PARTY/COALITION CODING 
+
+All parties/coalitions or presidential candidates, where applicable, 
+participating in the election or the previous election receive a 
+numerical code. These codes are used to Identify the following: 
+   - who a respondent's voted for in the current election (variable D3006). 
+   - who the respondent voted for in the previous election (variable D3008).
+   - the respondent's party identification (variable D3018).
+   - the extent of institutional contact the respondent received from a 
+     party/coalition during the election campaign (variable D3021).
+
+The numeric coding is also used to identify macro level information about
+the parties/coalitions, namely:  
+   - which party/coalition held the presidency before and after the 
+     elections (variable D5007 and D5011). 
+   - which party/coalition held the prime ministership before and after 
+     the elections (variable D5008 and D5012). 
+
+Where possible, the numeric codes assigned to parties/coalitions are 
+consistent for the current and previous election. However, for the previous
+election (variable D3008) different codes might have been allocated for the
+same parties (for example a party in the current election might be standing
+as party of a coalition but previously stood alone). Users are advised to
+consult the election study notes for variable D3008 for each country where
+details of deviations are noted. 
+
+<<>> CSES ALPHABETICAL PARTY/COALITION CODING
+
+Parties A through F are the six most popular parties/coalitions, ordered in
+descending order of their share of the popular vote in the parliamentary 
+election (unless otherwise stated). Thus Party A is the party/coalition 
+that received the most votes in the election, party B the second most votes
+etc...         
+
+Parties/coalitions who achieve at least 1% of the vote nationally are 
+eligible for an alphabetical A-F assignment. In countries with multiple 
+electoral tiers and where one vote is cast, parties are ordered according
+to their vote share in tier 1 (the lowest tier), unless otherwise stated. 
+In countries where voters have two votes (i.e.: a constituency and a list  
+vote) simultaneously, for example Germany, parties are ordered by the 
+national share of the party list vote (tier 2).
+
+Parties G, H, and I are supplemental parties. They may, but do not have to,
+accord with how parties A-F are ordered, that is ordered on the popular 
+share of the vote in a country. More often, they are codified in no 
+particular order. These parties are voluntarily provided by each country's
+election study and often reflect important or notable parties within a 
+country. They may also include data about individual parties within a 
+coalition, where data about the coalition and the individual parties, 
+or some of these parties that make it up, are provided.
+These codes are used to identify the following in the micro component of 
+the CSES dataset: 
+
+   - Respondent's likeability of the party/coalition (variable D3011). 
+   - Respondent's left-right placement of the party/coalition 
+     (variable D3013).
+
+These alphabetical codes are used to identify distinct and macro level 
+information about these said parties/coalitions, namely:
+   - The said party/coalition's vote share in the respondent's electoral 
+     district (variable D4003). 
+   - the said party/coalition's share of the vote in the election 
+     (variables D5001, D5002, & D5005).
+   - the said party/coalition's share of the seats in the election 
+     (variables D5003 & D5004).
+   - the said party/coalition's share of cabinet portfolios 
+     before and after the election (variable D5009 & D5013).
+   - expert judgements by the national collaborators of the 
+     said party/coalition's ideological family (variable D5016).
+   - expert judgements by the national collaborators of the said party/
+     coalition's left-right placement (variable D5017).
+
+<<>> CSES ALPHABETICAL LEADER CODING
+
+Leaders A through F tend to be the leaders of the six most popular 
+parties/coalitions or the presidential candidates of these parties. They 
+correspond to parties A-F (i.e.: Leader A will be related to Party A in 
+some way, Leader B will be related to Party B etc...)
+
+Leaders G, H, and I are supplemental leaders. They may be related to 
+parties G, H, I but they do not have to be. These leaders are voluntarily
+provided by each country's election study and often include data about
+additional personalities of interest. For example, in a parliamentary 
+system, data about a President might be provided, even if the Presidency 
+is not being contested. On many occasions, slots Leader G, H, and I will 
+include additional data for parties/coalitions that have multiple leaders. 
+These codes are used to identify the following in the micro and macro 
+components of the CSES dataset: 
+   - Respondent's likeability of the leader/personality in question 
+     (variable D3012). 
+
+
+---------------------------------------------------------------------------
+>>> PROCESSING CHECKS OF MODULE 4 DATASET BY THE CSES SECRETARIAT
+---------------------------------------------------------------------------
+
+Besides processing Module 4 studies from individual polities to ensure they
+are fit for comparative analysis, which involves detailed checking of 
+individual studies, a key role of the CSES Secretariat is to perform
+several checks on the Module 4 Dataset before it is released. These checks
+include (but are not confined to): 
+
+   - CHECK OF DUPLICATE IDs
+     Identification of respondents with corresponding answers to all 
+     questions or respondent identification data that are similar 
+
+   - INCONSISTENCY CHECKS
+     To identify sets of variables which are inconsistent, or could be 
+     perceived as inconsistent (e.g., strange skip pattern, incompatible
+     answers to related questions). The CSES convention is not to change 
+     data that we receive from national collaborators. Instead, 
+     inconsistencies are noted in the CSES codebook under the appropriate
+     variable and the data are left unchanged. This allows users to make
+     the final determination on whether inconsistencies may affect their
+     analyses.  
+
+   - IRREGULAR AND EXTRAORDINARY CODE CHECKS 
+     To identify irregular and extraordinary codes in the CSES Module 4 
+     Dataset. Sometimes these irregular or extraordinary codes are 
+     legitimate in the sense that they may be accounted for by a polity
+     deviation on a particular variable.
+
+   - THEORETICAL CHECKS  
+     These checks explore expected relationships between variables that 
+     we might expect to occur (e.g., correlation between Political Efficacy
+     and Satisfaction with Democracy). We do this by exploring 
+     distributions, correlation analysis, and regression analysis. 
+
+   - VARIABLE AND VALUE LABEL CHECKS
+     Checking all variables in the CSES Module 4 Dataset to ensure they
+     are appropriately assigned labels and documented in the CSES Codebook. 
+
+If you identify any potential issue with the CSES Module 4 data, 
+please contact the CSES Secretariat by e-mail at: cses@umich.edu 
+
+
+===========================================================================
+))) CSES MODULE 4 BIBLIOGRAPHY
+===========================================================================
+
+The below list constitutes a list of the primary sources that the CSES 
+Secretariat has consulted in the development of CSES Module 4 Codebook and
+Data. The below list, while thorough, is not comprehensive. Instead, 
+all sources not listed here are listed in the appropriate section of the
+Codebook that the information refers to. 
+
+ACE The Electoral Knowledge Network
+http://aceproject.org/epic-en/CDTable?question=VR008&view=countr
+y&set_language=en 
+http://aceproject.org/epic-en/CDTable?question=VR004&view=country&
+set_language=en
+(Date accessed: November 8, 2014)
+
+ACE Electoral Knowledge Network - Electoral Systems Brazil
+http://aceproject.org/ace-en/topics/es/esy/esy_br 
+(Date accessed: May 24, 2016)
+
+Agpalo, R. (2004). Comments on the Omnibus Elections. Rex Printing 
+Company, Inc, Quezon City.
+
+Alles, S.  Jones, M.P., & Tchintian, C. (2016). "The 2015 Argentine
+presidential and legislative elections" Electoral Studies, Vol.43,  
+184-187. doi: 10.1016/j.electstud.2016.05.001  
+Available at: http://www.bakerinstitute.org/files/10888/
+(Date accessed: 17 January 2017). 
+
+Altman, O. (n.d). "Argentina Electoral System" ACE Electoral        
+Knowledge Network. 
+http://aceproject.org/regions-en/countries-and-territories/AR
+/case-studies/esy_ar (Date accessed: April 8, 2018). 
+
+American Federal Election Commission. Federal Elections 2012. Election 
+Results for the U.S. President, the U.S. Senate and the U.S. House of
+Representatives. 
+http://www.fec.gov/pubrec/fe2012/federalelections2012.pdf
+(Date accessed: December 4, 2014).
+
+ANZSCO, Revision 1 and Version 1.2
+http://www.abs.gov.au/ANZSCO
+(Date accessed: May 22, 2018)
+
+Apfeld, B., & Branham, J.A. (2016). Campaign shocks and party
+support: evidence from Brazil's 2014 presidential election. Journal of
+Elections, Public Opinion and Parties, Vol. 26(3), 336-353. 
+doi: 10.1080/17457289.2016.1178647
+
+Argentine Electoral Commission
+http://www.elecciones.gob.ar/admin/ckfinder/userfiles/files/DN_DEFINITIVO
+%20x%20Distrito_GRALES_%202015.pdf
+(Date accessed: January 17, 2017)
+
+Australian Electoral Commission
+http://results.aec.gov.au/17496/Website/HouseStateFirstPrefsByParty-17496
+-NAT.htm
+(Date accessed: May 21, 2014)
+http://results.aec.gov.au/17496/Website/HouseDownloadsMenu-17496-csv.htm
+(Date accessed: June 30, 2014) 
+
+Austrian Minister of Interior, Electoral Results 2013 [in German].
+http://wahl13.bmi.gv.at/
+(Date accessed: March 12, 2014)
+
+Arter, D. (2015). A 'Pivotal Centre Party' Calls the Shots: The 2015 
+Finnish General Election. West European Politics, 38(6), 1345-1353.
+doi: 10.1080/01402382.2015.1058468
+
+BBC News (2016). Brazil impeachment: Key questions.
+http://www.bbc.com/news/world-latin-america-36028117 
+(Date accessed: May 30, 2016)
+
+Berg, L., & Oscarsson, H. (2015). The Swedish general election 2014.
+Electoral Studies, Vol.38, 91-93. doi: 10.1016/j.electstud.2014.11.001
+
+Bernas, J. (1996). The 1987 Constitution of the Republic of the 
+Philippines: A Commentary. Rex Printing Company, Inc, Quezon City.
+
+Bulgarian Electoral Law [Izboren kodeks].
+https://www.cik.bg/bg/8
+(Date accessed: May 16, 2018)
+
+Brazilian Election Commission.
+http://www.tse.jus.br/eleicoes/estatisticas/estatisticas-eleitorais
+-2014-resultado 
+(Date accessed: May 24, 2016) 
+
+Brazilian IBGE (government agency responsible for census and population
+estimates).
+http://www.ibge.gov.br/english/estatistica/populacao/
+trabalhoerendimento/pnad2012/default_sintese.shtm
+(Date accessed: May 30, 2016)
+
+British Office of National Statistics - Population Estimates Mid 2015:  
+https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/
+populationandmigration/populationestimates/datasets/populationestimates
+forukenglandandwalesscotlandandnorthernireland/mid2015/ukmye2015.zip  
+(Date accessed: February 6, 2017)
+
+Bulletin of the results of the election for National Deputies on 
+October 5, 2014. Central Electoral Commission. 
+https://results.cik.bg/pi2014/bulletin.html
+
+Bundeswahlleiter 2013 German Bundestag election results:
+http://www.bundeswahlleiter.de/en/bundestagswahlen/BTW_BUND_13/e
+rgebnisse/bundesergebnisse/index.html(*)
+(Date accessed: November 8, 2014).
+
+Bustanti, C. (2001). The 1998 Elections in Brazil. Electoral Studies,
+Vol.20, 305-339. 
+doi: 10.1016/S0261-3794(00)00035-4
+
+Cabinet of Ministers official webpage (Latvia)
+http://mk.gov.lv/en
+(Date accessed: January 4, 2018)
+
+Camara de Diputados (Chamber of Deputies - The Lower Chamber of the Mexican
+parliament).
+http://www.diputados.gob.mx
+(Date accessed: May 16, 2018)
+
+Camara de Senadores (Chamber of Senators - The Upper Chamber of the Mexican
+parliament)
+http://www.senado.gob.mx/
+(Date accessed: May 16, 2018)
+
+Canadian Election Law: Canada Election Act
+http://laws-lois.justice.gc.ca/eng/acts/e-2.01/  
+(Date accessed: May 11, 2016) 
+
+Canadian Senate
+http://sen.parl.gc.ca/portal/about-senate-e.htm  
+(Date accessed: May 11, 2016) 
+
+Canadian Parliament: Canadian Federal Structure
+http://www.lop.parl.gc.ca/About/Parliament/ 
+(Date accessed: May 11, 2016)
+
+Census and Statistics Department Hong Kong - Population Estimates
+http://www.censtatd.gov.hk/hkstat/sub/sp150.jsp?
+tableID=002&ID=0&productType=8
+(Date accessed: September 27, 2016)
+
+Central Electoral Commission of Bulgaria
+http://results.cik.bg/pi2014/rezultati/index.html
+(Date accessed: December 2, 2014)
+
+Central Election Comission of Latvia official webpage: The 11th Saeima 
+Elections (Latvia)
+https://www.cvk.lv/pub/public/30182.html
+(Date accessed: January 4, 2018)
+
+Central Statistics Office of Ireland: http://www.cso.ie/en/index.html
+(Date accessed: August 12, 2013)
+
+Cheesman, N., Lynch, G., & Willis, J. (2014). Democracy and its 
+discontents: Understanding Kenya's 2013 elections. Journal of Eastern 
+African studies, 8(1), 2-24. doi: 10.1080/17531055.2013.874105
+
+Cheibub, J. A. (2007). Presidentialism, Parliamentarism, and Democracy.
+New York: Cambridge University Press.
+
+Clarke, H. D., & et al. (2017). Like Father, Like Son: Justin Trudeau and
+Valence Voting in Canada’s 2015 Federal Election. PS: Political Science &
+Politics, 50(3), 701-707. doi: 10.1017/S1049096517000452
+
+Constituency-Level Elections Archive (CLEA)
+http://electiondataarchive.org/datacenter.html
+Date accessed: February 19, 2016
+
+Constituency-Level Elections Archive (CLEA). 2014 Version.
+http://electiondataarchive.org/datacenter.html
+(Date accessed: December 10, 2014)
+
+Constitution of Ireland.
+https://www.constitution.ie/Documents/Bhunreacht_na_hEireann_web.pdf
+(Date accessed: May 9, 2018)
+
+Constitutional Council of the French Republic
+http://www.conseil-constitutionnel.fr/conseil-constitutionnel/root/bank/
+download/cc2012listecandidats.pdf
+(Date accessed: April 5, 2018)
+
+Congress of the Republic of Peru
+http://www.congreso.gob.pe
+(Date accessed: January 7, 2018)
+
+Constitution of the Republic of South Africa
+http://www.elections.org.za/content/WorkArea/linkit.aspx?LinkIdentifier=id&
+ItemID=948
+(Date accessed: January 18, 2017)
+
+Commission on Elections (Philippines) - List of Registered/Accredited
+Political Parties.
+http://www.comelec.gov.ph/?r=2016NLE/PoliticalParties
+(Date accessed: May 15, 2018)
+
+Cop, B. (2016). The June 2015 legislative election in Turkey. Electoral
+Studies, Vol.41, 213-216. doi: 10.1016/j.electstud.2015.10.009
+
+Courtney, M., & Gallagher, M. (2012). The parliamentary election
+in Ireland, February 2011. Electoral Studies 31, 222-242. 
+doi: 10.1016/j.electstud.2011.10.001
+
+Czech Bureau of Statistics (2014). Age Distribution of the Population - 
+2013.
+https://www.czso.cz/csu/czso/age-distribution-of-the-population
+-2013-9pca2gng8n 
+(Date accessed: May 28, 2016).
+
+Czech Statistical Office.
+http://www.volby.cz/index_en.htm
+(Date accessed: April 20, 2016) 
+
+Czech Statistical Office. Election results 2013.
+http://volby.cz/pls/ps2013/ps61?xjazyk=EN&xv=1
+(Date accessed: April 20, 2016) 
+
+Dezelan, T. (2012). The Early National Elections in Slovenia, 2011. 
+Baltic Worlds. Available at: http://balticworlds.com/in-slovenia-2011/ 
+(Date accessed: May 9, 2018)
+
+Dinas, E., & Rori, L. (2013). The 2012 Greek Parliamentary 
+Elections: Fear and Loathing in the Polls. West European Politics, 36(1), 
+270-282. doi: 10.1080/01402382.2013.742762
+
+Direccion Nacional Electoral Argentina
+http://www.elecciones.gob.ar/admin/ckfinder/userfiles/files/
+DN_DEFINITIVO%20x%20Distrito_GRALES_%202015.pdf
+Date accessed: March 7, 2017
+
+Direccion Nacional Electoral Argentina (n.D.): Elecciones Generales – 
+25 de Octubre 2015. Available at: 
+http://www.elecciones.gob.ar/articulo_princ.php?secc=2&sub_secc=55 
+(Date accessed: January 26, 2017)
+
+Direccion Nacional Electoral Argentina (n.D.): Segunda Vuelta Presidencial, 
+available at: 
+http://www.elecciones.gob.ar/admin/ckfinder/userfiles/files/2daVUELTA_Compa
+racion_Provisorio-Definitivo.pdf 
+(Date accessed: January 26, 2017)
+
+Diskin, A., & Hazan, R.Y. (2014). The parliamentary election in
+Israel, January 2013. Electoral Studies, Vol.34, 373-376. 
+doi: 10.1016/j.electstud.2013.08.015
+
+Dolezal, M. & Zeglovits, E. (2014). Almost an Earthquake: The Austrian 
+Parliamentary Election of 2013. West European Politics, 37(3), 644-652.
+doi: 10.1080/01402382.2014.895524 
+
+Do Vale, H. F. (2016) Federal Political Fragmentation in Mexico's
+2015 Elections. Regional and Federal Studies, 26(1), 121-138. 
+doi: 10.1080/13597566.2015.1136928
+
+Drzavna izborna komisija Crne Gore (Electoral Commission of Montenegro).
+http://www.dik.co.me/
+(Date accessed: May 16, 2018)
+
+Elections Canada
+http://www.elections.ca/res/rep/off/ovr2015app/home.html#1
+Date accessed: January 28, 2018
+
+Elections Canada (n.D). 2011 Election Results (Tables 3, 8, 9).
+http://www.elections.ca/scripts/ovr2011/default.html  
+(Date accessed: April 25, 2016) 
+
+Election Resources.org (n.D.). Iceland 2013 General Elections.
+http://www.electionresources.org/is/althing.php?election=2013
+&constituency=01
+(Date accessed: January 14, 2015)
+
+Election Resources.org (n.D.). Japan 2013 Upper House Elections.
+http://www.electionresources.org/jp/councillors.php?election=2013
+(Date accessed: January 7, 2015)
+
+Electoral Commission of Montenegro
+http://www.dik.co.me/
+(Date accessed: November 14, 2013)
+
+Electoral Commission of New Zealand.
+http://www.elections.org.nz/
+(Date accessed: May 16, 2018)
+
+Electoral Commission of New Zealand - Official election results 2011.
+http://www.electionresults.govt.nz/electionresults_2011
+(Date accessed: May 16, 2018)
+
+ElectionResources on the Internet: Brazil 2014 Senate Elections
+http://www.electionresources.org/br/senators.php?election=2014 
+(Date accessed: May 24, 2016) 
+
+Election Resources on the Internet: Federal Elections in Mexico.
+http://www.electionresources.org/mx/index_en.html
+(Date accessed: April 23, 2014) 
+
+Election Resources on the Internet: Greek Parliamentary Elections
+http://electionresources.org/gr/vouli.php?election=2012
+(Date accessed: September 26, 2014) 
+
+Election Resources on the Internet: Greek Parliamentary Elections
+(Date accessed: February 23, 2015) 
+
+Election Resources on the Internet: Elections to the Icelandic Althing
+http://www.electionresources.org/is/althing.php?election=2013&constituency=
+01
+(Date accessed: January 14, 2015) 
+
+Elections Ireland: Irish election results 2011.
+http://electionsireland.org/results/general/31dail.cfm
+(Date accessed: May 16, 2018)
+
+Electoral Act 73 of 1998 including Regulations (South Africa)
+http://www.elections.org.za/content/Documents/Laws-and-regulations/
+Elections/Electoral-Act-73-of-1998-including-Regulations/ 
+(Date accessed: January 18, 2017)
+
+Electoral Commission of South Africa
+http://www.elections.org.za/content/
+(Date accessed: January 18, 2017)
+
+Endre, S. (2015). Election note on the 2013 Norwegian election.
+Electoral Studies, Vol.38, 98-101. doi: 10.1016/j.electstud.2014.12.004
+
+European Election Database (EED)
+http://eed.nsd.uib.no/webview/index.jsp?study=http%3A%2F%2F129.1
+77.90.166%3A80%2Fobj%2FfStudy%2FFRPR2012&mode=cube&v=2&cube=http
+%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FFRPR2012_C1&top=yes 
+(Date accessed: January 29, 2018)
+
+European Election Database (n.D.). Norway Parliamentary Election 2013.
+http://eed.nsd.uib.no/webview/index.jsp?study=http%3A%2F%2F129.177.90.
+166%3A80%2Fobj%2FfStudy%2Fnopa2013&mode=cube&v=2&cube=http%3A%2F%2F129.177.
+90.166%3A80%2Fobj%2FfCube%2Fnopa2013_C1&top=yes
+(Date accessed: May 25, 2016)
+
+European Election Database (n.D.). Poland Parliamentary Election 2011. 
+http://www.nsd.uib.no/european_election_database/country/poland/
+(Date accessed: March 12, 2015)
+
+European Union Election Observation Mission to Kenya - General Elections 
+2013
+http://www.eods.eu/library/eu-eom-kenya-2013-final-report_en.pdf
+(Date accessed: May 15, 2018)
+
+Federal Election Commission USA (2012). Official General Election Results
+For United States President, November 6, 2012. Federal Election Commission.
+http://www.fec.gov/pubrec/fe2012/federalelections2012.shtml
+(Date accessed: February 18, 2015) 
+
+http://www.fec.gov/pubrec/fe2012/2012pres.pdf
+(Date accessed: May 22, 2018)
+
+Finish Election Study Portal (n.D.). Available at: 
+http://www.vaalitutkimus.fi/en/
+(Date accessed: March 27, 2017)
+
+Fink-Hafner, D. (2012). Slovenia. European Journal of Political Research 
+Political Data Yearbook, Vol. 51(1), 288-296. 
+doi: 10.1111/j.2047-8852.2012.00031.x
+
+Finlex (2014). Government regulation of MPs.
+http://www.finlex.fi/fi/laki/smur/2014/20140935
+(Date accessed: October 25, 2016)
+
+Fisher, J., Cutts, D., Fieldhouse, E., & Rottweiler, B. (2018). The 
+Impact of Electoral Context on the Electoral Effectiveness of District-
+Level Campaigning: Popularity Equilibrium and the Case of the 2015 
+British General Election. Political Studies, 1-20. 
+doi: 10.1177/0032321718764800  
+
+Freedom House (2018). Freedom in the World Comparative and Historical
+Data: Country and Territory Ratings and Statuses, 1973-2018. 
+Available at: https://freedomhouse.org/sites/default/files/Country%20and
+%20Territory%20Ratings%20and%20Statuses%20FIW1973-2018.xlsx
+(Date accessed: May 16, 2018)
+
+Freedom House - Freedom in the World 2015 - Kenya
+https://freedomhouse.org/report/freedom-world/2015/kenya
+(Date accessed: May 15, 2018)
+
+Gallagher, M., & M. Marsh (eds.). 2011. How Ireland Voted 2011.
+Basingstoke: Palgrave-Macmillan.
+
+General Election for the National Parliament of the Republic of Ireland
+2011. 
+http://www.oireachtas.ie/documents/publications/2011_Electoral_Handbookrev
+pdf
+(Date accessed: August 12, 2013) 
+
+German Election Commission (Bundeswahlleiter)
+http://www.bundeswahlleiter.de/en/bundestagswahlen/BTW_BUND_13/ergebnisse/
+bundesergebnisse/ 
+(Date accessed: November 8, 2014) 
+
+German Election Study
+http://www.gles.eu/
+(Date accessed: May 16, 2018)
+
+Gherghina, S. (2015). The Romanian presidential election, November 2014. 
+Electoral Studies, 38, 109-114. doi: 10.1016/j.electstud.2015.01.008
+
+Gherghina, S. & Jiglau, G. (2012). Where does the mechanism collapse?:        
+Understanding the 2008 Romanian Electoral System. Representation, 
+Vol.48(4), 445-59. 
+doi: 10.1080/00344893.2012.720889   
+
+Golder, M. (n.d.). Democractic Electoral Systems Around the World (DES)
+dataset. 
+http://homepages.nyu.edu/~mrg217/elections.html(*)
+
+Goulart, P., & Veiga, F.J. (2016). Portuguese 2015 legislative elections:
+How economic voting, the median voter and unemployment led to 'the times 
+they are a'changin'?. Electoral Studies, Vol. 43, 197-200. 
+doi: 10.1016/j.electstud.2016.05.004
+
+Government of Hong Kong (n.D.). Legislative Council Election 2012.
+http://www.elections.gov.hk/legco2012/eng/tt_gc_LC1.html
+(Date accessed: August 10, 2016)
+
+Government of Hong Kong (2014). Legislative Council Election Report.
+http://www.eac.gov.hk/en/legco/2012lce_detailreport.htm
+(Date accessed: December 1, 2016)
+
+Government of the Republic of Serbia.
+http://www.srbija.gov.rs;
+http://www.arhiva.serbia.gov.rs/
+(Date accessed: May 16, 2018)
+
+Great Britain, Election Resources.org
+http://www.electionresources.org/uk/
+(accessed: March 6, 2016)
+
+Great Britain, Urban-Rural Classifications Scotland
+http://www.gov.scot/Topics/Statistics/About/Methodology/
+UrbanRuralClassification
+(Date accessed: May 9, 2018)
+
+Great Britain, Urban-Rural Classifications England and Wales
+https://www.ons.gov.uk/file?uri=/methodology/geography/
+geographicalproducts/ruralurbanclassifications/
+2011ruralurbanclassification/rucoaleafletmay2015tcm77406351.pdf 
+(Date accessed: May 9, 2018)  
+
+Greek iGraphics Electoral Results
+http://www.igraphics.gr/en/multimedia/2012/06/elections2012b
+(Date accessed: May 9, 2018)
+
+Greek Ministry of Interior
+http://www.ekloges.ypes.gr/
+(Date accessed: May 16, 2018)
+
+Greek Ministry of Interior (n.D.). Parliamentary Elections June 2012.
+http://ekloges-prev.singularlogic.eu/v2012b/public/index.html?
+lang=en#{"cls":"eps","params":{}}
+(Date accessed: September 8, 2014)
+
+Greek Ministry of Interior (n.D.). Parliamentary Elections September 2015.
+http://www.ekloges.ypes.gr/current/v/public/index.html?lang=en#{
+(Date accessed: April 4, 2018)
+
+Gronlund, K., & Wass, H. eds. (2016). Poliittisen osallistumisen 
+eriytyminen. Eduskuntavaalitutkimus 2015. Selvityksia ja ohjeita 28/2016. 
+Helsinki: oikeusministerio. Available at: 
+http://www.fsd.uta.fi/~vaaltut/Eduskuntavaalitutkimus_2015.pdf
+(Date accessed: May 9, 2018)
+
+Hardman, H. (n.d.). Electoral System Change in Europe since
+1945: Slovenia. ESCE Electoral system change in Europe since 1945.
+Available at:
+http://www.electoralsystemchanges.eu/Public/File.php?ID=171
+(Date accessed: May 9, 2018)
+
+Haughton, T., & Krasovec, A. (2013). The 2011 parliamentary elections in
+Slovenia, Electoral Studies, Vol.32(1), 201-204. 
+doi: 10.1016/j.electstud.2012.12.004.
+
+Hawkins, O., Keen, R., & Nakatudde, N. (2015). General Election 2015.
+House of Commons Library, Briefing Paper Number CBP7186. Available at:
+researchbriefings.files.parliament.uk/documents/CBP-7186/CBP-7186.pdf
+(Date accessed: March 6, 2016)
+
+Hewlett, N. (2012). Voting in the shadow of the crisis. The French 
+presidential and parliamentary elections of 2012. Modern & Contemporary 
+France, 20(4), 403-420. doi: 10.1080/09639489.2012.721184
+
+Hlavac, M. (2016). Performance of political parties in the 2016 
+parliamentary election in Slovakia: regional comparisons and district-level 
+determinants. Regional & Federal Studies, Vol.26(3), 433-443. 
+doi: 10.1080/13597566.2016.1178114.
+
+Hoffmeyer-Zlotnik, J. H.P., & Krebs, D. (2014): Different Methods of
+Survey Sampling in Germany. In Ferligoj, A. and Kranberger A. (eds.):
+Developments in Data Analysis. Metodoloski zvevzki, 12, Ljubljana: FDV,
+1996. Available at:
+http://dk.fdv.uni-lj.si/metodoloskizvezki/Pdfs/Mz12Hoffmeyerzlotnik
+Krebs.pdf
+(Date accessed: November 11, 2014)
+
+Iceland Information on the Parliamentary Election 2013
+http://www.kosning.is/althingiskosningar/
+(Date accessed: May 16, 2018)
+
+Icelandic Election Commission
+http://www.landskjor.is/kosningamal/althingiskosningar-/
+althingiskosningar-2013/ 
+(Date accessed: January 12, 2015) 
+
+IDEA Voter Turnout Australia
+http://www.idea.int/vt/countryview.cfm?id=15 
+(Date accessed: May 21, 2014)
+
+IDEA Voter Turnout Brazil
+http://www.idea.int/vt/countryview.cfm?id=30  
+(Date accessed: May 24, 2016) 
+
+IDEA Voter Turnout Canada
+http://www.idea.int/vt/countryview.cfm?id=37  
+(Date accessed: April 25, 2016)
+
+IDEA Voter Turnout Germany
+http://www.idea.int/vt/countryview.cfm?CountryCode=DE 
+(Date accessed: September 8, 2014) 
+
+IDEA Voter Turnout Iceland
+http://www.idea.int/vt/countryview.cfm?CountryCode=IS 
+(Date accessed: January 12, 2015) 
+
+IDEA Voter Turnout Israel
+http://www.idea.int/vt/countryview.cfm?CountryCode=IL 
+(Date accessed: February 20, 2016)
+
+IDEA Voter Turnout Norway
+http://www.idea.int/vt/countryview.cfm?CountryCode=NO 
+(Date accessed: April 26, 2016) 
+
+IDEA Voter Turnout Portugal
+http://www.idea.int/vt/countryview.cfm?id=184 
+(Date accessed: May 2, 2016) 
+
+IDEA Voter Turnout Sweden
+http://www.idea.int/vt/countryview.cfm?CountryCode=SE 
+(Date accessed: January 13, 2016) 
+
+IDEA Voter Turnout United States
+http://www.idea.int/vt/countryview.cfm?CountryCode=US/   
+(Date accessed: December 28, 2014) 
+
+IFE: Mexican electoral system
+http://www.ife.org.mx/portal/site/ifev2/The_Mexican_Electoral_System/
+(Date accessed: May 16, 2018)
+
+IFES Election Guide,  Election for Argentinian Chamber of Deputies 
+available at: http://www.electionguide.org/elections/id/2471/
+(Date accessed: April 8, 2018)
+
+IGraphics.gr
+http://www.igraphics.gr/en/multimedia/2012/06/elections2012b
+(Date accessed: September 8, 2014)
+
+Ikstens, J. (2015). Latvia. European Journal of Political Research 
+Political Data Yearbook, 54, 181–189. doi :10.1111/2047-8852.12096
+
+Independent Electoral and Boundaries Commission
+https://www.iebc.or.ke/docs/4TH%20MARCH%202013%20GENERAL%20ELECTION
+%20DATA.pdf
+(Date accessed: February 2, 2017)
+
+Indridason, I. H., Oennudottir, E. H., Dorisdottir, H., & Hardarson, O.P.
+(2016). Re-electing the Culprits of the Crisis? Elections in the
+Aftermath of a Recession. Scandinavian Political Studies, 40(1), 28-60.
+doi: 10.1111/1467-9477.12081.
+
+INFOgob; Mapa Político Electoral del Perú 
+http://www.infogob.com.pe/
+(Date accessed: January 7, 2018)
+
+International Institute for Democracy and Electoral Assistance (IDEA)
+http://www.idea.int/vt/countryview.cfm?id=141
+(Date accessed: May 16, 2018)
+
+International Institute for Democracy and Electoral Assistance (IDEA)
+(n.D.). Montenergo.
+http://www.idea.int/data-tools/country-view/203/40
+Date accessed: March 15, 2017
+
+International Institue for Democracy and Electoral Assistance (IDEA)
+(n.D.): Philippines. Available at: 
+http://www.idea.int/data-tools/country-view/240/40
+(Date accessed: March 21, 2017)
+
+International Institue for Democracy and Electoral Assistance (IDEA)
+(n.D.): Taiwan. Available at:
+http://www.idea.int/data-tools/country-view/290/40
+(Date accessed: March 23, 2017)
+
+International Institute for Democracy and Electoral Assistance (IDEA) 
+(n.D.). Voter Turnout Database. Available at:
+http://www.idea.int/data-tools/data/voter-turnout
+(Date accessed: May 14, 2018)
+
+International Institute for Democracy and Electoral Assistance (IDEA)
+(n.D). What is compulsory voting? Available at:
+https://www.idea.int/data-tools/data/voter-turnout/compulsory
+-voting (Date accessed: April 8, 2018)
+
+International Labour Organization - ISCO - International Standard 
+Classification of Occupations. 
+http://www.ilo.org/public/english/bureau/stat/isco/
+(Date accessed: May 14, 2018)
+
+International Organization for Standardization - ISO 3166 - Codes for the 
+representation of names of countries and their subdivisions.
+https://www.iso.org/obp/ui/#search/code/
+(Date accessed: May 14, 2018)
+
+Inter Parliamentary Union Database
+http://www.ipu.org/
+(Date accessed: May 16, 2018)
+
+Inter-Parliamentary Union (2017): Argentina Chamber of Deputies. 
+Available at: http://www.ipu.org/parline-e/reports/2011_E.htm
+(Date accessed: January 26, 2017) 
+
+Inter-Parliamentary Union (n.D.): Australia, House of Representatives. 
+Available at: http://www.ipu.org/parline-e/reports/arc/2016_13.htm
+(Date accessed: February 9, 2017)
+
+Inter-Parliamentary Union (n.D.): Australia, Senate. Available at:
+http://www.ipu.org/parline-e/reports/arc/2016_13.htm
+(Date accessed: February 9, 2017)
+
+Inter-Parliamentary Union (n.D.): Austria, Nationalrat (National Council)
+Available at: http://www.ipu.org/parline-e/reports/2017_E.htm
+(Date accessed: June 16, 2016)
+
+Inter-Parliamentary Union (n.D.): Brazil Camara dos Deputados (Chamber of 
+Deputies). Available at: http://www.ipu.org/parline-e/reports/2043_A.htm 
+(Date accessed: November 14, 2016)
+
+Inter-Parliamentary Union (n.D.): Brazil Senado Federal (Federal Senate).
+Available at: http://www.ipu.org/parline-e/reports/2044_E.htm 
+(Date accessed: November 14, 2016)
+
+Inter-Parliamentary Union (n.D.): Bulgaria Narodno sabranie (National
+Assembly). Available at: http://www.ipu.org/parline-e/reports/2045_E.htm
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): Canada House of Commons.
+Available at: http://www.ipu.org/parline-e/reports/arc/2055_11.htm 
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): Canada House of Commons.
+Available at: http://archive.ipu.org/parline-e/reports/2055_A.htm
+(Date accessed: January 12, 2018)
+
+Inter-Parliamentary Union (n.D.): Czech Republic Poslanecka Snemovna
+(Chamber of Deputies). Available at:
+http://www.ipu.org/parline-e/reports/2083_A.htm 
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): Finland. Eduskunta -  Riksdagen
+(Parliament). Available at: 
+http://www.ipu.org/parline-e/reports/2111_e.htm 
+(Date accessed: October 26, 2016)
+
+Inter-Parliamentary Union (n.D.): Greece, Vouli Ton Ellinon (Hellenic 
+Parliament). Available at: 
+www.ipu.org/parline-e/reports/arc/2125_12_June.htm
+(Date accessed: February 9, 2017)
+
+Inter-Parliamentary Union (n.D.): Greece, Hellenic Parliament. Available 
+at: http://www.ipu.org/parline-e/reports/arc/2125_15_Jan.htm,
+(Date accessed: February 22, 2017)
+
+Inter-Parliamentary Union (n.D.): Iceland, Althingi (Parliament). Available
+at: http://www.ipu.org/parline-e/reports/arc/2143_13.htm
+(Date accessed: February 9, 2017)
+
+Inter-Parliamentary Union (n.D.): Ireland Dail Eireann (House of 
+Representatives). Available at http://www.ipu.org/parline-e/reports/arc/
+2153_11.htm
+(Date accessed: March 21, 2017)
+
+Inter-Parliamentary Union (n.D.): Israel Knesset (Parliament).
+Available at: http://www.ipu.org/parline-e/reports/2155_A.htm 
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): Japan, Sangiin (House of Councillors). 
+Available at: http://www.ipu.org/parline-e/reports/arc/2162_13.htm 
+(Date accessed: February 9, 2017)
+
+Inter-Parliamentary Union (n.D.) Kenya National Assembly. Available at:
+http://www.ipu.org/parline-e/reports/2167_E.htm 
+(Date accessed: March 8, 2017)
+
+Inter-Parliamentary Union (n.D.). Latvia Saeima (Parliament). Available at:
+http://archive.ipu.org/parline-e/reports/arc/2177_11.htm
+(Date accessed: January 05, 2018)
+
+Inter-Parliamentary Union (n.D.). Latvia, Parliament. Available at: 
+http://archive.ipu.org/parline/reports/2177_E.htm 
+(Date accessed: January 12, 2018)
+
+Inter-Parliamentary Union (n.D.): Mexico Camara de Diputados (Chamber of
+Deputies). Available at: http://www.ipu.org/parline-e/reports/2211_E.htm
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): Montenegro Skupstina (Parliament). 
+Available at  http://www.ipu.org/parline-e/reports/arc/2385_12.htm
+(Date accessed: March 21, 2017)
+
+Inter-Parliamentary Union (n.D.): New Zealand House of Representatives. 
+Available at http://www.ipu.org/parline-e/reports/arc/2233_11.htm 
+(Date accessed: March 21, 2017)
+
+Inter-Parliamentary Union (n.D.): New Zealand House of Representatives.
+Available at: http://archive.ipu.org/parline-e/reports/arc/2233_14.htm
+(Date accessed: March 21, 2017)
+
+Inter-Parliamentary Union (n.D.): Norway, Parliament. Available at: 
+http://archive.ipu.org/parline-e/reports/arc/2239_13.htm
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.). Peru, Congress of the Republic. 
+Available at: http://archive.ipu.org/parline/reports/2251_E.htm
+(Date accessed: January 17, 2018)
+
+Inter-Parliamentary Union (n.D.): Philippines, House of Representatives.
+Available at: http://www.ipu.org/parline-e/reports/2253_E.htm
+(Date accessed: March 6, 2017)
+
+Inter-Parliamentary Union (n.D.): Poland, Sejm (Sejm). Available at: 
+http://www.ipu.org/parline-e/reports/arc/2255_11.htm
+(Date accessed: February 14, 2017)
+
+Inter-Parliamentary Union (n.D.): Poland, Senat (Senate). Available at: 
+http://www.ipu.org/parline-e/reports/arc/2256_11.htm
+(Date accessed: February 14, 2017)
+
+Inter-Parliamentary Union (n.D.): Portugal Assembleia da Republica
+(Assembly of the Republic). Available at:
+http://www.ipu.org/parline-e/reports/2257_E.htm
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): Romania. Camera Deputatilor (Chamber of 
+Deputies). Available at: 
+http://www.ipu.org/parline-e/reports/arc/2261_12.htm
+(Date accessed: January 30, 2017)
+
+Inter-Parliamentary Union (n.D.): Romania. Senatul (Senate). Available at:
+http://www.ipu.org/parline-e/reports/arc/2262_12.htm
+(Date accessed: January 30, 2017)
+
+Inter-Parliamentary Union (n.D.): Serbia Narodna skupstina (National 
+Assembly). Available at: 
+http://www.ipu.org/parline-e/reports/arc/2355_12.htm
+(Date accessed: March 21, 2017)
+
+Inter-Parliamentary Union (n.D.): Slovakia. Narodna rada (National Council). 
+Available at: http://www.ipu.org/parline-e/reports/2285_E.htm
+(Date accessed: January 20, 2017)
+
+Inter-Parliamentary Union (n.D.): Slovenia Drzavni Zbor (National
+Assembly). Available at:
+http://www.ipu.org/parline-e/reports/arc/2287_11.htm 
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): South Africa National Assembly. Available
+at: http://www.ipu.org/parline-e/reports/2291_E.htm
+(Date accessed: March 21, 2017)
+
+Inter-Parliamentary Union (n.D.): South Korea Kuk Hoe (National Assembly).
+Available at: http://www.ipu.org/parline-e/reports/arc/2259_12.htm
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): Sweden Riksdagen (Parliament). Available
+at: http://www.ipu.org/parline/reports/2303_E.htm 
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): Switzerland Nationalrat-Conseil national-
+Consiglio nazionale (National Council). Available at
+http://www.ipu.org/parline-e/reports/arc/2305_11.htm
+(Date accessed: March 23, 2017) 
+
+Inter-Parliamentary Union (n.D.): Thailand Saphaphuthan Ratsadon (House of 
+Representatives). Available at 
+http://www.ipu.org/parline-e/reports/arc/2311_11.htm
+(Date accessed: March 23, 2017)
+
+Inter-Parliamentary Union (n.D.): Turkey Turkiye Buyuk Millet Meclisi 
+(T.B.M.M) (Grand National Assembly of Turkey). Available at:
+http://www.ipu.org/parline-e/reports/arc/2323_15_June.htm
+(Date accessed: November 15, 2016)
+
+Inter-Parliamentary Union (n.D.): United States Of America, House of 
+Representatives. Available at: 
+http://www.ipu.org/parline-e/reports/arc/2339_12.htm
+(Date accessed: February 14, 2017)
+
+Inter-Parliamentary Union (n.D.): United States Of America, Senate. 
+Available at: http://www.ipu.org/parline-e/reports/arc/2340_12.htm
+(Date accessed: February 14, 2017)
+
+Irish election - February 25, 2011
+http://www.tcd.ie/Political_Science/staff/michael_gallagher/Election2011.ph
+(Date accessed: May 16, 2018)
+
+ISCED 2011.
+http://www.uis.unesco.org/Education/ISCEDMappings/Pages/default.aspx
+(Date accessed: May 16, 2018)
+
+ISO 3166-1 Country Codes
+https://www.iso.org/iso-3166-country-codes.html
+(Date accessed: May 16, 2018)
+
+Israeli Election Commission
+http://www.votes-19.gov.il/nationalresults 
+(Date accessed: February 20, 2016) 
+
+Israeli Parliament (Knesset)
+https://www.knesset.gov.il/description/eng/eng_mimshal_beh.htm  
+(Date accessed: February 22, 2016) 
+
+Israel Ministry of Foreign Affairs
+http://mfa.gov.il/MFA/AboutIsrael/History/Pages/Elections_in_Israel_January
+_2013.aspx.
+(Date accessed: May 16, 2018)
+
+Jacobs, A. (2012): "President of Taiwan is re-elected, a result
+that is likely to please China". New York Times, January 14, 2012.
+Available at: http://www.nytimes.com/2012/01/15/world/asia/taiwan-
+presidential-election.html?_r=0
+(Date accessed: June 16, 2016) 
+
+Kernell, G. (2014). The 2013 parliamentary election in Australia. 
+Electoral Studies, Vol.34, 357-361.
+doi: 10.1016/j.electstud.2013.12.002
+
+Kim, Y. (2014). The 2012 parliamentary and presidential elections in
+South Korea. Electoral Studies, Vol.34, 326-330. 
+doi: 10.1016/j.electstud.2013.08.013
+
+King, R.F., & Marian, C.G. (2014). Antagonism and austerity:
+The December 2012 Romanian parliamentary elections. Electoral Studies, 
+Vol.34, 315-321. doi: 10.1016/j.electstud.2013.09.012
+
+Kostadinova, P., & Popova, M. (2015). The 2014 parliamentary 
+elections in Bulgaria. Electoral Studies, Vol.38, 114-118. 
+doi: 10.1016/j.electstud.2015.01.009
+
+Krasovec, A., & Haughton, T. (2012). Election Briefing No 69. Europe
+and The Parliamentary Elections in Slovenia, December 2011, EPERN. 
+Available at: http://www.sussex.ac.uk/sei/research/
+europeanpartieselectionsreferendumsnetwork/epernelectionbriefings 
+(Date accessed: May 9, 2018)
+
+Krasovec, A., & Lajh, D. (2013). The Chameleonic Character of the 
+Slovenian Presidents of the Republic, in Vit Hlousek et al. eds. Presidents
+above Parties? Masaryk University: Brno.
+
+Landskjorstjorn Elections to the Althingi
+http://www.landskjor.is/media/frettir/AnalysisIcelandElection2013.pdf 
+(Date accessed January 14, 2015).
+
+Lazar, M.-I. (2015). Reinforcing Democracy through Internet and Social 
+Networks Participation: Votes, Voters and Elected Behavioral Outcomes 
+in Romanian Presidential Elections (2014). Revista de Stiinte Politice, 
+46, 63-72. ISSN: 1584224X.
+
+LeDuc, L. (2012). The federal election in Canada, May 2011. Electoral
+Studies, Vol.31(1), 239-242. doi: 10.1016/j.electstud.2011.12.002
+
+Legislative Council Election 2012, Hong Kong
+http://www.elections.gov.hk/legco2012/eng/introd_gc_hki.html
+(Date accessed: December 1,2016)
+
+Liao, D., Lin, C-H., Boyu, C. (2012): The Effects of Electoral
+Rules Upon Legislators' Campaign Promises and Legislative Performance - A
+Comparison of Taiwan Legislative Yuan between its Sixth Term (2005-2008)
+and Seventh Term (2008-2012). Available at:
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2137499
+(Date accessed: May 9, 2018) 
+
+Linek, L. (2013). The Czech Republic. European Journal of Political 
+Research Political Data Yearbook 2012, 52(1), 50-55. 
+doi: 10.1111/2047-8852.12006
+
+Linek, L. (2014). The Czech Republic, European Journal of Political 
+Research Political Data Yearbook 2013, 53(1), 92-103. 
+doi: 10.1111/2047-8852.12043
+
+L'Institut national de la statistique et des etudes economiques, France.
+http://www.insee.fr
+(Date accessed: May 16, 2018)
+
+Lipicer, S.K.,& Tos, N. (2013). An Analysis of Electoral Behaviour and 
+Choice Of The First Early National Parliamentary Elections Held in  
+Slovenia in 2011. Teorija in praksa, Vol. I, 3-4,  503-529.
+
+Lupu, N. (2016). The End of the Kirchner Era. Journal of Democracy, 
+Vol.27(2), 35-49. doi: 10.1353/jod.2016.0033
+
+Mader, M. (2014). The German federal election, September 2013.
+Electoral Studies, Vol.34, 353-356. 
+doi: 10.1016/j.electstud.2013.12.004
+
+McNulty, S. (2017). Peru 2016: Continuity and change in an electoral year.
+Revista de Ciencia Politica, 37, 563-587.
+doi: 10.4067/s0718-090x2017000200563
+
+Merle, P., & Patterson, D. (2014). The French parliamentary
+and presidential elections of 2012. Electoral Studies 34, 291-379.
+doi: 10.1016/j.electstud.2013.08.014
+
+Ministere de l'Interieur, France (n.D.). Resultats de l'election 
+presidentielle 2012.
+http://www.interieur.gouv.fr/fr/Elections/Les-resultats/Presidentielles/
+elecresult__PR2012/(path)/PR2012/index.html
+http://www.data.gouv.fr
+(Date accessed: May 16, 2018)
+
+Ministry of Local Government and Modernisation, Norway.
+http://valgresultat.no/?type=st&ar=2013
+(Date accessed: May 25, 2016)
+
+Ministry of Justice Finland (2015). Parliament election 2015 - Result.
+http://tulospalvelu.vaalit.fi/E-2015/en/lasktila.html
+(Date accessed: October 25, 2016)
+
+Mueller, S., & Dardanelli, P. (2013). The parliamentary and executive
+elections in Switzerland, 2011. Electoral Studies, 32(1), 197-201.
+doi: 10.1016/j.electstud.2012.10.004
+
+National Electoral Institute, Mexico.
+http://www.ife.org.mx/
+(Date accessed: May 16, 2018)
+
+National Office of Electoral Processes, Peru.
+https://www.web.onpe.gob.pe/modElecciones/elecciones/elecciones
+2016/PRPCP2016/Resumen-GeneralCongreso.html#posicion
+(Date accessed: February 26, 2018)
+
+National Statistical Office Serbia (2012): Elections of the representatives
+in the National Assembly of the Repubic of Serbia and for the President of
+the Republic of Serbia: May 2012. Belgrade. [in Serbian].
+
+National Statistical Office, Thailand.
+http://popcensus.nso.go.th/
+(Date accessed: May 16, 2018)
+
+New Zealand Electoral Commission
+http://www.electionresults.govt.nz/electionresults_2011/
+(Date accessed: October 17, 2013)
+
+New Zealand Electoral Commission
+http://www.electionresults.govt.nz/electionresults_2014/
+electoratestatus.html
+(Date accessed: August 10, 2016)
+
+New Zealand Electoral Commission, Wellington (2014). Official Count
+Results - Electorate Status.
+(Date accessed: August 10, 2016) 
+
+New Zealand Parliament (n.D.). Electorate Profiles.
+https://www.parliament.nz/en/mps-and-electorates/electorate-profiles/.
+(Date accessed: December 14, 2016)
+
+Nicolau, J. (2008). The presidential and congressional elections in Brazil, 
+October 2006, Electoral Studies, Vol.27, 170-175.
+doi: 10.1016/j.electstud.2007.07.002
+
+Nolledo, J. (1996). The Omnibus Election Code of the Philippines National
+Book Store, Inc, Metro Manila.
+
+Northrup, D. (2012). The 2011 Canadian Election Survey Technical 
+Documentation. York University: Institute for Social Research. 
+Available at:
+http://groups.chass.utoronto.ca/pol242/2011%20CES%20Documentation%20geo.pdf
+(Date accessed: May 14, 2018)
+
+Norwegian Storting 
+https://www.stortinget.no/en/In-English/About-the-Storting/Elections/ 
+(Date accessed: April 28, 2016) 
+
+Nurmi, H., & Nurmi, L. (2015): The parliamentary election in Finland
+April 19, 2015. Electoral Studies, Vol. 40,  433-438.
+doi: 10.1016/j.electstud.2015.07.001
+
+Obradovic-Wochnik, J., & Wochnik, A. (2014). Invalid ballots and the 
+"crisis of representative democracy": Re-inventing protest at the 2012
+Serbian elections. East European Politics and Societies and Cultures, 
+28(4), 808-835. doi: 10.1177/0888325414547430
+
+Office for National Statistics - Standard Occupational Classification (SOC)
+2010 - SOC2010 to ISCO08 mapping. Available at:
+https://www.ons.gov.uk/methodology/classificationsandstandards/standard
+occupationalclassificationsoc/soc2010
+(Date accessed: May 14, 2018)
+
+Office for National Statistics - The National Statistics Socio-economic
+classification (NS-SEC). Available at:
+https://www.ons.gov.uk/methodology/classificationsandstandards/other
+classifications/thenationalstatisticssocioeconomicclassificationns
+secrebasedonsoc2010
+(Date accessed: May 14, 2018)
+
+Oficina Nacional de Procesos Electorales (ONPE), Perú 
+http://www.onpe.gob.pe
+(Date accessed: 7 January 2018)
+
+Pammett, J. H., & Dornan, C. (2016). The Canadian Federal Election of 
+2015. Dundurn.
+
+Paret, M. (2016): Contested ANC hegemony in the urban townships: Evidence
+from the 2014 South African election. African Affairs, Vol.115 (460), 
+419-442. doi: 10.1093/afraf/adw025 
+
+Parliament of Canada.
+http://www.lop.parl.gc.ca
+(Date accessed: May 16, 2018)
+
+Parliaments and Government Database (ParlGov)
+http://www.parlgov.org/#data
+(Date accessed: April 4, 2018)
+
+Pasimio, R. (1991). The Philippine Constitution (Its Evolution and 
+Development) and Political Science. National Book Store, Inc, Metro 
+Manila.
+
+Pekkanen, R. J., Reed, S.R., & Smith, D.M. (2016). Japanese 
+Politics Between the 2012 and 2014 Elections, in: Robert J. Pekkanen, 
+Steven R. Reed, and Ethan Scheiner (eds.): Japan Decides 2014, Hampshire: 
+Palgrave Macmillan, 9-21. doi: 10.1057/9781137552006_2. 
+
+Permanent Electoral Authority Romania
+http://alegeri.roaep.ro/
+(Date accessed: January 26, 2018)
+
+Plateforme francaise d'ouverture des donnees publiques (Open Data).
+http://www.data.gouv.fr
+(Date accessed: May 16, 2018)
+
+Poland National Electoral Commission (Panstwowa Komisja Wyborcza).
+http://wybory2011.pkw.gov.pl/wsw/en/000000.html
+(Date accessed: March 12, 2015)
+
+Portuguese Ministry of Interior (n.D.). Election 2015.
+http://www.eleicoes.mai.gov.pt/legislativas2015/ 
+(Date accessed: May 2, 2016)
+
+Portuguese Ministry of Internal Administration
+http://www.eleicoes.mai.gov.pt/legislativas2015/
+(Date accessed: May 2, 2016)
+
+Portuguese Election Commission (n.D.). Election 2015 results.
+https://dre.pt/application/file/70722536 
+(Date accessed: May 2, 2016) 
+
+PRESS ASSOCIATION (PA) numbers 
+http://election.pressassociation.com/Constituencies/general_2015
+_constit_by_number.php
+(Date accessed: March 6, 2017)
+
+Pryce, P. (2012). The 2011 parliamentary election in Latvia. Electoral 
+Studies, 31(3), 613-616. doi: 10.1016/j.electstud.2012.05.006
+
+Psephos Adam Carr: Greek 2012 (June) election.
+http://psephos.adam-carr.net/countries/g/greece/greece20123.txt
+(Date accessed: September 8, 2014)
+
+Psephos Adam Carr: 2011 Irish general election. 
+http://psephos.adam-carr.net/countries/i/ireland/ireland20112.txt
+(Date accessed: August 12, 2013) 
+
+Report by the House of Commons on the 2015 British General Election
+researchbriefings.files.parliament.uk/documents/CBP-7186/CBP-7186.pdf
+(Date accessed: March 6, 2016)
+
+Republic of Serbia - Republican Electoral Commission
+http://www.rik.parlament.gov.rs
+(Date accessed: August 10, 2013)
+
+Republic of the Philippines - National Government Portal
+http://www.gov.ph/about/gov/(*)
+
+Ribando Seelke, Clare (2012). Mexico's 2012 Elections. Congressional 
+Research Service Report for Congress. http://www.fas.org/sgp/crs/row/
+R42548.pdf 
+(Date accessed: April 2, 2014) 
+
+Rohrschneider, R., & Schmitt-Beck, R. (2017). Introduction: 
+Parties and Voters at the 2013 German Federal Election. German Politics, 
+26(1), 1-11. doi: 10.1080/09644008.2016.1182503
+
+Saeima official webpage: Election of the Saeima and History of the 
+legislature (Latvia)
+http://www.saeima.lv/en/about-saeima/saeimas-velesanas-1 
+http://www.saeima.lv/en/about-saeima/history-of-the-legislature 
+(Date accessed: 04 January 2018)
+
+Schmidt, G. (2016). A split decision: The 2016 Peruvian general election 
+and presidential runoff. Electoral Studies, (44), 451-454.
+doi: 10.1016/j.electstud.2016.08.010
+
+Seelke, C. R. (2012). Mexico's 2012 Elections. Congressional Research 
+Service, 7-5700, www.crs.gov, R42548. Available at:
+http://www.fas.org/sgp/crs/row/R42548.pdf
+(Date accessed: April 2, 2014)
+
+Serbian Electoral Commission.
+http://www.rik.parlament.gov.rs/index_l.htm
+(Date accessed: May 16, 2018)
+
+Serra, G. (2014). The 2012 elections in Mexico: Return of the dominant
+party. Electoral Studies 34, 349-353. 
+doi: 10.1016/j.electstud.2013.08.010
+
+Sinpeng, A., & Kuhonta, E.M. (2012). From the street to the ballot
+box: The July 2011 elections and the rise of social movements in Thailand.
+Contemporary Southeast Asia 34(3), 389-415. doi: 10.1355/cs34-3d
+
+South China Morning Post (2012): DAB fares best, taking 13 seats, thanks 
+for vote-splitting tactic. Available at:
+http://www.scmp.com/news/hong-kong/article/1033709/dab-fares-best-taking-13
+-seats-thanks-vote-splitting-tactic
+(Date accessed: December 1, 2016)
+
+Slovenian State Election Commission: National Assembly of Slovenia 2014 
+Elections 
+http://www.dvk-rs.si/index.php/en/elections/national-assembly-of-the-
+republic-of-slovenia.
+(Date accessed: May 16, 2018)
+
+Statistical Office of the Republic of Serbia.
+http://webrzs.stat.gov.rs/
+(Date accessed: May 16, 2018)
+
+Statistical Office of the Slovak Republic.
+http://volbysr.sk/en/parties.html
+(Date accessed: February 2, 2017)
+
+Statistik Austria
+http://www.statistik.at/web_en/statistics/population/demographic_forecasts/
+population_forecasts/index.html
+(Date accessed: May 16, 2018)
+
+Statistics Finland (2015). Appendix table 1 Number of candidates by party
+and constituency in Parliamentary elections 2015.
+http://www.stat.fi/til/evaa/2015/01/evaa_2015_01_2015-04-10_tau_001_en.html
+(Date accessed: October 25, 2016)
+
+Statistics Finland (2015). Numbers of votes cast for the parties and voting
+turnout by municipality in Parliamentary elections 2015 and change from the
+previous elections.
+http://pxnet2.stat.fi/PXWeb/pxweb/en/StatFin/StatFin__vaa__evaa__evaa_2015/
+140_evaa_tau_104.px/?rxid=c2f51671-c283-4b81-aa06-d14c9854e9bd.
+(accessed October 25, 2016)
+
+Statistics Iceland
+http://www.statice.is 
+(Date accessed: January 14, 2015)
+
+Statistics Iceland
+http://www.statice.is/Statistics/Elections 
+(Date accessed: January 14, 2015)
+
+Statistics New Zealand (Stats NZ)
+https://www.stats.govt.nz/
+(Date accessed: November 2016)
+
+Statistics Norway - Storting Election 9 September 2013
+https://www.ssb.no/en/valg/statistikker/stortingsvalg/hvert-4-aar/2013-10-
+29?fane=tabell&sort=nummer&tabell=145249 
+(Date accessed: April 26, 2016) 
+
+Statistics Norway - Persons entitled to vote Election 9 September 2013: 
+https://www.ssb.no/en/valg/statistikker/stemmerettst 
+(Date accessed: April 26, 2016)
+
+Statistics Sweden
+http://www.val.se/val/val2014/slutresultat/R/rike/
+(Date accessed: April 30, 2018)
+
+Stegmaier, M., & Linek, L. (2014). The parliamentary election in the
+Czech Republic, October 2013. Electoral Studies, Vol.35, 385-388. 
+doi: 10.1016/j.electstud.2014.03.001 
+
+Storli, E. (2015). Election note on the 2013 Norwegian election.
+Electoral Studies, Vol.38, 98-101. doi: 10.1016/j.electstud.2014.12.004
+
+Stortinget (Norwegian Parliament) - Parliamentary Elections
+https://www.stortinget.no/en/In-English/About-the-Storting/Elections/
+(Date accessed: April 28, 2016)
+
+Superior Electoral Court (Brazil)
+http://www.tse.jus.br/eleicoes/estatisticas/estatisticas-
+candidaturas-2014/estatisticas-eleitorais-2014
+(Date accessed: May 16, 2018)
+
+Swedish Election Commission
+http://www.val.se/val/val2014/slutresultat/protokoll/protokoll_00R.pdf 
+(Date accessed: January 13, 2016)
+
+Swiss election results
+http://www.bfs.admin.ch/bfs/portal/de/index/themen/17/02.html
+(Date accessed: May 16, 2018)
+
+Swiss Statistics 
+http://www.bfs.admin.ch/bfs/portal/en/index.html
+(Date accessed: September 30, 2013)
+https://www.bk.admin.ch/ch/d/nrw/nrw11/list/kt_index.html
+(Date accessed: April 7, 2018)
+http://www.politik-stat.ch/nrw2011KT_de.html
+(Date accessed: April 7, 2018)
+
+Tan, A. C., Dawn, M.-C., & Borthwick, S. (2014). New Zealand parliamentary
+elections of 2011. Electoral Studies 34, 291-294. 
+doi: 10.1016/j.electstud.2013.08.009
+
+Taiwan: Ministry of Interior, Department of Statistics.
+http://www.moi.gov.tw/stat/english/interior.asp
+(Date accessed: May 16, 2018)
+
+The Carter Center (n.D.). Observing Kenya's March 2013 National Elections -
+Final Report.
+www.cartercenter.org/resources/pdfs/news/peace_publications/
+election_reports/kenya-final-101613.pdf
+(Date accessed: May 15, 2018)
+
+The Commission on Elections, Republic of the Philippines (COMELEC)
+http://www.comelec.gov.ph
+(Date accessed: Februrary 27, 2017)
+
+The Electoral Act 1993 (with amendments) / New Zealand.
+http://www.legislation.govt.nz/act/public/1993/0087/latest/DLM307519.html
+(Date accessed: May 16, 2018)
+
+The Electoral Commission's Report on the 2011 election in New Zealand.
+http://www.elections.org.nz/events/past-events-0/2011-general-election/
+reports-and-surveys-2011-general-election/electoral-0
+(Date accessed: May 16, 2018)
+
+The Federal Electoral Institute of Mexico - Electoral.
+http://siceef.ife.org.mx/pef2012/SICEEF2012.html
+(Date accessed: May 16, 2018)
+
+The Federal Returning Officer: Endgueltiges Ergebnis der Erst- und
+Zweitstimmen nach Wahlkreisen bei den Bundestagswahlen 2013 und 2009,
+http://www.bundeswahlleiter.de/de/bundestagswahlen/BTW_BUND_13
+/veroeffentlichungen/ergebnisse/ 
+(Date accessed: October 28, 2014)
+
+The Government of the Hong Kong Special Administrative Region
+Electoral Affairs Commission Report
+http://www.eac.gov.hk/en/legco/2012lce_detailreport.htm
+(Date accessed: December 1, 2016)
+
+The Independent Electoral and Boundaries Commission (Kenya)
+https://www.iebc.or.ke/docs/4TH%20MARCH%202013%20GENERAL%
+20ELECTION%20DATA.pdf.(*)
+(Date accessed: February 16, 2017)
+
+The Latvian Saeima Election Law.
+https://www.cvk.lv/pub/public/30067.html
+(Date accessed: January 4, 2018)
+
+The Law on Electing the President of the Republic, Sluzbeni glasnik RS,
+No.'s 1/90, 79/92, 111/2007, 104/2009.
+
+The Law on the Elections of Representatives, Sluzbeni glasnik Republike
+Srbije, No. 35/2000.
+
+The National Assembly Elections Act (Zakon o volitvah v Drzavni zbor 
+(Ur.l. RS, St. 44/92, 60/95,14/96-odlocba US, 67/97- odloeba US, 70/2000).
+http://legislationline.org/documents/action/popup/id/3825.
+(Date accessed: May 16, 2018)
+
+The National Assembly of the Republic of Slovenia (2014): Electoral System.
+Available at: https://www.dz-rs.si/wps/portal/en/Home/
+PoliticniSistem/VolitveInVolilniSistem 
+(Date accessed: June 16, 2016)
+
+The National Assembly of the Republic of Serbia.
+http://www.parlament.gov.rs/national-assembly.467.html
+(Date accessed: May 16, 2018)
+
+The National Electoral Commission of Slovenia.
+http://www.dvk-rs.si/arhivi/dz2011/en/rezultati/rez_ka2.html#1
+(Date accessed: May 16, 2018)
+
+The New Zealand Election Study.
+http://www.nzes.org
+(Date accessed: May 16, 2018)
+
+The Statistical Office of the Republic of Slovenia (2011). Elections to the
+National Assembly of the Republic of Slovenia, Slovenia, 4 December 2011. 
+http://www.stat.si/StatWeb/doc/letopis/2013/05_13/05-07-13.html 
+(Date accessed: May 16, 2018)
+
+Todosijevic, B. (2013). Serbia. In: Sten Berglund, Joakim Ekman, Kevin
+Deegan-Krause and Terje Knutsen (eds.), The Handbook of Political Change in
+Eastern Europe, Third Edition. Cheltenham: Edward Elgar.
+
+Tsang, E. (2012). DAB fares best, taking 13 seats, thanks for vote-
+splitting tactic. South China Morning Post. Available at:
+http://www.scmp.com/news/hong-kong/article/1033709/dab-fares-best-taking-13
+-seats-thanks-vote-splitting-tactic
+(Date accessed: December 1, 2016)
+
+Tsirbas, Y. (2015). The January 2015 parliamentary election in Greece:
+Government change, partial punishment and hesitant stabilisation. South
+European Society and Politics, 1-20.
+doi: 10.1080/13608746.2015.1088428
+
+Turkish Statistical Institute
+http://www.turkstat.gov.tr/VeriBilgi.do?alt_id=1061 
+https://biruni.tuik.gov.tr/secimdagitimapp/secim.zul
+(Date accessed: March 6, 2016)
+
+Tworzecki, H. (2012). The Polish parliamentary elections of October 
+2011. Electoral Studies, 31(3), 617-621. 
+doi: 10.1016/j.electstud.2012.04.007
+
+United Nations Statistics Division - Countries or Areas, Codes and
+Abbreviations (revised 13 February 2002).
+http://unstats.un.org/unsd/methods/m49/m49alpha.htm
+(Date accessed: May 14, 2018)
+
+United Nations Statistics Division - Country or Area Numerical Codes added
+or changed since 1982 (revised 31 October 2013).
+https://unstats.un.org/unsd/methods/m49/m49chang.htm
+(Date accessed: May 16, 2018)
+
+United Nations Statistics Division - National Occupational Classification
+Canada.
+http://unstats.un.org/unsd/cr/ctryreg/ctrydetail.asp?id=1056
+(Date accessed: May 14, 2015)
+
+United States Elections Project (McDonald, Michael): 2012 November General 
+Election Turnout Rates.  
+http://www.electproject.org/2012g
+(Date accessed: February 18, 2015) 
+
+United States Congressional Election Information Statistics of Elections
+2012
+http://clerk.house.gov/member_info/electionInfo/2012election.pdf
+(Date accessed: December 28, 2014)
+
+United States Federal Election Commission: http://www.fec.gov/ 
+(Date accessed: December 28, 2014)
+
+Valmyndigheten (2014): Val till riksdagen 2014-09-14 [in Swedish].
+http://www.val.se/val/val2014/slutresultat/protokoll/protokoll_00R.pdf
+(Date accessed: January 14, 2016)
+
+Volkens, A., Lehmann, P., Matthieß, T., Merz, N., Regel, S., and Wessels, B.
+(2017): The Manifesto Data Collection. Manifesto Project (MRG/CMP/MARPOR).
+Version 2017b. Berlin: Wissenschaftszentrum Berlin für Sozialforschung 
+(WZB). doi: 10.25522/manifesto.mpds.2017b
+https://manifestoproject.wzb.eu/datasets
+(Date accessed: May 22, 2018)
+
+Vowels, J. (2015). The 2014 New Zealand general election: Varieties of
+political communication. Political Science, Vol. 67(2), 89-93.
+doi: 10.1177/0032318715614731
+
+Vuckovic, V. (2016). The Europeanization of Political Parties in
+Montenegro. Romanian Journal Of European Affairs 16(3), 36-55. 
+Available at: 
+http://rjea.ier.ro/sites/rjea.ier.ro/files/revista/RJEA_2016_vol16_no3_web
+_0.pdf#page=37
+(Date accessed: March 21, 2017)
+
+Weisberg, H. F. (2015): The decline in the white vote for Barack Obama
+in 2012: Racial attitudes or the economy?. Electoral Studies, 40, 
+449-459. doi: 10.1016/j.electstud.2014.09.014
+
+
+//END OF FILE

@@ -1,0 +1,2648 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 1 (1996-2001)
+
+                          CODEBOOK: INTRODUCTION
+
+                 FULL RELEASE - DECEMBER 15, 2015 VERSION
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 1
+FULL RELEASE [dataset]. December 15, 2015 version.
+doi:10.7804/cses.module1.2015-12-15
+
+These materials are based on work supported by the American National 
+Science Foundation (www.nsf.gov) under grant number SBR-9317631, the GESIS
+- Leibniz Institute for the Social Sciences, the University of Michigan, 
+in-kind support of participating election studies, the many organizations
+that sponsor planning meetings and conferences, and the many organizations
+that fund election studies by CSES collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+IMPORTANT NOTE REGARDING FULL RELEASES:
+
+This dataset and all accompanying documentation is the "Full Release"
+of CSES Module 1 (1996-2001).
+
+Users of the Final Release may wish to monitor the errata for
+CSES Module 1 on the CSES website, to check for known errors which may 
+impact their analyses. To view errata for CSES Module 1, go to the Data
+Center on the CSES website, navigate to the CSES Module 1 download page, 
+and click on the Errata link in the gray box to the right of the page.
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+
+))) CSES PROJECT PROFILE
+
+    >>> CSES MODULE 1 STUDY DESCRIPTION
+    >>> CSES MODULE 1 PLANNING COMMITTEE    
+    >>> CSES MODULE 1 COLLABORATORS    
+    >>> MICRO LEVEL (SURVEY) COMPONENT
+    >>> DISTRICT LEVEL COMPONENT
+    >>> MACRO LEVEL COMPONENT
+
+))) HOW TO USE THE CSES MODULE 1 DOCUMENTATION
+
+    >>> TYPES OF DOCUMENTATION AVAILABLE
+    >>> CODEBOOK CONVENTIONS
+
+))) HOW TO USE THE CSES MODULE 1 DATA FILES
+
+))) SPECIAL DATA NOTES
+
+    >>> IDENTIFICATION VARIABLES
+    >>> MISSING DATA
+    >>> WEIGHTS
+
+))) CSES MODULE 1 ELECTION STUDIES
+
+    >>> LIST OF ELECTION STUDIES INCLUDED IN CSES MODULE 1
+
+))) ELECTION SUMMARIES AND GENERAL NOTES
+
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - AUSTRALIA (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - BELARUS (2001)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - BELGIUM-FLANDERS (1999)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - BELGIUM-WALLOON (1999)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - CANADA (1997)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - CHILE (1999)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - CZECH REPUBLIC (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - DENMARK (1998)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - GERMANY (1998)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - UNITED KINGDOM: GREAT BRITAIN (1997)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - HONG KONG (1998)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - HONG KONG (2000)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - HUNGARY (1998)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - ICELAND (1999)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - ISRAEL (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - JAPAN (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - LITHUANIA (1997)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - MEXICO (1997)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - MEXICO (2000)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - NETHERLANDS (1998)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - NEW ZEALAND (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - NORWAY (1997)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - PERU (2000)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - PERU (2001)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - POLAND (1997)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - PORTUGAL (2002)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - ROMANIA (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - RUSSIAN FEDERATION (1999)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - RUSSIAN FEDERATION (2000)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - SLOVENIA (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - SOUTH KOREA (2000)    
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - SPAIN (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - SPAIN (2000)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - SWEDEN (1998)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - SWITZERLAND (1999)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - TAIWAN PROVINCE OF CHINA (1996)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - THAILAND (2001)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - UKRAINE (1998)
+    >>> ELECTION SUMMARIES AND GENERAL NOTES - UNITED STATES (1996)
+
+))) BIBLIOGRAPHY
+
+
+===========================================================================
+))) CSES PROJECT PROFILE
+===========================================================================
+
+The Comparative Study of Electoral Systems (CSES) is a collaborative
+program of cross-national public opinion research.  A standard survey
+module, CSES Module 1, was administered as part of nearly 40 national
+post-election study projects.  The CSES Secretariat, with the help of
+the collaborators in each participant country, has compiled these data and
+supplemented them with socio-demographic information about each
+respondent.  To facilitate cross-national comparative analyses, these
+micro-level data have been further supplemented with district level
+information that provide insight into the respondent's political
+context, and macro-level data that detail the respondent's political
+system, as a whole.  At each level of data collection, the measurements
+used have been standardized to promote comparison.
+
+By collaborating in this way, the CSES community hopes to forward
+scientific inquiry into the relationship between electoral institutions
+and political behavior.  In particular, CSES Module 1
+focuses on the structure electoral institutions provide voters in their
+beliefs and choices.  Further, the survey items used in Module 1 emphasize
+the ways in which citizens assess and evaluate the institutions of their
+governments.  For example, what impact, if any, do institutional
+differences -- in electoral laws, in the nature of political parties, or
+in the structure and longevity of the political regime -- have on the way
+that citizens assess the performance of the electoral process, political
+parties, and democracy as a whole? Do some kinds of institutional
+arrangements produce more positive evaluations than others?  Does citizen
+satisfaction with the performance of political parties increase with the
+number and ideological diversity of the political choices that citizens
+are offered?  Module 1 also considers how well the deeply-rooted divisions
+in society are managed, moderated or alleviated by political institutions:
+How do institutional structures affect the nature and intensity of social
+and political cleavages? Do federal systems suppress social cleavages? How
+well do different party systems "encapsulate conflict" by constraining
+social divisions?  Do plurality systems produce more broadly based parties
+that discourage the kind of sectional and ideological parties (and hence
+intense political cleavages) that can more easily survive under
+proportional representation? The CSES project, by explicitly linking
+individual attitudes and behaviors to political context in a variety of
+settings, provides analysts with the resources to address these and many
+other types of questions.
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 1 STUDY DESCRIPTION
+---------------------------------------------------------------------------
+
+The Module 1 materials include public opinion survey data, supplementary
+demographic data, district level and macro data collected in 39 election
+studies, usually in the weeks following national elections held between
+1996 and 2001.
+
+The Planning Committee oversaw every stage of the project development,
+include the design of the survey instrument, demographic and macro
+measures.  The various report, documents and pilot studies prepared by
+members of the Planning Committee in the course of Module 1 development
+are avaialable on the CSES website.
+
+CSES relies on the collaborators in each country to ensure that the data
+are collected in the most transparent and reliable way possible.  The
+micro level component of the data collection exercise is documented in the
+"Sample Design and Data Collection Reports" completed by each
+collaborator, and available on the CSES website.  A complete list of the
+collaborators and CSES contacts within each country is also available on
+the CSES website.
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 1 PLANNING COMMITTEE
+---------------------------------------------------------------------------
+
+The CSES Module 1 Planning Committee was responsible for the design of
+CSES Module 1 and shared responsibility for its implementation. The
+following persons were members of the CSES Module 1 Planning Committee:
+
+Prof. Rita Bajaruniene
+Sociological Laboratory
+Vilnius University
+
+Prof. Gary Cox
+Department of Political Science
+University of California, San Diego
+
+Prof. John Curtice
+Department of Government
+University of Strathclyde
+
+Prof. Juan Diez-Nicolas
+ASEP
+
+Prof. Oscar Hernandez
+Escuela de Estadistica
+Universidad de Costa Rico
+
+Prof. Soren Holmberg
+Department of Political Science
+Goteborg University
+
+Prof. Hans-Dieter Klingemann
+Wissenschaftszentrum Berlin fur Sozialforschung
+
+Prof. Marta Lagos
+LATINOBAROMETRO
+Opinion Publica Latinoamericana
+
+Prof. Felipe B. Miranda
+Social Weather Stations
+PSSC Building
+
+Prof. Ekkehard Mochmann
+Zentralarchiv fur empirische Sozialforschung
+Universitat zu Koln
+
+Prof. Yoshitaka Nishizawa
+Political Science Department
+Meiji Gakuin University
+
+Prof. Richard Rockwell
+ICPSR
+Institute for Social Research
+University of Michigan
+
+Prof. Steven J. Rosenstone
+Center for Political Studies
+Institute for Social Research
+University of Michigan
+
+Prof. Hermann Schmitt
+Mannheimer Zentrum fur Europaische Sozilforschung
+Universitat Mannheim
+
+Prof. W. Phillips Shively
+Department of Political Science
+University of Minnesota
+
+Prof. Jacques Thomassen
+Department of Public Administration
+University of Twente
+
+Dr. Gabor Toka
+Political Science Program
+Central European University
+
+
+---------------------------------------------------------------------------
+>>> CSES MODULE 1 COLLABORATORS
+---------------------------------------------------------------------------
+
+The CSES project is extremely grateful to our Module 1 collaborators, who
+raised their own funds to include CSES Module 1 in a nationally
+representative post-election study in their country or province.
+
+Listed collaborators are our contact persons for election studies that
+appear in the CSES Module 1 full release dataset - they are not necessarily
+the parties who collected the data.
+
+Within each election study, collaborators are presented in alphabetical
+order. The affiliations listed are current as of the the date when the
+election study first appeared in the CSES dataset.
+
+- Australia (1996)
+
+Prof. Ian McAllister
+Australian National University
+Australia
+
+- Belarus (2001)
+
+Prof. David Rotman
+Belarus State University
+Belarus
+
+MA Irina Levitskaya
+Belarus State University
+Belarus
+
+MA Natalia Veremeeva
+Belarus State University
+Belarus
+
+- Belgium-Flanders (1999)
+
+Prof. Jaak Billiet
+University of Leuven
+Belgium
+
+- Belgium-Walloon (1999)
+
+Prof. Andre-Paul Frognier
+Catholic University of Louvain
+Belgium
+
+- Canada (1997)
+
+Prof. Andre Blais
+Universite de Montreal
+Canada
+
+Prof. Elisabeth L. Gidengil
+McGill University
+Canada
+
+Prof. Richard Nadeau
+Universite de Montreal
+Canada
+
+Prof. Neil Nevitte
+University of Toronto
+Canada
+
+- Chile (1999)
+
+Prof. Marta Lagos
+Latinobarometro
+Chile
+
+- Czech Republic (1996)
+
+Prof. Gabor Toka
+Central European University
+Hungary
+
+- Denmark (1998)
+
+Prof. Jørgen Goul Andersen
+Aalborg University
+Denmark
+
+- Germany (1998)
+
+PD Dr. Hermann Schmitt
+Universitat Mannheim
+Germany
+
+- Prof. Dr. Bernhard Weßels
+Wissenschaftszentrum Berlin fur Sozialforschung (WZB)
+Germany
+
+
+- Hong Kong Special Administrative Region of China (1998)
+
+Dr. Li Pang-kwong
+Lingnan University
+Hong Kong
+
+- Hong Kong Special Administrative Region of China (2000)
+
+Dr. Li Pang-kwong
+Lingnan University
+Hong Kong
+
+- Hungary (1998)
+
+Prof. Gabor Toka
+Political Science Department
+Central European University
+Hungary
+
+- Iceland (1999)
+
+Prof. Ólafur Þ. Harðarson
+University of Iceland
+Iceland
+
+- Israel (1996)
+
+Prof. Asher Arian
+Department of Political Science
+Tel Aviv University
+
+Prof. Michal Shamir
+Tel Aviv University
+Israel
+
+- Japan (1996)
+
+Prof. Yoshitaka Nishizawa
+Doshisha University
+Japan
+
+- Lithuania (1997)
+
+Rasa Alisauskiene
+Baltic Surveys
+Lithuania
+
+Elena Liubsiene
+Baltic Surveys
+Lithuania
+
+- Mexico (1997)
+
+Prof. Ulises Beltran
+CIDE (Centro de Investigacion y Docencia Economica)
+Mexico
+
+Prof. Benito Nacif Hernandez
+CIDE (Centro de Investigacion y Docencia Economica)
+Mexico
+
+- Mexico (2000)
+
+Prof. Ulises Beltran
+CIDE (Centro de Investigacion y Docencia Economica)
+Mexico
+
+Prof. Benito Nacif Hernandez
+CIDE (Centro de Investigacion y Docencia Economica)
+Mexico
+
+- Netherlands (1998)
+
+Dr. Kees Aarts
+University of Twente
+The Netherlands
+
+- New Zealand (1996)
+
+Dr. Peter Aimer
+University of Auckland
+New Zealand
+
+Dr. Susan Banducci
+University of Twente
+The Netherlands
+
+Dr. Jeffrey A. Karp
+University of Twente
+The Netherlands
+
+Prof. Jack Vowles
+University of Auckland
+New Zealand
+
+- Norway (1997)
+
+Prof. Bernt Aardal
+Institute for Social Research
+Norway
+
+Prof. Henry Valen
+Institute for Social Research
+Norway
+
+- Peru (2000)
+
+Prof. Catalina Romero
+Pontificia Universidad Catolica del Peru
+Peru
+
+- Peru (2001)
+
+Prof. Catalina Romero
+Pontificia Universidad Catolica del Peru
+Peru
+
+- Poland (1997)
+
+Prof. Krzysztof Jasiewicz
+Polish Academy of Sciences
+Poland
+
+Prof. Radoslaw Markowski
+Polish Academy of Sciences
+Poland
+
+- Portugal (2002)
+
+Prof. Antonio Barreto
+Universidade de Lisboa
+Portugal
+
+Andre Freire
+University of Lisbon
+Portugal
+
+- Romania (1996)
+
+Prof. Gabriel Badescu
+Babes-Bolyai University
+Romania
+
+Prof. Paul Sum
+University of North Dakota
+United States
+
+- Russian Federation (1999)
+
+Prof. Timothy Colton
+Harvard University
+United States
+
+Polina Kozyreva
+Academy of Sciences
+Russia
+
+- Russian Federation (2000)
+
+Prof. Timothy Colton
+Harvard University
+United States
+
+Polina Kozyreva
+Academy of Sciences
+Russia
+
+- Slovenia (1996)
+
+Janez Stebe
+University of Ljubljana
+Slovenia
+
+Niko Tos
+University of Ljubljana
+Slovenia
+
+- South Korea (2000)
+
+Prof. Nam-Young Lee
+Sookmyung Women's University
+Korea
+
+- Spain (1996)
+
+Prof. Juan Diez-Nicolas
+ASEP (Analisis Sociologicos Economicos y Politicos)
+Spain
+
+- Spain (2000)
+
+Prof. Juan Diez-Nicolas
+ASEP (Analisis Sociologicos Economicos y Politicos)
+Spain
+
+- Sweden (1998)
+
+Prof. Soren Holmberg
+Goteborg University
+Sweden
+
+- Switzerland (1999)
+
+Prof. Dr. Sibylle Hardmeier
+Universitat Zurich
+Switzerland
+
+Dr. Peter Selb
+Universitat Zurich
+Switzerland
+
+- Taiwan Province of China (1996)
+
+Prof. Yun-Han Chu
+National Taiwan University
+Taiwan
+
+- Thailand (2001)
+
+Prof. Robert B. Albritton
+The University of Mississippi
+United States
+
+Dr. Thawilwadee Bureekul
+The King Prajadhipok's Institute
+Thailand
+
+- Ukraine (1998)
+
+Olga Balakireva
+Ukrainian Institute for Social Research
+Ukraine
+
+- United Kingdom of Great Britain and Northern Ireland (1997)
+
+Prof. John Curtice
+University of Strathclyde
+Scotland
+
+Prof. Anthony Heath
+University of Oxford
+England
+
+Prof. Roger Jowell
+National Centre for Social Research
+England
+
+Prof. Pippa Norris
+Harvard University
+United States
+
+- United States of America (1996)
+
+ANES Staff
+Institute for Social Research, University of Michigan
+United States
+
+Prof. Virginia Sapiro
+University of Wisconsin - Madison
+United States
+
+Prof. W. Phillips Shively
+University of Minnesota
+United States
+
+The following election study included CSES Module 1, but did not appear in
+the CSES Module 1 Full Release dataset due to an administrative oversight
+on the part of CSES. Requests for the data may be addressed to the
+collaborator directly.
+
+- Philippines (1998)
+
+Linda Luz Guerrero
+Social Weather Stations
+Philippines
+
+
+---------------------------------------------------------------------------
+>>> MICRO LEVEL (SURVEY) COMPONENT
+---------------------------------------------------------------------------
+
+The ten-minute CSES module was usually administered as a single
+uninterrupted block of questions at the beginning or the end of a
+national election survey.  There are several features of this component of
+which analysts should be aware:
+
+A.  The question text is included in the variable documentation of this
+codebook.  The questions are reported in the order in which they appear in
+the questionnaire.
+
+B.  Where there are differences in the way a particular question was
+administered in an election study, this is noted in the "Election Study
+Notes," following the documentation of the corresponding variable.
+
+C.  There are several sets of party and leader evaluation items included
+in the module.  These correspond to parties labeled A-F, in descending
+order, the six most popular parties in the lower house elections (or
+presidential elections if legislative elections were not held).  Where
+respondents were asked to evaluate other parties, these evaluations
+have been included and are labeled parties G-I, regardless of their vote
+shares (for a total of six parties per election study).  The parties and
+leader to which these evaluations apply are identified in Appendix I.
+
+D.  There are several questions (including the vote-choice and party
+identification items) which ask the respondents to specify a political
+party.  The codes for these items are also reported in Appendix I.
+
+
+---------------------------------------------------------------------------
+>>> DISTRICT LEVEL COMPONENT
+---------------------------------------------------------------------------
+
+The district level variables report the official returns of the lower
+house (first segment) election for each respondent's district, as
+published by the official election authority in each country (Great
+Britain is the sole exception: these data are from P.  Norris (2001),"The
+British Parliamentary Constituency Database, 1992-2001").  Although this
+is the most reliable source, the availability of district-level data is
+limited by what is actually published by electoral commissions (e.g. some
+did not publish turnout at the district level), and by the form in which
+these data are made public (e.g. including what language, but also how the
+returns are reported: some commissions report only actual votes received
+by each winning candidate, and not the number of votes cast in favor of
+each party).  The following district level data are included in the CSES
+datafile (X's indicate availability):
+
+                   # Seats     #Candidates/   Vote      Turnout
+                                             Lists       Returns
+ Australia            X            X           X           X
+ Belarus
+ Belgium- Flanders    X            X           X           X
+ Belgium- Walloon     X            X           X           X
+ Canada               X            X           X           X
+ Chile                     [NA- Presidential Election]
+ Czech Republic       X            X           X
+ Denmark              X                        X           X
+ Germany              X            X           X           X
+ Hong Kong (1998)     X            X           X           X
+ Hong Kong (2000)     X            X           X           X
+ Hungary              X            X           X           X
+ Iceland              X            X           X
+ Israel               X            X           X           X
+ Japan                X            X           X           X
+ Lithuania                 [NA- Presidential Election]
+ Mexico (1997)        X                        X           X
+ Mexico (2000)        X                        X
+ Netherlands          X            X           X           X
+ New Zealand          X            X           X           X
+ Norway               X                        X           X
+ Peru (2000)          X            X           X           X
+ Peru (2001)          X            X           X           X
+ Poland               X            X           X
+ Portugal             X            X           X           X
+ Romania              X                        X           X
+ Russia (1999)
+ Russia (2000)
+ Slovenia             X            X           X
+ South Korea
+ Spain (1996)         X            X           X
+ Spain (2000)         X            X           X
+ Sweden               X            X           X           X
+ Switzerland          X            X           X
+ Taiwan               X            X
+ USA                  X            X           X
+ Ukraine              X            X                       X
+ Great Britain        X            X           X           X
+ Thailand
+
+
+---------------------------------------------------------------------------
+>>> MACRO LEVEL COMPONENT
+---------------------------------------------------------------------------
+
+To supplement the micro data, the teams of researchers responsible for
+the collection of the public opinion data also compiled and deposited
+electoral legislation, political party platforms, and official electoral
+returns.
+
+To facilitate this process, a detailed questionnaire was construct to
+serves as a framework for the macro component of the project.  The
+Macro Data Reports completed by the CSES collaborators can be found on the
+CSES website.
+
+The text of the questions is provided in the variable documentation section
+of this codebook.
+
+Additional measures, thought pertinent to the micro-district-
+macro design, are also compiled and available in the CSES datafiles. A
+bibliography of the sources consulted follows the main body of these
+introductory materials.
+
+Finally, to facilitate the use of the macro data, the steps taken in
+the coding of several systems are provided to illustrate the working
+definitions of some of the terms used in the documentation of these
+variables:
+
+
+A.  ELECTORAL STRUCTURES:
+
+This section illustrates how characteristics of electoral systems are
+coded in the macro level study.  Consider the case of Hungary:  Under
+Hungarian electoral rules, the (unicameral) legislative house is composed
+of 328 seats. Of these, 176 are elected in single-member districts and 152
+are elected in 20 multi- member districts.  The Hungarian case is coded in
+the following way:
+
+A5024    NUMBER OF LEGISLATIVE CHAMBERS - LOWER - 1ST SEGMENT:
+         One (there is no 'upper' house, like the American Senate, or the
+         British House of Lords).
+
+A5025_1  NUMBER OF ELECTORAL SEGMENTS - LOWER - 1ST SEGMENT:
+         Two (as the members elected in single member districts are elected
+         independently of those elected to seats in the multi-member
+         districts, there are two electoral segments).  Usually the number
+         of electoral segments corresponds to the number of independent
+         ballots cast by voters for each legislative body.
+
+A5026_1  NUMBER OF PRIMARY ELECTORAL DISTRICTS - LOWER - 1ST SEGMENT:
+         176 (a primary electoral district is the smallest geographic
+         area in which votes are tallied to allocate seats in a
+         legislature).
+
+A5027_1  NUMBER OF SEATS- LOWER - 1ST SEGMENT:
+         176 (within this segment there are 176 seats to be allocated).
+
+A5028_1  DISTRICT MAGNITUDE- LOWER - 1ST SEGMENT:
+         1 ('district magnitude' refers to the average number of seats
+         allocated per primary district; in systems with multi-member
+         districts, this is the total number of seats divided by the
+         number of districts).
+
+A5029_1  NUMBER OF SECONDARY DISTRICTS- LOWER - 1ST SEGMENT:
+         1 (the votes cast for non-winning members in the single-member
+         districts are cumulated as "remainder votes" at the national
+         level for the allocation of 58 "reserved" seats).
+
+A5030_1  NUMBER OF TERTIARY DISTRICTS- LOWER - 1ST SEGMENT:
+         0 (if, for example, the single member district "remainder votes"
+         could first be applied to the allocation of regional seats, and
+         then the "remainder votes" from this allocation were cumulated
+         at the national level, then there would be several secondary
+         districts and 1 tertiary district).
+
+
+B.  LEGISLATIVE ELECTIONS: VOTING PROCEDURES:
+
+In systems where there is more than one electoral segment, the voting
+procedures usually vary across segments, as well as across legislative
+chambers.  For this reason, the macro data file includes data for the
+voting procedures for each electoral segment in each of the legislative
+houses. To illustrate, consider how the voting procedures for Japan are
+reported in the datafile:
+
+A5031    COMPULSORY VOTING:
+         '0.  No.' (Some countries do have laws requiring their citizens
+         to vote.  However, the sanctions imposed on non-voters in these
+         countries vary widely, and are reported in this variable).
+
+A5032_1  VOTES CAST - LOWER - 1ST SEGMENT:
+         One (under some electoral laws, citizens may vote for as many
+         candidates as there are seats to be contested; in Japan, however,
+         the first electoral segment is composed of 300 seats contested in
+         single member districts and citizens cast only one vote in this
+         segment).
+
+A5033_1  VOTING PROCEDURES - LOWER - 1ST SEGMENT:
+         '01.  Single Candidate'. (In some majoritarian electoral systems,
+         e.g. Australia, in selecting a candidate, voters will also choose
+         'alternatives' by ranking the political candidates.  If no
+         candidate wins a majority in the first round, the candidate with
+         the smallest number of first preferences is eliminated, and her
+         supporters' second preferences are allocated among the remaining
+         candidates.  Alternatively, as will be discussed below, in some
+         systems, voters elect party lists rather than candidates.  In
+         Japan, as the first segment is elected through single member
+         districts voters select a single candidate).
+
+
+C.  LEGISLATIVE ELECTIONS: HOW VOTES BECOME SEATS:
+
+In systems where there is more than one electoral segment, the electoral
+formulae used to allocate seats usually vary across segments.  For this
+reason, the macro. data file includes data for the electoral formulae for
+each electoral segments within each of the legislative chambers.  For
+example, these characteristics of New Zealand's electoral system are
+reported in the following way:
+
+A5034_1  ELECTORAL FORMULA- LOWER - 1ST SEGMENT:
+         '11. Plurality- Single Member Districts.' (In the first electoral
+         segment, New Zealanders elect 65 representatives in single-member
+         districts).
+
+A5034_2  LOWER HOUSE- SECOND SEGMENT- ELECTORAL FORMULA:
+         '034. PR- Ste-Lague.' (The remaining 55 seats in the legislature
+         are allocated according to the percentage of popular vote each
+         party receives; systems of this sort are broadly referred to as
+         "proportional representation" systems.  There are several
+         different forumlae used to translate popular vote into seats; the
+         Ste-Lague Highest Averages method used in New Zealand is among the
+         more commonly used formulae).
+
+A5035_1  THRESHOLD - LOWER - 1ST SEGMENT:
+         '0. NA.' (Unlike in some proportional representation systems,
+         candidates in New Zealand do not need to be supported by a
+         specified percentage of the popular vote in order to gain their
+         seats.  Rather, candidates who win a simple plurality are elected
+         to the seat representing their district).
+
+A5035_2  LOWER HOUSE- SECOND SEGMENT- THRESHOLD:
+         '5.00 percent'. (In order to to be included in the allocation of
+         seats via the Ste. Lague formula, parties in New Zealand must be
+         supported by at least 5.00 percent of the national popular vote).
+
+
+D.  TYPES OF ELECTORAL ALLIANCES
+
+Some electoral systems allow parties to ally themselves through formal or
+informal agreements.  Where this occurs, there may be restrictions or
+additional requirements that party alliances are subject to.  To clarify
+some of the terminology used in the codebook, this section provides some
+definitions of the type of electoral alliances parties may form:
+
+MULTI-PARTY ENDORSEMENTS:  Candidates may sometimes be endorsed by more
+than one party, while maintaining their own party identification and
+membership.
+
+APPARENTEMENT:  In list PR systems, small parties may be unable to gain
+seats in the legislature because their proportions of the popular
+vote fall below the threshold needed to be included in the allocation
+of seats.  In some systems however, parties are allowed to form 'cartels,'
+such that, although participant parties stand for election as individual
+parties, their vote totals are cumulated and seats are allocated to the
+'cartel,' and then distributed among the participant parties.
+
+JOINT LISTS:  In contrast to apparentement, where parties maintain their
+own party lists and votes are pooled between the parties, parties may
+present joint lists, in which candidates from both parties are included,
+and elected according to the order prescribed by the list.  Joint lists
+tend to be more formal and complete alliances than apparentement
+agreements.
+
+It is important to note that, in some systems, there are different
+thresholds, etc. for joint party lists contesting an election than for
+individual parties.
+
+
+===========================================================================
+))) HOW TO USE THE CSES MODULE 1 DOCUMENTATION
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> TYPES OF DOCUMENTATION AVAILABLE
+---------------------------------------------------------------------------
+
+There are several components to the CSES documentation. Analysts will
+want to become familiar with all of them.
+
+For most election studies, collaborators have provided documentation
+to accompany their election studies, including the source macro
+reports, design reports, and original-language questionnaire(s). These 
+documents, where available, can be found on the CSES website (www.cses.org)
+by visiting the "Data Center" and then clicking on the CSES Module 1
+download page.
+
+The CSES Module 1 questionnaire is also available from the website or
+by referencing the corresponding variables in this codebook.
+
+The codebook consists of three files:
+
+"cses1_codebook_part1_introduction.txt" is the codebook introduction, the
+file you are reading now; it includes an overview of the study and data,
+information about use of the files, general election study descriptions
+and notes, and a bibliography
+
+"cses1_codebook_part2_variables.txt" is the variable descriptions' file,
+including questions, code frames, general notes, and notes specific to
+an election study (by variable)
+
+"cses1_codebook_part3_appendices.txt" contains Appendix I (Parties and
+Leaders), Appendix II (Primary Electoral Districts), and Appendix III
+(District-Level Candidates).
+
+Analysts will also want to become familiar with the CSES Module 1 errata
+page, which is accessible from the CSES Module 1 download page on the 
+website. Updates, error notifications and corrections are posted there, 
+often in real time, as they become available. Please check the errata page
+regularly for new notifications.
+
+
+---------------------------------------------------------------------------
+>>> CODEBOOK CONVENTIONS
+---------------------------------------------------------------------------
+
+In the CSES Module 1 dataset, all variables begin with the letter "A".
+This convention helps reduce the possibility of overwriting data when
+merging with other CSES data sets.
+
+Variables are presented in five groupings:
+
+A1001-A1999 identification, weight, and election study variables
+A2001-A2999 demographic and vote choice variables
+A3001-A3999 micro-level data (the CSES Module 1 Questionnaire)
+A4001-A4999 district-level data
+A5001-A5999 macro-level data
+
+Variable names are separated off by two lines of dashes.  Variable names
+do not exceed eight characters in length.  In the variable descriptions
+portion of codebook file "cm_cod2.txt", the leftmost eight columns are
+intended to be for variable names only.
+
+Most sections of the codebook can be navigated in the machine-readable
+files by searching for the characters ">>>" or ")))" as appropriate.
+
+
+===========================================================================
+))) HOW TO USE THE CSES MODULE 1 DATA FILES
+===========================================================================
+
+We recommend that PC users create the following directory on their hard
+drive, and to download their files from this Module 1 release to that 
+location:
+
+  c:/cses/module1/20151215/
+
+The subdirectory value "20151215" represents the version (release date) of 
+the dataset - this being the 2015, December 15th version of CSES Module 1.
+
+This organization method allows users with multiple CSES datasets and/or
+versions to stay organized and not over-write their other files.
+
+Users of other computer types (Macs, Unix, etc.) are recommended to use
+a similar directory structure to organize their CSES files.
+
+The following ZIP files are available to download from the Module 1 
+download page under the Data Center on the CSES website.
+
+All users should download the codebook file:
+
+  cses1_codebook.zip  Contains the three codebook files, including this 
+                      one, in text format.
+
+Users should also download one or more of the following six files, 
+depending on which statistical package(s) they intend to use with the 
+data, and how:
+
+  cses1_csv.zip       Contains a CSV file with variables names as column 
+                      headers but no additional metadata (for instance,
+                      no code labels are included).
+                                      
+  cses1_syntax.zip    Contains a raw data file and syntax statements to
+                      read the dataset into SAS, SPSS, and STATA. The
+                      instructions for doing so are found in the 
+                      headers of the syntax files for each statistical
+                      package: cses1.sas for SAS, cses1.sps for SPSS,
+                      and cses1.do for STATA. This ZIP file also contains
+                      optional missing data statements which can be 
+                      applied to the dataset in SAS, SPSS, or STATA.
+                      
+  cses1_r.zip         Contains a R Workplace system file (.rdata), with
+                      the dataset already prepared and ready to be loaded
+                      into R. Missing data statements are not applied.
+  
+  cses1_sas.zip       Contains a SAS 7-8 system file (.sas7bdat), with
+                      the dataset already prepared and ready to be loaded
+                      into SAS. Missing data statements are not applied.
+  
+  cses1_spss.zip      Contains a SPSS system file (.sav), with the dataset
+                      already prepared and ready to be loaded into SPSS.
+                      Missing data statements are not applied.
+  
+  cses1_stata.zip     Contains a STATA 13 system file (.dta), with the
+                      dataset already prepared and ready to be loaded
+                      into STATA.  Missing data statements are not applied.
+
+
+===========================================================================
+>>> SPECIAL DATA NOTES
+===========================================================================
+
+
+---------------------------------------------------------------------------
+))) IDENTIFICATION VARIABLES
+---------------------------------------------------------------------------
+
+Each record in CSES Module 1 contains a number of identification variables
+with which the analysis will wish to become familiar.
+
+These three variables identify the dataset, version, and DOI:
+
+    A1001    >>> DATASET
+    A1002    >>> DATASET VERSION
+    A1002_DOI>>> DIGITAL OBJECT IDENTIFIER
+
+This variable uniquely identifies an election study across time. 
+It appears in two variations:
+
+    A1003    >>> ID VARIABLE - ELECTION STUDY (NUMERIC POLITY)
+    A1004    >>> ID VARIABLE - ELECTION STUDY (ALPHABETIC POLITY)
+
+This variable uniquely identifies a respondent across time:
+
+    A1005    >>> ID VARIABLE - RESPONDENT
+
+This variable uniquely identifies a polity (country, nation, etc.).
+It appears in three variations:
+
+    A1006    >>> ID COMPONENT - POLITY CSES CODE
+    A1006_UN >>> ID COMPONENT - POLITY UN CODE
+    A1006_NAM>>> ID COMPONENT - POLITY NAME
+    
+Notes on their creation and use of these variables are available in the 
+Variable Descriptions portion of the codebook.
+
+
+---------------------------------------------------------------------------
+))) WEIGHTS
+---------------------------------------------------------------------------
+
+Because of the variance in the sample designs used in the election studies
+included in this project, the weights provided by the collaborators also
+vary greatly. They are described in detail in variables A1010-A1014.
+Analysts are advised to read the weight documentation carefully to ensure
+that their analyses are weighted appropriately.
+
+The original weights provided by the collaborators, where available, are:
+
+    A1010_1  >>> ORIGINAL WEIGHT: SAMPLE
+    A1010_2  >>> ORIGINAL WEIGHT: DEMOGRAPHIC
+    A1010_3  >>> ORIGINAL WEIGHT: POLITICAL
+
+The remainder of the weight variables in the dataset are derivative
+variables, constructed from the original weights:
+
+    A1011_1  >>> FACTOR: MEAN OF SAMPLE WEIGHT
+    A1011_2  >>> FACTOR: MEAN OF DEMOGRAPHIC WEIGHT
+    A1011_3  >>> FACTOR: MEAN OF POLITICAL WEIGHT
+    A1012_1  >>> POLITY WEIGHT: SAMPLE
+    A1012_2  >>> POLITY WEIGHT: DEMOGRAPHIC
+    A1012_3  >>> POLITY WEIGHT: POLITICAL
+    A1013    >>> FACTOR: SAMPLE SIZE ADJUSTMENT
+    A1014_1  >>> DATASET WEIGHT: SAMPLE
+    A1014_2  >>> DATASET WEIGHT: DEMOGRAPHIC
+    A1014_3  >>> DATASET WEIGHT: POLITICAL
+
+
+---------------------------------------------------------------------------
+>>> MISSING DATA
+---------------------------------------------------------------------------
+
+In the micro component of the project, there is some ambiguity regarding
+which response categories have been included in the "missing" category
+(usually indicated with a last digit of 9) in the component
+election studies of the CSES project.  Researchers should be aware
+that this category may include those who have refused to answer a
+particular question, indicated that they "didn't know," were not asked
+the question, or otherwise did not provide an answer to a particular item.
+    
+
+===========================================================================
+))) CSES MODULE 1 ELECTION STUDIES
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> LIST OF ELECTION STUDIES INCLUDED IN CSES MODULE 1
+---------------------------------------------------------------------------
+
+The CSES data report on the following 39 election studies (in alphabetic
+order), held between 1996 and 2002:
+
+
+        Election Study                  Cases
+
+        Australia 1996                  1,798
+        Belarus 2001                    1,000
+        Belgium-Flanders 1999           2,179
+        Belgium-Walloon 1999            1,960
+        Canada 1997                     1,851
+        Chile 1999                      1,173
+        Czech Republic 1996             1,229
+        Denmark 1998                    2,001
+        Germany 1998                    2,019
+        Great Britain 1997              2,897
+        Hong Kong 1998                  1,000
+        Hong Kong 2000                    674
+        Hungary 1998                    1,525
+        Iceland 1999                    1,631
+        Israel 1996                     1,091
+        Japan 1996                      1,327
+        Lithuania 1997                  1,009
+        Mexico 1997                     2,033
+        Mexico 2000                     1,766
+        Netherlands 1998                2,101
+        New Zealand 1996                4,080
+        Norway 1997                     2,055
+        Peru  2000                      1,102
+        Peru 2001                       1,118
+        Poland 1997                     2,003
+        Portugal 2002                   1,303
+        Romania 1996                    1,175
+        Russia 1999                     1,842
+        Russia 2000                     1,748
+        Slovenia 1996                   2,031
+        South Korea 2000                1,100
+        Spain 1996                      1,212
+        Spain 2000                      1,208
+        Sweden 1998                     1,157
+        Switzerland 1999                2,048
+        Taiwan 1996                     1,200
+        Thailand 2001                   1,081
+        Ukraine 1998                    1,148
+        United States 1996              1,534       
+        Total                          62,409
+
+NOTES:  (1)  Multi-wave panel studies.  Only those respondents who
+participated in the wave of the study that included the CSES Module are
+included in the CSES core data-files.  Analysts should be aware that the
+subsamples included in the CSES core data-files differ from the original
+samples drawn in the following countries: Belgium, Canada, Czech Republic,
+Japan, the Netherlands, Russia, and the United States.  Analysts should
+refer to the "Sample Design and Data Collection Reports" prepared by
+the collaborators in these countries for more details.
+
+(2)  Booster Samples.  In New Zealand and Great Britain, certain segments
+of the population were over-sampled to allow for cross-group comparisons.
+As the CSES module was not administered to these segments, these
+respondents are not included in the CSES data-files.  However, as the
+documentation provided by the collaborators refers to these "booster"
+samples in some places, analysts should be aware of this feature of these
+research designs.  Finally, where other component studies have
+over-sampled segments of their populations, but administered the CSES
+Module to all subsamples, these booster samples are included in the CSES
+data-file.  In most cases where this has occurred, the collaborators have
+provided weights that correct for this over-sampling in the estimation of
+national parameters.  Analysts should pay particular attention to the
+documentation provided for the weights in this codebook.
+
+(3)  Russia.  The post-parliamentary and post-presidential data are drawn
+from different waves of a multi-wave panel study.  As a result, the
+respondents are the same, as indicated by the common case identification
+codes, and can be compared across the 1999 and 2000 component studies.
+
+
+===========================================================================
+))) ELECTION SUMMARIES AND GENERAL NOTES
+===========================================================================
+
+The following section provides:
+
+(1).  General information about the election after which the CSES
+Module 1 was administered.  In several cases, the election followed
+the establishment of new electoral rules.  In several others, the
+election marks a dramatic change in government.  This information is
+provided with the intention of alerting the analyst to interesting
+features of the election.  For more details, please refer to the
+Macro Reports prepared by the collaborators, and available on the CSES
+website.
+
+(2).  General information about the research and sample designs of the
+component election studies.  For example, in some cases, the CSES
+module was adminstered in a later wave of a multi-wave study.  Also, in
+Belgium, the CSES module was administered by different election study
+teams in different regions of the country.  Finally, in several countries,
+significant proportions of the population were excluded from the sample
+frame, usually because of geographic isolation.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - AUSTRALIA (1996)
+---------------------------------------------------------------------------
+
+(1) "After five successive Federal election wins and thirteen
+years in government, the ALP (led by the Prime Minister Paul Keating)
+lost 31 seats, and the government, in the 2 March 1996 Federal election
+for the 148 seat House of Representatives.  The Liberal and National
+Parties (led by the Liberal Leader of the Opposition, John Howard)
+gained 27 and 2 seats, respectively (independents gained 3), giving the
+new coalition government 94 seats (Liberal 76 and Nationals 18), a
+majority of 44 seats over the ALP...  Although many observers had
+expected the government to lose the election (from February 1995 the
+opinion polls had consistently shown the ALP trailing the Liberal-
+National parties), most were surprised by the magnitude of the swing
+to the coalition parties."  (CSES Macro Report: Australia).
+
+(2) The sample was drawn from the Australian Electoral Rolls. As
+enrolment is compulsory, nearly 95% of those eligible are included
+in the sample frame.  The sample is stratified by region, and the
+AEC identified sample points using a systematic random selection m
+echanism (interval count).  The identified respondents were contacted
+three times before being declared a non-interview.  No replacement
+methods were used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - BELARUS (2001)
+---------------------------------------------------------------------------
+
+(1) This study was conducted following nearly concurrent legislative
+(October 15, 2000; repeated March 18, 2001) and presidential (September
+9, 2001) elections.  The evaluation (Parties and Leaders), candidate
+recall, and macro data items pertain to the legislative election, although
+only presidential vote choice is reported.
+
+(2)  Households were randomly selected, and then
+respondents were identified according to the "next birthday" method.
+Households were contacted 3 times over two days before it was declared
+a non-interview.  No replacement methods were used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - BELGIUM-FLANDERS (1999)
+---------------------------------------------------------------------------
+
+(1)  Following the 1995 election, public confidence in the governing
+institutions was seriously shaken by several scandals involving
+members of the governing coalition.  Spontaneous strikes occurred
+throughout this period, with the largest, the "White March,"
+involving 300 000 protesters.  Immigration and asylum remain
+contentious issues.  In Flanders, the disaffection with the governing
+parties benefitted the VLD, which became the largest party in the
+Flemish region.
+
+(2) Although the Belgium-Flanders and Belgium-Walloon election studies
+were very similar, the data were collected and deposited by different
+teams of researchers. Further, the party systems are exclusive. As a
+result, in the CSES datafiles the Flanders and Walloon components are
+treated as distinct elections.  However, to facilitate comparisons
+across these components, wherever possible, similar coding schemes
+have been used.
+
+(3) The Belgium-Flanders (1999) election study includes the Flemish-
+speaking portion of Brussels.
+
+(4) Some of the respondents were panel respondents (1460) who
+cooperated in 1991 and (or) 1995 and the other part was a
+cross-section (718).  For the cross section (and for the first
+use of the panel in 1991) a two stage sampling procedure was used.
+Primary units were municipalities, selected according to their
+population size.  Secondary units were selected at random within
+the primary units, from the electoral registers.   Replacement of
+the new sample points from within the same municipality occurred
+after attempts to contact the respondent were unsuccessful.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - BELGIUM-WALLOON (1999)
+---------------------------------------------------------------------------
+
+(1)  Following the 1995 election, public confidence in the governing
+institutions was seriously shaken by several scandals involving
+members of the governing coalition.  Spontaneous strikes occurred
+throughout this period, with the largest, the "White March,"
+involving 300 000 protesters.  Immigration and asylum remain
+contentious issues.  Unlike in Flanders, the challenging parties
+made only modest gains in Walloon.  PS remained large enough to
+ensure a place in the governing coalition.  It should be noted that
+Ecolo nearly doubled its share of the vote in both Wallonia and
+Brussels.
+
+(2) Although the Belgium-Flanders and Belgium-Walloon election studies
+were very similar, the data were collected and deposited by different teams
+of researchers. Further, the party systems are exclusive. As a result, in
+the CSES datafiles the Flanders and Walloon components are treated as
+distinct elections.  However, to facilitate comparisons across these
+components, wherever possible, similar coding schemes have been used.
+
+(3) The Belgium-Walloon (1999) election study includes the
+French-speaking portion of Brussels.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - CANADA (1997)
+---------------------------------------------------------------------------
+
+(1)  The 1997 Federal Election marks the consolidation
+of the radical changes in the Canadian party system that occurred in
+the 1993 election.  Following the Progressive Conservative
+government's failure to ratify the Charlottetown Accord in 1992, and
+as a result of general dissatisfaction with the Mulroney government,
+the Progressive Conservatives were reduced from 170 seats to only 2
+seats in 1993, losing official party status.  Although the
+Progressive Conservatives did regain official party status in the 1997
+election, its presence remains over-shadowed by two new parties, the
+Bloc Quebecois (which formed her Majesty's Loyal Opposition following
+the 1993 election) and the Reform Party (first elected in 1993, and
+the official opposition party following the 1997 election).  With the
+emergence of these new parties, Canadian party politics has become
+highly regionalized: Bloc Quebecois candidates stand for election
+exclusively in Quebec.  The Reform Party's stronghold is in the
+Western provinces, particularly Alberta and British Colombia, in spite
+of efforts to gain standing in central Canada.  The Liberal's support
+is drawn almost exclusively from Ontario where, in 1997, Liberal
+candidates were elected in 101 out of 103 constituencies.
+
+(2)  It is also important to note that this was the first election
+following the 1995 referendum on secession in Quebec.  Following
+the narrow defeat of the referendum (by a margin of less than 1%),
+the charismatic leader and founding member of the federal
+Bloc Quebecois, Lucien Bouchard stepped down to lead the provincial
+Parti Quebecois and was replaced by Gilles Duceppe.
+
+(3) The CES was conducted in three panels (Refer to The 1997
+Canadian Election Survey: Technical Documentation).  An origi1al sample
+(n=3949) was drawn in the pre-election period.  These respondents were
+re-interviewed following the election (n=3170).  Finally, a mailback
+survey that contained the CSES module was sent to the respondents;
+1857 returned the study. Note, all 3949 of the original respondents are
+included in the CSES datafiles.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - CHILE (1999)
+---------------------------------------------------------------------------
+
+(1) Through this presidential election, Ricardo Lagos, became the third
+consecutive president from the center-left coalition, and the first
+socialist president, since the reestablishment of democracy.
+
+The elections were held in a critical economic situation; the rates of
+unemployment and crime were high; and there were a set of demonstrations
+performed by students and indigenous people. The possibility of Pinochet
+being judged overseas provoked nationalistic anger among the majority of
+the population, who demanded a more active intervention of the government
+to bring him back to the country.  The first round showed a tight result
+between the two main candidates. Lagos got 0.05% of votes over Joaquin
+Lavin, the candidate for the right-wing alliance. The government candidate
+was favored by a decline in the unemployment rate and by Pinochet's obvious
+release a month before the second round. Finally, Lagos got 2.60% more
+votes than Lavin.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - CZECH REPUBLIC (1996)
+---------------------------------------------------------------------------
+
+(1)  "The election... illustrated the remarkable political
+stability of the Czech Republic and saw some significant concentration
+of the party spectrum and the emergence of an effective democratic
+opposition." (Fitzmaurice (1997), "The 1996 Czech Elections,"  Electoral
+Studies)
+
+(2) The CSES module was contained in the post-election panel of the study.
+The original sample included 1589; 1229 participated in the later wave
+and are included in the CSES datafiles.
+
+(3) In the first stage of selection, a sample of 300 localities
+(stratified by size) was randomly selected.  Then, respondents were
+identified according to quotas based on age, gender and education.
+3 contacts were made before a sample point was declared a non-interview.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - DENMARK (1998)
+---------------------------------------------------------------------------
+
+(1) The previous minority coalition government led by the Social
+Democratic Party, and  that also includes the Social Liberal Party,
+won the general election in March 1998 with a majority of one in the
+parliament.  Voters' deep concern about Denmark's membership in the
+EU is in part due to  a lack of confidence in the long-run stability
+of European economies.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - GERMANY (1998)
+---------------------------------------------------------------------------
+
+(1) This election marks the end of the Chancellorship of Helmut
+Kohl, and reflects the general disenchantment with the CDU.  The CDU
+was supported by less than a third of the popular vote.  The new
+government was formed by the SPD in coalition with the Greens, under
+the charismatic, "post-modern" leadership of Gerhard Schroeder.
+
+(2) This is an RDD sample, with random selection within the household.
+12 contacts were made before a sample point was declared a non-interview.
+No replacement methods were used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - GREAT BRITAIN (1997)
+---------------------------------------------------------------------------
+
+(1)  Following Black Wednesday, voter confidence in the government
+declined dramatically, bolstering support for parties previously
+in opposition.
+
+(2) This study is accurately referred to in this documentation as "Great
+Britain," rather than the United Kingdom, because the study includes
+England, Scotland and Wales, but not Northern Ireland.  Please refer to the
+"Sample Design and Data Collection Report" for details of the complicated
+sample design used.  In particular, note that the Scottish "booster" sample
+is not included in the CSES datafiles.
+
+(3) The sample frame includes eligible voters in Britain.  The PSUs are
+postal sectors, stratified by sub-region and according to population
+density and socioeconomic profile, selected in probabilities
+proportionate to size (systematic random selection), treating
+England/Wales, and Scotland separately.  Interviewers determined the
+household and respondents according to Kish grids.   A minimum of four
+re-contacts occurred.  No replacement methods were used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - HONG KONG (1998)
+---------------------------------------------------------------------------
+
+(1) Turnout for the first elections since Hong Kong was transferred from
+Great Britain to the People's Republic of China was higher than at any
+election conducted under British rule.  The resulting legislative body is
+one with a much stronger pro-Beijing presence when compared to previous
+elections.  At the same time, the success of candidates and parties
+previously ousted by the Beijing-appointed Provisional Legislative Council
+suggests the emergence of a pro-local autonomy and full democracy vs.
+pro-Beijing cleavage in electoral politics.
+
+(2) Based on the final registers of electors of 1998, the Registration
+and Electoral Office helped select randomly 8,000 registered electors
+in proportion to size by consistency.  Potential respondents were
+contacted 3 times before being declared a non-sample.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - HONG KONG (2000)
+---------------------------------------------------------------------------
+
+(1) The second legislative council election was characterized by concerns
+about producing a council broadly viewed as legitimate. The number of
+members from geographical constituencies was increased from 20 to 24, and
+the number returned by an election committee was reduced from 10 to 6.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - HUNGARY (1998)
+---------------------------------------------------------------------------
+
+(1) In the 1998 Hungarian election, the FIDESZ-MPP, an
+oppositional party since 1990, challenged the governing Hungarian
+Socialist Party. Although the FIDESZ-MPP was supported by the
+majority of the popular vote and won a plurality of the seats in the
+legislature, it was necessary to form a coalition with the FKGP and
+the MDF to form a government.
+
+(2)  There was some concern, prior to the 1998 Hungarian election,
+that the notorious complexity of Hungarian electoral rules, combined
+with a large number of parties and candidates, would bewilder voters.
+In fact, turnout for the first round was considerably low (roughly 60%).
+However, turnout did increase during the second round, when the FIDESZ-
+MPP withdrew many of its non-winning candidates in support of coalition
+partners, and concluded numerous electoral agreements with other
+parties.  "For the first time in Hungary's post-communist politics, the
+party which won the largest regional list vote and was ahead in the
+constituencies after the first round [the FIDESZ-MPP] failed to emerge
+as the overall winner" (Fowler, B. , "Hungarian Parliamentary
+Elections, May 1998," Electoral Studies 17:2, 257-262).
+
+(3) In Hungary, the CSES module was administered in the post-election
+wave of a panel study. Some of the demographic data in the CSES data set
+(marital status, religion, religiosity, church attendance, size of
+household, family income) were obtained from the pre-election wave. Note
+that the "post-election" wave was actually carried out between the two
+rounds of the election that were separated by two weeks in 1998. The
+reason for this choice was the worry that after the second round many more
+respondents would fail to correctly remember which party they supported on
+the list, which one in their single-member districts in the first round,
+and which in the runoff in the single-members.
+
+(4) Localities were stratified by county and population size, and selected
+with probabilities proportionate to size.  Households were selected
+via random walks.  Respondents were selected with Kish grids from within
+the household.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - ICELAND (1999)
+---------------------------------------------------------------------------
+
+(1) An interesting feature of the 1999 parliamentary election was the effort
+of parties on the left to form a united front, consisting of a union of
+the People's Alliance, the Social Democratic Party, and the Women's
+Alliance, to challenge the conservative Independence Party.  However, the
+leaders of the Alliance were unable to accommodate those farthest to the
+left, and lost supporters to the newly emergent Left-Greens.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - ISRAEL (1996)
+---------------------------------------------------------------------------
+
+(1)  Israelis directly elected their Prime Minister for the
+first time in these elections.  Prior the 1996 election, the Prime
+Minister was selected by the legislature, as is customary in
+parliamentary systems.  With these reforms, the Prime Minister and
+the legislature are elected concurrently, but by separate ballots
+for four year terms.
+
+(2) Data pertaining to the 1996 Prime Ministerial elections are
+reported in variables otherwise assigned to presidential variables.
+
+(3) As new information regarding the handling of the Israeli data was
+brought forward by the collaborator, there are signficant revisions
+to several of the variables, resulting in distributions which differ
+from earlier versions of the CSES datafiles.
+
+(4) 3 samples were drawn from telephone listings.  When, after 3
+contacts, the entire sample had been used, interviewers proceeded
+to the second, and then third lists.  This procedure was followed
+in the selection of a general sample (Jewish and Russian sample),
+and an Arab sample.  The response rate among the Arab population was
+much higher, and as a result, the third list was not used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - JAPAN (1996)
+---------------------------------------------------------------------------
+
+(1)  "The 1996 General Election was conducted under a new mixed
+system.  Each voter casts two separate votes: one for the single
+member districts and one for the PR districts." (CSES Marco. Level
+Survey: Japan).
+
+(2)  Further, as the previous election (1993) ended the 38-year reign
+of the Liberal Democratic Party, the 1996 election marked a dramatic
+change in party system dynamics.  During the last government and over
+the course of the campaign, the traditional opposition party, the JSP,
+collapsed, several new parties formed, and prominent politicians
+"crossed the floor." (Reed (1997), "The 1996 Japanese General Election",
+Electoral Studies 16:1)
+
+(3) The CSES items were contained in the post-election wave of a
+panel study.  The original sample includes 1535 respondents; 1327
+completed the post-election survey and are included in the CSES
+datafiles.
+
+(4) Most of the questions were asked out of sequence in the pre- and the
+post-election waves.  See Table 1 for the order of CSES questions placed
+in the Japanese survey.
+
+      Table 1
+
+      CSES                                     JEDS96
+
+      Q1  (Satisfied with democracy)           A24
+      Q2  (Election conducted fairly)          B26
+      Q3  (Close to a party?)                  B18
+      Q4  (Parties care what people think)     B27
+      Q5  (Parties are necessary)              B28
+      Q6  (Candidate recall)                   B1c1-B1c3
+      Q7  (Party evaluations)                  B34
+      Q8  (Leader evaluations)                 B35
+      Q9  (Current state of the economy)       A26
+      Q10 (Past state of the economy)          A27
+      Q11 (MPs know what people think)         B29
+      Q12 (Contact with MP?)                   B30
+      Q13 (Who is in power makes difference)   B31
+      Q14 (Vote make difference)               B32
+      Q15 (Say or hide opinion)                B33
+      Q16 (Left-Right, Self/ party placement)  A14, A15
+
+      'A' for JEDS96 denotes pre-election wave and 'B' denotes
+      post-election wave.  The numbers that follow A or B are
+      question numbers.
+
+(5) Pre-election only cases from the Japanese survey are not included
+in the CSES Japanese data.
+
+(6) First, the prefectures are divided into 11 districts, which
+correspond to the 11 PR districts for the General Election for the
+House of Representatives.  In each district, cities and towns/villages
+were divided into the strata according to their population size.
+2,100 census tracts were selected (via systematic sampling) from these
+52 strata in proportion to the census population estimates.  Finally,
+the secondary sampling units (individual respondents) were chosen by
+the systematic sampling from the voter registration list (in come cases
+from the residential register) in each designated primary sampling unit.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - LITHUANIA (1997)
+---------------------------------------------------------------------------
+
+(1)  Political parties and their presidential candidates were
+not the central actors in this presidential election.  Instead, the
+two candidates who proceeded to the second round of the run-off
+elections were not affiliated with any of the major parties, but ran
+as independents.
+
+(2)  The sample was stratified according to the ethnic regions of
+Lithuanian.  Then, 104 clusters were randomly selected in strata,
+according to the size of the settlement. Finally, Kish tables were
+used to identify respondents within the household.  3 attempts to
+contact the respondents were made before a sample point was declared
+a non-interview.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - MEXICO (1997)
+---------------------------------------------------------------------------
+
+(1)  This election marks the demise of what some observers
+have called "hegemonic" PRI rule.  Prior to this election, the
+Institutional Revolutionary Party ruled longer than any other party
+in the world, controlling the presidency, and the congress since they
+was established in 1929.
+
+(2)  Electoral reforms implemented with the 1996 election reduced
+party thresholds for seat eligibility to 2%.  Further, no party can
+be over represented in terms of seats in the Chamber by more than 8%.
+As a result, a party must receive at least 42% of the popular vote
+in order to form a majority government.  The PRI anticipated (wrongly)
+that they would be supported by that at least that proportion.
+
+(3) Changes have been made in the handling of the missing data from the
+past release. Therefore, some variables in this release might have
+a different distribution from the ones included in the past release.
+
+(4)  The primary sampling units were the municipalities. The
+municipalities were chosen within each electoral stratum, using
+a systematic method with probabilities proportional to size.  The
+second-stage sampling units were the AGEBS (Basic Geo-statistical
+units) for urban cases, or the localities for rural cases. They were
+chosen randomly with probability proportional to their size. The
+measuring of the unit's size was the population over 18 years old.
+The respondent selected within the household was the person over 18
+years old, whose birthday was the most proximate to the date of the
+interview.  Substitutes were randomly selected after 3 failed attempts
+to contact the designated respondent.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - MEXICO (2000)
+---------------------------------------------------------------------------
+
+(1) These elections marked the end of 71 years of rule by the Institutional
+Revolutionary Party (PRI). The country's economic situation was good,
+after recovering from the 1994 economic crisis, people were being employed
+and the economy was starting to grow.
+
+The main opposition candidate, Vicente Fox, started a campaign to be his
+party's, National Action Party (PAN), candidate three years before the
+election. Fox was finally the candidate of a coalition between his
+right-wing party, PAN, and the Green Party (PVEM). The other opposition
+candidate, Cuauhemoc Cardenas, was supported by a coalition formed by his
+party, Democratic Revolution Party (PRD), and a group of smaller less
+important parties. At the beginning of the electoral process the main
+opposition parties tried to build an electoral alliance, but it was not
+possible because neither Fox nor Cardenas were willing to step down of the
+competition. The candidate from the governing party, Francisco Labastida,
+had served as governor of Sinaloa and as Minister of Energy, Agriculture
+and Government.
+
+The strategy followed by Fox was to present himself as the symbol of the
+change. He moved on the political spectrum more to the center, in order
+to attract center-left voters and young people. This election was the first
+in which the members of the PRI elected their candidate, because President
+Zedillo refused to continue the practice of choosing his successor. For the
+first time, there were televised debates among the candidates. Although the
+polls showed that the competition among Labastida and Fox was going to be
+tight, Fox got 6.4% votes over Labastida.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - NETHERLANDS (1998)
+---------------------------------------------------------------------------
+
+(1)  In the prior election, the traditional governing party, the
+Christian Democrats suffered a tremendous loss of 20 seats.  With only
+34 seats (out of 150), the CDA were excluded from the 1994 Cabinet.  In
+the 1998 election, the CDA lost 5 more seats, bolstering the electoral
+strength of the so-called 'Purple Coalition' government, formed by
+the Labor Party (whose color is red), and the Liberals (whose color
+is blue).
+
+(2)  With regards to party dynamics and campaigns, it is worth
+noting that TV ads made their first appearance in this Dutch election.
+Only recently, has commercial television been introduced in the
+Netherlands;  in past elections, parties were given equal amounts of
+time on public networks.  The Socialist Party was the first party to
+announce its intention to 'buy time' on a commercial station.  The
+Democrats 66 attempted to convince the other parties not to purchase
+time, but when they refused, D66 became the first party to produce
+an ad. (Irwin (1999), "The Dutch Parliamentary Election of 1998,"
+Electoral Studies 18:1, 271-300).
+
+(3)  New electoral reforms allowed candidates to be elected if
+(s)he received one-quarter of the electoral quotient (prior to this
+the threshold had been one-half), regardless of their position on
+party lists.  As a result, two members were elected despite lower
+positions on the party lists than their parties' quotients allowed.
+Prior to this reform, only three members had been elected in this
+way. (Irwin (1999), "The Dutch Parliamentary Election of 1998,"
+Electoral Studies 18:1, 271-300).
+
+(4) The Dutch Parliamentary Election Study consisted of both a
+pre-election wave and a post-election wave, together with supplementary
+data collections (e.g. for non-response cases).  CSES variables are split
+between pre-election and post-election data. 287 cases from the Dutch
+pre-election study were not re-interviewed in the post-election study.
+
+(5) A sample frame of municipalities was stratified according to
+region and population density.  Within selected municipalities,
+respondents were identified by SRS from electoral rolls.  Random
+replacement of municipalities occurred when the municipalities were
+unwilling to cooperate.  There was no maximum number of contact attempts.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - NEW ZEALAND (1996)
+---------------------------------------------------------------------------
+
+(1)  The 1996 election began a new electoral regime for New
+Zealanders.  Prior to the 1996 election, legislators were elected in
+single member districts, and the legislature was structured according
+to the Westminster model.  However, following a referendum on electoral
+reform held in 1992, the legislature was restructured according to
+a plurality-PR model.  In voting for the lower house, New Zealanders
+now select both a candidate and a party list (similarly to German
+electoral procedures).
+
+(2) There are several sample components:  First, a post-election new
+sample was drawn from the electoral rolls.  Those registered on the
+Maori rolls were over-sampled.  Second, a pre-post election sample
+includes the VAP, and was drawn via RDD in the pre-election wave.  A
+mail-back survey, containing the CSES module, was sent to members of
+each of these samples.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - NORWAY (1997)
+---------------------------------------------------------------------------
+
+(1)  "The election was characterized by great volatility and
+unclear  alternatives.  It resulted in an unexpected change of
+government.  Although Labor remained the largest party, the incumbent
+Labor government resigned after the election and was replaced by a
+mini-coalition of three parties at the center, the Christian People's
+Party, the Center (Agrarian) party and the Liberals."  (Valen (1997),
+"Norway: The Storting Election of September 15, 1997,"  Electoral
+Studies 555-60).
+
+(2) Municipalities were stratified into 109 strata, and one was selected
+from each stratum.  Individuals were randomly selected (systematically)
+from the population registers for each municipality.  Four contacts were
+made before the sample point was declared a non-interview.  No replacement
+methods were used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - PERU (2000)
+---------------------------------------------------------------------------
+
+(1)  The 2000 legislative election is notable for the instability
+of the party system:  With the exception of "Change '90," and "Nueva
+Mayoria" that were both part of the successful "Peru 2000" alliance,
+no party that contested the 1995 election received more than 7.5% of
+the vote.
+
+(2) It is also important to note the highly personalized nature of this
+election:  Fujimori was re-elected for a third term, in violation of
+the constitution.  Peru 2000 rallied in his support, and the campaigns
+of all parties centered largely on this issue.
+
+(3)  Finally, it should be noted that there were "serious limits"
+imposed on the media throughout the campaign period.
+
+(4) In the first stage of sample selection, PSUs were randomly
+selected.  Respondents were identified according to demographic
+quotas.  2 attempts were made to contact each respondent.  No
+replacement methods were used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - PERU (2001)
+---------------------------------------------------------------------------
+
+(1)  Following the controversial 2000 election, electoral institutions
+were re-designed in the hopes of promoting accountability.  Please
+refer to the macro component of the project for more details.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - POLAND (1997)
+---------------------------------------------------------------------------
+
+(1)  The 1997 Polish election marks the first alternation in
+government since the collapse of the Soviet regime.  The Solidarity
+Election Action (AWS) replaced the Democratic Left Alliance (SLD) in
+both houses, with a slightly larger proportion of the popular vote and
+a plurality of seats in both legislative chambers.  In coalition with
+the Freedom Union (itself an alliance of the former Democratic Union,
+and the Liberal Democratic Congress), AWS formed the government.
+
+(2) It seems that the AWS victory comes largely at the defeat of the
+Polish Peasant Party (PSL), a former coalition partner of the SLD:
+In the 1997 election, the PSL was reduced to 27 seats (from 132). Some
+observers credit the PSL's resistance to economic reforms as the source
+of the electorate's disenchantment with this party (Chan, K. (1997),
+"The Polish General Election of 1997,"  Electoral Studies 17:4, 561-567).
+
+(3) Statistical districts (defined by the Main Statistical Office)
+were selected with probabilities proportionate to size.  Households
+were then randomly selected from  within these districts.  3 contact
+attempts were made.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - PORTUGAL (2002)
+---------------------------------------------------------------------------
+
+(1) Following relatively poor results for the Socialist Party (PS) in the
+local elections held on December 2001, Prime Minister Guterres tendered
+his resignation. The legislative elections of 17 March 2002 spelled the
+end of Socialist Party rule, which lost 19 MPs and the victory, albeit
+without an absolute majority, of the centre-right party, the PSD, which
+elected 81 MPs, out of a possible 230. The elections also led to the
+formation of a coalition government, after 15 years of single-party
+government, between the PSD and the right-wing CDS/PP. Nevertheless,
+the alternation in power, as well as the change in government type,
+did not represent a fundamental shift in voting behaviour, as seen by
+national and district party results.
+
+(2) This sample was stratified by NUTS II (5 regions in the mainland:
+North, Centre, Lisbon and Tagus Valley, Alentejo and Algarve) and
+HABITAT (eleven categories of localities by number of inhabitants:
+less than 100 ; 101 to 200 ; 201 to 500 ; 501 to 1000 ; 1001 to 2000;
+2001 to 5000 ; 5001 to 10.000; 10.001 to 20.000 ; 20.001 to 100.000 ;
+100.001 to 500.000; more than 500.001).  For each cell within the NUTS
+II and HABITAT frame, and according to the proportion of residents in
+each cell, the number of interviews was defined. Then, the number of
+localities inside each cell of the same frame was randomly selected,
+trying to ensure that no more than 10 interviews were done in the same
+locality. So, for example, if according to the number of residents in a
+cell of the frame, 100 interviews had to be carried out, 10 localities
+in that cell were selected. In each locality, the method of random route
+was used, in order to ensure a good distribution of the selected
+households, for all the extension of the locality.  In the household,
+respondents were selected using the following criteria: next person living
+in the household to have his/her birthday.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - ROMANIA (1996)
+---------------------------------------------------------------------------
+
+(1)  The 1996 Romanian legislative election is notable for the
+emergence of the Democratic Social Party of Romania (PDSR), and the
+National Peasant's Christian and Democratic Party (PNTC). Both of these
+parties made considerable gains in this election; the PDSR formed the
+government in coalition with other leftist parties, including the former
+governing Romanian Social Democratic Party.
+
+(2)  Localities were randomly selected from strata defined by region
+and size.  Then, electoral lists were randomly selected from within
+each locality, and respondents were selected from each list.  After
+three unsuccessful attempts to contact a particular respondent, a
+randomly selected substitute was interviewed instead.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - RUSSIA (1999)
+>>> ELECTION SUMMARIES AND GENERAL NOTES - RUSSIA (2000)
+---------------------------------------------------------------------------
+
+(1) The Russian party system has yet to be institutionalized in the sense
+that voters, candidates, and parties have learned to behave strategically
+vis-`-vis the electoral rules.  In this election however, the 6 parties
+that passed the PR threshold had received 81% of the vote between them,
+and the distribution of seats among the party closely reflects the
+percentage of the vote each had gained.  However, given the sheer number
+of parties and candidates, especially independent candidates, who competed
+in the single-member districts, there were many victories with only a low
+plurality.
+
+The new "Unity" party, an alliance established in September 1999 to
+represent the Government in the elections, won 72 seats or 23 percent, 67
+of which were gained through party-list proportional representation. The
+Communist Party, however, lost 44 seats while retaining 113.
+
+(2) Very early in the race, Putin, with an agenda that called for a strong
+state and properly functioning market economy, emerged as the clear
+frontrunner.
+
+(3) This component of the CSES project is taken from part of a three-wave
+panel study:  The pre-election wave was fielded throughout November and
+December, 1999 (n=1919).  A post-legislative election study was conducted
+following the parliamentary elections held in December, 1999 (n=1842).
+Finally, the respondents were interviewed a third time, following the
+presidential election in March, 2000. The CSES battery was carried (almost
+in entirety) in both the post-legislative and post-presidential election
+studies.  The post-legislative data are included in the CSES datafiles.
+Although panel attrition was relatively slight, analysts should refer to
+the "Sample Design and Data Collection Report," available through the
+CSES Country Archive for details.
+
+Note, also, that the demographic items are taken from the pre-legislative
+wave of the study.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - SLOVENIA (1996)
+---------------------------------------------------------------------------
+
+(1)  In the 1996 Slovenian election, the governing Slovene
+Christian Democratic Party (SKD) and United List of Social Democrats
+(ZLSD) were replaced by the Slovene People's Party (SLS), and the Social
+Democrats (SDS).  In spite of this instability in the party system,
+there seems to be some consensus among the parties regarding the
+direction of Slovenia's nation-building efforts.  As one observer
+remarks, "this was a routine election at which no existential issues
+were at stake" (Fitzmaurice, J.  (1997) "The Slovenian Parliamentary
+Elections of 10 November 1996,"  Electoral Studies 16:3, 403-407).
+
+(2) The Central Register of Population (a list of names and addresses
+constantly updated by public administration) is employed as a sampling
+frame. The sample is a three-stage systematic sample with random start.
+The target sample size was N=2100 (140 primary and 420 secondary
+sampling units).  Systematic sample with start from primary sampling
+units of k=1200.  Third stage sample is systematic sample of k=10 with
+start from second stage units. Individual persons with name and address
+are selected on a final stage.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - SOUTH KOREA (2000)
+---------------------------------------------------------------------------
+
+(1) This election was characterized by high voter cynicism and a marked
+decline in turnout.  The growing salience of issues was a departure from
+the authoritarian style of politics that has characterized politics.
+Salient issues included the pace with which the nation should approach the
+restructuring of the economy, political reform and democratization.
+
+In an effort to cut costs, the number of contested seats was reduced to
+273,from 299 in the previous election.  As in previous elections,
+regionalism continued as one of the strongest factors impacting electoral
+outcomes.  However, the election signaled a weakening hold of current
+political bosses Kim Dae Jung, Kim Young-Sam, and Kim Jong-pil.
+Independent candidates won seats in President Kim Dae Jung's south-western
+region; the DPP, as a new party formed by GNP politicians not nominated
+by their party, emerged in Kim Young-Sam's south-eastern region; and Kim
+Jong-pil was unsuccessful helping the ULD to retain seats in Chungchong.
+
+(2) Note, there are some regions excluded from the sample frame: Cheju
+island and other small islands. This is a usual practice for Korean
+national surveys, since people in these regions are difficult and
+costly to contact while occupying a very small percentage of the whole
+population.  To devise the sample frame, Electoral districts were
+randomly selected.  Then, for each electoral district, a quota of
+respondents was determined reflecting the whole population distribution
+in terms of age and sex.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - SPAIN (1996)
+>>> ELECTION SUMMARIES AND GENERAL NOTES - SPAIN (2000)
+---------------------------------------------------------------------------
+
+(1)  The 1996 election marks a significant turning point in
+Spanish electoral history:  Since the 1982 election, the Socialist
+Party (PSOE) had governed with an absolute majority of seats in the
+legislature.  However, in 1996, the People's Party (PP) gained a
+plurality of seats in the Chamber of Deputies.  In coalition with
+regional parties, the PP maintained parliamentary support, and
+broadened its electoral support in the subsequent 2000 election.
+
+(2)  In the 2000 election, the People's Party (PP) gained an absolute
+majority in Congress, allowing it to govern without the additional
+votes of the Catalan or Basque nationalists.
+
+
+(3) PSUs were randomly selected, and then a random route method was
+used.  If a selected respondent within the household was unavailable,
+another housing unit along the same route was selected.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - SWEDEN (1998)
+---------------------------------------------------------------------------
+
+(1)  The 1998 Swedish election is the first since a shift to
+a four-year parliamentary term (previously, Swedish parliaments sat for
+two years).  Note that turnout was the lowest in this election of all
+Swedish elections held since 1958 (Ater, D. (1999), "The Swedish General
+Election of the 20th September 1998: victory for values over policies,"
+Electoral Studies 18:2, 296-300).
+
+(2) "The sample has been drawn disproportionally. For in depth comparative
+purposes, 3 cantons (ZH, GE, TI) are over represented. Cantonal
+proportionality in the national data requires this backlog to be deleted.
+Thus, the data set includes 2048, instead of 3257 cases."
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - SWITZERLAND (1999)
+---------------------------------------------------------------------------
+
+(1)  In the 1999 Swiss election, the Swiss People's Party gained
+15 seats (largely at the expense of smaller, more radical parties).
+Observers credit this gain to their concentration on the issue of
+political asylum in Switzerland, an issue stemming from the recent
+influx of refugees from Kosovo.
+
+(2) Households were selected from the Swisscom directory (private
+lines: number and addresses), in two stages, with disproportional
+random sampling.  Then, after screening according to the age of
+contacted person, the structure of household (number of persons,
+number of persons with right to vote, name, age, sex and nationality
+of each person), respondents were randomly selected.  Between 30 and
+50 contact attempts were made.  No replacement methods were used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - TAIWAN (1996)
+---------------------------------------------------------------------------
+
+(1)  In the 1996 election, Taiwanese voters elected, for the first
+time, their President and Vice-President for a four year term. Prior to
+this election, the President and Vice-President were elected by members
+of the legislature.  The incumbent, Lee Tung-hui was re-elected with a
+considerable lead over his opponents.
+
+(2)  The sampling frame consists of eligible voters residing on the
+mainland.  Strata were defined by region, with concern for the
+representation of major municipalities.  From these strata, PSUs were
+sampled with probabilities proportionate to size.  Electoral districts
+were randomly identified, and then respondents were selected from within
+these districts according to the electoral rolls.  9 such samples were
+drawn.  If the original respondent could not be interviewed, a replacement
+from an alternative sample, of similar demographic characteristics from
+within the district was interviewed as a substitute.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - THAILAND (2001)
+---------------------------------------------------------------------------
+
+(1) On 6 January, 2001 Thai voters cast their ballots in the first election
+for members to the House of Representatives to be held under the 16th
+Constitution, passed in October 1997.  The new constitution increased the
+number of seats from 392 to 500, with 100 MPs elected from a nation-wide
+party list and 400 from single member constituencies.
+
+(2) Although the design corresponds to a pre-election/post-election panel
+study, many of the CSES items are drawn from the pre-election phase.  Where
+there is reason to believe that this may affect analysis of these data,
+those items that are obtained from the pre-election study are noted in the
+relevant variables' documentation.
+
+(3) The sample was drawn in the following manner: First, the population
+was stratified by region. Each region was to produce 250 respondents.
+Then, a systematic sample of polling units was drawn from within each
+region.  Finally, a systematic sample of eligible voters was drawn from
+the polling units selected in each region.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - UKRAINE (1998)
+---------------------------------------------------------------------------
+
+(1)  The 1994 Ukrainian election demonstrated the inability of the
+electoral system established following the collapse of the Soviet regime
+to produce stable, competitive electoral politics.  Because of
+the enormous obstacles facing candidates (to gain a seat, they required
+an absolute majority of the popular vote cast by an absolute majority of
+the electorate), nearly half of the seats were left unfilled, and only
+half of the legislators elected in 1994 were  members of political
+parties. As a result, the government dramatically reformed the electoral
+system, and new electoral law was adopted in 1997.  Under these new
+regulations, half of the seats were elected by single member districts,
+and the other half through proportional representation. The 1998
+election  was the first held under these electoral rules.  In spite of
+these reforms however, half of the members elected in the single-member
+districts were independent (without party affiliation).
+
+(2) The first stage of sampling design is grouping of the oblasts,
+which are the main units of territorial and administrative division
+of Ukraine, into regions. The grouping is made on the basis of more
+than 150 characteristics and indicators of economic, social and cultural
+development by methods of factor analysis and cluster analysis applied
+in sequence. The second stage of the sampling design is a selection of
+urban and rural settlements.  The task of the second stage is to select
+32-35 urban settlements to represent on the one hand, the structure of
+the urban settlements of Ukraine and, on the other hand, to represent
+each of the 10 regions singled out at the first stage of sampling design.
+For this, within each region the cities and towns belonging to the same
+group are put in alphabetical order and selected at random.  At the third
+stage, urban sampling points are divided into so-called "rayons"
+(territorial divisions).  Streets for the interviewers' routes are
+selected at the fourth stage.  The number of the streets selected within
+each district should correspond to the number of routes. If no districts
+were selected within the urban settlement, the streets selected should be
+distant from each other. This should also give the possibility to study
+opinions of people living in multi-storied buildings, detached private
+houses, etc. Each route should cover not more than 10 interviews. The
+number of houses should not be less than 10 for each route.  Rural
+settlements are selected randomly from the list of the rural settlements
+of the same oblasts to which the cities selected to represent the urban
+population belong.  The last (fifth) stage of the sampling procedure is
+selection of the respondents by quota task.   It is not clear whether
+multiple attempts were made to contact respondents, or what replacement
+methods were used.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARIES AND GENERAL NOTES - UNITED STATES (1996)
+---------------------------------------------------------------------------
+
+(1) "The American elections of 1996 proved to be a curious
+anticlimax" (Shafer, B. (1996), "The American Elections of 1996,"
+Electoral Studies 16:3, 394-403).  It seems that the 1996 election
+mirrored the 1992 election in most respects:  The Democrat
+presidential candidate, Bill Clinton, won with a comfortable majority
+of electoral college votes (though without a majority of the popular
+vote);  the Republican candidate, Bob Dole,  failed to close the
+popularity gap between himself and the presidency (though the
+Republicans did gain some of Ross Perot's, an independent candidate,
+support).  There is one notable difference from the 1992 election:
+In 1992, an overwhelming majority of elected congressmen were
+Democrats, while in the 1996 election the Republicans maintained
+the majority presence in Congress that they had gained in the 1994
+midterm elections.
+
+(2) The 1996 National Election Study entailed both a pre-election interview
+and a post-election re-interview.  About three-fourths of the 1996 cases
+consist of empaneled respondents who were first interviewed in the 1994 or
+1992 National Election Study.  A freshly drawn cross-section sample makes
+up the balance of the 1996 cases.  (Details of the sample design are given
+in "Sample Design of the 1996 Pre/Post Election Studies", in Appendix B.)
+Altogether, 1714 citizens were interviewed in the 9 weeks prior to the
+November 5, 1996 election. To permit analysis of the impact of the
+unfolding election campaign, the pre-election sample was divided into four
+subsample replicates, which were released approximately two weeks apart.
+1316 of the pre-election interviews were conducted with panel respondents;
+398 with cross-section respondents.  In the weeks following the election,
+1534 pre-election respondents were reinterviewed: 1197 panel, 337
+cross-section.
+
+(3) The selection of primary stage sampling units (PSUs), which
+depending on the sample stratum are either MSAs, single counties or
+groupings of small counties, is based on the county-level 1980 Census
+Reports of Population and Housing. A three-step process of ordering the
+SSUs within the primary areas produced an implicit stratification of the
+area segments in the second-stage sampling frame, stratified at the
+county level by geographic location and population.  For each area
+segment selected in the second sampling stage, a listing was made of
+all housing units located within the physical boundaries of the segment.
+The final equal probability sample of housing units for the 1994 NES was
+systematically selected from the housing unit listings for the sampled
+area segments.    Note, half of the respondents were randomly assigned
+to telephone interviews in a mode experiment.  Extensive attempts were
+made to contact respondents before a sample point was declared
+non-interview.
+
+
+===========================================================================
+))) BIBLIOGRAPHY
+===========================================================================
+
+Citations for Macro Reports
+
+Aardal, B. (1998) One for the Record: the 1997 Storting Election.
+     Scandanavian Political Studies, 21(4).
+
+Act No. 247, On Elections to the Parliament of The Czech Republic, and
+     on Amendments to Certain Other Acts, September 27, 1995.
+
+Arian, Asher. (1996) The Israeli election for Prime Minister and the
+     Knesset, 1996.  Electoral Studies, 15 (4), 570-575.
+
+Arter, David. (1999) The Swedish general election of 20th September 1998:
+     a vistory for values over policies? Electoral Studies, 18 (2),
+271-300.
+
+Banks, Arthur S., Muller, Thomas C., et al., eds. (1999). Political
+     Handbook of the World: 1999. Binghamton, NY: CSA Publications.
+
+The Basic Law of the Hong Kong Special Administrative Region of the
+     People's Republic of China. Adopted 4 April 1990 at the Third
+     Session of the Seventh National People's Congress of the People's
+     Republic of China.
+
+The Basic Law of the Hong Kong Special Administrative Region of the
+     People's Republic of China. Adopted on 4 April 2000 by the Seventh
+     National People's Congress of the People's Republic of China at its
+     Third Session.
+
+Basic Law: The Knesset. Retrieved December 7, 1998, from http://www.
+     israel-mfa-gov.il/gov/
+
+Belin, Laura. (2000, January 7). Early Presidential Campaign Secures
+     Duma Majority for Putin. Russian Election Report, 8. Retrieved
+     from http://www/rferl.org/elections/russia99report/
+
+Belin, Laura. (2000, April 7). News and Analysis of the 2000 Russian
+     Presidential Election. Russian Election Report, 5 (13). Retrieved
+     December 17, 2001 from http://www/rferl.org/elections/russia00report/
+
+Birch, Susan amd Andrew Wilson.(1999) The Ukrainian parliamentary
+     elections of 1998. Electoral Studies 18 (2), 271-300.
+
+Blais, Andre and Louis Massicotte. (1996). Electoral Systems. In Comparing
+     Democracies: Elections and Voting in Global Perspective. LeDuc,
+Niemi,
+     and Norris (eds.), 49-81.
+
+Campbell, Hon. Ben Nighthorse. (5/10/2001). Democracy Under Siege in
+     Belarus [Electronic version]. Congressional Record, 64.
+
+Chan, Kenneth Ka-Lok. (1998) The Polish General Election of 1997.
+     Electoral Studies, 17(4),561-564.
+
+Charter of Fundamental Rights and Freedoms (Czech Republic). Retrieved
+     July 28, 1997, from http://www.ppsp.cz/docs/laws/charter.html/
+
+The Chilean Electoral System Before 1973. Retrieved June 22, 2001, from
+     http://www.psr.keele.ac.uk/docs/chile.htm
+
+Codigo federal de instituciones y procedimientos electorales. Retireived
+     from http://www.ife.org.mx/wwwife/incofipe.htm/
+
+Colomer, Josep M. (2001). The 2000 general election in Spain. Electoral
+     Studies, 20 (3), 463-501.
+
+Composition of the New National Assembly (Slovenia). Retrieved June 11,
+2002,
+     from http://www.sigov.si/elections/info/eurpa19.htm/
+
+Constitution, Canadian House of Commons.
+
+Constitution: Republic of China. (1997).Taiwan:Government Information
+Office,
+     Republic of China.
+
+Constitution of the Czech Republic of the 16th of December, 1992
+     [Electronic Version]. Retrieved July 28, 1997, from
+http://www.psp.cz/
+     docs/laws/constitution.html/
+
+Constitution of South Korea.
+
+Constitution of the Republic of Lithuania, As approved by the citizens
+     of the Republic of Lithuania in the Referendum on 25 October 1992.
+     Retrieved October 16,1998, from http://rc.lrs.lt/cgi-bin/preps2?
+     Condition1=21892&Condition2=/
+
+The Constitutional Act of 17th October 1992 (1993) (Poland). Warsaw:
+     The Sejm Publishing Office.
+
+Cox, Gary W. (1997). Making Votes Count: Strategic Coordination in the
+     World's Electoral Systems. Cambridge: Cambridge University Press.
+
+Croissant, Aurel and Jorn Dosch. (forthcoming, 2002). Parliamentary
+elections
+     in Thailand, March 2000 and Januray 2001. Election Studies
+[Electronic
+     version]. Retrieved July 26, 2002, from http://www.sciencedirect.com/
+
+Czech Republic Assembly Elections of June 19-20 1998. Retrieved June 22,
+     2002, from http://www.iosphere.net.au/~lance/czechrep
+
+Democracy in Taiwan. Taiwan Communique, 71. June 1996. [Electronic
+version]
+     Retrieved May 13, 2002 from http://www.taiwandc.org/
+
+Direccion Ejecutiva de Organizacion Electoral. Retrieved May 9, 2002, from
+     http://www.ife.org.mx/
+
+Elections Canada On-Line: Thirty-sixth General Election Voting Results.
+     (2000, November 22) Retrieved July 10, 2001, from http://www.
+     elections.ca
+
+Elections in Israel May 1996. Retrieved July 16, 2002 from http://www.
+     israel.org/mfa/
+
+Elections in the Czech Republic. From Rose, Munro, Mackie (1998).
+Elections
+     in Central and Eastern Europe Since 1990. Retrieved May 8, 2002
+     from http://www.cspp.strath.ac.uk//crelec.html.
+
+Elections of the President of the Republic of Lithuania. Retrieved
+     October 22, 1998, from http://www.lrs.rinkimai/
+
+Elections 1996 (Slovenia).  Retrieved June 5, 2001, from http://www/sigov.
+     si/elections/uvi-a.html/
+
+Farrell, David M. (2001). Electoral Systems: A Comparative Introduction.
+     New York: Palgrave.
+
+Federal Law On the Election of Deputies of the State Duma of the
+     Federal Assembly of the Russian Federation. Retrieved December
+     17, 2001, from http://www.ifes.org/
+
+Federal Law on the Election of the President of the Russian Federation.
+    Retrieved December 17, 2001, from http://www.ifes.org/
+
+Fitzmaurice, John. (1997). The Slovenian Parliamentary Elections of 10
+     November 1996. Electoral Studies, 16 (3), 403-407.
+
+Fitzmaurice, John. (1996). The 1996 Czech Elections. Electoral Studies,
+     15 (4), 575-580.
+
+Floating Party Alignments in the Duma. Retrieved January 14, 2002, from
+     http://www.russiavotes.org/Duma_align.htm/
+
+Fourteenth Knesset Election Results. Retrieved July 31, 2001 from http://
+     www.knesset.gov.il/knesset/
+
+Fowler, B. (1998). Hungarian Parliamentary Elections, May 1998.
+     Electoral Studies, 17 (2), 257-262.
+
+Hardarson, Olafur Th. and Gunnar Helgi Kristinsson.  The 1999
+Parliamentary
+     Elections in Iceland. Electoral Studies 20(2), 325-331.
+Hazan, Reuven Y.(1997). The Intra-Party Elections in Israel: Adopting
+     Party Primaries. Electoral Studies, 16 (1), 95-103.
+
+Hazan, Reuven Y. and Abraham Diskin. (2000). The 1999 Knesset and prime
+     ministerial elections in Israel. Electoral Studies, 19 (4), 615-646.
+
+Ho, Karl. (1999). The Hong Kong legislative election of 1998. Electoral
+     Studies, 18 (3), 438-445.
+
+Horn, Robert. Bullets and Ballots. (8 Jan. 2001) Retrieved October 8,
+     2001 from http://www.time.com/
+
+Horn, Robert. Where's Our Million? (15 Jan. 2001)  Retrieved Octbor 8,
+     2001 from http://www.time.com/
+
+Hsieh, John Fuh-Sheng and Emerson M. S. Niou. (1996) Taiwan's March
+     1996 Elections. Electoral Studies, 16(4),545-550.
+
+The Hungarian Election Results [Electronic version]. Retrieved July
+     9,2001,from gopher://olymp.wu-wien.ac.at:7121/00/pub/cerro/
+     central_europe_data/hungary/Hungarian.election
+
+Irwin, Galen A. (1999) The Dutch parliamentary election of 1998. Electoral
+     Studies, 18(2):271-300.
+
+Jasiewicz, Krzysztof. Poland: Between Fragmentation and Polarization.
+     Retrieved July 23, 1999, from...
+
+Kang, Kyung-Tae and Scott Walker. (2002) The 2000 national assembly
+elections
+     in South Korea. Electoral Studies, 21, 473-533.
+
+Karp, Jeffry A. and Susan A. Banducci. (1999). The Impact of Proportional
+     Representation on Turnout: Evidence from New Zealand.  Australian
+     Journal of Political Science, 34 (3), 363-377.
+
+Karp, Jeffrey A., Jack Vowles, Susan A. Banducci, and Todd Donovan. (2002)
+     Strategic Voting, party activity, and candidate effects: testing
+     explanations for split voting in New Zealand's new mixed system.
+     Electoral Studies, 21 (1), 1-22.
+
+Klesner, Joseph L. (1997) The Mexican Midterm Congressional and
+     Gubernatorial Elections of 1997:End of the Hegemonic Party System.
+     Electoral Studies, 16 (4), 567-575.
+
+Klesner, Joseph L. (2002) Presidential and congressional elections in
+     Mexico, July 2000. Electoral Studies, 21 (1), 101-154.
+
+Law on Presidential Elections, Republic of Lithuania. Retrieved September
+     28, 1998, from http://rc.lrs.lt/cgi-bin/preps2?Condition1=48324&
+     Condition2=
+
+LeDuc, Lawrence, Richard G. Niemi, and Pippa Norris, eds. (1996).
+     Comparing Democracies: Elections and Voting in Global Perspective.
+     Thousand Oaks, CA: Sage Publications.
+
+Lijphart, Arend. (1994). Electoral Systems and Party systems: A study
+     of Twenty-Seven Democracies, 1945-1990. Oxford: Oxford University
+     Press.
+
+Lijphart, Arend. (1999). Patterns of Democracy: Government Forms and
+     Performance in Thirty-Six Countries. New Haven, CT: Yale University
+     Press.
+
+McKean, Margaret and Ethan Scheiner.(2000). Japan's new electoral system:
+  la plus ca change... Electoral Studies, 19, 447-477.
+
+Morriss, Peter. (1996). Electoral Politics in South Korea. Electoral
+Studies,
+     15(4), 550-562.
+
+Murray, David. (1998) Thailand's Recent Electoral Reforms. Electoral
+Studies,
+     18 (4), 525-536.
+
+The Norwegian Electoral System: Main Features. (1993). The Royal
+     Ministry of Local Government and Labor.
+
+Office for Democratic Institutions and Human Rights. (2001). Republic
+     of Belarus Presidential Election.
+
+Office for Democratic Institutions and Human Rights. (2000) OSCE/ODIHR
+     Assessment of the Electoral Code of the Republic of Belarus and
+     of the Position of the Government of Belarus on the Electoral
+     Code as Stated by the Central Election Commission of Belarus.
+
+Office for Democratic Institutions and Human Rights. (2000). Russian
+     Federation: Elections to the State Duma 19 December 1999.
+
+Parliamentary Elections and Election Administration in Denmark. (n.d.)
+     Retrieved June 22, 2001 from http://www.folketinget.dk/
+
+Polish Electoral Law: A Brief Outline. (1997). Warsaw: Krajowe Biuro
+     Wyborcze.
+
+Public Officials Election and Recall Law, Republic of China, Published
+     by the Central Election Commission 1995
+
+Przystawa, Jerzy. (2001). The Electoral System of Belarus. Retrieved
+     January 14, 2002 from British Helsinki Human Rights Group on
+     the World Wide Web: http://www.bhhrg.org/belarus
+
+Reed, Steven R. (1997) The 1996 Japanese General Election. Electoral
+     Studies,16: 121-125.
+
+Republic of Lithuania, Law on Presidential Elections, As Amended by
+     25 November 1997, No. VIII-543.
+
+Reynolds, Andrew, Ben Reilly, et al. (1997). The International IDEA
+     Handbook of Electoral System Design. Stockholm: International
+     Institute for Democracy and Electoral Assistance.
+
+Rose, Munro, Mackie. (1998) "Elections in the Czech Republic" in
+     Elections in Central and Eastern Europe Since 1990 [Electronic
+     version]. Retrieved May 8, 2002, from http://www,cspp.strath.ac.
+     uk//crelec.html
+
+Rules of Procedure of the National Assembly (Slovenia). Retrieved
+     June 5, 2001, from http://www.sigov.si/en
+
+Russian Election Watch 5. (12/3/1999). SDI Project, Belfer Center for
+Science
+     and International Affairs, JFK School of Government, Harvard
+University.
+
+Shafer, Byron E. (1997) The American Elections of 1996. Electoral Studies,
+     16(3),394-403.
+
+Single Member Districts (Russia). Retrieved December 17, 2001, from
+     http://www.russiavotes.org/Duma_smd.htm/
+
+Smith, Christopher H. (10/26/2000). Statement of Christopher H. Smith
+     [Electronic Version]. Congressional Record, 136.
+
+Statement of the NDI/Carter Center Post-Election Delegation to Peru.
+     Lima, July 14, 2000. [Electronic version] Retrieved February 1, 2002,
+     from http://www.accessdemocracy.org/
+
+Swyngedouw, Marc. (2002). The general election in Belgium, June 1999.
+     Electoral Studies, 21(1), 105-154.
+
+Valen, Henry. (1998) Norway: The Stoting Election of September 15, 1997.
+     Electoral Studies, 17(4),555-560.
+
+Voter Turnout from 1945 to date: a Global Report on Political
+Participation.
+     Retrieved from http://www.irde.int/voter_turnout/index.html.
+
+White, Stephen. (2001). The Russian presidential election, March 2000.
+     Electoral Studies 20 (3), 463-501.
+
+1998 Ukrainian Parliamentary Election Party Vote. Retrieved July 12, 2001
+     from http:/www.skrobach.com/ukrel981.htm/
+
+1999 State Duma Elections. Retrieved December 17, 2001, from the NUPI
+     Centre for Russian Studies on the World Wide Web: http://www.nupi.no/
+     russland/elections/
+
+
+*The following site on the World Wide Web are a valauable source of
+electoral information on systems around the world
+
+http://www.electionworld.org/ (link is dead)
+
+http://www.polisci.com/ (link is dead)
+
+http://world.altavista.com (link is dead)
+
+IPU Parline Project
+www.ipu.org
+
+Psephos Adam Carr
+http://psephos.adam-carr.net
+
+IDEA database
+http://www.idea.net
+
+Election Resources
+http://www.electionresources.org
+
+Electoral Commission of Hong Kong 1998
+http://www.eac.gov.hk/en/legco/1998_report.htm
+
+Electoral Commission of Hong Kong 2000
+http://www.eac.gov.hk/en/legco/2000_report.htm
+
+Electoral Commission of Lithuania
+http://www3.lrs.lt
+
+Federal Electoral Institute of Mexico
+http://www.ife.org.mx
+
+Permanent Electoral Authority in Romania
+http://www.roaep.ro/en/index.php
+
+http://www2.essex.ac.uk/elect/database/ (link is dead)
+Czech election returns for the Senate retrieved June 19, 2002
+Romanian 1996 Parliamentary election returns retrieved June 7,2002
+Russian presidential election returns retrieved July 12, 2002
+Russian 1999 parliamentary returns retrieved June 7, 2002
+Polish Senatorial Returns, 1997 retrieved June 6,2002
+Polish 1991 Parliamentary Elections, retrieved September 6, 2001
+
+
+Election results by country were retrieved from the following websites:
+
+Australian Electoral Commission: 1996 Election Results.
+     Retrieved July 16, 2001, from http://www.aec.gov.au/results/
+     1996/results/
+
+Belgian Electoral Commission: Senaat 13/06/99. Retrieved June
+     23, 2002, from http://elections.fgov.be/Resultats/electionshtml/
+
+Elections Canada.Retrieved June 22, 2001, from www.elections.ca.
+
+Chilean election returns retrieved August 1, 2001 from the Chilean
+Ministerio del Interior Website, http://www.elecciones.gov.cl; Retrieved
+June 22, 2001 from http://www.psr.keele.ac.uk/docs/chgen97a.htm
+
+Official Result of the 1998 Bundestag elections. Retrieved
+     October 29, 2001 from http://www.destaus.de/presse/
+
+Hungarian Electoral Commission: Individual Constituencies and Territorial
+     Constituencies. Retrieved October 10, 2001, from http://www.election.
+     hu/
+
+Lithuanian election results retrieved Octber 22, 1998 from http://
+     www.lrs.lt/rinkimai/pr97
+
+Mexican election returns retrieved December 11,2001 and May 9, 2002,
+     from http://www.ife.org.mx/
+
+Norwegian election returns retrieved June 22, 2001, from http://www.
+     stortinget.no/
+
+Peruvian election returns retrieved June 3, 2002 from http://www.onpe.gob.
+     pe/histo_elect/resant/elecgen/20001_nac.html/
+
+Peruvian election returns retrieved June 3, 2002 from http://www.onpe.gob.
+     pe/cd_onpe/onpe.htm
+
+Republic of Poland Sejm Election of 11 September 1997. Retrieved
+     May 10, 2002, from http://psephos.adam-carr.net/sejm1.txt/
+
+Results of elections in Portugal retrieved July 12, 2002, from
+     http://www.eleicoes.mj.pt/
+
+Romanian election returns retrieved May 10, 2002 from the website of
+     the Romanian Electoral Commission, http://www.kappa.ro
+
+Spanish election information and returns retrieved January 7, 2000 and
+     January 7, 2002 from http://www.elecciones.mir.es/paginas/Congreso/;
+     Retrieved June 12, 2002 from http://www.senado/es/elecciones/actual
+     /index.html; Retrieved July 17, 2002 from http://www.senado.es/
+     elecciones/actual/
+
+Results of Slovenian elections retrieved July 10, 2001, from http://www.
+     sigov.si/elections/info/eurve26.htm/
+
+Swedish electoral results retrieved June 22, 2001 from http://val.rsv.se/
+     val/val98/mandf98.htm
+
+Swiss electoral statistics retrieved July 10, 2001, from http://www.
+     statistik.admin/ch/
+
+Thai election returns retrieved October 8, 2001 and June 16, 2002 from
+     website of the Thai Electoral Commission, http://www.ect.go.th/english
+     /national/ and July 11, 2001 from http://scoop.bangkokpost.co.th/
+     bangkokpostnews/election2001/results.html
+
+Ukrainian election returns retrieved July 12, 2001 from http://www.
+     skrobach.com/
+
+
+
+//END OF FILE

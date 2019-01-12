@@ -1,0 +1,1712 @@
+﻿===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 4 (2011-2016)
+
+                   CODEBOOK PART 5: ELECTION SUMMARIES
+
+                       FULL RELEASE - MAY 29, 2018
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 4 
+FULL RELEASE [dataset and documentation]. May 29, 2018 version. 
+doi:10.7804/cses.module4.2018-05-29
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-0817701,
+SES-1154687, and SES-1420973, the GESIS - Leibniz Institute for the Social 
+Sciences, the University of Michigan, in-kind support of participating 
+election studies, the many organizations that sponsor planning meetings 
+and conferences, and the numerous organizations that fund national 
+election studies by CSES collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+
+
+))) OVERVIEW OF "CODEBOOK PART 5: ELECTION SUMMARIES"
+
+
+))) HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+
+
+))) ELECTION SUMMARIES FOR STUDIES INCLUDED IN CSES MODULE 4 BY POLITY
+    >>> ELECTION SUMMARY - ARGENTINA (2015)
+    >>> ELECTION SUMMARY - AUSTRALIA (2013)
+    >>> ELECTION SUMMARY - AUSTRIA (2013)
+    >>> ELECTION SUMMARY - BRAZIL (2014)
+    >>> ELECTION SUMMARY - BULGARIA (2014)
+    >>> ELECTION SUMMARY - CANADA (2011)
+    >>> ELECTION SUMMARY - CANADA (2015)
+    >>> ELECTION SUMMARY - CZECH REPUBLIC (2013)
+    >>> ELECTION SUMMARY - FINLAND (2015)
+    >>> ELECTION SUMMARY - FRANCE (2012)
+    >>> ELECTION SUMMARY - GERMANY (2013)
+    >>> ELECTION SUMMARY - GREAT BRITAIN (2015)
+    >>> ELECTION SUMMARY - GREECE (2012)
+    >>> ELECTION SUMMARY - GREECE (2015)
+    >>> ELECTION SUMMARY - HONG KONG (2012)
+    >>> ELECTION SUMMARY - ICELAND (2013)
+    >>> ELECTION SUMMARY - IRELAND (2011)
+    >>> ELECTION SUMMARY - ISRAEL (2013)
+    >>> ELECTION SUMMARY - JAPAN (2013)    
+    >>> ELECTION SUMMARY - KENYA (2013)
+    >>> ELECTION SUMMARY - LATVIA (2011)
+    >>> ELECTION SUMMARY - LATVIA (2014)
+    >>> ELECTION SUMMARY - MEXICO (2012)
+    >>> ELECTION SUMMARY - MEXICO (2015)
+    >>> ELECTION SUMMARY - MONTENEGRO (2012)
+    >>> ELECTION SUMMARY - NEW ZEALAND (2011)
+    >>> ELECTION SUMMARY - NEW ZEALAND (2014)
+    >>> ELECTION SUMMARY - NORWAY (2013)
+    >>> ELECTION SUMMARY - PERU (2016)
+    >>> ELECTION SUMMARY - PHILIPPINES (2016)
+    >>> ELECTION SUMMARY - POLAND (2011)
+    >>> ELECTION SUMMARY - PORTUGAL (2015)
+    >>> ELECTION SUMMARY - ROMANIA (2012)
+    >>> ELECTION SUMMARY - ROMANIA (2014)
+    >>> ELECTION SUMMARY - SERBIA (2012)
+    >>> ELECTION SUMMARY - SLOVAKIA (2016)
+    >>> ELECTION SUMMARY - SLOVENIA (2011)
+    >>> ELECTION SUMMARY - SOUTH AFRICA (2014)
+    >>> ELECTION SUMMARY - SOUTH KOREA (2012)
+    >>> ELECTION SUMMARY - SWEDEN (2014)
+    >>> ELECTION SUMMARY - SWITZERLAND (2011)
+    >>> ELECTION SUMMARY - TAIWAN (2012)
+    >>> ELECTION SUMMARY - THAILAND (2011)
+    >>> ELECTION SUMMARY - TURKEY (2015)
+    >>> ELECTION SUMMARY - UNITED STATES (2012)
+
+
+===========================================================================
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+===========================================================================
+
+This dataset and all accompanying documentation is the "Full Release"
+of CSES Module 4 (2011-2016).
+
+Users of the Final Release may wish to monitor the errata for
+CSES Module 4 on the CSES website, to check for known errors which may 
+impact their analyses. To view errata for CSES Module 4, go to the Data
+Center on the CSES website, navigate to the CSES Module 4 download page, 
+and click on the Errata link in the gray box to the right of the page.
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 5: ELECTION SUMMARIES"
+===========================================================================
+
+Part 5 of the CSES Codebook presents users with a summary compiled by the 
+CSES Secretariat of each polity's election. The overviews provide details
+of the type(s) of elections, the dates, the parties/candidates that won 
+or lost and any additional relevant campaign information. 
+
+We also provide sources for further information on the election in 
+question, sources which helped inform us in devising the summaries,
+and which users are encouraged to check for more detailed information
+on the elections. 
+
+Election Summaries are listed in alphabetical order of the polity. 
+
+
+===========================================================================
+))) HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+===========================================================================
+
+In the CSES Module 4 dataset, all variables begin with the letter "D" 
+(D being the fourth letter of the English alphabet and thus signifying 
+Module 4).
+
+The CSES codebook is especially extensive and users are advised that the 
+best way to navigate it is electronically. It is a .txt format which 
+allows it to be accessed via a variety of programmes. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header 
+
+>>> = Sub-section Header 1
+
+<<>> = Sub-section Header 2 
+
++++ = Tables
+
+VARIABLES NOTES = Notes for particular variables 
+
+ELECTION STUDY NOTES = Notes for a particular election study  
+
+For further details on the CSES Module 4 documentation, users are advised
+to consult part 1 of the CSES codebook. 
+
+
+===========================================================================
+))) ELECTION SUMMARIES FOR STUDIES INCLUDED IN CSES MODULE 4 BY POLITY
+===========================================================================
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - ARGENTINA (2015)
+---------------------------------------------------------------------------
+
+The 2015 Argentine general elections were held on Sunday, October 25, 2015. 
+In Argentina there is mandatory voting for those aged 18-70, and there was 
+a turnout of 81.03% (Presidential election, 80.9% for Chamber of Deputies
+election). The elections were fourfold: a presidential election,
+elections to the Chamber of Deputies (Lower House, half of the legislature
+up for election), elections to the Senate (one-third of parliament up for
+election), as well as elections for local governorships. 
+Outgoing President Cristina Fernandez de Kircher was term-limited. The 
+Presidential election was held over two rounds. In the run-off on Sunday
+November 22, 2015, Mauricio Macri, a former mayor of Buenos Aires defeated
+Daniel Scioli, winning 51.3% of the vote to end 12-years of control of the
+Presidency by the Front for Victory alliance. The turnout in the second 
+round was 80.8%. 
+Outgoing President Cristina Fernandez de Kircher's Front for Victory 
+(Frente para la Victoria, FPV) lost its majority in the Chamber of 
+Deputies, losing 24 seats, controlling just 107 in the new chamber. 
+The center-right alliance Let's Change (Cambiemos, Cam) led by the new 
+President Mauricio Macri increased its seats from 64 to 90.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - ARGENTINA (2015)
+
+Direccion Nacional Electoral (n.D.): Elecciones Generales – 25 de Octubre 
+2015, available at: 
+http://www.elecciones.gob.ar/articulo_princ.php?secc=2&sub_secc=55 
+(Date accessed: January 26, 2017).
+
+Direccion Nacional Electoral (n.D.): Segunda Vuelta Presidencial, 
+available at: 
+http://www.elecciones.gob.ar/admin/ckfinder/userfiles/files/2daVUELTA_Compa
+racion_Provisorio-Definitivo.pdf 
+(Date accessed: January 26, 2017).
+
+Inter-Parliamentary Union (2017): Argentina Chamber of Deputies, 
+available at: http://www.ipu.org/parline-e/reports/2011_E.htm
+(Date accessed: January 26, 2017). 
+
+Lupu, N. (2016). The End of the Kirchner Era. Journal of Democracy, 
+Vol.27(2), 35-49. doi: 10.1353/jod.2016.0033
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - AUSTRALIA (2013)
+---------------------------------------------------------------------------
+
+The 2013 Australian Federal election took place on Saturday, September 7, 
+2013. There were two elections: elections for the House of Representatives
+(lower house) and the Senate (upper house). In Australia, there is 
+compulsory voting, and the turnout among registered voters was 93.2%. 
+The Liberal/National Coalition, led by Tony Abbott of the Liberal Party 
+won the lower house elections, winning 90 seats in the House of 
+Representatives, resulting in a majority of 30 over other parties. The 
+result ended six years of Labor rule and marked another turbulent 
+milestone in Australian politics as Abbott became the third Prime Minister
+in six years, having been sworn in as Prime Minister by Governor-General 
+Quentin Bryce on September 17. Labor, led by outgoing Prime Minister 
+Kevin Rudd won 55 seats, a loss of 17 compared to 2010. Rudd resigned the
+leadership soon after. 
+In the Senate elections, over half of the seats were contested (40 out of
+76). The Palmer United Party led by mining magnate Clive Palmer made
+a breakthrough winning a couple of seats. Neither the Liberal/National 
+coalition or Labor controlled a majority, with the balance of power held
+by smaller parties including the Greens and the Palmer United Party.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - AUSTRALIA (2013)
+
+Kernell, G. (2014). The 2013 parliamentary election in Australia. 
+Electoral Studies, Vol.34, 357-361.
+doi: 10.1016/j.electstud.2013.12.002
+
+Inter-Parliamentary Union (n.D.): Australia, House of Representatives, 
+available at: http://www.ipu.org/parline-e/reports/arc/2016_13.htm
+(Date accessed: February 9, 2017).
+
+Inter-Parliamentary Union (n.D.): Australia, Senate, available at:
+http://www.ipu.org/parline-e/reports/arc/2016_13.htm
+(Date accessed: February 9, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - AUSTRIA (2013)
+---------------------------------------------------------------------------
+
+The 2013 Austrian Federal election to the lower house took place on Sunday 
+September 29, 2013. The turnout among registered voters was 74.9%. 
+The outgoing government, a Grand Coalition of the Social Democrats (SPO)
+and the Austrian People's Party (OVP) both lost votes and seats, with
+both parties recording their worst results since World War II. There were
+gains for the Freedom Party (FPO), the Greens, and the new party, Stronach,
+a Eurosceptic party, which won 11 seats. On October 9, President Heinz 
+Fischer asked Werner Faymann, outgoing Chancellor and leader of the SPO
+to form a new government. While the SPO was keen to renew the Grand
+Coalition, the OVP was less enthusiastic and explored other coalition
+options. They had campaigned on a platform of opposition to new taxes and
+promised to introduce measures to free businesses from red tape. However, 
+coalition talks between the SPO and OVP began in mid-October and on 
+December 16, the Grand Coalition was renewed with Werner Faymann (SPO) 
+remaining Chancellor and the OVP leader Michael Spindelegger becoming
+Vice-Chancellor and Minister for Finance. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - AUSTRIA (2013)
+
+Dolezal, M. & Zeglovits, E. (2014). Almost an Earthquake: The Austrian 
+Parliamentary Election of 2013. West European Politics, 37(3), 644-652.
+doi: 10.1080/01402382.2014.895524 
+
+Inter-Parliamentary Union (n.D.): Austria, Nationalrat (National Council),
+available at: http://www.ipu.org/parline-e/reports/2017_E.htm
+(Date accessed: June 16, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - BRAZIL (2014)
+---------------------------------------------------------------------------
+
+The 2014 Brazilian general elections were held on Sunday, October 5, 2014 
+(first round) with a second round of Presidential elections on Sunday, 
+October 26. The elections were fourfold: a presidential election, 
+elections to Congress (lower and upper house), state governor elections, 
+and elections to the state legislatures. In Brazil, there is mandatory 
+voting for those aged 18-70, and there was a turnout of 80.6% of 
+registered voters in the first round of the Presidential elections 
+(turnout in the Chamber of Deputies elections was 80.5% among registered 
+voters). In the first round of the Presidential election, no candidate 
+received the required majority to avoid a run-off election. In the 
+run-off election incumbent President Dilma Rousseff of the Workers' Party
+(PT) defeated Aecio Neves of the Brazilian Social Democracy Party (PSDB)
+with 51.6% of the vote. This marked the fourth Presidential victory in 
+a row for the Workers' Party. Rousseff's' coalition also retained its 
+majority in the Chamber of Deputies (lower house), controlling 304 
+out of 513 seats, and in the Senate (upper house), controlling 58 of 
+the 100 seats.  
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - BRAZIL (2014)
+
+Apfeld, B., & Branham, J.A. (2016). Campaign shocks and party
+support: evidence from Brazil's 2014 presidential election. Journal of
+Elections, Public Opinion and Parties, Vol. 26(3), 336-353. 
+doi: 10.1080/17457289.2016.1178647
+
+Inter-Parliamentary Union (n.D.): Brazil Camara dos Deputados (Chamber of 
+Deputies), available at: http://www.ipu.org/parline-e/reports/2043_A.htm 
+(Date accessed: November 14, 2016).
+
+Inter-Parliamentary Union (n.D.): Brazil Senado Federal (Federal Senate),
+available at: http://www.ipu.org/parline-e/reports/2044_E.htm 
+(Date accessed: November 14, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - BULGARIA (2014)
+---------------------------------------------------------------------------
+
+The 2014 Bulgarian parliamentary elections took place on Sunday 
+October 5, 2014. The elections followed the resignation of the Oresharski 
+government on July 23. Various factors contributed to the early ending 
+of the Oresharski government, including the worsening relationship 
+between coalition partners, poor results in the 2014 European elections 
+for the government, and the selection of Delyan Peevski as head of the 
+Bulgarian security agency DANS. 
+The turnout rate among registered voters was 51.1%. Boyko Borisov 
+(Citizens for European Development of Bulgaria - GERB) succeeded
+Plamen Oresharski (Bulgarian Socialist Party - BSP) as Prime Minister. 
+Borisov's party, GERB, agreed to form a minority government with the 
+Reformist Bloc (RB), a new electoral alliance established in 2013, and who 
+had gained 23 seats in the election. The new government also received 
+support from two parties, namely the Alternative for Bulgarian 
+Revival (ABV) and the Patriotic Front (PF), both of whom had gained seats
+in the election, but neither party joined the new cabinet. Overall, 
+eight parties/party coalitions gained seats in the election but the 
+conservative Citizens for European Development of Bulgaria (GERB) 
+remained the most significant force in parliament, despite losing seats 
+and votes, controlling 84 seats out of 240.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - BULGARIA (2014)
+
+Inter-Parliamentary Union (n.D.): Bulgaria Narodno sabranie (National
+Assembly), available at: http://www.ipu.org/parline-e/reports/2045_E.htm
+(Date accessed: November 15, 2016).
+
+Kostadinova, P., & Popova, M. (2015). The 2014 parliamentary 
+elections in Bulgaria. Electoral Studies, Vol.38, 114-118. 
+doi: 10.1016/j.electstud.2015.01.009
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - CANADA (2011)
+---------------------------------------------------------------------------
+
+The 2011 Canadian parliamentary elections took place on Monday, May 2, 
+2011. The election followed a vote of confidence on March 25, 2011, 
+against the incumbent minority Conservative government, led by 
+Prime Minister Stephen Harper. The controversy that preceded the motion 
+of confidence was the behavior of a government minister Bev Oda and 
+whether she had misled parliament regarding a funding recommendation 
+from an agency her department had responsibility for. After a 
+parliamentary committee failed to reach a conclusion on this matter, 
+a motion of confidence was triggered by the opposition Liberal Party. 
+The turnout among registered voters was 61.1%. The Conservatives won the
+election, winning the majority government since 2000 with 166 seats
+out of 308. Stephen Harper remained Prime Minister and became the first
+Conservative Prime Minister to win three terms since John Diefenbaker
+in the early 1960s. The traditional dominant party of Canadian politics, 
+the Liberal Party, fell to third place in votes and seats for the first time
+in its history, winning only 43 seats. The New Democratic Party (NDP), 
+under the leadership of Jack Layton, came second and became the official 
+opposition for the first time.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - CANADA (2011)
+
+Inter-Parliamentary Union (n.D.): Canada House of Commons,
+available at: http://www.ipu.org/parline-e/reports/arc/2055_11.htm 
+(Date accessed: November 15, 2016).
+
+LeDuc, L. (2012). The federal election in Canada, May 2011. Electoral
+Studies, 31(1), 239-242. doi: 10.1016/j.electstud.2011.12.002
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - CANADA (2015)
+---------------------------------------------------------------------------
+
+The 2015 Canadian parliamentary elections took place on Monday, 
+October 19, 2015. The turnout among registered voters was 68.3%. The 
+election campaign was one of the longest in Canadian history and was the 
+first time a sitting Prime Minister sought a fourth successive term 
+of office. Moreover, there were 30 additional seats contested in the 
+House of Commons for the 2015 elections, bringing the total number of
+seats in parliament to 338. 
+The Liberal Party, having suffered its worst result in the election four
+years previously (see above review) won a significant victory, winning 
+184 seats out of 338, an increase of 148 seats on 2011, on a vote of 39.5%.
+Justin Trudeau, the Liberal leader and son of a former prime minister 
+Pierre Trudeau became Canada's 23rd Prime Minister. The Conservative Party
+came second, winning 31.9% of the vote but losing 60 seats compared with 
+its 2011 performance. The NDP under Thomas Mulcair came third and lost 
+51 seats.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - CANADA (2015)
+
+Inter-Parliamentary Union (n.D.): Canada House of Commons,
+available at: http://archive.ipu.org/parline-e/reports/2055_A.htm
+(Date accessed: January 12, 2018).
+
+Pammett, J. H., & Dornan, C. (2016). The Canadian Federal Election of 
+2015. Dundurn.
+
+Clarke, H. D., & et al. (2017). Like Father, Like Son: Justin Trudeau and
+Valence Voting in Canada’s 2015 Federal Election. PS: Political Science &
+Politics, 50(3), 701-707. doi: 10.1017/S1049096517000452
+ 
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - CZECH REPUBLIC (2013)
+---------------------------------------------------------------------------
+
+The 2013 Czech Republic lower house elections took place over two days 
+with polling on Friday, October 25 and Saturday, October 26, 2013. The 
+election followed a vote of no confidence against the incumbent government 
+on August 7, 2013. The incumbent Prime Minister, Petr Necas (Civic 
+Democratic Party - ODS), had resigned on June 17 in the wake of a corruption
+scandal. The turnout rate among registered voters was 48.5%. 
+The Czech Social Democratic Party (CSSD) won the most seats in the election
+(50 out of 200), closely followed by the Action of Dissatisfied Citizens 
+(ANO), a party found a year before in August of 2012. Together with the 
+Christian and Democratic Union - Czechoslovak People's Party (KDU-CSL), 
+CSSD and ANO formed a coalition government that assumed office on 
+January 6, 2014. Bohuslav Sobotka (CSSD) became the new Prime Minister.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - CZECH REPUBLIC (2013)
+
+Inter-Parliamentary Union (n.D.): Czech Republic Poslanecka Snemovna
+(Chamber of Deputies), available at:
+http://www.ipu.org/parline-e/reports/2083_A.htm 
+(Date accessed: November 15, 2016).
+
+Stegmaier, M., & Linek, L. (2014). The parliamentary election in the
+Czech Republic, October 2013. Electoral Studies, 35, 385-388. 
+doi: 10.1016/j.electstud.2014.03.001 
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - FINLAND (2015)
+---------------------------------------------------------------------------
+
+The 2015 Finnish parliamentary election took place on Sunday, April 19, 
+2015. The outgoing government, initially a six-party coalition led by 
+the National Coalition's Alexander Stubb, had lost the support of the 
+Green League and the Left Alliance months before the election in a row 
+over the granting of a license to build a nuclear power plant. 
+The turnout rate among registered voters in the election was 66.9%. The 
+National Coalition (NCP) and the Social Democratic Party (SDP), the two
+major parties of the outgoing coalition both lost votes and seats. The 
+Centre Party (KESK), led by Juha Sipila received the most votes in the 
+poll (21.1%) and led coalition negotiations to form a new government.  
+On May 29, 2015, Finland's President Sauli Niinistoe swore in the 74th
+Finnish cabinet, a coalition government comprising the three largest 
+parties in parliament post the 2015 elections, namely the Centre Party, 
+The True Finns (PS), and the National Coalition (NCP). Juha Sipila
+became Prime Minister.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - FINLAND (2015)
+
+Arter, D. (2015). A 'Pivotal Centre Party' Calls the Shots: The 2015 
+Finnish General Election. West European Politics, 38(6), 1345-1353.
+doi: 10.1080/01402382.2015.1058468
+
+Finish Election Study Portal (n.D.), available at: 
+http://www.vaalitutkimus.fi/en/
+(Date accessed: March 27, 2017).
+
+Nurmi, H., & Nurmi, L. (2015): The parliamentary election in Finland
+April 19, 2015. Electoral Studies, 40, 433-438.
+doi: 10.1016/j.electstud.2015.07.001
+
+Inter-Parliamentary Union (n.D.): Finland. Eduskunta -  Riksdagen
+(Parliament), available at: 
+http://www.ipu.org/parline-e/reports/2111_e.htm 
+(Date accessed: October 26, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - FRANCE (2012)
+---------------------------------------------------------------------------
+
+The 2012 French Presidential elections were held across two rounds - the
+first was held on Sunday, April 22, 2012, with the second round run-off 
+on Sunday, May 6, 2012. Francois Hollande, the Socialist Party (PS) 
+candidate defeated incumbent President, Nicolas Sarkozy from the right-wing
+UMP in the run-off election, polling 51.6% of the vote, on a turnout of
+80.4% of registered voters in the second-round (turnout in the first round 
+was 79.5%). It was the first time since 1988 that a Socialist had been 
+elected President and the first defeat of an incumbent President since 
+Valery Giscard d'Estaing was defeated in 1981. 
+In the first round, Hollande (28.6%) had polled ahead of Sarkozy (27.2%), 
+with Marine LePen of the National Front (NF) trailing behind in third place
+with 17.9%. Francois Hollande was sworn in as President in May 2012 with
+parliamentary elections to the French lower house following in June 2012.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - FRANCE (2012)
+
+Hewlett, N. (2012). Voting in the shadow of the crisis. The French 
+presidential and parliamentary elections of 2012. Modern & Contemporary 
+France, 20(4), 403-420. doi: 10.1080/09639489.2012.721184
+
+Merle, P., & Patterson, D. (2014). The French parliamentary
+and presidential elections of 2012. Electoral Studies 34, 291-379.
+doi: 10.1016/j.electstud.2013.08.014
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - GERMANY (2013)
+---------------------------------------------------------------------------
+
+The 2013 German Federal election to the lower house was held on Sunday, 
+September 22, 2013. The turnout among registered voters was 71.5%. Led by 
+the incumbent Chancellor, Angela Merkel of the CDU, the Union, the alliance 
+between the Christian Democratic Union (CDU) and the Christian Social Union 
+(CSU) won 41.5% of the vote, a substantial increase on their 2009 
+performance. They won 311 seats of the 631 awarded in the election, just 
+short of an overall majority. The Union's coalition partner, the Free 
+Democrats (FDP) suffered a disaster, losing three-quarters of its vote
+share and failing to surpass the 5% threshold, and thus winning no 
+parliamentary representation for the first time in its history. The 
+Eurosceptic Alternative for Germany (AfD) narrowly failed to gain entry
+into the parliament polling 4.7% of the vote. 
+In October, formal talks began between the Union (CDU and CSU) and the 
+Social Democrats (SPD) on forming a grand coalition, despite misgivings 
+among many SPD members. After five weeks of talks, a deal was agreed 
+between the three parties. After acceptance by SPD members in a vote in 
+early December 2013, a new coalition was sworn in on December 17, 2013. 
+Angela Merkel of the CDU remained Chancellor, the first Chancellor to 
+achieve a third-term of office since Helmut Kohl in 1990. SPD 
+parliamentary leader Sigmar Gabriel became Vice-Chancellor and Minister 
+for Foreign Affairs.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - GERMANY (2013)
+
+Mader, M. (2014). The German federal election, September 2013.
+Electoral Studies, 34, 353-356. 
+doi: 10.1016/j.electstud.2013.12.004
+
+Rohrschneider, R., & Schmitt-Beck, R. (2017). Introduction: 
+Parties and Voters at the 2013 German Federal Election. German Politics, 
+26(1), 1-11. doi: 10.1080/09644008.2016.1182503
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - GREAT BRITAIN (2015)
+---------------------------------------------------------------------------
+
+The British General election was held on Thursday, May 7, 2015. With a 
+turnout of 66.7% in Britain (excluding NI, 66.2% across the UK), the 
+Conservative Party (Con), the dominant party in the outgoing coalition 
+government, won a majority, their first since 1992. The Conservatives won
+36.9% of the vote and 331 seats, an increase of 25 seats compared with 
+their 2010 performance. The Liberal Democrats (LibDem), the Conservative's
+partners in the outgoing coalition, were reduced to a rump party, losing 
+three-quarters of its vote share compared with 2010 and winning only 7.9% 
+of the vote. It lost 49 seats with four of its five cabinet ministers 
+losing, and the party returning to Westminster with only 8 MPs. 
+The Scottish National Party (SNP) made an electoral breakthrough. Despite
+its independence for Scotland proposal being defeated in a referendum 
+the year before, the party won 56 of Scotland's 59 seats. It primarily 
+impacted the opposition Labor Party (Lab), who had until then, dominated 
+Scottish politics. The SNP surge was a contributory factor to Labor's loss
+of 26 seats and its vote share being six points behind the Conservative
+Party. 
+The election was also notable for the significant vote garnered by the 
+United Kingdom Independence Party (UKIP), a Eurosceptic party, who while
+only winning one seat in the House of Commons, garnered 12.6% of the vote. 
+The performance of UKIP and the SNP saw the vote share of the three major 
+parties at their lowest level since 1945. David Cameron continued as Prime
+Minister with the Conservatives holding a majority of 12 over other parties.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - GREAT BRITAIN (2015)
+
+Fisher, J., Cutts, D., Fieldhouse, E., & Rottweiler, B. (2018). The 
+Impact of Electoral Context on the Electoral Effectiveness of District-
+Level Campaigning: Popularity Equilibrium and the Case of the 2015 
+British General Election. Political Studies, 1-20. 
+doi: 10.1177/0032321718764800  
+
+Great Britain, Election Resources.org
+http://www.electionresources.org/uk/
+(Date accessed: March 6, 2016).
+
+Hawkins, Oliver, Keen, Richard and Nambassa Nakatudde (2015). General
+Election 2015. House of Commons Library, Briefing Paper Number CBP7186,
+researchbriefings.files.parliament.uk/documents/CBP-7186/CBP-7186.pdf
+(Date accessed: March 6, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - GREECE (2012)
+---------------------------------------------------------------------------
+
+There were two parliamentary elections held in Greece in the summer of 
+2012. Elections were not scheduled to take place until autumn 2013 but 
+Greece was particularly badly hit by the Global Financial Crisis, with the
+country entering a European Union/International Monetary (EU/IMF) bailout 
+program in 2010. Early elections were agreed to in November 2011 whereby
+a Grand Coalition caretaker government came to power under Lucas Papademos, 
+with the support of the major parties in parliament. 
+The first election was held on Sunday, May 6, 2012. However, attempts to 
+form a government, first by the New Democracy Party, and then by SYRIZA 
+resulted in new elections being called for June 17, 2012. The turnout among 
+registered voters in the June election was 62.5%. In the June election,  
+the New Democrats (ND), led by Antonis Samaras, received the most 
+votes, gaining 29.7%. It was closely followed by the Alexis Tsipras led 
+Coalition of the Radical Left (SYRIZA) which received 26.9%. Five 
+other parties also won seats in parliament. 
+After the June election, New Democracy (ND) formed a three-party coalition
+government with DIMAR and The Panhellenic Socialist Movement (PASOK), the 
+party that had been in power when the GFC hit, and which had suffered 
+significant losses in both the May and June poll. On June 20, 2012, 
+Antonio Samaras of New Democracy (ND) became Prime Minister. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - GREECE (2012)
+
+Dinas, E., & Rori, L. (2013). The 2012 Greek Parliamentary 
+Elections: Fear and Loathing in the Polls. West European Politics, 36(1), 
+270-282. doi: 10.1080/01402382.2013.742762.
+
+Inter-Parliamentary Union (n.D.): Greece, Vouli Ton Ellinon (Hellenic 
+Parliament), available at: 
+www.ipu.org/parline-e/reports/arc/2125_12_June.htm
+(Date accessed: February 9, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - GREECE (2015)
+---------------------------------------------------------------------------
+
+The 2015 Greek lower house elections were held on Sunday, January 25, 2015. 
+The elections were held early due to three unsuccessful rounds of voting in
+parliament for a new president. Harsh economic conditions as well as
+Greece's relations with the European Union dominated the campaign with
+parties campaigning specifically on whether to continue to implement
+the EU/IMF bailout programs, which Greece had been subject to since 2010
+(see above review). 
+The turnout among registered voters in the election was 63.9%. The 
+coalition of the Radical Left (SYRIZA), which had campaigned against the 
+EU/IMF bailout program emerged as the most significant party, winning 
+149 seats in the 300 member parliament. It defeated the outgoing coalition 
+led by Antonio Samaras of New Democracy (ND), which won 76 seats. A new 
+coalition government was formed comprising SYRIZA and the right-wing 
+Independent Greeks (ANEL) with Alexis Tsipras as Prime Minister.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - GREECE (2015)
+
+Inter-Parliamentary Union (n.D.): Greece, Hellenic Parliament. available 
+at: http://www.ipu.org/parline-e/reports/arc/2125_15_Jan.htm,
+(Date accessed: February 22, 2017).
+
+Tsirbas, Y. (2015). The January 2015 parliamentary election in Greece:
+Government change, partial punishment and hesitant stabilisation. South
+European Society and Politics, 1-20.
+doi: 10.1080/13608746.2015.1088428
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - HONG KONG (2012)
+---------------------------------------------------------------------------
+
+The 2012 elections to the Hong Kong Legislative Council (LeGo) were held
+on Sunday, September 9, 2012. In total, 70 seats were at stake: 35 elected
+by geographical constituencies where all eligible voters can cast
+a ballot, and the remaining 35 by functional constituencies which permits
+natural persons but also professional or special interest groups to cast
+a vote. Ten additional seats were available due to a 2010 electoral 
+reform. Turnout among registered voters in the geographic constituencies
+was 53.1%. The pro-Beijing camp increased its seat share, controlling
+43 of the 70 seats, an increase of six. 
+The Democratic Alliance for the Betterment and Progress of Hong Kong (DAB) 
+won 13 seats, nine of these in the geographical constituency election. 
+Its success partly resulted from a splitting of candidates into several
+lists, taking better advantage of the largest remainder method for the seat
+distribution.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - HONG KONG (2012)
+
+Government of Hong Kong (2014). Legislative Council Election Report,
+available at: http://www.eac.gov.hk/en/legco/2012lce_detailreport.htm
+(Date accessed: December 1, 2016).
+
+South China Morning Post (2012): DAB fares best, taking 13 seats, thanks 
+for vote-splitting tactic, available at:
+http://www.scmp.com/news/hong-kong/article/1033709/dab-fares-best-taking-13
+-seats-thanks-vote-splitting-tactic (September 11, 2012)
+(Date accessed: December 1, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - ICELAND (2013)
+---------------------------------------------------------------------------
+
+The 2013 Iceland lower house elections were held on Saturday, April 27, 
+2013. The turnout rate among registered voters was 81.5%. A record 15 
+parties competed in the election, besting the previous record of 7. 
+Following the Global Financial Crisis (GFC), the incumbent coalition
+government of the Social Democratic Alliance (Sam) and the Left-Green
+Movement (Graen) led by Johanna Sigurardottir (Sam) lost a net of 27.7
+points in vote share compared to the 2009 election. Both parties slipping to
+third and fourth place respectively. Emerging as the most influential
+parties were the Independence Party (Sj) with 26.7% of the vote, and the
+Progressive Party (F) winning 24.3%. In the aftermath of the election, the
+Progressive Party (F) and the Conservative Party (Ih) formed a coalition
+government, led by Sigmundur Gunnlaugsson (F) who became Iceland's new Prime
+Minister on May 23, 2013.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - ICELAND (2013)
+
+Indridason, I. H., Oennudottir, E. H., Dorisdottir, H., & Hardarson, O.P.
+(2016). Re-electing the Culprits of the Crisis? Elections in the
+Aftermath of a Recession. Scandinavian Political Studies, 40(1), 28-60.
+doi: 10.1111/1467-9477.12081.
+
+Inter-Parliamentary Union (n.D.): Iceland, Althingi (Parliament), available
+at: http://www.ipu.org/parline-e/reports/arc/2143_13.htm
+(Date accessed: February 9, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - IRELAND (2011)
+---------------------------------------------------------------------------
+
+The 2011 Irish general election was held on Friday, February 25, 2011, and
+took place three months after Ireland had accepted an EU/IMF bailout. 
+The Global Financial Crisis (GFC) badly hit Ireland with the country the 
+first EU state to enter recession in 2008. It's banking system, on the 
+verge of insolvency, forced the Fianna Fail/Green coalition to issue a 
+bank guarantee in September 2008. 
+However, the country's economic health continued to deteriorate, 
+with unemployment reaching a peak of 14%. By September 2010, the cost of 
+bailing out the banks had raised the country's budget deficit to 32% of GDP. 
+In November 2010, the Irish government was forced to accept an EU/IMF loan 
+which included plans to cut public services and government spending and 
+the phased introduction of unpopular taxes on water and property. The Green
+Party announced that they intended to withdraw from the government once it
+had passed a new budget for 2011 and on foot of this, a spring general 
+election was planned. In January 2011, the Taoiseach (Irish Prime Minister)
+Brian Cowen resigned as leader of Fianna Fail. While Cowen had won a vote 
+of confidence in his leadership earlier that month, a botched reshuffle of 
+his Fianna Fail cabinet forced his resignation. He was replaced by Michael 
+Martin. In the election, where 69.9% of registered voters voted, Fianna 
+Fail, suffered its worst result ever, losing three-quarters of its vote 
+and coming third in the popular vote. Meanwhile, coalition partners the 
+Greens lost all their seats. Fine Gael, the main opposition party, had 
+their best election ever winning 76 seats. Labor also had its best result 
+winning 19.4% and 37 seats. Fine Gael and Labor formed a coalition 
+government and Enda Kenny became Taoiseach, the first Fine Gael Prime 
+Minister in fourteen years.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - IRELAND (2011)
+
+Courtney, M., & Gallagher, M. (2012). The parliamentary election
+in Ireland, February 2011. Electoral Studies 31, 222-242. 
+doi: 10.1016/j.electstud.2011.10.001
+
+Inter-Parliamentary Union (n.D.): Ireland Dail Eireann (House of 
+Representatives), available at http://www.ipu.org/parline-e/reports/arc/
+2153_11.htm
+(Date accessed: March 21, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - ISRAEL (2013)
+---------------------------------------------------------------------------
+
+The 2013 Israeli lower house election took place on Tuesday, January
+22, 2013. The election was called early as incumbent Likud Prime Minister
+Benjamin Netanyahu was unable to pass his government's budget. On 
+October 15, 2012, the Israeli Knesset (Parliament) passed a bill 
+dissolving itself. 
+The turnout rate among registered voters was 67.8%. Prime Minister 
+Netanyahu (leader of Likud), remained in office despite his Likud 
+Yisrael Beiteinu losing seats. Yesh Atid, a new secular party founded
+by former TV journalist Yair Lapid came second, winning 14.3% of the vote,
+and 19 seats. Kadima, the biggest party in the 2009 election, lost almost
+all of its seats while there were gains for The Jewish Home party. 
+Likud Yisrael Beiteinu formed a coalition government with Yesh Atid,
+the Jewish Home, and Hatnuah. Overall, a total of eleven parties gained at
+least one seat in the new Knesset.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - ISRAEL (2013)
+
+Diskin, A., & Hazan, R.Y. (2014). The parliamentary election in
+Israel, January 2013. Electoral Studies, 34, pp.373-376. 
+doi: 10.1016/j.electstud.2013.08.015.
+
+Inter-Parliamentary Union (n.D.): Israel Knesset (Parliament),
+available at: http://www.ipu.org/parline-e/reports/2155_A.htm 
+(Date accessed: November 15, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - JAPAN (2013)
+---------------------------------------------------------------------------
+
+The 2013 Japanese upper house elections were held on Sunday, July 21, 2013. 
+The turnout rate among registered voters was 52.6% in an election which
+saw half of the seats up for grabs (in Japan, half of the upper house
+mandates are renewed every three years). 
+Prime Minister Shinzo Abe's Liberal Democratic Party (LDP) and its junior
+coalition partner, New Komeito, won a total of 76 seats of the 121 seats 
+at stake, which including holdovers, resulted in them gaining a majority 
+in the upper house, controlling 135 of the 242 seats. The largest opposition
+force, the Democratic Party of Japan (DPJ), took only 17 seats which 
+reduced their seat total to 59, the party's lowest number of seats since 
+its foundation in 1998. The 2013 elections ended the so-called 
+'twisted parliament', where both the upper house and the lower house 
+were controlled by different parties. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - JAPAN (2013)
+
+Pekkanen, R. J., Reed, S.R., & Smith, D.M. (2016). Japanese 
+Politics Between the 2012 and 2014 Elections, in: Robert J. Pekkanen, 
+Steven R. Reed, and Ethan Scheiner (eds.): Japan Decides 2014, Hampshire: 
+Palgrave Macmillan, pp.9-21. doi: 10.1057/9781137552006_2. 
+
+Inter-Parliamentary Union (n.D.): Japan, Sangiin (House of Councillors), 
+available at: http://www.ipu.org/parline-e/reports/arc/2162_13.htm 
+(Date accessed: February 9, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - KENYA (2013)
+---------------------------------------------------------------------------
+
+The 2013 Kenyan general elections were held on Monday, March 4, 2013. 
+The elections were fourfold: a presidential election, elections to the 
+National Assembly (lower house), a Senate (upper house) election, and 
+elections for County Governors. The Senate was re-established under the 
+new 2010 Constitution. A Senate previously existed under the 1963 
+Constitution but had been abolished in 1966.   
+In the Presidential election, outgoing President Mwai Kibaki was 
+term-limited. The turnout among registered voters was 85.7%. Uhuru 
+Kenyatta of the National Alliance (TNA), the son of former President Jomo
+Kenyatta, was elected President with 50.5% of the vote, defeating Raila 
+Odinga, former Prime Minister who was standing for the Coalition for 
+Reforms and Democracy. 
+In the parliamentary elections, no party achieved an overall majority in 
+either the National Assembly or the Senate. The Jubilee Coalition, which
+whose main party was the National Alliance, won the largest number of seats
+in the National Assembly. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - KENYA (2013)
+
+Inter-Parliamentary Union (n.D.) Kenya National Assembly, available at:
+http://www.ipu.org/parline-e/reports/2167_E.htm 
+(Date accessed: March 8, 2017).
+
+Cheesman, N., Lynch, G., & Willis, J. (2014). Democracy and its 
+discontents: Understanding Kenya's 2013 elections. Journal of Eastern 
+African studies, 8(1), 2-24. doi: 10.1080/17531055.2013.874105.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - LATVIA (2011)
+---------------------------------------------------------------------------
+
+The 2011 Latvian parliamentary elections were held on Sunday, 
+September 17, 2011. The turnout was 59.5% among registered voters. The 
+previous elections of 2010 had seen the party Unity (VIENOTIBA) emerge 
+as the winners. However, following the parliament's refusal to investigate 
+corruption charges against an opposition party, a successful referendum to 
+dissolve the parliament resulted in early elections. 
+The Unity Party lost 13 points as its vote share slumped to 18.8%, and the
+party lost 18 seats. The party Harmony Center (SC) won with 28.4% of the 
+vote and 31 seats. It marked the first time a pro-Russian party achieved 
+a plurality of the vote in Latvia since independence in 1991. However, 
+it failed to form a coalition government with a stumbling block supposedly
+Harmony Centre's support of the Russian-speaking minority. Instead, a 
+three-party coalition between Zatler's Reform Party, Unity, and the 
+National Alliance was formed with Valdis Dombrovskis of the National 
+Alliance as Prime Minister. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - LATVIA (2011)
+
+Inter-Parliamentary Union (n.D.). Latvia Saeima (Parliament), available at:
+http://archive.ipu.org/parline-e/reports/arc/2177_11.htm
+(Date accessed: January 5, 2018).
+
+Pryce, P. (2012). The 2011 parliamentary election in Latvia. Electoral 
+Studies, 31(3), 613-616. doi: 10.1016/j.electstud.2012.05.006
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - LATVIA (2014)
+---------------------------------------------------------------------------
+
+The 2014 Latvian parliamentary elections were held on Sunday, October 4, 
+2014, with a turnout of 58.9% among registered voters. While a legislative
+term usually is four years in Latvia, early elections held in 2011 (see 
+above summary) meant the legislative term was reduced to three years.
+In January 2014, Latvian Prime Minister Valdis Dombrovski's resigned due to
+the Zolitude shopping center roof collapse in which 54 people lost their 
+lives. Laimdota Straujuma succeeded him and became Latvia's first female
+premier. 
+In the October elections, the Social Democratic "Harmony" Party remained 
+the largest party in parliament, despite losing 7 seats. However, Laimdota 
+Straujuma, head of the Unity Party, retained power as the head of a 
+three-party coalition between Unity, the National Alliance, and the Union 
+of Greens and Farmers, a green conservative/agrarian alliance, which 
+increased its vote share to 19.5% and won an additional eight seats.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - LATVIA (2014)
+
+Ikstens, J. (2015). Latvia. European Journal of Political Research 
+Political Data Yearbook, 54, 181–189. doi: 10.1111/2047-8852.12096 
+
+Inter-Parliamentary Union (n.D.). Latvia, Parliament, available at: 
+http://archive.ipu.org/parline/reports/2177_E.htm 
+(Date accessed: January 12, 2018).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - MEXICO (2012)
+---------------------------------------------------------------------------
+
+The 2012 Mexican general elections were held on Sunday, July 1, 2012. The 
+elections were threefold: a presidential election, elections to the Chamber
+of Deputies (lower house) and elections to the Senate (upper house). 
+Elections for Governor and local elections also took place on the same day
+in six states: Campeche, Colima, Nuevo Leon, Queretaro, Sonora, and San 
+Luis Potosi.
+In the presidential election, 63.1% of registered voters voted. Twelve 
+years after losing the Presidency for the first time in 71 years, Mexico's
+dominant party, the Institutional Revolutionary Party (PRI) saw its 
+candidate Enrique Pena Nieto, Governor of Mexico State, elected with a 
+plurality of the vote (38.2%). He defeated the leftist coalition candidate
+Andres Manuel Lopez Obrador. 
+In the parliamentary elections, 62.5% of registered voters voted. All 500
+seats in the Chamber of Deputies and all 128 seats in the Mexican Senate
+were contested. Despite regaining the Presidency, the PRI and its allies 
+were unable to obtain a majority in either chamber.  Meanwhile, the PRD 
+and its allies picked up enough seats to become the second-largest force
+in the Chamber of Deputies. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - MEXICO (2012)
+
+Serra, G. (2014). The 2012 elections in Mexico: Return of the dominant
+party. Electoral Studies 34, 349-353. 
+doi: 10.1016/j.electstud.2013.08.010
+
+Ribando Seelke, Clare (2012). Mexico's 2012 Elections. Congressional 
+Research Service Report for Congress. http://www.fas.org/sgp/crs/row/
+R42548.pdf 
+(Date accessed: April 2, 2014). 
+
+
+ ---------------------------------------------------------------------------
+ >>> ELECTION SUMMARY - MEXICO (2015)
+ ---------------------------------------------------------------------------
+
+The 2015 Mexican lower house election took place on Sunday, June 7, 2015.
+Conventionally, elections take place on the first Sunday of July, but for 
+this cycle, they were held in June. The election for Chamber of Deputies 
+was seen as an important test for the Enrique Pena Nieto administration, 
+Pena Nieto having been elected President three years previously (see above
+review). 
+In the interim, President Nieto of the Institutional Revolutionary 
+Party (PRI) had faced some controversies, including accusations of
+bribery and criticism over the government's handling of the mass 
+kidnapping of 43 students from the Ayotzinapa Rural Teachers College on 
+September 26, 2014, which triggered protests. 
+The turnout among registered voters was 47.7%. The PRI won 198 seats to 
+remain the largest party. Its allies in the Green Party (PVEM) won 45 
+seats. The National Action Party (PAN) came in second, securing 108
+seats, the Party of the Democratic Revolution (PRD) won 56 seats. 
+Overall, ten parties won seats in parliament.
+    
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - MEXICO (2015)
+
+Do Vale, H. F. (2016) Federal Political Fragmentation in Mexico's
+2015 Elections. Regional and Federal Studies, 26(1), 121-138. 
+doi: 10.1080/13597566.2015.1136928.
+
+Inter-Parliamentary Union (n.D.): Mexico Camara de Diputados (Chamber of
+Deputies), available at: http://www.ipu.org/parline-e/reports/2211_E.htm
+(Date accessed: November 15, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - MONTENEGRO (2012)
+---------------------------------------------------------------------------
+
+The 2012 Montenegrin parliamentary elections were held on Sunday, 
+October 14, 2012. The turnout among registered voters was 70.6%. The 
+'European Montenegro' Coalition (CG) who won 46% of the vote and 39 of 
+the 81 seats, just short of a majority. The coalition included the two major
+parties in the outgoing government: the Democratic Party of Socialists 
+(DPS, led by Milo Djukanovic) and the Social Democratic Party (SDP, 
+led by Ranko Krivokapic). The newly-formed Democratic Front (DF) came 
+second with 20 seats. The Socialist People's Party (SNP, a pro-Serb party 
+lost 7 seats and came third while a new party Positive Montenegro (PCG), 
+founded by environmental activist Darko Pajovic came fourth, winning 7 
+seats and 8.4% of the vote. 
+Milo Djukanovic became Prime Minister for the sixth time, having
+previously led five governments between 1991 and 1998, 2003 to 2006, 
+moreover, again from 2010-2012. The DPS and the SDP formed a new coalition
+a government with the support of members representing the Albanian and 
+Croatian minority communities, thus ensuring control of 45 seats, and a 
+majority of 9 over other parties.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - MONTENEGRO (2012)
+
+Inter-Parliamentary Union (n.D.): Montenegro Skupstina (Parliament), 
+available at  http://www.ipu.org/parline-e/reports/arc/2385_12.htm
+(Date accessed: March 21, 2017).
+
+Vuckovic, V. (2016). The Europeanization of Political Parties in
+Montenegro. Romanian Journal Of European Affairs 16(3), pp.36-55. 
+http://rjea.ier.ro/sites/rjea.ier.ro/files/revista/RJEA_2016_vol16_no3_web
+_0.pdf#page=37
+(Date accessed: March 21, 2017),
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - NEW ZEALAND (2011)
+---------------------------------------------------------------------------
+
+The 2011 New Zealand parliamentary elections were held on Saturday, 
+November 26, 2011, with the date announced by Prime Minister John Key 
+eight months earlier in February. 
+During the campaign, the National Party (Nat) pledged to have the budget 
+deficit in 2012 and achieve a surplus in the 2014-2015 fiscal year. Labor 
+(Lab) claimed that voting for the National Party would result in State 
+assets being sold off and promised to spur economic growth by working with 
+industry. 
+Turnout among registered voters was 74.2%. The incumbent National Party 
+retained power, although they fell two seats short of a parliamentary 
+majority. The party won 47.3% of the vote, an increase of two points on its
+2008 performance. The opposition Labor Party, led by Phil Goff lost 
+significant support, with their vote down six points on 2008 and the party 
+losing eight seats. Phil Goff later resigned from the party leadership. On 
+December 5, the National Party formed a coalition government with United 
+Future (UFNZ) and ACT New Zealand. John Key remained Prime Minister.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - NEW ZEALAND (2011)
+
+Inter-Parliamentary Union (n.D.): New Zealand House of Representatives, 
+available at http://www.ipu.org/parline-e/reports/arc/2233_11.htm 
+(Date accessed: March 21, 2017).
+
+Tan, A. C., Dawn, M.-C., & Borthwick, S. (2014). New Zealand parliamentary
+elections of 2011. Electoral Studies 34, 291-294. 
+doi: 10.1016/j.electstud.2013.08.009
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY – NEW ZEALAND (2014)
+---------------------------------------------------------------------------
+
+The 2014 New Zealand parliamentary elections were held on Saturday, 
+September 20, 2014. Prime Minister John Key announced the election date
+in March 2014. Traditionally, elections in New Zealand have been held 
+on the last Saturday in November. However, in 2014, this convention 
+was not adhered to because of a clash with the G20 summit in Australia 
+in November 2014. 
+The turnout among registered voters was 77.8%. The National Party (Nat), 
+led by incumbent Prime Minister John Key retained government after 
+winning 47% of the vote and 60 seats, just short of a parliamentary 
+majority. Counts on election night had previously suggested the party might
+attain the first majority government since 1994, but the party lost a close
+race with the Greens to deny it. The main opposition party, Labor (Lab) 
+had its worst election in terms of vote share since 1922 with party 
+leader David Cunliffe stepping down after the election. 
+After the election, the National Party entered a confidence and supply 
+agreement with the United Future (UFNZ), the ACT Party, and the Maori
+Party to form a minority government. John Key remained Prime Minister. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - NEW ZEALAND (2014)
+
+Inter-Parliamentary Union (n.D.): New Zealand House of Representatives,
+available at: http://archive.ipu.org/parline-e/reports/arc/2233_14.htm
+(Date accessed: March 21, 2017).
+
+Vowels, J. (2015). The 2014 New Zealand general election: Varieties of
+political communication. Political Science, 67(2), 89-93.
+doi: 10.1177/0032318715614731.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - NORWAY (2013)
+---------------------------------------------------------------------------
+
+The 2013 Norwegian parliamentary election took place on Monday, 
+September 9, 2013. Welfare issues dominated the campaign. 
+Turnout among registered voters was 78.3%. Although outgoing Prime Minister
+Jens Stoltenberg's Labor Party (A/Ap) won the most seats in the Storting 
+(Parliament), he was denied a third-term in office, which would have been
+a first in Norwegian politics. Instead, the right-wing opposition led by 
+Erna Solberg of the Conservatives (H) and which also included the Progress 
+Party (FrP) emerged victorious after the Liberal Party (V) and the 
+Christian Peoples' Party (KRF) supported a minority coalition. On October
+16, 2013, Erna Solberg became Norway's second female Prime Minister 
+after Gro Harlem Brundtland.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - NORWAY (2013):
+
+Inter-Parliamentary Union (n.D.): Norway, Parliament, available at: 
+http://archive.ipu.org/parline-e/reports/arc/2239_13.htm
+(Date accessed: November 15, 2016).
+
+Storli, E. (2015). Election note on the 2013 Norwegian election.
+Electoral Studies, 38, pp.98-101. doi: 10.1016/j.electstud.2014.12.004
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - PERU (2016)
+---------------------------------------------------------------------------
+
+The 2016 Peruvian general elections were held on Sunday, April 10, 2016.
+In Peru, there is mandatory voting and there was a turnout of 81.9%. There 
+were three elections: a presidential election, elections to the Congress 
+of the Republic of Peru (Lower house), as well as elections of the 
+Peruvian representatives of the Andean Parliament.  
+Outgoing President Ollanta Humala was term-limited. The first round of 
+elections did not result in an outright winner. Instead, Popular Force's 
+candidate Fujimori and PPK's candidate and former Prime Minister Pedro 
+Pablo Kuczynski advanced to the second round. Kuczynski narrowly 
+defeated Fujimori in the second round, held on Sunday, June 5, 2016.
+In the National Congress. the right-wing party Popular Force (FP), led by
+its presidential candidate Keiko Fujimori, became the largest force, taking
+73 of 130 seats. The Peruvian Nationalist Party (PNP), which dominated the
+former ruling alliance Peru Wins, did not contest the election after the
+alliance fell apart by the end of the legislative period. The leftist 
+alliance Broad Front for Justice, Life and Liberty (FA) and the Peruvians
+for Change party (PPK) constituted the two major runner ups gaining 20 
+(FA) and 18 (PPK) congressional seats. 
+The new parliament first came together on July 26, 2016, and two days 
+later, Kuczynski was sworn in as the new president.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - PERU (2016)
+
+Inter-Parliamentary Union (n.D.). Peru, Congress of the Republic, 
+available at: http://archive.ipu.org/parline/reports/2251_E.htm
+(Date accessed: January 17, 2018).
+
+McNulty, S. (2017). Peru 2016: Continuity and change in an electoral year.
+Revista de Ciencia Politica, 37, 563-587.
+doi: 10.4067/s0718-090x2017000200563
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - PHILIPPINES (2016)
+---------------------------------------------------------------------------
+
+The 2016 Philippine general elections were held on Monday, May 9, 2016. 
+The turnout was 81.9% among registered voters. There were multiple 
+elections held on that day: a presidential election (president and vice-
+president), elections to the Philippine House of Representatives (Lower
+house), elections to the Philippine Senate (Upper house), as well as
+provincial and local elections. The 2016 elections marked the first time
+that vote counting machines (VCMs) were used to count the votes 
+automatically.
+Outgoing President Benigno Aquino III was term-limited. In the presidential
+elections, Rodrigo Duterte (PDP-Laban) secured 39.0% of the votes and won
+the elections ahead of Mar Roxas (Liberal Party - LP). The 
+vice-presidential elections were won by Leni Robredo (LP) who secured
+35.1% of the vote. In the parliamentary elections and in the Senate, the 
+Liberal Party (LP) remained the strongest party. The Nationalist People's
+Coalition (NPC) came in second in both houses. 
+In the aftermath of the election, Duterte (PDP-Laban) was proclaimed as 
+the 16th President of the Philippines by the House of Representatives on
+May 30, 2016. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - PHILIPPINES (2016)
+
+Inter-Parliamentary Union (n.D.): Philippines, House of Representatives,
+available at: http://www.ipu.org/parline-e/reports/2253_E.htm
+(Date accessed: March 6, 2017).
+
+International Institue for Democracy and Electoral Assistance (n.D.): 
+Philippines, available at: 
+http://www.idea.int/data-tools/country-view/240/40
+(Date accessed: March 21, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - POLAND (2011)
+---------------------------------------------------------------------------
+
+The 2011 Polish parliamentary elections were held on Sunday, October 9,
+2011. The turnout was 48.9%. There were two elections held: elections to 
+the Seim (Lower house) and elections to the Senate (Upper house).
+The upper house election was the first under new electoral rules. A new
+Election code had been adopted which changed the electoral system from a
+plurality block vote to a first-past-the-post system. In addition, a new
+law permitted mail and proxy voting. 
+Civic Platform (PO) party, led by incumbent Prime Minister Donald Tusk, 
+remained the strongest party in both houses, winning 207 out of 460 seats 
+in the lower house, and 63 out of 100 seats in the upper house. 
+PO's coalition partner, the Polish People's Party (PSL) won the fourth most 
+seats in the lower house (28) and the upper house (2). Law and Justice (PiS)
+were in second place. The newcomer party Palikot's Movement (RP), which was
+formed in October 2010 by businessman Janusz Palikot, won 40 seats in the
+lower house in its first electoral contest. After the election, Donald Tusk 
+(PO) agreed to continue a coalition government with the Polish People's 
+Party (PSL). 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - POLAND (2011)
+
+Inter-Parliamentary Union (n.D.): Poland, Sejm (Sejm), available at: 
+http://www.ipu.org/parline-e/reports/arc/2255_11.htm
+(Date accessed: February 14, 2017).
+
+Inter-Parliamentary Union (n.D.): Poland, Senat (Senate), available at: 
+http://www.ipu.org/parline-e/reports/arc/2256_11.htm
+(Date accessed: February 14, 2017).
+
+Tworzecki, H. (2012). The Polish parliamentary elections of October 
+2011. Electoral Studies, 31(3), 617-621. 
+doi: 10.1016/j.electstud.2012.04.007.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - PORTUGAL (2015)
+---------------------------------------------------------------------------
+
+The 2015 Portuguese lower house election took place on Sunday,  October 4,
+2015. The turnout rate among registered voters was 55.9%. Incumbent Prime 
+Minister Pedro Passos Coelho (Social Democratic Party - PPD/PSD) led an
+alliance, comprising the PPD/PSD and the People's Party (CDS-PP), into the
+election. After his party secured the most seats (107 out of 230 seats), 
+Coelho formed a minority government in the aftermath of the election. 
+However, after it had been sworn in on October 30, 2015, the program of 
+the Coelho government was rejected by the parliament on November 10, 2015.
+Subsequently, the Socialist Party (SP), which had won the second most seats
+(74), formed a single-party minority government and its party leader,
+Antonio Costa, became the Portuguese Prime Minister on November 26, 2015.
+The PS minority government is supported by the Left Bloc (B.E.), the
+Portuguese Communist Party (PCP), and the Ecologist Party "The Greens"
+(PEV).
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - PORTUGAL (2015)
+
+Goulart, P., & Veiga, F.J. (2016). Portuguese 2015 legislative elections:
+How economic voting, the median voter and unemployment led to 'the times 
+they are a'changin'?. Electoral Studies, 43, 197-200. 
+doi: 10.1016/j.electstud.2016.05.004
+
+Inter-Parliamentary Union (n.D.): Portugal Assembleia da Republica
+(Assembly of the Republic), available at:
+http://www.ipu.org/parline-e/reports/2257_E.htm
+(Date accessed: November 15, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - ROMANIA (2012)
+---------------------------------------------------------------------------
+
+The 2012 Romanian legislative elections were held on Sunday, December 9, 
+2012. The turnout rate among registered voters was 41.76%. There were two 
+elections held on that day: elections to the Chamber of Deputies (Lower 
+house) and elections to the Romanian Senate (Upper house).
+The election followed the resignation of Prime Minister Emil Bloc (Liberal
+Democratic Party, LDP) on February 6, 2012, in the wake of extended protests
+against the government's austerity measures. The subsequent placeholder
+government led by PM, Mihai Razvan Ungureanu (Independent), was ousted in
+a vote of no confidence on April 27, 2012. Opposition leader Victor Ponta
+(Social Democratic Party, PSD) was chosen as the interim PM.
+In the December elections, the electoral alliance Social Liberal Union
+(USL), led by Victor Onta (PSD) and Crin Antonescu (National Liberal Party
+- PNL) gained a majority of the seats in both houses, receiving 58.63% in 
+the lower house and 60.10% in the upper house. The USL secured 273 out of
+412 seats in the lower house and 122 out of 176 seats in the upper house.
+In the aftermath of the elections, Onta (PSD) was appointed PM by 
+Romania's then president, Traian Basescu.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - ROMANIA (2012)
+
+Inter-Parliamentary Union (n.D.): Romania. Camera Deputatilor (Chamber of 
+Deputies), available at: 
+http://www.ipu.org/parline-e/reports/arc/2261_12.htm
+(Date accessed: January 30, 2017).
+
+Inter-Parliamentary Union (n.D.): Romania. Senatul (Senate), available at:
+http://www.ipu.org/parline-e/reports/arc/2262_12.htm
+(Date accessed: January 30, 2017).
+
+King, R.F., & Marian, C.G. (2014). Antagonism and austerity:
+The December 2012 Romanian parliamentary elections. Electoral Studies, 34, 
+315-321. doi: 10.1016/j.electstud.2013.09.012
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - ROMANIA (2014)
+---------------------------------------------------------------------------
+
+The 2014 Romanian Presidential Elections took place in two rounds. The 
+first round was held on Sunday, November 2, 2014. The runoff round took 
+place on Sunday, November 16, 2014. The electoral turnout among registered
+voters was 53.2% in the first round and 64.1% in the second round. After 
+two consecutive terms, incumbent President Traian Basescu was ineligible to 
+re-run for office. Out of the fourteen candidates who competed in the first 
+round, incumbent Prime Minister Victor Ponta (Social Democratic Party, PSD) 
+who was supported by the PSD-UNPR-PC Electoral Alliance, and Klaus Iohannis 
+(National Liberal Party, PNL) who was supported by Christian-Liberal 
+Alliance ACL (PNL and Liberal Democratic Party, PDL), emerged to go on to 
+the second round after neither candidate was able to secure a majority of 
+the votes. In the runoff round, Iohannis received 54.4% of the votes and 
+defeated Ponta who received 45.6% of the votes. Iohannis assumed the 
+Presidential office on December 21, 2014.   
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - ROMANIA (2014)
+
+Gherghina, S. (2015). The Romanian presidential election, November 2014. 
+Electoral Studies, 38, 109-114. doi: 10.1016/j.electstud.2015.01.008
+
+Lazar, M.-I. (2015). Reinforcing Democracy through Internet and Social 
+Networks Participation: Votes, Voters and Elected Behavioral Outcomes 
+in Romanian Presidential Elections (2014). Revista de Stiinte Politice, 
+46, 63-72.
+http://cis01.central.ucv.ro/revistadestiintepolitice/files/numarul46_2015/
+6.%20Reinforcing%20Democracy%20through%20Internet%20and%20Social%20Networks
+%20Participation...%20pp.%2063-72.pdf
+(Date accessed: May 17, 2018).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - SERBIA (2012)
+---------------------------------------------------------------------------
+
+The 2012 Serbian general elections were held on Sunday, May 6, 2012. The
+turnout was 57.8%. There were multiple elections held on that day: 
+presidential elections, elections to the National Assembly (Lower house),
+as well as provincial and local elections. In 2012, all the leading 
+presidential candidates and party blocs pledged to support the country's
+integration with the European Union (EU). 
+In the parliamentary elections, no party won an outright majority. The
+"Let's Get Serbia Moving" coalition, led by Tomislav Nikolic (Serbian 
+Progressive Party, SNS), became the largest force in National Assembly, 
+taking 73 of the 250 seats at stake; six more than the "Choice for a 
+Better Life" coalition of outgoing President Boris Tadic (Democratic 
+Party - DS). The Socialist Party of Serbia (SPS) took 44 seats together
+with two coalition partners, becoming the third largest force. 
+In the presidential elections, Tomislav Nikolic (Serbian Progressive Party 
+- SNS) and Boris Tadic (Democratic Party - DS) each won approximately 25%
+to advance to the second round. The run-off elections were held on Sunday,
+May 20, 2012. In the second round, Nikolic (SNS) defeated Tadic (DS), 
+securing 49.5% of the votes (Tadic: 47.3%).
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - SERBIA (2012)
+
+Obradovic-Wochnik, J., & Wochnik, A. (2014). Invalid ballots and the 
+"crisis of representative democracy": Re-inventing protest at the 2012
+Serbian elections. East European Politics and Societies and Cultures, 
+28(4), 808-835. doi: 10.1177/0888325414547430
+
+Inter-Parliamentary Union (n.D.): Serbia Narodna skupstina (National 
+Assembly), available at: 
+http://www.ipu.org/parline-e/reports/arc/2355_12.htm
+(Date accessed: March 21, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - SLOVAKIA (2016)
+---------------------------------------------------------------------------
+
+The 2016 Slovak lower house election took place on Saturday, March 5, 2016.
+The turnout rate among registered voters was 59.82%. 
+The Direction - Social Democracy (Smer) party remained the strongest, 
+gaining 28.3% of the vote. Its leader and incumbent Prime Minister, Robert
+Fico, remained in office. However, Smer lost 34 seats compared to the 
+previous lower house election in 2012 and thus, its majority. Therefore,
+Fico formed a coalition cabinet with the Slovak National Party (SNS), the
+Most-Hid (MH), and Network (Siet). Together, the parties hold 84 seats (out
+of 150 total seats). Overall, eight parties gained seats in the national 
+parliament, four of which had not held any seat in the previous legislative 
+period. Standing out by not gaining any seats was the Slovak Democratic
+and Christian Union - Democratic Party (SDKU-DS). From 2010 to 2012, the 
+SDKU-DS was the ruling party until the party and its PM, Iveta Radicova, 
+fell after a vote of no confidence on October 11, 2011.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - SLOVAKIA (2016)
+
+Inter-Parliamentary Union (n.D.): Slovakia. Narodna rada (National Council),
+available at: http://www.ipu.org/parline-e/reports/2285_E.htm
+(Date accessed: January 20, 2017).
+
+Hlavac, M. (2016). Performance of political parties in the 2016 
+parliamentary election in Slovakia: regional comparisons and district-level 
+determinants. Regional & Federal Studies, 26(3), 433-443. 
+doi: 10.1080/13597566.2016.1178114.
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - SLOVENIA (2011)
+---------------------------------------------------------------------------
+
+The 2011 Slovenian lower house election took place on Sunday, December 4, 
+2011. The election took place in the wake of a vote of no confidence that
+the incumbent Prime Minister, Borut Pahor (then Social Democrats - SD),
+lost on September 20, 2011. The turnout rate among registered voters was
+65.6%.
+The party Zoran Jankovic List - Positive Slovenia (LZJ-PS), led by Zoran
+Jankovic, emerged as the strongest party and won 28 out of the 90 seats
+despite having been found just prior to the election. Overall, seven
+parties obtained at least one seat. In the aftermath of the election,
+Jankovic, despite his party obtaining the most seats, was unable to secure
+enough support to be elected Prime Minister. Instead, a broad coalition
+that included the Slovene Democratic Party (SDS), the Slovene People's
+Party (SLS), the Democratic Party of Retired Persons (DeSUS), the New
+Slovenia (NSi), and the Civic List of Gregor Virant proposed the SDS leader
+Janez Jansa as Prime Minister on January 25, 2012. Jansa took office on
+February 10, 2012.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - SLOVENIA (2011)
+
+Haughton, T., & Krasovec, A. (2013). The 2011 parliamentary elections in
+Slovenia, Electoral Studies, 32(1), 201-204. 
+doi: 10.1016/j.electstud.2012.12.004.
+
+Inter-Parliamentary Union (n.D.): Slovenia Drzavni Zbor (National
+Assembly), available at:
+http://www.ipu.org/parline-e/reports/arc/2287_11.htm 
+(Date accessed: November 15, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - SOUTH AFRICA (2014)
+---------------------------------------------------------------------------
+
+The 2014 South African elections were held on Wednesday, May 7, 2014. The 
+turnout was 73.5%. Two elections took place: election to the National
+Assembly (Lower house) as well as elections to provincial legislatures.
+The 2014 South African election followed a change to the Electoral 
+Amendment Act in 2013. For the first time, South Africans outside of the 
+country were able to register for the election and cast their vote.
+
+The African National Congress (ANC) won the lower house election by 
+securing 62.1% of the votes, 3.8% less than in South Africa's previous 
+election held in 2009. Nonetheless, the ANC still held a large majority of
+the 400 seats in the National Assembly, namely 249. As it had been the case
+in previous elections, the Democratic Alliance (DA) finished as the
+strongest opposition party, winning 89 seats by increasing its vote share
+from 16.7% to 22.2%. The newly formed Economic Freedom Fighters (EFF)
+gained 6.4% (25 seats) emerged as the third largest party in the lower
+house. Ten other parties won the remaining 37 seats in parliament.  
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - SOUTH AFRICA (2014)
+
+Inter-Parliamentary Union (n.D.): South Africa National Assembly, available
+at: http://www.ipu.org/parline-e/reports/2291_E.htm
+(Date accessed: March 21, 2017).
+
+Paret, M. (2016): Contested ANC hegemony in the urban townships: Evidence
+from the 2014 South African election. African Affairs, 115 (460), 419-442. 
+doi: 10.1093/afraf/adw025 
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - SOUTH KOREA (2012)
+---------------------------------------------------------------------------
+
+The 2012 South Korean lower house election took place on Wednesday, April 
+11, 2012. The legislative elections preceded the 2012 South Korean
+Presidential elections which were held later the same year, on December 19.
+For this reason, they provided a test run for the presidential candidates
+and their parties. The turnout rate among registered voters in the lower
+house election was 54.24%.
+Despite winning 24 seats less than in the previous lower house election in
+2008, the New Frontier Party (NFP), led by Park Geun-hye, retained its
+majority by winning 152 out of 300 seats. The second strongest party was
+the party Democratic United (DUP), led by Han Myeong-sook, which won 127
+seats. Overall, four parties and three independent candidates won at least
+one seat.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - SOUTH KOREA (2012)
+
+Kim, Y. (2014). The 2012 parliamentary and presidential elections in
+South Korea. Electoral Studies, 34, 326-330. 
+doi: 10.1016/j.electstud.2013.08.013
+
+Inter-Parliamentary Union (n.D.): South Korea Kuk Hoe (National Assembly),
+available at: http://www.ipu.org/parline-e/reports/arc/2259_12.htm
+(Date accessed: November 15, 2016).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - SWEDEN (2014)
+---------------------------------------------------------------------------
+
+The 2014 Swedish lower house election took place on September 14, 2014. The
+turnout rate among registered voters was 85.81%. Incumbent Prime Minister
+Fredrik Reinfeldt (Moderate Party) and his party lost 23 seats compared to
+the previous election in 2010, falling from 107 to 84 seats (349 total
+seats). Reinfeldt was unable to continue his coalition, comprising the
+Liberal People's Party, the Centre Party, and the Christian Democrats. The
+Social Democrats, which won the most seats (113), was led by Stefan Lofven.
+The Social Democrats formed a minority government with the Greens who had
+come in fourth, winning 25 seats. Lofven assumed office on October 2, 2014.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - SWEDEN (2014)
+
+Berg, L., & Oscarsson, H. (2015). The Swedish general election 2014.
+Electoral Studies, 38, 91-93. doi: 10.1016/j.electstud.2014.11.001
+
+Inter-Parliamentary Union (n.D.): Sweden Riksdagen (Parliament), available
+at: http://www.ipu.org/parline/reports/2303_E.htm 
+(Date accessed: November 15, 2016).
+ 
+ 
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - SWITZERLAND (2011)
+---------------------------------------------------------------------------
+
+200 seats in the National Council were at stake in the elections on October
+23, 2011, and 44 of the 46 seats in the Council of States. 3,458 candidates
+were vying for seats in the National Council. 48.5% of 5.1 million 
+registered voters turned out at the polls. The SVP/UDC remained the largest
+party in the National Council with 54 seats, down from 60. The SP/PS gained
+an additional six seats to hold a total of 46. The FDP/PRD and the CVP/PDC
+took 30 and 28 seats respectively. Run-off elections for the Council of 
+States were held in 15 cantons between November 13 - December 4. The 
+CVP/PDC came first with 13 seats, followed by the FDP/PRD and the SP/PS,
+which took 11 seats respectively.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - SWITZERLAND (2011)
+
+Mueller, S., & Dardanelli, P. (2013). The parliamentary and executive
+elections in Switzerland, 2011. Electoral Studies, 32(1), 197-201.
+doi: 10.1016/j.electstud.2012.10.004
+
+Inter-Parliamentary Union (n.D.): Switzerland Nationalrat-Conseil national-
+Consiglio nazionale (National Council), available at
+http://www.ipu.org/parline-e/reports/arc/2305_11.htm
+(Date accessed: March 23, 2017). 
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - TAIWAN (2012)
+---------------------------------------------------------------------------
+
+The Taiwanese presidential election took place on January 14, 2012.
+President Mr. Ying-jeou Ma from the Chinese National Party (KTM), who came
+into office in the previous presidential election in 2008, was re-elected
+by a majority of the voters (51.6%). Although Mr. Ma managed to become re-
+elected, he lost about 7% of the votes, compared to 2008. His major rivals,
+Ms. Ing-wen Tsai from the Democratic Progression Party (DPP) and Mr. James
+Soong from the People First Party (PFP) received 45.6% and 2.8%,
+respectively. The turnout was 74.7%. In addition to his presidential 
+success, Mr. Ma's party, the KTM, won a majority in the legislative 
+election (56.6%), held on the same day. The DPP won about 35.4%, and the 
+PFP about 2.7 %.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - TAIWAN (2012)
+
+Jacobs, A. (2012): "President of Taiwan is re-elected, a result
+that is likely to please China". New York Times, January 14, 2012
+Available at: http://www.nytimes.com/2012/01/15/world/asia/taiwan-
+presidential-election.html?_r=0
+(Date accessed: June 16, 2016). 
+
+International Institue for Democracy and Electoral Assistance (n.D.): 
+Taiwan, available at:
+http://www.idea.int/data-tools/country-view/290/40
+(Date accessed: March 23, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - THAILAND (2011)
+---------------------------------------------------------------------------
+
+At stake in the elections of July 3, 2011, were 500 seats in the House of
+Representatives (up from 480). Elections were held early as on 10 May, 
+with the King's approval, the House of Representatives was officially 
+dissolved. In all, 3,832 candidates from 42 parties contested the 
+elections. The main contenders were Prime Minister Abhisit's
+DP - the country's oldest party, which had not won a general election in
+two decades - and the PP. The latter endorsed Ms. Yingluck Shinawatra -
+former Prime Minister Thaksin's youngest sister - as its candidate for the
+premiership. The Yellow Shirts called for a boycott of the elections.
+Both the DP and the PP ran on similar platforms, promising to raise the
+minimum wage, improve public transportation and provide affordable health
+care. 65.99% of the nearly 47 million registered voters turned out at
+the polls. The preliminary results gave 265 seats to the PP, effectively
+allowing it to form a new government on its own. The DP came in second with
+159 seats. On August 5, the House of Representatives elected Ms. Yingluck 
+(PP) as the new Prime Minister, the first woman in Thailand to assume the 
+post. Ms. Yingluck formed a six-party coalition government, controlling a
+total of 300 seats.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - THAILAND (2011)
+
+Sinpeng, A., & Kuhonta, E.M. (2012). From the street to the ballot
+box: The July 2011 elections and the rise of social movements in Thailand.
+Contemporary Southeast Asia 34(3), 389-415. doi: 10.1355/cs34-3d
+
+Inter-Parliamentary Union (n.D.): Thailand Saphaphuthan Ratsadon (House of 
+Representatives), available at 
+http://www.ipu.org/parline-e/reports/arc/2311_11.htm
+(Date accessed: March 23, 2017).
+
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - TURKEY (2015)
+---------------------------------------------------------------------------
+
+The 2015 Turkish lower house election took place on June 7, 2015. The
+turnout rate among registered voters was 83.92%. The Justice and
+Development Party (AKP), led by incumbent Prime Minister Ahmet Davutoglu,
+emerged as the most successful party, achieving 40.87% of the vote
+resulting in 258 won seats (550 total). However, the AKP lost enough seats
+to lose its parliamentary majority. In the aftermath of the election, the
+AKP was unable to negotiate a government agreement with neither the second 
+strongest party, the Republican People's Party (CHP) which won 132 seats, 
+nor the Nationalist Movement Party (MHP) which came in third at 80 seats. 
+Turkeys President Recep Erdogan therefore announced new legislative
+elections on August 24, 2015. These would be held on November 1, 2015.
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - TURKEY (2015)
+
+Cop, B. (2016). The June 2015 legislative election in Turkey. Electoral
+Studies, 41, 213-216. doi: 10.1016/j.electstud.2015.10.009
+
+Inter-Parliamentary Union (n.D.): Turkey Turkiye Buyuk Millet Meclisi 
+(T.B.M.M) (Grand National Assembly of Turkey), available at:
+http://www.ipu.org/parline-e/reports/arc/2323_15_June.htm
+(Date accessed: November 15, 2016).
+ 
+
+---------------------------------------------------------------------------
+>>> ELECTION SUMMARY - UNITED STATES (2012)
+---------------------------------------------------------------------------
+
+The United States 2012 general elections were held on November 6, 2012. 
+Voters elected the President, all 435 members of the lower house (House of
+Representatives) and 33 members of the upper house (Senate). The turnout 
+rate among registered voters was 66.7%. The Democratic incumbent 
+President, Barack Obama (D), was re-elected defeating his Republican 
+challenger, former Massachussets Governor Mitt Romney. Obama secured 51.1% 
+of the popular vote and 332 electoral votes in the Electoral College (270
+needed to win). In the Congressional elections, the Democratic Party won the
+plurality of votes but the Republican Party maintained control of the House, 
+winning 234 seats to the Democrats 201. In the Senate, the Democratic Party 
+retained its majority by winning 23 out the 33 races, meaning they held
+53 of the 100 seats in the Senate after the election (in addition, two 
+independents caucus with the Democrats). President Obama was sworn in for a 
+second term as President on January 20, 2013, becoming the eighth Democrat 
+to win two consecutive terms of office. 
+
+
+<<>> SOURCES FOR FURTHER INFORMATION ON THE ELECTION - UNITED STATES (2012)
+
+Inter-Parliamentary Union (n.D.): United States Of America, House of 
+Representatives, available at: 
+http://www.ipu.org/parline-e/reports/arc/2339_12.htm
+(Date accessed: February 14, 2017).
+
+Inter-Parliamentary Union (n.D.): United States Of America, Senate, 
+available at: http://www.ipu.org/parline-e/reports/arc/2340_12.htm
+(Date accessed: February 14, 2017).
+
+Weisberg, H. F. (2015): The decline in the white vote for Barack Obama
+in 2012: Racial attitudes or the economy?. Electoral Studies, 40, 
+449-459. doi: 10.1016/j.electstud.2014.09.014
+ 
+
+//END OF FILE

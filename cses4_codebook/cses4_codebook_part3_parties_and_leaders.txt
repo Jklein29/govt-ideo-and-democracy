@@ -1,0 +1,5165 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 4 (2011-2016)
+
+                   CODEBOOK PART 3: PARTIES AND LEADERS
+
+                       FULL RELEASE - MAY 29, 2018
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 4 
+FULL RELEASE [dataset and documentation]. May 29, 2018 version. 
+doi:10.7804/cses.module4.2018-05-29
+
+These materials are based on work supported by the American National
+Science Foundation (www.nsf.gov) under grant numbers SES-0817701,
+SES-1154687, and SES-1420973, the GESIS - Leibniz Institute for the Social 
+Sciences, the University of Michigan, in-kind support of participating 
+election studies, the many organizations that sponsor planning meetings 
+and conferences, and the numerous organizations that fund national 
+election studies by CSES collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+ 
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+
+
+))) OVERVIEW OF "CODEBOOK PART 3: PARTIES AND LEADERS"
+
+
+))) HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+
+
+))) CSES NAMING OF PARTIES/COALITIONS & LEADERS CONVENTION
+
+
+))) PARTIES AND LEADER CLASSIFICATIONS FOR CSES MODULE 4 BY POLITY
+    >>> PARTIES AND LEADERS: ARGENTINA (2015)
+    >>> PARTIES AND LEADERS: AUSTRALIA (2013)
+    >>> PARTIES AND LEADERS: AUSTRIA (2013)
+    >>> PARTIES AND LEADERS: BRAZIL (2014)
+    >>> PARTIES AND LEADERS: BULGARIA (2014)
+    >>> PARTIES AND LEADERS: CANADA (2011)
+    >>> PARTIES AND LEADERS: CANADA (2015)
+    >>> PARTIES AND LEADERS: CZECH REPUBLIC (2013)
+    >>> PARTIES AND LEADERS: FINLAND (2015)
+    >>> PARTIES AND LEADERS: FRANCE (2012)
+    >>> PARTIES AND LEADERS: GERMANY (2013)
+    >>> PARTIES AND LEADERS: GREAT BRITAIN (2015)
+    >>> PARTIES AND LEADERS: GREECE (2012)
+    >>> PARTIES AND LEADERS: GREECE (2015)
+    >>> PARTIES AND LEADERS: HONG KONG (2012)
+    >>> PARTIES AND LEADERS: ICELAND (2013)
+    >>> PARTIES AND LEADERS: IRELAND (2011)
+    >>> PARTIES AND LEADERS: ISRAEL (2013)
+    >>> PARTIES AND LEADERS: JAPAN (2013)
+    >>> PARTIES AND LEADERS: KENYA (2013)
+    >>> PARTIES AND LEADERS: LATVIA (2011)
+    >>> PARTIES AND LEADERS: LATVIA (2014)
+    >>> PARTIES AND LEADERS: MEXICO (2012)
+    >>> PARTIES AND LEADERS: MEXICO (2015)
+    >>> PARTIES AND LEADERS: MONTENEGRO (2012)
+    >>> PARTIES AND LEADERS: NEW ZEALAND (2011)
+    >>> PARTIES AND LEADERS: NEW ZEALAND (2014)
+    >>> PARTIES AND LEADERS: NORWAY (2013)
+    >>> PARTIES AND LEADERS: PERU (2016)
+    >>> PARTIES AND LEADERS: PHILIPPINES (2016)
+    >>> PARTIES AND LEADERS: POLAND (2011)
+    >>> PARTIES AND LEADERS: PORTUGAL (2015)
+    >>> PARTIES AND LEADERS: ROMANIA (2012)
+    >>> PARTIES AND LEADERS: ROMANIA (2014)
+    >>> PARTIES AND LEADERS: SERBIA (2012)
+    >>> PARTIES AND LEADERS: SLOVAKIA (2016)
+    >>> PARTIES AND LEADERS: SLOVENIA (2011)
+    >>> PARTIES AND LEADERS: SOUTH AFRICA (2014)
+    >>> PARTIES AND LEADERS: SOUTH KOREA (2012)
+    >>> PARTIES AND LEADERS: SWEDEN (2014)
+    >>> PARTIES AND LEADERS: SWITZERLAND (2011)
+    >>> PARTIES AND LEADERS: TAIWAN (2012)
+    >>> PARTIES AND LEADERS: THAILAND (2011)
+    >>> PARTIES AND LEADERS: TURKEY (2015)
+    >>> PARTIES AND LEADERS: UNITED STATES (2012)
+
+
+))) PARTY IDENTIFIERS FROM OTHER COMPARATIVE STUDIES 
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: AUSTRALIA (2013)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: AUSTRIA (2013)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: BULGARIA (2014)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: CANADA (2011, 2015)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: CZECH REPUBLIC (2013)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: FINLAND (2015)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: FRANCE (2012)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: GERMANY (2013)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: GREAT BRITAIN (2015)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: GREECE (2012, 2015)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: ICELAND (2013)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: IRELAND (2011)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: ISRAEL (2013)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: JAPAN (2013)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: LATVIA (2011, 2014)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: MEXICO (2012, 2015)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: MONTENEGRO (2012)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: NEW ZEALAND (2011, 2014)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: NORWAY (2013)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: POLAND (2011)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: PORTUGAL (2015)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: ROMANIA (2012, 2014)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SERBIA (2012)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SLOVAKIA (2016)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SLOVENIA (2011)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SOUTH AFRICA (2014)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SOUTH KOREA (2012)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SWEDEN (2014)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SWITZERLAND (2011)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: TURKEY (2015)
+    >>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: UNITED STATES (2012)
+
+
+===========================================================================
+))) IMPORTANT NOTE REGARDING FULL RELEASE
+===========================================================================
+
+This dataset and all accompanying documentation is the "Full Release"
+of CSES Module 4 (2011-2016).
+
+Users of the Final Release may wish to monitor the errata for
+CSES Module 4 on the CSES website, to check for known errors which may 
+impact their analyses. To view errata for CSES Module 4, go to the Data
+Center on the CSES website, navigate to the CSES Module 4 download page, 
+and click on the Errata link in the gray box to the right of the page.
+
+
+===========================================================================
+))) OVERVIEW OF "CODEBOOK PART 3: PARTIES AND LEADERS"
+===========================================================================
+
+Part 3 of the CSES Codebook identifies the parties/coalitions participating  
+during a polity's national election and/or those participating in the 
+polity's previous national election. It also details the leaders 
+of parties/coalitions and/or presidential candidates (where applicable) 
+for the most important parties/coalitions.
+Part 3 also lists the party identifiers in other comparative projects, 
+namely the Manifesto Research on Political Representation (MARPOR, formerly
+the Comparative Manifesto Project) and the Parliament and Government 
+(ParlGov) database. This will allow easy data bridging between CSES and 
+these other projects. 
+
+
+===========================================================================
+))) HOW TO NAVIGATE THE CSES MODULE 4 CODEBOOK
+===========================================================================
+
+In the CSES Module 4 dataset, all variables begin with the letter "D" 
+(D being the fourth letter of the English alphabet and thus signifying 
+Module 4).
+
+The CSES codebook is especially extensive and users are advised that the 
+best way to navigate it is electronically. It is a .txt format which 
+allows it to be accessed via a variety of programmes. 
+
+The CSES Codebook can be navigated quickly in the electronic files, with 
+the following commands allowing for quick searching:
+
+))) = Section Header 
+
+>>> = Sub-section Header 1
+
+<<>> = Sub-section Header 2 
+
++++ = Tables
+
+VARIABLES NOTES = Notes for particular variables 
+
+ELECTION STUDY NOTES = Notes for a particular election study  
+
+For further details on the CSES Module 4 documentation, users are advised
+to consult part 1 of the CSES Codebook. 
+
+
+===========================================================================
+))) CSES NAMING OF PARTIES/COALITIONS & LEADERS CONVENTION
+===========================================================================
+
+CSES codes parties/coalitions in its dataset numerically and 
+alphabetically. Below we provide explanations of both of these coding 
+schemes. The details of each party/leader classification are available in 
+Part 3 of the CSES Codebook. 
+
+
+<<>> CSES NUMERICAL PARTY/COALITION CODING 
+
+All parties/coalitions or presidential candidates, where applicable, 
+participating in the election or the previous election receive a 
+numerical code. These codes are used to Identify the following: 
+   - who a respondent's voted for in the current election (variable D3006). 
+   - who the respondent voted for in the previous election (variable D3008).
+   - the respondent's party identification (variable D3018).
+   - the extent of institutional contact the respondent received from a 
+     party/coalition during the election campaign (variable D3021).
+
+The numeric coding is also used to identify macro-level information about
+the parties/coalitions, namely:  
+   - which party/coalition held the presidency before and after the 
+     elections (variable D5007 and D5011). 
+   - which party/coalition held the prime ministership before and after 
+     the elections (variable D5008 and D5012). 
+
+Where possible, the numeric codes assigned to parties/coalitions are 
+consistent for the current and previous election. However, for the previous
+election (variable D3008) different codes might have been allocated for the
+same parties (for example a party in the current election might be standing
+as party of a coalition but previously stood alone). Users are advised to
+consult the election study notes for variable D3008 for each country where
+details of deviations are noted. 
+
+
+<<>> CSES ALPHABETICAL PARTY/COALITION CODING
+
+Parties A through F are the six most popular parties/coalitions, ordered in
+descending order of their share of the popular vote in the parliamentary 
+election (unless otherwise stated). Thus Party A is the party/coalition 
+that received the most votes in the election, party B the second most votes
+etc...         
+
+Parties/coalitions who achieve at least 1% of the vote nationally are 
+eligible for an alphabetical A-F assignment. In countries with multiple 
+electoral tiers and where one vote is cast, parties are ordered according
+to their vote share in tier 1 (the lowest tier), unless otherwise stated. 
+In countries where voters have two votes (i.e.: a constituency and a list  
+vote) simultaneously, for example Germany, parties are ordered by the 
+national share of the party list vote (tier 2).
+
+Parties G, H, and I are supplemental parties. They may, but do not have to,
+accord with how parties A-F are ordered, that is ordered on the popular 
+share of the vote in a country. More often, they are codified in no 
+particular order. These parties are voluntarily provided by each country's
+election study and often reflect important or notable parties within a 
+country. They may also include data about individual parties within a 
+coalition, where data about the coalition and the individual parties, 
+or some of these parties that make it up, are provided.
+These codes are used to identify the following in the micro component of 
+the CSES dataset: 
+
+   - Respondent's likeability of the party/coalition (variable D3011). 
+   - Respondent's left-right placement of the party/coalition 
+     (variable D3013).
+
+These alphabetical codes are used to identify distinct and macro level 
+information about these said parties/coalitions, namely:
+
+   - The said party/coalition's vote share in the respondent's electoral 
+     district (variable D4003). 
+   - the said party/coalition's share of the vote in the election 
+     (variables D5001, D5002, & D5005).
+   - the said party/coalition's share of the seats in the election 
+     (variables D5003 & D5004).
+   - the said party/coalition's share of cabinet portfolios 
+     before and after the election (variable D5009 & D5013).
+   - expert judgments by the national collaborators of the 
+     said party/coalition's ideological family (variable D5016).
+   - expert judgments by the national collaborators of the said party/
+     coalition's left-right placement (variable D5017).
+
+
+<<>> CSES ALPHABETICAL LEADER CODING
+
+Leaders A through F tend to be the leaders of the six most popular 
+parties/coalitions or the presidential candidates of these parties. They 
+correspond to parties A-F (i.e.: Leader A will be related to Party A in 
+some way, Leader B will be related to Party B, etc...)
+
+Leaders G, H, and I are supplemental leaders. They may be related to 
+parties G, H, I but they do not have to be. These leaders are voluntarily
+provided by each country's election study and often include data about
+additional personalities of interest. For example, in a parliamentary 
+system, data about a President might be provided, even if the Presidency 
+is not being contested. On many occasions, slots Leader G, H, and I will 
+include additional data for parties/coalitions that have multiple leaders. 
+These codes are used to identify the following in the micro and macro 
+components of the CSES dataset: 
+
+   - Respondent's likeability of the leader/personality in question 
+     (variable D3012). 
+
+
+===========================================================================
+))) PARTIES AND LEADER CLASSIFICATIONS FOR CSES MODULE 4 BY POLITY
+===========================================================================
+
+All parties/coalitions or presidential candidates, where applicable, 
+participating in the election or the previous election receive a 
+numerical code. Alphabetical codes are assigned to select parties and 
+leaders (see above description on how parties/coalitions and leaders are
+coded by the CSES). 
+
+The party/coalition and leaders are listed in numerical order. CSES provides
+the name of the party/coalition in the original language, the English 
+version of the party/coalition name, and the party abbreviation, where
+avaialble. Leaders are only listed for parties where we have accompanying 
+leader likeability data available. Polities are listed in alphabetical 
+order. The party/coalition and leaders are listed in numerical order. 
+
+Users are advised to pay particular attention to ELECTION STUDY NOTES 
+listed below each polity's party and leader list for additional information
+regarding data availability and deviations. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ARGENTINA (2015)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Frente para la Victoria (FPV)
+              Front for the Victory
+    LEADER A  Daniel Scioli
+
+
+02.  PARTY B  Cambiemos (Cam) - SEE ELECTION STUDY NOTE
+              Let's Change 
+    LEADER B  Mauricio Macri
+
+
+03.  PARTY C  Alianza Unidos por una Nueva Alternative (UNA)
+              United for a New Alternative              
+    LEADER C  Sergio Massa 
+
+
+04.  PARTY D  Frente de Izquierda de los Trabajadores (FIT)
+              Workers' Left Front              
+    LEADER D  Nicolas del Cano
+
+
+05.  PARTY E  Progresistas (Pro)
+              Progressives              
+    LEADER E  Margarita Stolbizer
+
+
+06.  PARTY F  Alianza Compromiso Federal (ACF)
+              Federal Commitment              
+    LEADER F  Adolfo Rodríguez Saá
+
+
+07.  PARTY G  Propuesta Republicana (PRO) - SEE ELECTION STUDY NOTE              
+              Republican Proposal 
+
+
+08.  PARTY H  Union Civica Radical (UCR) - SEE ELECTION STUDY NOTE
+              Radical Civic Union 
+
+
+09.  PARTY I  Party Justicialista (PJ, Peronismo)
+              Justicialist Party (Peronists)
+
+
+         | ELECTION STUDY NOTES - ARGENTINA (2015): PARTIES AND LEADERS
+         |
+         | For vote choice variable D3006_LH_PL, data has been coded to
+         | indicate the coalition a respondent voted for (codes 1 to 6). 
+         | Some respondents had initially indicated the individual party 
+         | they voted for. These answers were recoded into the appropriate 
+         | coalition code.
+         | 
+         | The Union for Cordoba was the sixth most popular party regarding
+         | national vote share in the Lower House (Chamber of Deputies) 
+         | elections. However, it is not listed in our party table as it 
+         | stood for election only in Cordoba and no further data was 
+         | collected. 
+         |
+         | PARTY A (Front for Victory, FPV) formed an electoral alliance  
+         | with PARTY I (the Peronists). For D5001_, D5002_, D5003_ and 
+         | D5004_, results for Party A include the results of party I, as 
+         | no information was available for the constituent parts of the
+         | alliance.                   
+         |
+         | PARTY B (Let's Change, Cambiemos) formed an electoral alliance  
+         | with PARTY G (Republican Proposal, PRO) and party H (Radical 
+         | Civic Union, UCR). For D5001_, D5002_, D5003_ and D5004_, results
+         | for Party B include the results of parties G and H, as 
+         | no information was available for the constituent parts of the
+         | alliance.
+         |
+         | Data is unavailable for the coalition Let's Change (Cambiemos) 
+         | for variables D3011_B, D3013_B and D3018_3. However, data for 
+         | some of its constituent parties can be found in D3011_G and 
+         | D3013_G (Republican Proposal) as well as in D3011_H and D3013_H 
+         | (Radical Civic Union). In variable D3018_3, data on the same 
+         | parties can be found under code 7 (Republican Proposal) and 
+         | code 8 (Radical Civic Union). Furthermore, data is 
+         | unavailable for PARTY D (Workers' Left Front, FIT) for 
+         | variables D3011_D and D3013_D and for PARTY F (Federal 
+         | Commitment, ACF) for variables D3011_F and D3013_F. 
+         |
+         | For additional/deviating numerical party codes referring to the
+         | previous vote choice variable D3008_PR_1 for ARGENTINA (2015), 
+         | please see election study note for ARGENTINA (2015) for variable
+         | D3008_PR_1 in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: AUSTRALIA (2013)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Liberal Party (LPNP) - SEE ELECTION STUDY NOTE                             
+    LEADER A  Tony Abbott
+
+
+02.  PARTY B  Australian Labor Party (ALP)                       
+    LEADER B  Kevin Rudd
+    LEADER G  Julia Gillard - SEE ELECTION STUDY NOTE
+
+
+03.  PARTY C  Australian Greens (AG)                        
+    LEADER C  Christine Milne
+
+
+04.  PARTY D  Palmer United Party (PUP)                        
+    LEADER D  Clive Palmer 
+
+
+05.  PARTY E  National (Country) Party (NP) - SEE ELECTION STUDY NOTE                 
+    LEADER E  Warren Truss
+
+
+06.           Australian Democrats (DEM)
+
+
+07.           Christian Democratic Party (CDP)
+
+
+08.           Citizens Electoral Council (CEC)
+
+
+09.           Family First Party (FFP)
+
+
+10.           One Nation (ONP)
+
+
+11.           Australian Shooters Party (ASP)
+
+
+12.           Fishing Party (TFP)
+
+
+13.           Katter's Australia Party (KAP)
+
+
+14.           Liberal Democratic Party (LDP)
+
+
+15.           Motoring Enthusiasts Party (AMEP)
+
+
+16.           The Australian Sex Party (ASXP)
+
+
+17.           The Wikileaks Party (WKP)
+ 
+
+18.           Australian Christians (AUC)
+
+
+         | ELECTION STUDY NOTES - AUSTRALIA (2013): PARTIES AND LEADERS
+         |
+         | PARTY A (The Liberal Party, LPNP) combines the results for
+         | Liberal National Party (who contested only in Queensland
+         | state) and the Liberal Party (who contested in all other states)
+         |
+         | PARTY E (National Party, NP) combines the results for the 
+         | Nationals and the Country Liberals, as the latter only contested 
+         | in the Northern Territory.
+         |
+         | LEADER G (Julia Gillard) was the outgoing Prime Minister 
+         | and was leader of the Australian Labor Party (ALP) until June 
+         | 26, 2013, when she was replaced by LEADER B (Kevin Rudd) for 
+         | the election campaign.
+         | 
+         | Data is unavailable for PARTY D (Palmer United Party, PUP)  
+         | for variables D3011_D, D3012_D, and D3013_D.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: AUSTRIA (2013)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Sozialdemokratische Partei Oesterreichs (SPO)
+              Social Democratic Party of Austria 
+    LEADER A  Werner Faymann
+
+
+02.  PARTY B  Oesterreichische Volkspartei (OVP)
+              Austrian People's Party
+    LEADER B  Michael Spindelegger
+
+
+03.  PARTY C  Freiheitliche Partei Oesterreichs (FPO)       
+              Freedom Party of Austria
+    LEADER C  Heinz-Christian Strache
+
+
+04.  PARTY D  Gruene (GRUENE)                  
+              Green Party
+    LEADER D  Eva Glawischnig-Piesczek
+
+
+05.  PARTY G  Team Stronach fuer Oesterreich (TEAM STRONACH)
+              Team Stronach for Austria
+    LEADER G  Frank Stronach
+
+
+06.  PARTY F  NEOS - Das Neue Oesterreich und Liberales Forum (NEOS) -
+              SEE ELECTION STUDY NOTE  
+              The New Austria                      
+    LEADER F  Matthias Strolz
+
+
+07.  PARTY E  Buendnis Zukunft Oesterreich (BZO)         
+              Alliance for the Future of Austria
+    LEADER E  Josef Bucher
+
+
+08.  PARTY H  Kommunistische Partei Oesterreichs (KPO) - SEE ELECTION STUDY 
+              NOTE
+              Communist Party of Austria
+    LEADER H  SEE ELECTION STUDY NOTE
+
+
+09.  PARTY I  Piratenpartei Osterreichs (PIRATEN) - SEE ELECTION STUDY NOTE
+              Pirate Party
+    LEADER I  SEE ELECTION STUDY NOTE
+
+
+10.           Buergerforum Oesterreich (FRITZ)
+              Citizens' Forum Austria
+
+
+11.           Liberales Forum (LiF)
+              Liberal Forum
+
+
+12.           Die Freiheitlichen in Kaernten (FPK)
+              Freedom Party in Carinthia
+
+
+         | ELECTION STUDY NOTES - AUSTRIA (2013): PARTIES AND LEADERS
+         |
+         | PARTY F (The New Austria, NEOS) was an electoral alliance 
+         | made up of The New Austria (NEOS), the Liberal Forum (LiF), 
+         | and the Young Liberals (Julis). 
+         |
+         | No data available for PARTY H (Kommunistische Partei Oester-
+         | reich, KPO) and PARTY I (Piratenpartei Oesterreichs - PPO) 
+         | for variables D3011, D3012 and D3013. However, data for these 
+         | parties is available for the district level variables 
+         | (D4001-D4005).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: BRAZIL (2014)
+---------------------------------------------------------------------------
+
+01.  PARTY C  Partido do Movimento Democratico (PMDB) - SEE ELECTION STUDY 
+              NOTE         
+              Brazilian Democratic Movement Party
+    LEADER C  Michel Temer
+
+
+02.           Partido Trabalhista Brasileiro (PTB) -  SEE ELECTION STUDY 
+              NOTE       
+              Brazilian Labour Party
+
+
+03.           Partido Democratico Trbalhista (PDT) - SEE ELECTION STUDY 
+              NOTE       
+              Democratic Labour Party 
+
+
+04.  PARTY A  Partido dos Trabalhadores (PT) - SEE ELECTION STUDY NOTE 
+              Workers' Party
+    LEADER A  Dilma Roussef - SEE ELECTION STUDY NOTE
+
+
+05.  PARTY I  Democratas (DEM) (ex-PFL) - SEE ELECTION STUDY NOTE
+              Democrats
+    LEADER I  Ronaldo Caiado
+
+
+06.           Partido Comunista do Brasil (PC do B) - SEE ELECTION STUDY 
+              NOTE
+              Communist Party of Brazil
+
+
+07.  PARTY E  Partido Socialista Brasileiro (PSB) - SEE ELECTION STUDY NOTE
+              Brazilian Socialist Party
+    LEADER E  Maria Osmarina Marina Silva Vaz de Lima* 
+
+
+08.  PARTY B  Partido da Social Democracia Brasileira (PSDB) - SEE
+              ELECTION STUDY NOTE    
+              Brazilian Social Democratic Party
+    LEADER B  Aecio Neves da Cunha (SEE ELECTION STUDY NOTE)
+
+
+09.           Partido Trabalhista Cristao (PTC) - SEE ELECTION STUDY NOTE
+              Christian Labour Party
+
+
+10.           Partido Social Cristao (PSC)           
+              Social Christian Party
+
+
+11.           Partido da Mobilizacao Nacional (PMN) - SEE ELECTION STUDY
+              NOTE
+              Party of National Mobilization
+
+
+12.  PARTY H  Partido Republicano Progressista (PRP) - SEE ELECTION STUDY 
+              NOTE
+              Progressive Republican Party
+    LEADER H  SEE ELECTION STUDY NOTE
+
+
+13.           Partido Popular Socialista (PPS) - SEE ELECTION STUDY NOTE
+              Socialist Popular Party
+
+
+14.           Partido Verde (PV)      
+              Green Party  
+
+
+15.           Partido Trabalhista do Brasil (PT do B) - SEE ELECTION STUDY
+              NOTE
+              Labour Party of Brazil 
+
+
+16.  PARTY D  Partido Progressista (PP) - SEE ELECTION STUDY NOTE
+              Progressive Party 
+    LEADER D  SEE ELECTION STUDY NOTE
+
+
+17.           Partido Socialista dos Trabalhadores  Unificado (PSTU)
+              Unified Socialist Worker`s Party
+
+
+18.           Partido Comunista Brasileiro (PCB)
+              Brazilian Communist Party 
+
+
+19.           Partido Renovador Trabalhista Brasileiro (PRTB)
+              Brazilian Labour Renewal Party 
+
+
+20.           Partido Humanista da Solidariedade (PHS) - SEE ELECTION STUDY
+              NOTE
+              Humanist Party of Solidarity
+
+
+21.           Partido Social Democrata Cristao (PSDC)
+              Christian Social Democratic Party
+
+
+22.           Partido da Causa Oper ria (PCO)
+              Workers' Cause Party
+
+
+23.           Partido Trabalhista Nacional (PTN) - SEE ELECTION STUDY NOTE
+              National Labour Party
+
+
+24.           Partido Social Liberal (PSL) - SEE ELECTION STUDY NOTE
+              Social Liberal Party
+
+
+25.           Partido Republicano Brasileiro (PRB) - SEE ELECTION STUDY 
+              NOTE
+              Brazilian Republican Party
+
+
+26.           Partido Socialismo e Liberdade (PSOL)
+              Socialism and Freedom Party
+
+
+27.  PARTY G  Partido da Republica (PR) - SEE ELECTION STUDY NOTE 
+              Republic Party 
+    LEADER G  Garotinho
+
+
+28.  PARTY F  Partido Social Democratico (PSD) - SEE ELECTION STUDY 
+              NOTE
+              Social Democratic Party
+    LEADER F  Gilberto Kassab
+
+
+29.           Partido Republicano da Ordem Social (PROS) - SEE ELECTION
+              STUDY NOTE
+              Republican Party of the Social Order
+
+
+30.           Solidariedade (SD) - SEE ELECTION STUDY NOTE 
+              Solidarity
+
+
+31.           Partido Ecologico Nacional (PEN) - SEE ELECTION STUDY NOTE 
+              National Ecologic Party
+
+
+32.           Partido Patria Livre (PPL) - SEE ELECTION STUDY NOTE
+              Free Homeland Party
+
+
+         | ELECTION STUDY NOTES - BRAZIL (2014): PARTIES AND LEADERS
+         |
+         | LEADER A (Dilma Rousseff) and LEADER B (Aecio Neves da Cunha)
+         | were the presidential candidates of their respective party.
+         | 
+         | No data available for PARTY D (Progressive Party, PP)
+         | and PARTY H (Progressive Republican Party, PRP) for 
+         | variables D3011, D3012 and D3013. However, data for these parties
+         | is available for the district level variables (D4001-D4005).
+         |
+         | Three alliances fought in the 2014 Brazil elections (see also
+         | election study note for variable D5032 in Variable Section, Part
+         | 2, of the CSES Module 4 Codebook). ALLIANCE 1, With the Strength  
+         | of the People, was made up of the Workers' Party (PT), the
+         | Brazilian Democratic Movement Party (PMDB), the Democratic 
+         | Labour  Party (PDT), the Communist Party of Brazil (PC do B), 
+         | the  Progressive Party (PP), the Republic Party (PR), the Social 
+         | Democratic Party (PSD), the Republican Party of the Social 
+         | Order (PROS), and the Brazilian Republican Party (PRB).
+         |
+         | ALLIANCE 2, Opposition Coalition Change Brazil, was made up
+         | of the Brazilian Social Democracy Party (PSDB), the Brazilian 
+         | Labour Party (PTB), the Christian Labour Party (PTC), the Party
+         | of National Mobilization (PMN), the Labour Party of Brazil 
+         | (PT do B), the National Labour Party (PTN), Solidarity (SD),  
+         | Democrats (DEM), and the National Ecologic Party (PEN).
+         |
+         | ALLIANCE 3, Opposition Coalition United for Brazil, was made up
+         | the Social Democratic Party (PSB), the Progressive Republican 
+         | Party (PRP), the Socialist Popular Party (PPS), the Social 
+         | Liberal Party (PSL), the Free Homeland Party (PPL), and the 
+         | Humanist Party of Solidarity (PHS). 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: BULGARIA (2014)
+---------------------------------------------------------------------------
+
+01.  PARTY I  Dvizhenie 21 (D21)
+              Movement 21 (Tatyana Doncheva's movement)
+    LEADER I  SEE ELECTION STUDY NOTE
+
+
+02.           Balgarska Sotsialdemokraticheska Partiya (BSDP)
+              Bulgarian Social Democracy
+
+
+03.           Novoto Vreme (NV)
+              PP New Time
+
+
+04.           United Bulgaria (OB) (Iliana Raeva's party)
+
+
+05.           Social Democratic Party (SDP)
+
+
+06.  PARTY D  Reformatorski Blok (RB) - SEE ELECTION STUDY NOTE
+              Reformist Bloc  
+    LEADER D  Radan Kanev
+
+
+07.  PARTY A  Grazhdani za Evropeysko Razvitie na Balgariya (GERB)
+              Citizens for European Development of Bulgaria 
+    LEADER A  Boyko Borisov
+
+
+08.  PARTY G  Ataka
+              Attack
+    LEADER G  Volen Siderov
+
+
+09.           Natsionalno Dvizhenie Za Stabilnost i Vazhod (NDS)
+              National Movement for Stability and Progress
+              
+
+10.  PARTY F  Balgarija bes Zensura (BBZ)
+              Bulgaria without Censorship
+    LEADER F  Nikolay Barekov
+
+
+11.  PARTY H  Alternativa za Balgarsko Vazrazhdane (ABV)
+              Alternative for Bulgarian Revival    
+    LEADER H  Georgi Parvanov
+
+
+12.           Left and Green Parties
+
+
+13.           New Alternative (Nikolay Tzonve's party)
+
+
+14.  PARTY C  Dvizhenie za Prava i Svobodi (DPS)
+              Movement for Rights and Freedoms
+    LEADER C  Lutfi Mestan
+
+
+15.           New Force (NF)
+
+
+16.  PARTY B  Koalitsiya za Balgariya | Demokratichna Levitsa (KzB|DL) - 
+              SEE ELECTION STUDY NOTE
+              BSP Left Bulgaria - Coalition for Bulgaria       
+    LEADER B  Mihail Mikov
+
+
+17.           Zelena Partiya (ZP)
+              Greens
+
+
+18.  PARTY E  Patriotic Front  (NFSB And IMRO) - SEE ELECTION STUDY NOTE
+    LEADER E  Valeri Simeonov
+
+
+19.           Republic BG
+
+
+         | ELECTION STUDY NOTES - BULGARIA (2014): PARTIES AND LEADERS
+         |
+         | PARTY B (BSP Left Bulgaria - Coalition for Bulgaria, Kzb|DL)
+         | was an electoral alliance of the Bulgarian Socialist Party 
+         | (BSP), Party of Bulgarian Social Democrats (PBSD), Agrarian
+         | Union "Aleksandar Stamboliyski" (ZS-AS), Communist Party of 
+         | Bulgaria (KPB), Movement for Social Humanism (DSH), Civil 
+         | Union "Roma", New Dawn (Nova Zora), European Security and 
+         | Integration, Socialdemokrats, United Social Democracy (USD),
+         | Union of Communists in Bulgaria (SKB), Ecoglasnost, Party of 
+         | Bulgarian Communists.   
+         |
+         | PARTY D (Reformist Bloc, RB) was an electoral alliance of the 
+         | Movement Bulgaria for Citizens (DBG), the Democrats for a 
+         | strong Bulgaria (DSB), the Union of Democratic Forces (SDS), the
+         | Freedom and Dignity People's Party (NPSD), and the Bulgarian
+         | Agrarian National Union (BZNS).
+         |
+         | PARTY E (Patriotic Front, NFSB And IMRO) was an electoral 
+         | alliance of the National Front for Salvation of Bulgaria 
+         | (NFSB) and the Bulgarian National Movement (VMRO).
+         | 
+         | Data is unavailable for PARTY I (Movement 21, D21) for 
+         | variables D3011_I, D3012_I and D3013_I.
+         |
+         | For additional numerical party codes referring to the previous
+         | vote choice variable D3008_LH_PL for BULGARIA (2014), please 
+         | see election study note for BULGARIA (2014) for variable 
+         | D3008_LH_PL in Part 2 of the CSES Codebook.  
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: CANADA (2011)
+---------------------------------------------------------------------------
+
+01. PARTY A  Conservative Party (Con)
+   LEADER A  Stephen Harper
+
+
+02. PARTY B  New Democratic Party (NDP)
+   LEADER B  Jack Layton
+
+
+03. PARTY C  Liberal Party (Lib)
+   LEADER C  Michael Ignatieff
+
+
+04. PARTY D  Bloc Quebecois (BQ) - SEE ELECTION STUDY NOTE
+   LEADER D  Gilles Duceppe
+
+
+05. PARTY E  Green Party (GP)
+   LEADER E  Elizabeth May
+
+
+         | ELECTION STUDY NOTES - CANADA (2011): PARTIES AND LEADERS
+         |
+         | PARTY D (Bloc Quebecois - BQ) only contests elections in the 
+         | province of Quebec. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: CANADA (2015)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Liberal Party (Lib)                     
+    LEADER A  Justin Trudeau
+
+           
+02.  PARTY B  Conservative Party (Con)                     
+    LEADER B  Stephen Harper
+
+  
+03.  PARTY C  New Democratic Party (NDP)                     
+    LEADER C  Thomas Mulcair
+
+
+04.  PARTY D  Bloc Quebecois (BQ) - SEE ELECTION STUDY NOTE                    
+    LEADER D  Gilles Duceppe
+
+
+05.  PARTY E  Green Party (GP)                     
+    LEADER E  Elizabeth May
+
+
+06.           Libertarian Party of Canada (LPC)
+
+
+07.           Christian Heritage Party (CHP)
+
+
+         | ELECTION STUDY NOTES - CANADA (2015): PARTIES AND LEADERS
+         |
+         | PARTY D (Bloc Quebecois - BQ) only contests elections in the
+         | province of Quebec.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: CZECH REPUBLIC (2013)
+---------------------------------------------------------------------------    
+
+01.  PARTY A  Ceska Strana Socialne Demokraticka (CSSD)         
+              Czech Social Democratic Party
+    LEADER A  Bohuslav Sobotka
+
+
+02.  PARTY B  Akce Nespokojenych Obcanu 2011 (ANO 2011)       
+              Action of Dissatisfied Citizens
+    LEADER B  Andrej Babis
+
+
+03.  PARTY C  Komunisticka Strana Cech a Moravy (KSCM)   
+              Communist Party of Bohemia and Moravia
+    LEADER C  Vojtech Filip
+
+
+04.  PARTY D  Tradice Odpovednost Prosperita 09 (TOP 09)        
+              Tradition, Responsibility, Prosperity 09
+    LEADER D  Karel Schwarzenberg
+
+
+05.  PARTY E  Obcanska Demokraticka Strana (ODS)                
+              Civic Democratic Party
+    LEADER E  Miroslava Nemcova
+
+
+06.  PARTY F  Usvit Prime Demokracie Tomia Okamury (Usvit)        
+              Dawn of Direct Democracy of Tomio Okamura         
+    LEADER F  Tomio Okamura
+
+
+07.  PARTY G  Krestanska a Demokraticka Unie-Ceskoslovenska Strana Lidova 
+              (KDU-CSL)
+              Christian and Democratic Union-Czech People's Party 
+    LEADER G  Pavel Belobradek
+
+
+08.  PARTY H  Strana Zelenych (SZ)
+              Party of Greens
+    LEADER H  SEE ELECTION STUDY NOTE
+
+
+09.  PARTY I  Ceska Piratska Strana (Pirati)
+              Czech Pirate Party       
+    LEADER I  SEE ELECTION STUDY NOTE
+
+
+10.           Strana Svobodnych Obcanu (SVOBODNI)
+              Party of Free Citizens
+
+
+11.           Hlavu Vzhuru - Volebni Blok (HV)
+              Cheer Up - Voting Bloc
+
+
+12.           Romska Demokraticka Socialni Strana (RDS)
+              Roma Democratic Social Party
+
+
+13.           Klub Angazovanych Nestraniku (KAN)
+              Club of Committed Non-Party Members
+
+
+14.           Politicke hnuti Zmena (ZMENA)
+              Political Change Movement
+
+
+15.           Strana Soukromniku Ceske Republiky (Soukromnici, SsCR)
+              Freeholders Party of the Czech Republic
+
+
+16.           Volte Pravy Blok www.cibulka.net (CIBULKA)
+              Vote for the Right Bloc
+
+
+17.           Ceska Suverenita (SUVERENITA)
+              Czech Sovereignty
+
+
+18.           Aktiv Nezavislych Obcanu (ANEO)
+              Active Independent Citizens
+
+
+19.           Strana Prav Obcanu - Zemanovci (SPOZ)
+              Party of Civic Rights - Zeman's people 
+
+
+20.           Obcane Ceske Republiky (OBCANE) 
+              Citizens of the Czech Republic
+
+
+21.           Delnicka Strana Socialni Spravedlnosti (DSSS)
+              Workers' Party of Social Justice
+
+
+23.           Narodni Socialiste - Levice 21. Stoleti, NS-LEV 21 (LEV 21)
+              National Socialists - Left of the 21st century
+
+
+24.           Koruna Ceska (monarchisticka strana Cech, Moravy a Slezska) 
+              (KORUNA)
+              The Crown of Czechs (monarchist party of Bohemia, Moravia 
+              and Silesia)
+
+
+         | ELECTION STUDY NOTES - CZECH REPUBLIC (2013): PARTIES AND 
+         | LEADERS
+         |
+         | No leader likeability measures available for PARTY H  (Party
+         | of Greens, SZ) and PARTY I (Czech Pirate Party, Pirati). 
+         |
+         | No data available for PARTY H (Party of Greens, SZ) and PARTY 
+         | I (Czech Pirate Party, Pirati) for variables D3011, D3012 and
+         | D3013. 
+         |
+         | For additional numerical party codes referring to the previous
+         | vote choice variable D3008_LH_PL for CZECH REPUBLIC (2013), 
+         | please see election study note for CZECH REPUBLIC (2013) for
+         | variable D3008_LH_PL in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: FINLAND (2015)
+---------------------------------------------------------------------------
+
+01.  PARTY  A  Suomen Keskusta (KESK)                               
+               Center Party of Finland
+     LEADER A  Juha Sipilae
+
+
+02.  PARTY  B  Kansallinen Kokoomus (KOK) - SEE ELECTION STUDY NOTE              
+               National Coalition Party
+     LEADER B  Alexander Stubb
+
+
+03.  PARTY  C  Perussuomalaiset (PS) - SEE ELECTIONS STUDY NOTE                              
+               The Finns Party  
+     LEADER C  Timo Soni
+
+
+04.  PARTY  D  Suomen Sosialidemokraattinen Puolue (SDP)        
+               Social Democratic Party of Finland  
+     LEADER D  Antti Rinne
+
+
+05.  PARTY  E  Vihreae liitto (VIHR)                         
+               Green League  
+     LEADER E  Ville Niinistoe
+
+
+06.  PARTY  F  Vasemmistoliitto (VAS)                       
+               Left Alliance 
+     LEADER F  Paavo Arhinmaeki
+
+
+07.  PARTY  G  Svenska folkpartiet i Finland (RKP) - SEE ELECTION 
+               STUDY NOTE       
+               Swedish People's Party in Finland
+     LEADER G  Carl Haglund
+
+
+08.  PARTY  H  Kristillisdemokraatit (KD) - SEE ELECTION STUDY NOTE        
+               Christian Democrats in Finland  
+     LEADER H  Paeivi Raesaenen
+
+
+09.            Piraattipuolue (PP)
+               Pirate Party
+
+
+10.            Itsenaeisyyspuolue - Sjaelvstaendighetspartiet (IP)
+               Independence Party
+
+
+11.            Suomen Kommunistinen Puolue (SKP)                 
+               Communist Party
+
+
+12.            Muutos 2011 (M11)                                     
+               Change 2011
+
+
+13.            Kommunistinen Tyoevaeenpuolue - Rauhan ja Sosialismin 
+               puolesta (KTP)            
+               Communist Workers' Party - For Peace and Socialism
+
+
+14.            Suomen Tyoevaeenpuolue (STP)                                 
+               Finnish Workers' Party
+
+
+15.            Koeyhien Asialla (KA)
+               For the Poor                            
+
+
+         | ELECTION STUDY NOTES - FINLAND (2015): PARTIES AND LEADERS
+         |
+         | In total, there are 200 seats in the Finnish parliament. One
+         | representative was elected from the autonomous, Swedish-speaking  
+         | Aland Islands. Since the 2015 national election study in Finland
+         | did not sample respondents from the electoral district of Aland,
+         | CSES did not assign a code to the Aland Coalition to which this
+         | one representative belongs to. 
+         |
+         | Three alliances formed for the election but only to compete in
+         | one and not all districts. ALLIANCE 1 was made up of the 
+         | Christian Democrats (KD) and "For the Cause of the Poor" and 
+         | fought in the Helsinki constituency only. ALLIANCE 2 was made up  
+         | of the National Coalition Party (KOK) and the Swedish People's 
+         | Party (RKP) and fought in the Varsinais-Suomi constituency only.
+         | ALLIANCE 3 was made up of the Finns Party (PS) and the Christian
+         | Democrats (KD) and fought in the Lapland constituency only (see 
+         | also election study note for variable D5032 in Variable Section, 
+         | Part 2 of the CSES Codebook).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: FRANCE (2012)
+---------------------------------------------------------------------------
+
+01.           Lutte Ouvriere (LO)
+              Workers' Struggle                          
+
+
+02.           Nouveau Parti Anticapitaliste (NPA) - SEE ELECTION STUDY NOTE
+              New Anticapitalist Party
+              Ligue communiste revolutionnaire (LPR)     
+
+
+03.  PARTY D  Front de Gauche (FDG) - SEE ELECTION STUDY NOTE
+              Left Front                                
+    LEADER D  Jean-Luc Melenchon - SEE ELECTION STUDY NOTE
+
+
+04.  PARTY F  Europe Ecologie - Les Verts (EELV)
+              Europe Ecology - The Greens
+    LEADER F  Eva Joly - SEE ELECTION STUDY NOTE
+
+
+05.  PARTY A  Parti Socialiste (PS) - SEE ELECTION STUDY NOTE                            
+              Socialist Party                      
+    LEADER A  Francois Hollande - SEE ELECTION STUDY NOTE
+
+
+06.  PARTY E  Mouvement Democrate (MoDem)                         
+              Democratic Movement
+    LEADER E  Francois Bayrou - SEE ELECTION STUDY NOTE
+
+
+07.  PARTY B  Union pour un Mouvement Populaire (UMP) - SEE ELECTION 
+              STUDY NOTE                
+              Union for a Popular Movement
+    LEADER B  Nicolas Sarkozy - SEE ELECTION STUDY NOTE
+
+
+08.           Debout la Republique (DLR)                    
+              Arise the Republic
+
+
+09.  PARTY C  National Front (FN)                                
+              Front National                              
+    LEADER C  Marine Le Pen - SEE ELECTION STUDY NOTE
+
+
+10.           LaRouche Movement                        
+              Movement LaRouche 
+
+
+11.           Parti Communiste Francais (PCF)
+              French Communist Party                   
+
+
+12.           Parti des Travailleurs (PT)                              
+              Workers' Party
+
+
+13.           Mouvement pour la France (MPF)
+              Movement for France
+
+
+14            Union pour la Democratie Francaise (UDF)
+              Union for French Democracy
+
+
+15.           Chasse, Peche, Nature, Traditions (CPNT) - SEE ELECTION 
+              STUDY NOTE
+              Hunting, Fishing, Nature, Tradition       
+
+
+16.           Parti Radical de Gauche (PRG) - SEE ELECTION STUDY NOTE
+              Radical Party of the Left
+
+
+17.           Nouveau Centre (NC) - SEE ELECTION STUDY NOTE
+              New Centre
+
+
+18.           Jose Bove, Activist from 'After Globalization'
+
+
+         | ELECTION STUDY NOTES - FRANCE (2012): PARTIES AND LEADERS
+         |
+         | When PARTY 2 (New Anticapitalist Party - NPA) was founded, LPR
+         | was closed down. However, they are closely connected through
+         | their memberships.
+         |       
+         | In the 2012 French election, the likeability of Presidential 
+         | candidates for each party was measured, rather than the 
+         | likeability of each party's leader.
+         |
+         | PARTY D (Left Front - PG) was an electoral coalition of Parti
+         | Gauche (PG) and Parti Communiste de France (PCR). All questions 
+         | in the France (2012) election study referred to this electoral 
+         | coalition Front de Gauche, or its presidential candidate, 
+         | Jean-Luc Melenchon. The only exception is D3018_3, in which the
+         | respondents mention to be close to Parti Gauche, PG, solely.
+         |
+         | Two additional alliances formed. ALLIANCE 1 (no official name)
+         | supported Francois Holland (Socialist Party - PS) and was an 
+         | alliance of the Socialist Party (PS), the Radical Party of the 
+         | Left (PRG), the Citizen and Republican Movement (MRC), Ecology
+         | Generation (GE), and Citizenship, Action, Participation for the
+         | 21st Century (CAP21). ALLIANCE 2 (no official name) supported
+         | Nicolas Sarkozy (Union for a Popular Movement - UMP) and was an
+         | alliance of the Union for a Popular Movement (UMP), the 
+         | Radicals, New Center (NC), Christian Democrat Party (PCD) and 
+         | Hunting, Fishing, Nature, Tradition (CPNT).
+         
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: GERMANY (2013)
+---------------------------------------------------------------------------
+
+01.           Christlich Demokratische Union/Christlich Soziale Union
+              (Union) - SEE ELECTION STUDY NOTE
+              Christian Democratic Union / Christian Social Union
+
+
+02.  PARTY A  Christlich Demokratische Union Deutschlands (CDU)
+              Christian Democratic Union of Germany               
+    LEADER A  Angela Merkel
+
+
+03.  PARTY E  Christlich Soziale Union in Bayern (CSU)
+              Christian Social Union of Bavaria                  
+    LEADER E  Horst Seehofer
+
+
+04.  PARTY B  Sozialdemokratische Partei Deutschlands (SPD)
+              Social Democratic Party                   
+    LEADER B  Sigmar Gabriel
+    LEADER I  Peer Steinbrueck - SEE ELECTION STUDY NOTE
+
+
+05.  PARTY C  Die Linke (Linke)
+              Left Party 
+    LEADER C  Gregor Gysi
+
+
+06.  PARTY D  Buendnis90/Die Gruenen (Gruene)
+              Alliance 90; The Greens
+    LEADER D  Juergen Trittin
+
+
+07.  PARTY F  Freie Demokratische Partei (FDP)
+              Free Democratic Party (FDP)
+    LEADER F  Philipp Roesler
+
+
+08.  PARTY G  Alternative fuer Deutschland (AfD)
+              Alternative for Germany
+    LEADER G  SEE ELECTION STUDY NOTE
+
+
+09.  PARTY H  Piratenpartei Deutschland (Piraten)
+              Pirate Party of Germany
+    LEADER H  SEE ELECTION STUDY NOTE
+
+
+10.  PARTY I  Nationaldemokratische Partei Deutschlands (NPD)
+              National Democratic Party of Germany
+
+
+11.           Freie Waehler (FW)
+              Free Voters
+
+
+12.           Partei Mensch Umwelt Tierschutz (Tierschutzpartei)
+              Animal Protection Party
+
+
+13.           Oekologisch-Demokratische Partei (ODP)
+              Ecological Democratic German Party 
+
+
+14.           Republikaner (REP)
+              Republicans 
+
+
+15.           Rentner Partei Deutschland (RENTNER)
+              Pensioners/Greys 
+
+
+16.           Bayernpartei (BP)
+              Bavarian Party
+
+
+17.           Partei Bibeltreuer Christen (PBC)
+              Party of Literal Exegesis
+
+
+18.           Buergerrechtsbewegung Solidaritaet (BueSo)
+              Civil Movement for Solidarity
+
+
+19.           Die Violetten (DIE VIOLETTEN)
+              The Violet for spiritual Politics
+
+
+20.           Partei fuer Arbeit, Rechtsstaat, Tierschutz, Elitenfoerderung
+              und basisdemokratische Initiative (Die PARTEI)
+              The [Political] Party 
+
+
+21.           DIE GRAUEN - Graue Panther (GRAUE)
+              The Grays - Gray Panthers
+
+
+         | ELECTION STUDY NOTES - GERMANY (2013): PARTIES AND LEADERS
+         |
+         | PARTY 1 (Christian Democratic Union / Christian Social Union -
+         | Union) is an unofficial political alliance of the Christian
+         | Democratic Union of Germany (CDU) and the Christian Social 
+         | Union in Bavaria (CSU).   
+         |
+         | No party leader likeability measures available for PARTY G
+         | (Alternative for Germany, AfD) and PARTY H (Pirate Party of 
+         | Germany, Piraten). But data for these parties is available
+         | for D3011_ and for the district level variables (D4001-D4005).
+         |
+         | LEADER I (Peer Steinbrueck) was the Chancellor candidate for the
+         | SPD, which came in second in the election. Variables pertaining 
+         | to Peer Steinbrueck end with the letter I.
+         | 
+         | For PARTY I (National Democratic Party of Germany, NPD), there
+         | is no data available for D3011_I and D3013_I. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: GREAT BRITAIN (2015)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Conservative Party (Con)
+    LEADER A  David Cameron
+
+
+02.  PARTY B  Labor Party (Lab)
+    LEADER B  Ed Miliband
+
+
+03.  PARTY C  United Kingdom Independence Party (UKIP)
+    LEADER C  Nigel Farage
+
+
+04.  PARTY D  Liberal Democrats (LD)
+    LEADER D  Nick Clegg
+
+
+05.  PARTY E  Scottish National Party (SNP)  - SEE ELECTION STUDY NOTE
+    LEADER E  Nicola Sturgeon
+
+
+06.  PARTY F  Green Party (GP)
+    LEADER F  Natalie Bennett
+
+
+07.  PARTY G  Plaid Cymru (PC) - SEE ELECTION STUDY NOTE
+    LEADER G  Leanne Wood
+
+
+         | ELECTION STUDY NOTES - GREAT BRITAIN (2015): PARTIES AND LEADERS
+         |
+         | PARTY E (Scottish National Party, SNP) only contests elections 
+         | in Scotland. 
+         | PARTY G (Plaid Cymru, PC) only contests elections in Wales. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: GREECE (2012)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Nea Dimokratia (ND)
+              New Democracy
+    LEADER A  Antonios Samaras
+
+
+02.  PARTY B  Synaspismos tis Rizospatikis Aristeras - Enotiko Koinoniko
+              Metopo (SYRIZA) - SEE ELECTION STUDY NOTE
+              The Coalition of the Radical Left
+    LEADER B  Alexios Tsipras
+
+
+03.  PARTY C  Panellinio Sosialistiko Kinima (PASOK)
+              The Panhellenic Socialist Movement
+    LEADER C  Evangelos Venizelos
+
+
+04.  PARTY D  Anexartitoi Ellines (ANEL)
+              The Independent Greeks
+    LEADER D  Panayiotis Kammenos
+
+
+05.  PARTY E  Laikos Syndesmos - Chrisi Avgi (LS-XA)
+              Golden Dawn
+    LEADER E  Nikolaos Michaloliakos
+
+
+06.  PARTY F  Dimokratiki Aristera (DIMAR)
+              Democratic Left
+    LEADER F  Fotios-Fanourios Kouvelis
+
+
+07.  PARTY G  Kommounistiko Komma Ellados (KKE)
+              The Communist Party of Greece
+    LEADER G  Alexandra Papariga
+
+
+08.           Dimiourgia Xana (DX) - SEE ELECTION STUDY NOTE
+              Recreate Greece
+
+
+09.           Laikos Orthodoxos Synager (LAOS)
+              The Popular Orthodox Rally 
+
+
+10.           Oikologoi Prasinoi (OP)
+              The Ecologist Greens
+
+
+11.           Antikapitalistiki Aristeri Synergasia gia tin Anatropi 
+              (ANTARSYA)
+              Anticapitalist Left Cooperation for the Overthrow
+
+
+12.           Komma Peiraton Ellados (KPP)
+              Pirate Party of Greece
+
+
+13.           Drasi (D) - SEE ELECTION STUDY NOTE
+              Action
+
+
+14.           Dimokratiki Anagennisi (Diman)
+              Democratic Revival
+
+
+         | ELECTION STUDY NOTES - GREECE (2012): PARTIES AND LEADERS
+         |
+         | PARTY B (Coalition of the Radical Left - SYRIZA) was an  
+         | electoral alliance of Renewing Communist Ecological Left (AKOA), 
+         | Anticapitalist Political Group (APO), Democratic Social Movement 
+         | (DIKKI), Internationalist Workers' Left (DEA), Active Citizens,
+         | Unitary Front, Movement for the United in Action Left (KEDA), 
+         | Kokkino, Communist Organization of Greece (KOE), Oikososialistes 
+         | Elladas, Risospastes, Rosa, and The Coalition of Left, of 
+         | Movements and Ecology (Synaspismos)
+         |
+         | Recreate Greece (DX) was an electoral alliance of Recreate 
+         | Greece (DX), Action (D) and The Liberal Alliance (FS).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: GREECE (2015)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Synaspismos Rizospastikis Aristeras (Syriza)
+              Coalition of the Radical Left              
+    LEADER A  Alexis Tsipras
+
+           
+02.  PARTY B  Nea Dimokratia (ND)
+              New Democracy                     
+    LEADER B  Andonis Samaras
+
+  
+03.  PARTY C  Laikos Syndesmos - Chrysi Aygi
+              Popular Association – Golden Dawn                     
+    LEADER C  Nikos Michaloliakos
+
+
+04.  PARTY D  To Potami
+              The River                     
+    LEADER D  Stavros Theodorakis
+
+
+05.  PARTY E  Kommounistiko Komma Elladas (KKE)
+              Communist Party of Greece             
+    LEADER E  Dimitris Koutsoumbas
+
+
+06.  PARTY F  Anexartitoi Ellines (ANEL)
+              Independent Greeks                     
+    LEADER F  Panos Kammenos
+
+
+07.  PARTY G  Dimokratiki Symparataxi (DISI or PASOK)
+              Democratic Alignment                     
+    LEADER G  Evangelos Venizelos
+
+
+08.           Enosi Kentroon
+              Union of Centrists   
+    
+
+09.           Kinima Dimokraton Sosialiston (To Kinima)
+              Movement of Democratic Socialists
+
+
+10.           Laikos Orthodoxos Synagermos (LAOS)
+              Popular Orthodox Rally
+
+
+11.           Antikapitalistiki Aristeri Synergasia gia tin Anatropi 
+              (ANTARSYA)
+              Front of the Greek Anticapitalist Left
+
+
+12.           Dimokratiki Aristera (DIMAR)
+              Democratic Left
+
+
+13.           Drassi
+              Action
+
+
+         | ELECTION STUDY NOTES - GREECE (2015): PARTIES AND LEADERS
+         |
+         | For additional numerical party codes referring to the previous
+         | vote choice variable D3008_LH_PL for GREECE (2015), please see 
+         | election study note for GREECE (2015) for variable D3008_LH_PL
+         | in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: HONG KONG (2012)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Democratic Alliance for Betterment and Progress of Hong Kong
+              (DAB)
+    LEADER A  Tam Yiu Chung
+
+
+02.  PARTY B  Civic Party (CPP)
+    LEADER B  Alan Leong Kah Kit
+
+
+03.  PARTY C  Democratic Party (DP)
+    LEADER C  Albert Ho Chun  
+
+
+04.  PARTY D  People Power (PP)
+    LEADER D  Wong Yuk Man
+
+
+05.  PARTY E  Hong Kong Federation of Trade Unions (FTU)
+    LEADER E  Lam Shuk Yee
+
+
+06.  PARTY F  Labour Party (LAB)
+    LEADER F  Lee Cheuk Yan
+
+
+07.  PARTY G  League of Social Democrats (LSD)
+
+
+08.  PARTY H  New People's Party (NPP)
+    LEADER H  Regina Ip Lau Suk Yee
+
+
+09.  PARTY I  Liberal Party (LP)
+    LEADER I  Miriam Lau Kin Yee
+
+
+10.           Neighbourhood and Worker's Service Center	(NWSC)
+
+
+11.           Kowloon West New Dynamic (KWND)
+
+
+12.           Hong Kong Association for Democracy and People's Livelihood
+              (ADPL)
+
+
+13.           Neo Democrats
+
+
+14.           Civil Force
+
+
+15.           Economic Synergy (3L)
+
+
+16.           Hong Kong Awakening Association
+
+
+17.           The Frontier
+
+
+18.           Party for Civil Rights and Livelihood
+
+
+19.           Southern Democratic Alliance (2008 election)
+
+
+20.           Blue Intelligence Union (2008 election)
+
+
+21.           Civic Act-Up
+
+
+22.           Democratic Alliance
+
+
+88.           Tse Wai Chun Paul, Independent - SEE ELECTION STUDY NOTE
+
+
+         | ELECTION STUDY NOTES - HONG KONG (2012): PARTIES AND LEADERS
+         |
+         | PARTY 88 (Tse Wai Chun Paul, Independent) is the only 
+         | independent who won a seat in the election.
+         | Three alliances formed that only competed in New Territories
+         | EAST (NTE). For more details, see D5032.
+         | 
+         | Data is unavailable for PARTY G (League of Social Democrats -
+         | LSD) fo variables D3011_G, D3013_G, and D3015_G.        
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ICELAND (2013)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Sjalfstaedisflokkurinn (Sj)
+              Independence Party                        
+    LEADER A  Bjarni Benediktsson
+
+
+02.  PARTY B  Framsoknarflokkurinn (F)
+              Progressive Party
+    LEADER B  Sigmundur Davio Gunnlaugsson
+
+
+03.  PARTY C  Samfylkingin-Jafnadarmannaflokkur Islands (Sam)
+              Social Democratic Alliance
+    LEADER C  Arni Pall Arnason
+
+
+04.  PARTY D  Vinstrihreyfingin - Graent Frambod (Graen)
+              Left Green Movement
+    LEADER D  Katrin Jakobsdottir
+
+
+05.  PARTY E  Bjoert Framtid (BF)
+              Bright Future
+    LEADER E  Guomundur Steingrimsson
+
+
+06.  PARTY F  Pirata (Pi)
+              Pirate Party
+    LEADER F  Birgitta Jonsdottir
+
+
+07.           Doegun - Stjornmalasamtoek um Rettlaeti, Sanngirni og (Dawn)
+              Dawn - Organization of justice, fairness and democracy
+
+
+08.           Lydraedisvaktin (IDP)
+              Iceland Democratic Party
+
+
+10.           Haegri Graenir Flokkur Folksins (HG)
+              Right-Green People's Party
+
+
+12.           Landsbyggdarflokkurinn (L)
+              Rural Party
+
+
+13.           Regnboginn (Rebo)
+              Rainbow
+
+
+14.           Flokkur Heimilanna (FH)
+              Households Party
+
+
+15.           Frjalslyndi Flokkurinn (Ff)
+              Liberal Party
+
+
+16.           Borgarahreyfingin - Hreyfingin (B-H)
+              Civic Movement - The Movement
+
+
+17.           Lydraedishreyfingin
+              Democratic Movement
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: IRELAND (2011)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Fine Gael (FG)    
+              Tribe of the Irish                           
+    LEADER A  Enda Kenny 
+
+
+02.  PARTY B  Labor Party (Lab) 
+    LEADER B  Eamon Gilmore
+
+
+03.  PARTY C  Fianna Fail (FF)
+              Soldiers of Destiny 
+    LEADER C  Michael Martin
+    LEADER I  Brian Cowen - SEE ELECTION STUDY NOTE
+
+
+04.  PARTY D  Sinn Fein (SF)  
+              We Ourselves
+    LEADER D  Gerry Adams
+
+
+05.  PARTY E  Comhaontas Aontaithe an Chle (ULA) - SEE ELECTION STUDY 
+              NOTE
+              United Left Alliance 
+    LEADER E  SEE ELECTION STUDY NOTE
+
+
+06.  PARTY F  Green Party (GP)  
+    LEADER F  Eamon Ryan
+
+
+07.           Socialist Party (SP)
+
+
+08.           Progressive Democrats (PD)
+
+
+09.           People Before Profit Alliance (PBPA) 
+
+
+         | ELECTION STUDY NOTES - IRELAND (2011): PARTIES AND LEADERS
+         |         
+         | LEADER I (Brian Cowen) was the outgoing Prime Minister 
+         | and was leader of Fianna Fail until January 26, 2011, when he 
+         | was replaced by LEADER C (Michael Martin) for the election 
+         | campaign.
+         |             
+         | PARTY E (United Left Alliance, ULA) was an electoral alliance 
+         | made up of left-wing political parties and independent 
+         | candidates. The ULA was composed of the following parties: The
+         | Socialist Party, The People Before Profit Alliance Workers, and
+         | The Unemployed Action Group. The alliance was formed in November
+         | 2010 to contest the 2011 election but in 2013, the alliance
+         | disbanded. The alliance had no official leader but instead was a
+         | collective leadership. Data is unavailable for PARTY E for 
+         | variables D3012_E and D3013_E. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ISRAEL (2013)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Likud (L) / Yisrael Beiteinu (YB) - SEE ELECTION STUDY NOTE
+              National Liberal Party/ Israel Is Our Home
+    LEADER A  Benjamin Netanyahu
+
+
+02.  PARTY B  Yesh Atid (YA)
+              There is a Future
+    LEADER B  Yair Lapid
+
+
+03.  PARTY C  Mifleget HaAvoda HaYisrelit (MHH)
+              Israeli Labor Party
+    LEADER C  Shelly Yachimovich
+
+
+04.  PARTY D  Habayit Hayehudi (HH) - SEE ELECTION STUDY NOTE
+              The Jewish Home               
+    LEADER D  Naftali Bennett
+
+
+05.  PARTY E  Shomrei Sfarad (Shas)
+              Sfarad's Keepers of the Torah
+    LEADER E  Eli Yishai
+
+
+06.  PARTY F  Yahadut Hatorah (YH) - SEE ELECTION STUDY NOTE
+              United Torah Judaism
+    LEADER F  SEE ELECTION STUDY NOTE
+
+
+07.  PARTY G  Hatnua (Hat)
+              The Movement
+    LEADER G  Tzipi Livni
+
+
+08.  PARTY H  Meretz (Meretz)
+              Energy
+    LEADER H  SEE ELECTION STUDY NOTE
+
+
+09.  PARTY I  HaReshima HaAravit HaMe'uhedet (Raam) - SEE ELECTION STUDY
+              NOTE
+              United Arab List
+    LEADER I  SEE ELECTION STUDY NOTE              
+
+
+10.           Hadash (H)
+              The Democratic Front for Peace and Equality
+
+
+11.           Brit Le'umit Demokratit (Balad)
+              National Democratic Assembly
+
+
+12.           Kadima (Kadima)
+              Forward
+
+
+13.           Am Shalem (AmSh)
+              Whole Nation
+
+
+14.           Otzma Leyisrael (OL)
+              Strength to Israel
+
+
+15.           HaYisraelim
+              The Israelis
+
+
+16.           Hayerukim (HY)
+              The Green Party
+
+
+17.           Ale Yarok (AIYa)
+              Green Leaf
+
+
+18.           Tzedek Hevrati
+              Social Justice
+
+
+19.           Haim Bekavod
+              Respectful Life
+
+
+20.           Eretz Hadasha
+              New Country
+
+
+21.           Daam - Mifleget Poalim (Da’am)
+              Da’am - Workers' Party
+
+
+22.           Hatikva Leshinui
+              Hope for Change
+
+
+23.           Dor Bonei Ha'aretz
+              The Generation of State Builders 
+
+
+24.           Kolanu Haverim
+              We Are All Friends 
+
+
+25.           Koach Lehashpi'a
+              Power to Influence 
+
+
+26.           Mifleget Kalkala
+              Economy Party 
+
+
+27.           Achim Anchnu
+              We Are Brothers 
+
+
+28.           Mitkademet Liberalit Democratit
+              Progressive Liberal Democratic
+
+
+29.           Mifleget Or
+              Party of Light
+
+
+30.           Brit Olam
+              The Pirates
+
+
+31.           Hapiratim
+
+
+32.           Moreshet Avot
+              Ancestors Heritage
+
+
+         | ELECTION STUDY NOTES - ISRAEL (2013): PARTIES AND LEADERS
+         |
+         | PARTY A (National Liberal Party, L/ Israel Is Our Home Likud, KB)
+         | competed as an electoral alliance in the 2013 Israeli 
+         | elections. Likud was led by Benjamin Netanyahu, Yisrael Beiteinu
+         | by Avigdor Lieberman.
+         |
+         | PARTY D (The Jewish Home, HH) was an electoral alliance of the
+         | National Religious Party (Mafdal) and Resurrection (Tkuma).
+         |
+         | PARTY F (United Torah Judaism, YH) was an electoral alliance 
+         | of Banner of the Torah and Union of Israel. Data is unavailable
+         | for PARTY F for variables D3011_F, D3012_F and D3013_F.
+         |
+         | For PARTY H (Energy, Meretz), data is unavailable for variables
+         | D3011_H, D3012_H and D3013_H. 
+         |
+         | PARTY I (United Arba List, Ra'am) was an electoral alliance of
+         | the United Arba List (Ra'am), the Arab Movement for Renewal 
+         | (Ta'al) and the Arab Democratic Party (Mada). Data is 
+         | unavailable for PARTY I for variables D3011_I, D3012_I and
+         | D3013_I.   
+         |
+         | For additional/deviating numerical party codes referring to the
+         | previous vote choice variable D3008_LH_PL for ISRAEL (2013), 
+         | please see election study note for ISRAEL (2013) for variable
+         | D3008_LH_PL in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: JAPAN (2013)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Jiyu-minshuto (LDP)
+              Liberal Democratic Party
+    LEADER A  Shinzo Abe
+
+
+02.  PARTY B  Minshuto (DPJ)
+              Democratic Party of Japan
+    LEADER B  Banri Kaieda
+
+
+03.  PARTY C  Nihon Kyosan-to (JSP)
+              Japanese Communist Party
+    LEADER C  Kazuo Shi-i
+
+
+04.  PARTY D  Minna no Tou (YP)
+              Your Party
+    LEADER D  Michio Watanabe
+
+
+05.  PARTY E  Nippon Ishin no Kai (JReP)
+              Japan Restoration Party
+    LEADER E  Shintaro Ishihara
+
+
+06.  PARTY F  Komeito (NK)
+              New Komeito
+    LEADER F  Natsuo Yamaguchi
+
+
+07.  PARTY G  Seikatsu no Tou (PLP)
+              People's Life Party
+    LEADER G  Ichiro Ozawa
+
+
+08.           Shinto Daichi (NPD)
+              New Party Daichi
+
+
+09.  PARTY H  Shakai Minshu-to (SDP)
+              Social Democratic Party
+    LEADER H  Mizuho Fukushima
+
+
+10.  PARTY I  Midori no Kaze 
+              Green Wind
+    LEADER I  Kuniko Tanioka
+
+
+11.           Midori no To
+              Greens Japan
+
+
+12.           Shinto Kaikaku
+              New Renaissance Party
+
+
+13.           Kokumin Shinto (PNP)
+              People's New Party
+
+
+14.           Nippon Mirai no To (TJP)
+              Tomorrow Party of Japan
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: KENYA (2013)
+---------------------------------------------------------------------------
+
+01.  PARTY A  The National Alliance (TNA) - SEE ELECTION STUDY NOTE
+    LEADER A  Uhuru Kenyatta
+
+
+02.  PARTY B  Orange Democratic Movement (ODM) - SEE ELECTION STUDY NOTE
+    LEADER B  Raila Odinga
+
+
+03.  PARTY C  United Republican Party (URP)
+
+
+04.  PARTY D  Wiper Democratic Movement-Kenya (WDM-K)- SEE ELECTION STUDY 
+              NOTE
+    LEADER D  Kalonzo Musyoka
+
+
+05.  PARTY E  United Democratic Front (Forum) (UDFP) - SEE ELECTION STUDY
+              NOTE
+    LEADER E  Musalia Mudavadi
+
+
+06.  PARTY F  Forum for Restoration of Democracy-Kenya (FORD-KENYA) - SEE 
+              ELECTION STUDY NOTE
+
+
+07.  PARTY G  National Rainbow Coalition-Kenya (NARC-K) - SEE ELECTION 
+              STUDY NOTE       
+    LEADER G  Martha Karua
+ 
+
+08.  PARTY H  Alliance Party of Kenya (APK)
+
+
+09.  PARTY I  Kenya African National Union (KANU) - SEE ELECTION STUDY NOTE
+
+
+10.           Kenya Social Congress (KSC) - SEE ELECTION STUDY NOTE
+
+                                        
+11.           New Ford Kenya (NFK) - SEE ELECTION STUDY NOTE
+
+
+12.           Restore and Build Kenya (RBK)
+
+
+13.           Safina (SAFINA)
+
+
+14.           Alliance for Real Change (ARK)
+
+
+15.           FORD-Asili (FORD-ASILI)
+
+
+16.           Party of National Unity (PNU)
+
+
+17.           Republican Congress Party of Kenya (RC) - SEE ELECTION STUDY 
+              NOTE
+
+
+18.           Chama Cha Uzalendo (CCU) - SEE ELECTION STUDY NOTE
+
+
+19.           Kenya National Democratic Alliance (KENDA)
+
+
+20.           The National Vision Party (NVP)
+
+
+21.           Chama Cha Mwananchi (CCM) - SEE ELECTION STUDY NOTE
+
+
+22.           Kenya National Congress (KNC) - SEE ELECTION STUDY NOTE
+
+
+23.           Party of Independent Candidates of Kenya (PICK) - SEE 
+              ELECTION STUDY NOTE
+
+
+24.           Forum for the Restoration of Democracy - People
+
+
+25.           Agano Party (AP)
+
+
+26.           Grand National Union (GNU)
+
+
+27.           Social Democratic Party of Kenya (SDP)
+
+
+28.           National Rainbow Coalition (NARC)
+
+
+29.           Mzalendo Saba Saba Party (MSS)
+
+
+30.           Democratic Party of Kenya (DP)
+
+
+31.           Party of Action (POA) - SEE ELECTION STUDY NOTE
+
+
+32.           United Democratic Movement (UDM) - SEE ELECTION STUDY NOTE
+
+
+33.           Federal Party of Kenya (FPK) - SEE ELECTION STUDY NOTE
+
+
+34.           National Agenda Party of Kenya (NAPK)
+
+
+35.           The Labour Party of Kenya (LPK) - SEE ELECTION STUDY NOTE
+
+
+36.           Saba Saba Asili
+
+
+37.           Peoples Party of Kenya (PPK) - SEE ELECTION STUDY NOTE
+
+
+38.           Mwangaza Party (MP)
+
+
+41.           Coalition: AMANI (United Democratic Forum 
+              Party, Kenya African National Union, 
+              New Ford Kenya)  
+
+
+42.           Coalition: CORD (Orange Democratic Movement,
+              Wiper Democratic Movement-Kenya, Forum for
+              Restoration of Democracy-Kenya, Kenya Social
+              Congress, The Independent Party, Kenya African
+              Democratic Union-Asili, Peoples Democratic
+              Party, Mkenya Solidarity Movement, Chama Cha
+              Uzalendo, United Democratic Movement, Chama
+              Cha Mwananchi, Federal Party of Kenya, The
+              Labour Party of Kenya, Muungano Party)
+
+
+43.           Coalition: EAGLE (Kenya National Congress,
+              Party of Action)
+
+
+44.           Coalition: JUBILEE (The National Alliance,
+              United Republican Party, National Rainbow
+              Coalition, Republican Congress Party of Kenya, 
+              United Democratic Front)  
+
+
+45.           Coalition: PAMBAZUKA (Federal Party of Kenya,
+              The National Vision Party, Shirikisho Party
+              of Kenya)                                                    
+
+
+         | ELECTION STUDY NOTES - KENYA (2013): PARTIES AND LEADERS
+         |
+         | For PARTY D (Wiper Democratic Movement-Kenya, WDM-K), data is 
+         | unavailable for D3012_D. 
+         |
+         | For PARTY F (Forum for Restoration of Democracy-Kenya,FORD-KENYA)
+         | data is unavailable for variables D3011 and D3013. 
+         |
+         | For PARTY G (National Rainbow Coalition-Kenya, NARC-K), data 
+         | is unavailable for variable D3012_G.
+         |
+         | For PARTY H (Alliance Party of Kenya, APK), data is unavailable
+         | (FORD-KENYA), data is unavailable for variables D3011_H and 
+         | D3013_H.
+         | 
+         | For PARTY I (Kenya African National Union, KANU), data is 
+         | unavailable for variables D3011_I and D3013_I.
+         |
+         | Four alliances formed in the 2013 Kenya election. ALLIANCE 1,
+         | The Jubilee Coalition, was an alliance of The National Alliance
+         | (TNA), the National Rainbow Coalition-Kenya (URP) and the 
+         | Republican Congress (RC).
+         |
+         | ALLIANCE 2, the Coalition for Reforms and Democracy (CORD), was
+         | an alliance of the Orange Democratic Movement (ODM), the Wiper
+         | Democratic Movement (WDM), Forum for the Restoration of 
+         | Democracy - Kenya (FORD-Kenya), the Kenya Social Kongress, The 
+         | Independent Party, KADU-AILLI, the Peoples' Democratic Party,
+         | Mkeyna Solidarity Movement, Chama Cha Uzalendo, Muungano 
+         | Development Movement Party of Kenya, United Democratic Movement,
+         | Chama Cha Mwananchi, Federal Party of Kenya, and the Labour 
+         | Party of Kenya.
+         | 
+         | ALLIANCE 3, AMANI Coalition, was an alliance of the United 
+         | Democratic Forum Party (UDFP), the Kenya African National Union
+         | (KANU) and New Ford Kenya.
+         |
+         | ALLIANCE 4, EAGLE Alliance, was an alliance of the Kenya 
+         | National Congress (KNC) and the Party of Action (POA).
+         |
+         | For additional party codes referring to the previous 
+         | vote choice variable D3008_PR_1 for KENYA (2013), please see
+         | election study note for KENYA (2013) for variable D3008_PR_1
+         | in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: LATVIA (2011)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Saskanas Centrs (SC) - SEE ELECTION STUDY NOTE
+              Harmony Centre                     
+    LEADER A  Nils Usakovs  
+    LEADER H  Janis Urbanovics - SEE ELECTION STUDY NOTE
+
+           
+02.  PARTY B  Zatlera Reformu Partija (ZRP)
+              Zatlers' Reform Party
+    LEADER B  Valdis Zatlers
+
+  
+03.  PARTY C  Vienotiba (V)
+              Unity
+    LEADER C  Valdis Dombrovskis
+
+
+04.  PARTY D  Nacionala Apvieniba "Visu Latvijai!" – "Tevzemei un 
+              Brivibai/LNNK" (NA)
+              National Alliance "All For Latvia!" – "For Fatherland and 
+              Freedom/LNNK"                     
+    LEADER D  Raivis Dzintars
+
+
+05.  PARTY E  Zalo un Zemnieku Savieniba (ZZS)
+              Union of Greens and Farmers                     
+    LEADER E  Aivars Lembergs
+
+
+06.  PARTY F  Slesera Reformu Partija LPP/LC
+              Slesers LPP/LC Reform Party                     
+    LEADER F  Ainars Slesers
+
+
+07.  PARTY G  Par cilveka tiesibam vienota Latvija (PCTVL)
+              For Human Rights in United Latvia                    
+
+
+08.           Pedeja Partija
+              Last Party                  
+
+
+09.           Par Prezidentalu Republiku
+              For a Presidential Republic                     
+    
+
+10.           Tautas Kontrole
+              People's Control
+
+
+11.           Latvijas Socialdemokratiska Stradnieku Partija (LSDSP)
+              Latvian Social Democratic Workers' Party
+
+
+12.           Briviba. Brivs no bailem, naida un dusmam
+              Freedom. Free from Fear, Hate and Anger
+
+
+13.           Kristigi Demokratiska Savieniba (KDS)
+              Christian Democratic Union
+
+
+17.           Tautas Partija (TP)
+              People's Party
+
+
+18.           Tevzemei un Brivibai/LNNK (TB/LNNK)
+              Union "For Fatherland and Freedom"/LNNK
+
+
+19.           Visu Latvijai           
+              All for Latvia
+
+
+         | ELECTION STUDY NOTES - LATVIA (2011): PARTIES AND LEADERS
+         |
+         | PARTY A (Harmony Centre, SC) is a party that represents the 
+         | Russian minority in Latvia on a social-democratic platform. It 
+         | was founded in 2005 and consisted of four main parties: the 
+         | National Harmony Party, New Centre, the Social Democratic Party,
+         | and the Socialist Party. In 2010, the National Harmony Party, 
+         | the New Centre, and the Social Democratic Party merged into 
+         | one political force called the Harmony Party. The electoral 
+         | alliance with the Socialist Party, which remained a separate 
+         | entity, continued until 2014. 
+         |
+         | For PARTY G (For Human Rights in United Latvia, PCTVL), data
+         | is unavailable for variable D3011_G. 
+         |
+         | LEADER H (Janis Urbanovics) was equally important within the 
+         | party Harmony Center in the 2011 elections as party chairman 
+         | Nils Usakovs. Variable D3012_H refers to Janis Urbanovics.
+         |
+         | For additional numerical party codes referring to the previous
+         | vote choice variable D3008_LH_PL for LATVIA (2011), please see 
+         | election study note for LATVIA (2011) for variable D3008_LH_PL
+         | in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: LATVIA (2014)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Socialdemokratiska Partija "Saskana" (SDPS) - SEE ELECTION 
+              STUDY NOTE
+              Harmony 
+    LEADER A  Nils Usakovs   
+
+
+02.  PARTY B  Vienotiba (V) 
+              Unity
+    LEADER B  Laimdota Straujuma
+
+
+03.  PARTY C  Zalo un Zemnieku Savieniba (ZZS)
+              Union of Greens and Farmers
+    LEADER C  Aivars Lembergs   
+
+
+04.  PARTY D  Nacionala Apvieniba "Visu Latvijai" – Tevzemei und Brivibai/
+              LNNK (NA)
+              National Alliance
+    LEADER D  Roberts Zile    
+
+
+05.  PARTY E  No Sirds Latvijai (NsL)
+              For Latvia from the Heart
+    LEADER E  Inguna Sudraba   
+
+
+06.  PARTY F  Latvijas Regionu Apvieniba (LRa)
+              Latvian Association of Regions   
+    LEADER F  Martins Bondars   
+
+
+07.           Latvijas Krievu Savieniba (LKS)
+              Latvian Russian Union
+
+
+08.           Partija Vienoti Latvijai (ViLa)
+              United for Latvia
+
+
+09.           Latvijas Attistibai (LAAT)
+              Latvian Development
+
+
+10.           Jauna Konservativa Partija
+              New Conservative Party
+
+
+11.           Partija Briviba. Brivs no bailem, naida un dusmam
+              Freedom. Free from Fear, Hate and Anger
+
+
+12.           Politiska Partija Izaugsme
+              Growth
+
+
+13.           Suverenitate
+              Sovereignty
+
+
+14.           Reformu Partija (RP) - SEE ELECTION STUDY NOTE 
+              Reform Party
+
+
+15.           Latvijas Socialdemokratiska stradnieku partija (LSDSP)
+              Latvian Social Democratic Workers' Party
+
+
+16.           Lesera Reformu Partija LPP/LC
+              Leser's Reform Party
+
+
+17.           Par Prezidentalu Republiku
+              For the Presidency of the Republic
+
+
+18.           Pedeja Partija
+              Last Party 
+
+
+20.           Nacionala Speak Savieniba (NSS)
+              National Power Unity
+
+
+         | ELECTION STUDY NOTES - LATVIA (2014): PARTIES AND LEADERS
+         |
+         | PARTY A (Harmony, SDPS) is a party that represents the interests 
+         | of Russians in Latvia on a social-democratic platform. It was 
+         | founded in 2010 after the amalgamation of three parties: the 
+         | National Harmony Party, New Centre, and the Social Democrats.  
+         | In the 2011 elections, the party was part of an electoral
+         | alliance with the Socialist Party. In 2014, the Socialist Party
+         | did not contest the elections but its three outgoing members of
+         | parliament were placed on the Harmony party list and therefore
+         | it retains membership of the Seima (Latvian parliament). 
+         |
+         | PARTY 7 (Latvian Russian Union, LKS) changed its name prior
+         | to the 2014 election. Before that, it was named the party
+         | For Human Rights in United Latvia (PCTVL). 
+         |   
+         | PARTY 14 (Reformu Partija, RP) was known until 2012 as Zatlera
+         | Reformu Partija (Zatler's Reform party). In 2014, it competed
+         | within the same list as PARTY B (Unity, V).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: MEXICO (2012)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Partido Revolucionario Institucional (PRI)    
+              Institutional Revolutionary Party                           
+    LEADER A  Enrique Pena Nieto - SEE ELECTION STUDY NOTE
+
+
+02.  PARTY B  Partido Accion Nacional (PAN) 
+              National Action Party  
+    LEADER B  Josefina Vazquez Mota - SEE ELECTION STUDY NOTE
+
+
+03.  PARTY C  Partido de la Revolucion Democratica (PRD)
+              Party of the Democratic Revolution  
+    LEADER C  Andres Manuel Lopez Obrador - SEE ELECTION STUDY NOTE 
+
+
+04.  PARTY D  Partido Verde Ecologista de Mexico (PVEM)  
+              Ecological Green Party of Mexico 
+    LEADER D  SEE ELECTION STUDY NOTE
+
+
+05.  PARTY E  Partido del Trabajo (PT) 
+              Labor Party 
+    LEADER E  SEE ELECTION STUDY NOTE
+
+
+06.  PARTY F  Partido Nueva Alianza (PNA)   
+              New Alliance Party
+    LEADER F  Gabriel Ricardo Quadri de la Torre - SEE ELECTION STUDY NOTE    
+
+
+07.  PARTY G  Movimiento Ciudadano (MC)
+              Citizens' Movement      
+    LEADER G  SEE ELECTION STUDY NOTE
+
+
+         | ELECTION STUDY NOTES - MEXICO (2012): PARTIES AND LEADERS
+         |
+         | In the 2012 Mexican election, the likeability of Presidential 
+         | candidates for each party was measured, rather than the 
+         | likeability of each party's leader. Only four parties stood 
+         | candidates for the Presidency, hence no likeability measures
+         | are available for the leaders of the PVEM, the PT, or the 
+         | Citizen's Movement. 
+         | 
+         | Two alliances formed in the 2012 Mexican election. ALLIANCE 1,
+         | Commitment for Mexico, was an alliance of the Institutional
+         | Revolutionary Party (PRI) and the Ecological Green Party of 
+         | Mexico. ALLIANCE 2, Progressive Movement, was an alliance of 
+         | the Party of the Democratic Revolution (PRD), the Labor Party 
+         | (PT) and the Citizens' Movement (MC).   
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: MEXICO (2015)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Partido Revolucionario Institucional (PRI) - SEE ELECTION
+              STUDY NOTE 
+              Institutional Revolutionary Party 
+    LEADER A  SEE ELECTION STUDY NOTE         
+
+
+02.  PARTY B  Partido Accion Nacional (PAN)
+              National Action Party
+    LEADER B  SEE ELECTION STUDY NOTE               
+
+
+03.  PARTY C  Partido de la Revolucion democratica (PRD) - SEE ELECTION 
+              STUDY NOTE 
+              Democratic Revolutionary Party
+    LEADER C  SEE ELECTION STUDY NOTE               
+
+
+04.  PARTY D  Movimiento de Regeneracion Nacional (MORENA)
+              National Regeneration Movement
+    LEADER D  SEE ELECTION STUDY NOTE               
+
+
+05.  PARTY E  Partido Verde Ecologista de Mexico (PVEM) - SEE ELECTION 
+              STUDY NOTE 
+              Green Party of Mexico
+    LEADER E  SEE ELECTION STUDY NOTE 
+
+
+06.  PARTY F  Movimiento Ciudadano (MC)
+              Citizens' Movement
+    LEADER F  SEE ELECTION STUDY NOTE 
+
+
+07.  PARTY G  Nueva Alianza (PNA)
+              New Alliance Party
+    LEADER G  SEE ELECTION STUDY NOTE 
+
+
+08.  PARTY H  Partido Encuentro Social (PES)
+              Social Encounter Party
+    LEADER H  SEE ELECTION STUDY NOTE 
+
+
+09.  PARTY I  Partido del Trabajo (PT) - SEE ELECTION STUDY NOTE 
+              Labor Party
+    LEADER I  SEE ELECTION STUDY NOTE 
+
+
+10.           Partido Humanista (PH)
+              Humanist Party
+
+
+         | ELECTION STUDY NOTES - MEXICO (2015): PARTIES AND LEADERS
+         |         
+         | No presidential electiontook place in Mexico in 2015. 
+         | Consequently, there are no leader likeability measures available. 
+         |
+         | For PARTY G (New Alliance Party, PNA), data is unavailable
+         | for variables D3011_G and D3013_G.
+         |
+         | For PARTY H (Social Encounter Party - PES), data is 
+         | unavailable for variables D3011_G and D3013_H.
+         |
+         | Two alliances formed in the 2015 Mexican election. ALLIANCE 1,
+         | Coalition of the Progressive Left, was an alliance of the 
+         | Democratic Revolutionary Party (PRD) and the Labor Party (PT).
+         | ALLIANCE 2, Coalition PRI-PVEM, was an alliance of the 
+         | Institutional Revolutionary Party (PRI) and the Green Party of 
+         | Mexico (PVEM).             
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: MONTENEGRO (2012)
+---------------------------------------------------------------------------
+
+01.           Alabanska Omladinska Alijansa - Aleanca Rinore e Shqiptareve 
+              Youth Alliance of Albanians
+
+
+02.  PARTY F  Srpska Sloga (SS)
+              Serbian Unity
+    LEADER F  SEE ELECTION STUDY NOTE           
+
+
+03.  PARTY I  Hrvatska Gradanska Inicijativa (HGI)
+              Croatian Civic Initiative
+    LEADER I  Marija Vucinovic     
+
+
+04.  PARTY D  Pozitivna Crna Gora (PCG)
+              Positive Montenegro                            
+    LEADER D  Darko Pajovic
+
+
+05.  PARTY C  Socijalisticka Narodna Partija (SNP)
+              Socialist People's Party 
+    LEADER C  Srdjan Milic
+
+
+06.           Unioni Demokratiki Shqiptareve; Demokratska Unija
+              Albanaca (UDSH-DUA)
+              Democratic Union of Albanians
+
+
+07.  PARTY H  Albanska Koalicija (AK) - SEE ELECTION STUDY NOTE
+              Albanian Coalition 
+    LEADER H  Fatmir Gjeka                             
+
+
+08.  PARTY B  Demokratski Front (DF) - SEE ELECTION STUDY NOTE
+              Democratic Front  
+    LEADER B  Andrija Mandic
+
+
+09.  PARTY G  Forca za Jedinstvo - Forca per Bashkim (FZJ-FPB)
+              Force for Unity 
+    LEADER G  Genci Nimanbegu
+
+
+10.  PARTY E  Bosnjacka Stranka (BS)
+              Bosniak Party 
+    LEADER E  Rifat Husovic
+
+
+11.  PARTY A  Koalicija za Evropsku (CG) 
+              Coalition "For a European Montenegro" 
+    LEADER A  Milo Djukanovic
+
+
+12.           Bosnjaci i Muslimani Zajedno
+              Zajedno
+
+
+13.           Srpska Narodna Stranka (SNS) - Ranko Kadic
+              Serbian People's Party
+
+
+14.           Nova Srpska Demokratija (NSD) - Andrija Mandic
+              New Serb Democracy 
+
+
+15.           Pokret za Promjene (PZP) - Nebojsa Medojevic
+              Movement for Changes
+
+
+16.           Narodnjacka Koalicija (NK) - SEE ELECTION STUDY NOTE
+              People's Coalition 
+
+
+17.           Koalicija LP i DC - Dr Goran Batricevic
+              Coalition LP and DC
+
+
+18.           Stranka Penzionera i Invalida (CG)
+              Party of Pensionists and Disabled
+
+
+19.           Forca - Nazif Cungu
+              Forca
+
+
+20.           Albanska Lista (DSCG / AA) - SEE ELECTION STUDY NOTE
+              Albanian List 
+
+
+21.           Albanska Koalicija - Perspektiva (AKP)
+              Albanian Coalition - Perspective
+
+
+22.           Crnogorski Komunisti
+              Montenegrin Communists
+
+
+23.           Srpska Nacionalna Lista (SL)
+              Serbian List
+
+
+24.           Demoktraska Partija (DP)
+              Democratic Party
+
+
+25.           Liberalna Partija (LP)
+              Liberal Party
+
+
+26.           Demokratska Partiji Socijalista Crne Gogre (DPS)
+              Democratic Party of Socialists 
+
+
+         | ELECTION STUDY NOTES - MONTENEGRO (2012): PARTIES AND LEADERS
+         |
+         | PARTY A (Coalition "For a European Montenegro", CG) was an
+         | electoral alliance of the Democratic Party of Socialists
+         | (DPS), the Social Democratic Party (SDP) and the Liberal 
+         | Party (LP). Variables D3011_A and D3013_A refer to the 
+         | alliance member DPS only and not the electoral alliance
+         | itself.  
+         |
+         | PARTY B (Democratic Front, DF) was an electoral coalition of
+         | the Movement for Changes (PzP) and New Serb Democracy (NSD).
+         | Variables D3011_B and D3013_B refer to the alliance member
+         | NSD only and not the electoral alliance itself. 
+         |
+         | No data available for PARTY F (Serbian Unity, SS) for
+         | variables D3011_F, D3012_F and D3013_F. 
+         |
+         | PARTY H (Albanian Coalition, AK) was an electoral coalition of
+         | the Democratic League in Montenegro (DS), the Democratic Party
+         | (DP), and Albanian Alternative (AA). Variables D3011_H and 
+         | and D3013_H refer to the alliance member DP only and not the
+         | the electoral alliance itself. 
+         |
+         | PARTY 16 (People's Coalition - NK) was an electoral alliance
+         | of the People's Party (CS) and the Democratic Serb Party (DSS).
+         |
+         | PARTY 20 (Albanian List - DSCG / AA) was an electoral alliance
+         | of the Democratic League in Montenegro (DSCG) and the Albanian
+         | Alternative (AA).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: NEW ZEALAND (2011)
+---------------------------------------------------------------------------
+
+01.  PARTY B  Labour Party (Lab)
+    LEADER B  Phil Goff
+
+
+02.  PARTY A  National Party (NP)
+    LEADER A  John Key
+
+
+03.  PARTY C  Green Party (GP)
+    LEADER C  Russel Norman
+
+
+04.  PARTY D  New Zealand First (NZF)
+    LEADER D  Winston Peters
+
+
+05.  PARTY H  ACT New Zealand (ACT)
+    LEADER H  Don Brash
+
+
+06.  PARTY I  United Future (UFNZ)
+    LEADER I  Peter Dunne
+
+
+07.  PARTY F  Maori Party (MP)
+    LEADER F  Pita Sharples
+
+
+08.  PARTY E  Conservative Party (CP)
+
+
+09.  PARTY G  MANA Movement (MANA)
+    LEADER G  Hone Harawira
+
+
+10.           Aotearoa Legalise Cannabis Party (ALCP)
+
+
+11.           Alliance (ALL)
+
+
+12.           Democrats for Social Credit (NZDSC)
+
+
+13.           Progressive Party (PP)
+
+
+
+         | ELECTION STUDY NOTES - NEW ZEALAND (2011): PARTIES AND LEADERS
+         |
+         | No data was available for PARTY E (Conservative Party - CP) for
+         | variables D3011_E and D3013_E. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: NEW ZEALAND (2014)
+---------------------------------------------------------------------------
+
+01.  PARTY A  National Party (NP)                   
+    LEADER A  John Key
+
+
+02.  PARTY B  Labour Party (Lab)
+    LEADER B  David Cunliffe
+
+
+03.  PARTY C  Green Party (GP)                
+    LEADER C  Metiria Turei - SEE ELECTION STUDY NOTE
+
+
+04.  PARTY D  New Zealand First Party (NZF)    
+    LEADER D  Winston Peters
+
+
+05.  PARTY E  Conservative Party (CP)              
+    LEADER E  Colin Craig
+
+
+06.  PARTY F  Internet MANA - SEE ELECTION STUDY NOTE
+    LEADER F  Hone Harawira
+
+
+07.  PARTY G  Maori Party (MP)
+    LEADER G  Te Uroroa Flavell
+
+
+08.  PARTY H  ACT New Zealand (ACT)
+    LEADER H  Jamie Whyte
+
+
+09.  PARTY I  United Future (UFNZ)
+    LEADER I  Peter Dunne
+
+
+         | ELECTION STUDY NOTES - NEW ZEALAND (2014): PARTIES AND LEADERS
+         |
+         | The Green Party was led by two politicians, Russell Norman and  
+         | Metiria Turei. Since CSES is limited to nine parties/candidates   
+         | for all respective variables including party evaluation, only  
+         | one leader likeability measure for the Greens is included. 
+         | Metiria Turei was included because more respondents evaluated her  
+         | compared to the share who evaluated Russell Norman.
+         |
+         | PARTY F (Internet MANA) was an electoral alliance of the 
+         | Internet Party (IP) and the Mana Movement (MANA). 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: NORWAY (2013)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Arbeiterpartiet (AP)
+              Labor Party
+    LEADER A  Jens Stoltenberg
+
+
+02.  PARTY B  Hoyre (H)
+              Conservative Party
+    LEADER B  Erna Solberg
+
+
+03.  PARTY C  Fremskrittspartiet (FRP)
+              Progress Party
+    LEADER C  Siv Jensen
+
+
+04.  PARTY D  Kristelig Folkeparti (KRF)
+              Christian Peoples Party         
+    LEADER D  Knut Arild Hareide
+
+
+05.  PARTY E  Senterpartiet (SP) 
+              Center Party
+    LEADER E  Liv Signe Navarsete
+
+
+06.  PARTY F  Venstre (V)
+              Liberals Party
+    LEADER F  Trine Skei Grande
+
+
+07.  PARTY G  Sosialistisk Venstreparti (SV)
+              Socialist Left Party
+    LEADER G  Audun Lysbakken
+
+
+08.  PARTY H  Miljopartiet de Gronne (MDG)
+              The Greens
+    LEADER H  SEE ELECTION STUDY NOTE          
+
+
+09.  PARTY I  Rodt (R)
+              Red
+    LEADER I  SEE ELECTION STUDY NOTE
+
+
+         | ELECTION STUDY NOTES - NORWAY (2013): PARTIES AND LEADERS
+         |
+         | No party leader likeability measures available for PARTIES H
+         | (The Greens - MDG) and I (Red - I).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: PERU (2016)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Fuerza Popular (FP)
+              Popular Force                     
+    LEADER A  Keiko Fujimori
+
+           
+02.  PARTY B  Peruanos por el Kambio (PPK)
+              Peruvians for Change                     
+    LEADER B  Pedro Pablo Kuczynski
+
+  
+03.  PARTY C  El Frente Amplio por Justicia, Vida y Libertad (Frente
+              Amplio)
+              Broad Front for Justice, Life and Liberty                     
+    LEADER C  Veronika Mendoza
+
+
+04.  PARTY D  Alianza Para El Progreso del Peru (APP)
+              Alliance for Progress of Peru                     
+    LEADER D  Cesar Acuna
+
+
+05.  PARTY E  Alianza Popular
+              People's Alliance                     
+    LEADER E  Alan Garcia
+
+
+06.  PARTY F  Accion Popular (AP)
+              People's Action                     
+    LEADER F  Alfredo Barnechea
+
+
+07.  PARTY G  Democracia Directa
+              Direct Democracy                     
+    LEADER G  Gregorio Santos
+
+
+08.  PARTY H  Peru Posible
+              Possible Peru         
+    LEADER H  Alejandro Toledo - SEE ELECTION STUDY NOTE
+
+
+09.  PARTY I  Frente Esperanza
+              Hope Front                     
+
+
+10.           Partido Nacionalista Peruano (PNP)
+              Peruvian Nationalist Party
+
+
+         | ELECTION STUDY NOTES - PERU (2016): PARTIES AND LEADERS
+         |
+         | LEADER H Alejandro Toledo was the presidential candidate for the 
+         | party Possible Peru in the 2011 Peruvian presidential elections.
+         | Code 8 is used to refer to him in variable D3008_PR_1.
+         | 
+         | For PARTY E (People's Alliance), data is unavailable for D3011_E
+         | and D3013_E.  
+         |
+         | For PARTY H (Possible Peru), data is unavailable for D3011_H,
+         | D3012_H and D3013_H. LEADER H Alejandro Toledo was presidential
+         | candidate for the party Possible Peru in the 2011 Peruvian
+         | presidential elections. Code 8 is used to refer to him in 
+         | variable D3008_PR_1. 
+         | 
+         | For PARTY I (Hope Front), data is unavailable for D3011_I and
+         | D3013_I.  
+         | 
+         | For additional party codes referring to the previous vote choice 
+         | variables D3008_PR_1 and D3008_PR_2 for PERU (2016), please see
+         | election study notes for PERU (2016) for variables D3008_PR_1
+         | and D3008_PR_2 in Part 2 of the CSES Codebook. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: PHILIPPINES (2016)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Partido Liberal ng Pilipinas (LP)
+              Liberal Party     
+    LEADER A  Roxas, Mar Daang Matuwind – SEE ELECTION STUDY NOTES
+
+
+02.  PARTY B  Koalisyong Makabayan ng Bayan (NPC)
+              Nationalist People's Coalition
+
+
+03.  PARTY C  Partido ng Pambansang Pagkakaisa (NUP)
+              National Unity Party   
+
+
+04.  PARTY D  Partido Nacionalista (NP)
+              Nationalist Party 
+
+
+05.  PARTY E  United Nationalist Alliance (UNA)
+    LEADER E  Po  Binay, Jojo – SEE ELECTION STUDY NOTES
+
+
+06.  PARTY F  Partido Demokratiko Pilipino-Lakas ng Bayan (PDP-Laban)
+              Philippine Democratic Party-People's Power 
+    LEADER F  Duterte, Rody – SEE ELECTION STUDY NOTES
+
+
+07.  PARTY G  Lakas-Demokratang Kristiyano at Muslim (LAKAS-CMD)
+              People Power-Christian Muslim Democrats 
+
+
+08.  PARTY H  Aksyon Demokratiko (Aksyon)
+              Democratic Action
+    LEADER H  Poe, Grace – SEE ELECTION STUDY NOTES
+
+
+09.  PARTY I  Partido ng Repormang Pantao (PRP)
+              People's Reform Party 
+    LEADER I  Defensor Santiago, Miriam – SEE ELECTION STUDY NOTES
+
+
+10.           Arts, Business and Science Professionals (Abs)
+
+
+11.           Abono Party List (Abono)
+
+
+12.           Anti-Crime and Terrorism Community Involvement and Support, 
+              Inc. (Act-Cis)
+
+
+13.           Alliance of Concerned Teachers (Act Teachers)
+
+
+14.           Acts Overseas Filipino Workers Coalition of Organizations 
+              (Acts- Ofw)
+
+
+15.           Association for Development Dedicated to Agriculture and 
+              Fisheries, Inc. (Adda)
+
+
+16.           Agricultural Sector Alliance of the Philippines (Agap)
+
+
+17.           Agbiag! Timpuyog Ilocano, Inc. (Agbiag!)
+
+
+18.           Alyansa ng mga Grupong Haligi ng Agham at Teknolohiya para
+              sa Mamamaya (Agham)
+              Alliance of Groups Supporting Science and Technology for 
+              the People 
+
+
+19.           Agri-Agra na Reforma para sa Magsasaka ng Pilipinas 
+              Movement (Agri)
+
+
+20.           Akbayan Citizens' Action Party (Akbayan)
+
+
+21.           Akbay Kalusugan, Inc. (Akin)
+
+
+22.           Ako Bicol (Akb)
+
+
+23.           Alay Buhay Community Development Foundation, Inc.
+              (Alay Buhay)
+
+
+24.           One Patriotic Coalition of Marginalized Nationals (1-Pacman)
+
+
+25.           An Waray
+
+
+26.           Anakbayan
+
+
+27.           Ang National Coalition of Indigenous Peoples Action Na!, 
+              Inc. (Anac-Ip)
+
+
+28.           Anakpawis
+
+
+29.           1-Ang Edukasyon
+
+
+30.           Ang Kabuhayan
+
+
+31.           Angkla: Ang Partido ng Pilipinong Marino, Inc. (Angkla)
+
+
+32.           Asia-Pacific Economic Cooperation (Apec)
+
+
+33.           Append, Inc.(APPEND)
+
+
+34.           Ating Guro
+
+
+35.           Bagong Henerasyon (Bh)
+
+
+36.           Bayan Muna
+              Nation First
+
+
+37.           Abakada-Gur (Abakada)
+
+
+38.           Butil Farmers Party (Butil)
+
+
+39.           Cancer Alleviation Network on Care, Education and 
+              Rehabilitation, Inc. (Cancer)
+
+
+40.           Citizen's Battle Against Corruption (Cibac)
+
+
+41.           Central Luzon Alliance for Socialized Education (Clase)
+
+
+42.           Cooperative NATCCO Party (Coop-Natcco)
+
+
+43.           Democratic Independent Workers Association, Inc. (Diwa)
+
+
+44.           Gabriela Women's Party (Gabriela)
+
+
+45.           Global Workers and Family Federation, Inc. (Global)
+
+
+46.           Kabataan
+
+
+47.           Kabalikat ng Mamamayan (Kabayan)
+              Kabayan Party List
+
+
+48.           Abang Lingkod, Inc. (Abang Lingkod)
+
+
+49.           Kasangga sa Kaunlaran, Inc. (Ang Kasangga)
+
+
+50.           Kusug Tausug
+
+
+51.           Power-Team
+
+
+52.           Laban ng Demokratikong Pilipino (LDP) 
+              Fight of Democratic Filipinos
+
+
+53.           Anak Mindanao (Amin)
+              Children of Mindanao
+
+
+54.           Abante Retirees Party-List Organization (Abante Retirees)
+
+
+55.           Manila Teachers Savings and Loan Association, Inc. 
+              (Manila Teachers)
+
+
+56.           Marino Samahan ng mga Seaman, Inc. (Marino)
+
+
+57.           Movement of Women for Change and Reform (Melchora)
+
+
+58.           National Confederation of Tricycle Operators and Drivers 
+              Association of the Philippines, Inc. (Nactodap)
+
+
+59.           Ang Nars, Inc. (Ang Nars)
+
+
+60.           Ang Mata'y Alagaan (Mata)
+
+
+61.           Pwersa ng Bayaning Atleta (Pba)
+
+
+62.           Piston Land Transportation Coalition, Inc. (Piston)
+
+
+63.           Partido Manggagawa  (PM)
+              Labor Party
+
+
+64.           Reform the Armed Forces Movement (Ram)
+
+
+65.           Sandigan ng mga Manggagawa sa Konstruksyon (Samako)
+
+
+66.           Association of Marine officers and rating, Inc. (Amor Seaman)
+
+
+67.           Coalition of Associations of Senior Citizens of the 
+              Philippines (Senior Citizens)
+
+
+68.           Lingap Lugud (LL)
+              Caring Love
+
+
+69.           Talino at Galing ng Pinoy (Tgp)
+
+
+70.           Tingog Sinirangan
+
+
+71.           Trade Union Congress Party (Tucp)
+
+
+72.           Bando Osmena-Pundok Kauswagan (Bo-PK) 
+
+
+73.           You Against Corruption and Poverty (Yacap)
+
+
+74.           Ladlad
+
+
+75.           Academicians, Students and Educators Alliance, Inc. 
+              (Asean, Inc.)
+
+
+76.           Pwersa ng Masang Pilipino (PMP)
+              Force of the Filipino Masses
+
+
+77.           1st Consumers Alliance for Rural Energy, Inc. (1-Care)
+
+
+78.           Aangat Tayo
+
+
+79.           Kabalikat ng Bayan sa Kaunlaran (Kabaka)
+
+
+80.           Ang Asosasyon Sang Mangunguma Nga Bisaya Owa Mangunguma, Inc.
+              (Aambis-Owa)
+
+
+81.           Alliance of Philippine Fishing Federations, Inc. (All-Fish)
+
+
+82.           Alliance Party For Progress (App)
+
+
+83.           Advocacy for Social Empowerment and Nation Building through 
+              Easing Poverty, Inc (Kalinga)
+
+
+84.           One Cebu (1-Cebu)
+
+
+85.           Asenso Manileno (AM)
+
+
+86.           Arangkada San Joseno (ASJ)
+
+
+87.           Hugpong sa Tawong Lungsod 
+              Party of the People of the City
+
+
+88.           Voice of the Masses Party (PTM)     
+
+
+         | ELECTION STUDY NOTES - PHILIPPINES (2016): PARTIES AND LEADERS
+         |
+         | LEADERS A, E, F, H, and I were the Presidential candidates of
+         | their respective parties in the 2016 Philippine Presidential 
+         | Election.
+         |
+         | For PARTY C (National Unity Party - NUP), data is unavailable 
+         | for variables D3011_C, D3013_C and D3015_C.
+         |
+         | For PARTY G (People Power-Christian Muslim Democrats - LAKAS-
+         | CMD), data is unavailable for variables D3011_G, D3013_G and 
+         | D3015_G.
+         |  
+         | For PARTY H (Democratic Action - Aksyon), data is unavailable
+         | for variables D3011_H, D3013_H and D3015_H.
+         |  
+         | The order of the parties in the above list (A-I) follows the
+         | outcome of the 2016 lower house election, which was held on the
+         | same day as the presidential election. The codes are used for 
+         | all election and party variables except for the second tier of
+         | the previous lower house election, D3008_LH_PL. 
+         | For additional/deviating numerical party codes referring to the
+         | previous vote choice variable D3008_LH_PL for PHILIPPINES 
+         | (2016), please see election study note for PHILIPPINES (2016)
+         | for variable D3008_LH_PL in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: POLAND (2011)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Platforma Obywatelska (PO)
+              Civic Platform
+    LEADER A  Donald Tusk
+
+
+02.  PARTY B  Prawo i Sprawiedliwosc (PiS)
+              Law and Justice Party 
+    LEADER B  Jaroslaw Kaczynski
+
+
+03.  PARTY C  Ruch Palikota (RP)
+              Palikots Movement
+    LEADER C  Ruch Palikota
+
+
+04.  PARTY D  Polskie Stronnictwo Ludowe  (PSL)
+              Polish Peoples Party
+    LEADER D  Waldemar Pawlak
+
+
+05.  PARTY E  Sojusz Lewicy Demokratycznej (SLD)
+              Democratic Left Alliance
+    LEADER E  Grzegorz Napieralski
+
+
+06.  PARTY F  Polska jest Najwazniejsza (PJN)
+              Poland Comes First 
+    LEADER F  SEE ELECTION STUDY NOTE
+
+
+07.  PARTY G  Kongres Nowej Prawicy (KNP)
+              Congress of the New Right 
+    LEADER G  SEE ELECTION STUDY NOTE
+
+
+08.           Polska Partia Pracy (PPP)
+              Polish Labour Party
+
+
+09.  PARTY H  Mniejszosc niemiecka w Polsce (MN)
+              German Minority 
+    LEADER H  SEE ELECTION STUDY NOTE
+
+
+10.           Nasz Dom Polska - Samoobrona Andrzeja Lepper (NDP)
+              Our Home Poland 
+
+
+11.           Samoobrona Patriotyczna
+              Patriotic Self-Defense
+
+
+12.           Unia Polityki Realnej (UPR) 
+              Real Politics Union 
+
+
+13.           Liga Polskich Rodzin (LPR)
+              League of Polish Families
+
+
+14.           Samoobrona Rzeczypospolitej Polskiej (SRP)
+              Self-Defence of the Republic of Poland
+
+
+15.           Lewica i Demokraci (LiD)
+              Left and Democrats 
+
+
+         | ELECTION STUDY NOTES - POLAND (2011): PARTIES AND LEADERS
+         |
+         | No data available for PARTY F (Poland Comes First, PJN), PARTY
+         | G (Congress of the New Right, KNP) and PARTY H (Germany 
+         | Minority, MN) for variables D3011, D3012 and D3013.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: PORTUGAL (2015)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Portugal a Frente (PaF) (PPD/PSD, CDS-PP) - SEE ELECTION 
+              STUDY NOTE
+              Portugal Ahead       
+    LEADER A  Pedro Passos Coelho - SEE ELECTION STUDY NOTE 
+
+
+02.  PARTY B  Partido Socialista (PS)
+              Socialist Party
+    LEADER B  Antonio Costa
+
+
+03.  PARTY C  Bloco de Esquerda (BE)
+              Left Bloc
+    LEADER C  Catarina Martins
+
+
+04.  PARTY D  Coligacao Democratica Unitaria (CDU) (PCP-PEV) - SEE
+              ELECTION STUDY NOTE
+              Unitary Democratic Coalition  
+    LEADER D  Jeronimo de Sousa
+
+
+05.  PARTY E  Pessoas-Animais-Natureza (PAN)
+              Party for People, Animals and Nature
+
+
+06.  PARTY F  Partido Democratico Republicano (PDR)
+              Democratic Republican Party
+    LEADER F  Marinho e Pinto
+
+
+07.  PARTY G  Partido Comunista dos Trabalhadores Portugueses - Movimento 
+              Reorganizativo do Partido do Proletariado (PCTP/MRRP)
+              Workers Communist Party 
+    LEADER G  SEE ELECTION STUDY NOTE  
+
+
+08.  PARTY H  Centro Democratico e Social-Partido Popular (CDS-PP)
+              People's Party
+    LEADER H  Paulo Portas
+
+
+09.           Partido Ecologista "Os Verdes" (PEV)
+              Ecologist Party - The Greens
+
+
+10.           Partido Comunista Portugues (PCP)
+              Portuguese Communist Party
+
+         | ELECTION STUDY NOTES - PORTUGAL (2015): PARTIES AND LEADERS
+         |
+         | PARTY A (Portugal Ahead, PaF) was an electoral coalition of the
+         | Social Democratic Party (PPD/PSD) and the Democratic  and Social
+         | Centre - People's Party (CDS-PP). The coalition was led by 
+         | LEADER A (Pedro Passos Coelho - PPD/PSD). For some variables, 
+         | CSES had data on this coalition available, while for others, 
+         | CSES had data available for the two coalition partners 
+         | separately. Where CSES had data on the Portugal Ahead coalition,
+         | it is coded into numeric code 1 or alphabetical code A. This is
+         | the case for variable D3006_LH_PL (Vote Choice), for which the 
+         | Portugal Ahead coalition is coded 01, and for variable D3021_
+         | (Mobilization: Institutional contact - who), for which the 
+         | Portugal Ahead coalition is coded into D3021_A. Where the CSES 
+         | had data on the two coalition parties separately, numeric code
+         | 01 or alphabetical code A are used for the Social Democratic 
+         | Party (PPD/PSD) while their coalition partner CDS-People's Party
+         | is assigned numeric code 08 or alphabetical code H. This is the
+         | case for variables D3008_LH_PL (Previous election: Vote choice), 
+         | D3011_ (Like-dislike Party), D3012_ (Like-dislike Leader),
+         | D3013_ (Left-right Party) and D3018_3 (Which party do you feel
+         | closest to?).
+         |
+         | PARTY D (Unitary Democratic Coalition, CDU) was an electoral 
+         | alliance of the Portuguese Communist Party (PCP) and the 
+         | Ecologist Party - The Greens (PEV). 
+         |
+         | No data available for PARTY E (Workers Communist Party,PCTP/MRRP)
+         | for variables D3011 and D3013. 
+         |
+         | No data available for PARTY G (Party for People, Animals and 
+         | Nature, PAN) for variables D3011, D3012 and D3013. 
+         |
+         | For deviating numerical party codes referring to the previous 
+         | vote choice variable D3008_LH_PL for PORTUGAL (2015), please see
+         | election study note for PORTUGAL (2015) for variable D3008_LH_PL
+         | in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: Romania (2012)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Uniunea Social Liberala (USL) - SEE ELCTION STUDY NOTE                    
+              Social Liberal Union
+    LEADER A  Victor Ponta - SEE ELECTION STUDY NOTE
+    LEADER H  Crin Antonescu - SEE ELECTION STUDY NOTE
+
+
+02.  PARTY B  Alianta Romania Dreapta (ARD)  - SEE ELECTION STUDY NOTE
+              The Alliance for a Just Romania
+    LEADER B  Vasile Blaga - SEE ELECTION STUDY NOTE
+    LEADER I  Traian Basescu - SEE ELECTION STUDY NOTE
+
+
+03.  PARTY C  Partidul Poporului - Dan Diaconescu (PP-DD)
+              People's Party - Dan Diaconescu
+    LEADER C  Dan Diaconescu
+
+
+04.  PARTY D  Uniunea Democrata Maghiara din Romania (UDMR)
+              Hungarian Democratic Union of Romania
+    LEADER D  Kelemen Hunor
+
+
+05.  PARTY E  Partidul Romania Mare (PRM)
+              Greater Romania Party
+    LEADER E  Corneliu Vadim Tudor
+
+
+06.  PARTY G  Partidul Social Democrat (PSD)
+              Social Democratic Party
+
+
+07.  PARTY H  Partidul National Liberal (PNL)
+              National Liberal Party
+
+
+08.  PARTY I  Partidul Democrat Liberal (PDL)
+              Liberal Democratic Party
+
+
+09.           Partidul National Taranesc Crestin Democrat (PNTCD)
+              Christian Democratic National Peasant Party
+
+
+10.           Forta Civica (FC)
+              Civic Force
+
+
+11.           Partidul Noua Republica (NR)
+              New Republic Party
+
+
+12.           Partidul Noua Generatie - Crestin D (PNG-CD)
+              New Generation Party - Christian Democratic
+
+
+13.           Partidul Conservator (PC)
+              Conservative Party
+
+
+14.           Uniunea Nationala pentru Progresul Romaniei (UNPR)
+              National Union for the Progress of Romania
+
+
+         | ELECTION STUDY NOTES - ROMANIA (2012): PARTIES AND LEADERS
+         |
+         | Parties are ordered A to E in descending order of the vote shares
+         | won by each coalition (where applicable) and not individual 
+         | party vote shares. 
+         |
+         | Data is available for some individual parties of the coalitions 
+         | PARTY A and PARTY B), namely the Social Democratic Party (PSD), 
+         | the National Liberal Party (PNL), and the Liberal Democratic 
+         | Party (PDL) for the variables D3011, D3013, D3018_3, and D3021.  
+         | Where applicable (D3011 and D3013), these parties are coded G, 
+         | H and I respectively. 
+         |
+         | PARTY A (The Social Liberal Union, USL) was an electoral 
+         | alliance made up of the Social Democratic Party (PSD), the
+         | National Liberal Party (PNL), the Conservative Party (PC),
+         | and the National Union for Romania's Progress (UNPR).It had
+         | two co-presidents, LEADER A (Victor Ponta - PSD) and LEADER H
+         | (Crin Antonescu - PNL).
+         | 
+         | PARTY B (The Alliance for a Just Romania, ARD) was an electoral
+         | alliance made up of the Liberal Democratic Party (PDL), the 
+         | Civic Force (FC), and the Christian Democratic National Peasant
+         | Party (PNTCD). The party did not have a formal leader. LEADER B
+         | (Vasile Blaga - PDL) was the leader of the strongest of all 
+         | of the three alliance members. LEADER I (Traian Basescu) was 
+         | the Romanian President at the time of the election. While
+         | he had officially run as an independent in the 2009 Romanian 
+         | Presidential election, Basescu was backed by the PDL and later
+         | by the alliance ARD.
+         |
+         | For deviating numerical party codes referring to the previous 
+         | vote choice variable D3008_LH_DC and D3008_UH_DC_1 for ROMANIA
+         | (2012), please see election study notes for ROMANIA (2012) for
+         | variables D3008_LH_DC and D3008_UH_DC_1 in Part 2 of the 
+         | Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ROMANIA (2014)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Alianta Electorala PSD-UNPR-PC – SEE ELECTION STUDY NOTE
+              PSD-UNPR-PC Electoral Alliance                     
+    LEADER A  Victor Viorel Ponta – SEE ELECTION STUDY NOTE
+
+           
+02.  PARTY B  Alianta Crestin-Liberala (ACL) – SEE ELECTION STUDY NOTE
+              Christian-Liberal Alliance                     
+    LEADER B  Klaus Werner Iohannis – SEE ELECTION STUDY NOTE
+
+  
+03.  PARTY C  Partidul Miscarea Populara (PMP)
+              Popular Movement Party                     
+    LEADER C  Elena Gabriela Udrea – SEE ELECTION STUDY NOTE
+
+
+04.  PARTY D  Partidul Poporului – Dan Diaconescu (PP-DD)
+              People’s Party – Dan Diaconescu                     
+    LEADER D  Dan Diaconescu – SEE ELECTION STUDY NOTE
+
+
+05.  PARTY E  Partidul Romania Mare (PRM)
+              Greater Romania Party                     
+    LEADER E  Corneliu Vadim-Tudor – SEE ELECTION STUDY NOTE
+
+
+06.  PARTY F  Uniunea Democrata Maghiara din Romania (UDMR)
+              Hungarian Democratic Union of Romania                     
+    LEADER F  Hunor Kelemen – SEE ELECTION STUDY NOTE
+
+
+07.           Partidul Popular Maghiar din Transilvania (PPMT)
+              Hungarian People's Party of Transylvania
+
+
+08.           Partidul Ecologist Roman (PER)
+              Romanian Ecologist Party
+
+
+09.           Partidul Alternativa Socialista (PAS)
+              Socialist Alternative Party
+
+
+10.           Partidul PRODEMO
+              PRODEMO Party
+
+
+11.           Partidul Social Democrat (PSD)
+              Social Democratic Party
+
+
+12.           Uniunea Nationala pentru Progresul Romaniei (UNPR)
+              National Union for Romania’s Progress
+
+
+13.           Partidul Conservator (PC)
+              Conservative Party
+
+
+14.           Partidul National Liberal (PNL)
+              National Liberal Party
+
+
+15.           Partidul Democrat Liberal (PDL)
+              Liberal Democratic Party
+
+
+16.           Partidul National Taranesc Crestin Democrat (PNTCD)
+              Christian Democratic National Peasant Party
+
+
+17.           Alianta Politica Partidul Social Democrat + Partidul 
+              Conservator (PSD+PC) – SEE ELECTION STUDY NOTE
+              Social Democratic Party + Conservative Party Political 
+              Alliance
+
+
+18.           Partidul Noua Generatie - Crestin Democrat (PNG-CD)
+              New Generation Party - Christian Democrat    
+
+
+87. LEADER H  Calin-Constantin-Anton Popescu-Tariceanu (Independent 
+              Candidate) – SEE ELECTION STUDY NOTE
+
+
+88. LEADER I  Monica-Luisa Macovei (Independent Candidate) – SEE ELECTION 
+              STUDY NOTE
+
+
+
+         | ELECTION STUDY NOTES - ROMANIA (2014): PARTIES AND LEADERS
+         |
+         | LEADERS A-F were the Presidential candidates of their
+         | respective parties/alliances in the 2014 Romanian 
+         | Presidential Election.
+         |
+         | The alphabetical codes were assigned in descending order of 
+         | the party vote share, i.e., the vote share in the 2014 
+         | Romanian Presidential Election that a specific candidate
+         | gained for their party. Among the top five vote receiving 
+         | candidates, however, there were two non-party candidates, 
+         | namely Calin-Constantin-Anton Popescu-Tariceanu (LEADER H)
+         | and Monica-Luisa Macovei (LEADER I). These candidates were 
+         | assigned alphabetical codes because of their results and
+         | because there is relational data, such as the LIKE-
+         | DISLIKE – LEADER rating, available for them in the CSES data. 
+         | Because these two candidates were non-party candidates, there is
+         | no data available for D3011_H (LIKE-DISLIKE – PARTY H), D3011_I
+         | (LIKE-DISLIKE – PARTY I), D3013_H (LEFT-RIGHT – PARTY H), and
+         | D3013_I (LEFT-RIGHT - PARTY I). The remainder of the non-party 
+         | candidates, both for the current 2014 Romanian Presidential
+         | Election and the previous 2009 Romanian Presidential 
+         | Election, were recoded into category “89. INDEPENDENT CANDIDATE
+         | (NOT FURTHER SPECIFIED)”. The number of respondents who 
+         | mentioned to have voted for such candidates was N=5 for the
+         | current vote choice variable (D3006_PR_1) and N=12 for the
+         | previous vote choice variable (D3008_PR_1).
+         |
+         | PARTY A (PSD-UNPR-PC Electoral Alliance) was an electoral
+         | alliance made up of the Social Democratic Party (PSD), the
+         | National Union for Romania’s Progress (UNPR), and the 
+         | Conservative Party (PC). 
+         |
+         | PARTY B (Christian-Liberal Alliance, ACL) was an electoral
+         | alliance made up of the National Liberal Party (PNL) and the
+         | Liberal Democratic Party (PDL). 
+         | 
+         | Party 17 (Social Democratic Party & Conservative Party 
+         | Political Alliance, PSD/PC) was an electoral alliance made up
+         | of the Social Democratic Party (PSD) and the Conservative
+         | Party (PC). The alliance was formed for the previous Romanian
+         | Presidential Election which took place in 2009. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SERBIA (2012)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Srpska Napredna Stranka (SNS) - SEE ELECTION STUDY NOTE
+              Serbian Progressive Party 
+    LEADER A  Tomislav Nikolic (SEE ELECTION STUDY NOTE)
+
+
+02.  PARTY B  Demokratska Stranka (DS) - SEE ELECTION STUDY NOTE
+              Democratic Party
+    LEADER B  Boris Tadic - SEE ELECTION STUDY NOTE 
+
+
+03.  PARTY C  Socijalistieka Partija Srbije (SPS)
+              Socialist Party of Serbia 
+    LEADER C  Ivica Dacic - SEE ELECTION STUDY NOTE 
+
+
+04.  PARTY D  Demokratska Stranka Srbije (DSS)
+              Democratic Party of Serbia
+    LEADER D  Vojislav Kostunica - SEE ELECTION STUDY NOTE
+
+
+05.  PARTY E  Liberalno Demokratska Partija (LDP) - SEE ELECTION STUDY 
+              NOTE
+              Liberal Democratic Party 
+    LEADER E  Ceedomir Jovanovic - SEE ELECTION STUDY NOTE
+
+
+06.  PARTY F  Ujedinjeni Regioni Srbije (URS)
+              United Regions of Serbia
+    LEADER F  Zoran Stankovic - SEE ELECTION STUDY NOTE
+
+
+07.  PARTY G  Srpska Radikalna Stranka (SRS)
+              Serbian Radical party 
+    LEADER G  Jadranka Seselj - SEE ELECTION STUDY NOTE
+
+
+08.  PARTY H  Savez vojvodanskih Madara / Vajdasagi (SVM)
+              Alliance of Vojvodina Hungarians 
+    LEADER H  Istvan Pasztor - SEE ELECTION STUDY NOTE
+
+
+09.           Srpski pokret Dveri (SPD)
+              Dveri for Life of Serbia
+              Vladan Glisic - SEE ELECTION STUDY NOTE
+
+
+10.           Komunisticka Partija (KP)
+              Communist Party - Josip Broz
+
+
+11.           Stranka Demokratske Akcije Sandzaka (SDA) / Dr Sulejman 
+              Ugljanin
+              Party of Democratic Action of Sanjak - Dr Sulejman Ugljanin
+
+
+12.           "None of the offered answers"
+
+
+13.           Reformisticka Stranka (RS)
+              Reformist Party - Milan Visnjic
+
+
+14.           Nova Srbija (NS) - SEE ELECTION STUDY NOTE
+              New Serbia
+
+
+15.           Jedinstvena Srbija (JS)
+              United Serbia 
+
+
+16.           Liga socijaldemokrata Vojvodine (LSV) - SEE ELECTION STUDY 
+              NOTE
+              League of Social Democrats of Vojvodina
+
+
+17.           Srpski Pokret Obnove (SPO)
+              Serbian Renewal Movement
+
+
+18.           Partija Ujedinjenih Penzionera Srbij (PUPS)
+              Party of United Pensioners of Serbia 
+
+
+21.           Pokret Radnika i Seljaka
+              Movement of Workers and Peasants 
+              Zoran Dragisic (SEE ELECTION STUDY NOTE)
+
+
+22.           Grupa Gradana
+              Citizens' Group
+              Muamer Zukorlic - SEE ELECTION STUDY NOTE
+
+
+         | ELECTION STUDY NOTES - SERBIA (2012): PARTIES AND LEADERS
+         |
+         | The leaders listed here denote Presidential candidates, and not 
+         | party leaders.
+         |
+         | For PARTY H (Alliance of Vojvodina Hungarians, SVM), data is 
+         | unavailable for variables D3011_H, D3012_H and D3013_H.
+         |
+         | Six alliances formed in the 2012 Serbian election. ALLIANCE 1,
+         | Choice For A Better Life - Boris Tadic, was an alliance of the 
+         | Democratic Party (DS), Social Democratic Party of Serbia (SDPS),
+         | the League of Social Democrats of Vojvodina (LSV), Greens of 
+         | Serbia (ZS), the Democratic Alliance of Croats in Vojvodina 
+         | (DSHV), and the Christian Democratic Party of Serbia (DHSS).
+         |
+         | ALLIANCE 2, Let's Get Serbia Moving - Tomislav Nikolic, was an 
+         | alliance of the Serbian Progressive Party (SNS), New Serbia 
+         | (NS), the Movement of Socialists (PS), Strength of Serbia 
+         | Movement (PSS), the Serbian Association of Small and Medium 
+         | Companies and Entrepreneurs, the Association of Refugees in 
+         | Serbia, the People's Peasant Party (NSS), the Bosniak People's
+         | Party (BNS), the Democratic Party of Macedonian, the Roma 
+         | Party (RP), the Vlach Unity Movement and Economic Renewal of 
+         | Serbia.
+         |
+         | ALLIANCE 3, Turnover - Cedomir Jovanovic, was an alliance of 
+         | the Liberal Democratic Party (LDP), the Serbian Renewal 
+         | Movement (SPO), the Social Democratic Union (SDU), Rich Serbia
+         | (BS), Vojvodina's Party (VP), the Democratic Party of Sandzak 
+         | (SDAS), the Green Ecological Party and Party of Bulgarians 
+         | from Serbia.
+         |
+         | ALLIANCE 4, United Regions of Serbia - Mlaoan Dinkic (URS), 
+         | was an alliance of the G17 Plus party (G17+), Together for 
+         | Sumadija (ZZS), the People's Party and several other regional 
+         | political parties and movements. 
+         | 
+         | ALLIANCE 5, Socialist Party of Serbia - Party of United 
+         | Pensioners of Serbia - United Serbia (SPS - PUPS - JS), was 
+         | an alliance of the Socialist Party of Serbia (SPS), the 
+         | Party of United Pensioners of Serbia (PUPS) and United 
+         | Serbia (JS).
+         |
+         | ALLIANCE 6, All Together, was an alliance of the Bosniak 
+         | Democratic Union (BDZ), the Civil Alliance of Hungarians 
+         | (GSM), the Democratic Union of Croats (DZH), theDemocratic
+         | Fellowship of Vojvodina Hungarians (DZVM) and the Slovak 
+         | Party.
+         |
+         | For deviating numerical party codes referring to the previous 
+         | vote choice variable D3008_LH_PL for SERBIA (2012), please see
+         | election study note for SERBIA (2012) for variable D3008_LH_PL
+         | in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SLOVAKIA (2016)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Smer - socialna demokracia (Smer)
+              Direction - Social Democracy 
+    LEADER A  Robert Fico
+               
+
+02.  PARTY B  Sloboda a solidarita (SaS)
+              Freedom and Solidarity
+    LEADER B  Richard Sulik
+               
+
+03.  PARTY C  Obycajni ludia a nezavisle osobnosti (OLaNO)
+              Ordinary people - Independent personalities
+    LEADER C  Igor Matovic
+
+
+04.  PARTY D  Slovenska narodna strana (SNS)
+              Slovak National Party 
+    LEADER D  Andrej Danko
+
+
+05.  PARTY E  Ludova strana Nase Slovensko (LsNS)
+              People's Party Our Slovakia
+    LEADER E  Marian Kotleba
+
+
+06.  PARTY F  Sme Rodina - Boris Kollar (SR)
+              We are family - Boris Kollar
+    LEADER F  Boris Kollar
+
+
+07.  PARTY G  Most-Hid (MH)
+              Bridge
+    LEADER G  Bela Bugar
+
+
+08.  PARTY H  Siet (S)
+              Network
+    LEADER H  Radoslav Prochazka
+
+
+09.  PARTY I  Krestanskodemokraticke hnutie (KDH) - SEE ELECTION STUDY
+              NOTES
+              Christian Democratic Movement
+    LEADER I  Jan Figel - SEE ELECTION STUDY NOTES
+
+
+10.           Strana madarskej komunity - Magyar Koezoesseg
+              Partja (SMK-MKP)
+              Hungarian Coalition
+
+
+11.           Strana TIP (TIP)
+              Party TIP
+
+
+12.           Strana Moderneho Slovenska (SMS)
+              Party of Modern Slovakia
+
+
+13.           Demokrati Slovenska - Ludo Kanik (DS - Ludo Kanik)
+              Democrats of Slovakia - Ludo Kanik
+
+
+14.           Sanca (SANCA)
+              Chance
+
+
+15.           Strana zelenych Slovenska (SZS)
+              Green Party of Slovakia
+
+
+16.           Koalicia Spolocne za Slovensko 
+              Coalition Together for Slovakia
+
+
+17.           Ma'arska kres'anskodemokraticka aliancia - Magyar 
+              Keresztenydemokrata Szoevetseg (MKDM)
+              Hungarian Christian Democratic Movement
+
+
+18.           VZDOR - strana prace (VZDOR)
+              Protest - Party of Labour
+
+
+19.           Odvaha - Ve'ka narodna a proruska koalicia
+              People's Party Our Slovakia
+
+
+20.           Komunisticka strana Slovenska (KSS)
+              Communist Party of Slovakia
+
+
+21.           Slovenska demokraticka a krestanska unia -
+              Demokraticka strana (SDKU-DS)
+              Slovak Democratic and Christian Union -
+              Democratic Party
+
+
+22.           Slovenska obcianska koalicia (SPOK!)
+              Slovak Citizens Coalition
+
+
+23.           Priama Demokracia (PD)
+              Direct Democracy
+
+
+24.           Obcianska konzervativna strana (OKS) - SEE ELECTION 
+              STUDY NOTE
+              Civic conservative party          
+
+
+         | ELECTION STUDY NOTES - SLOVAKIA (2016): PARTIES AND LEADERS
+         |
+         | For PARTY I, the Christian Democratic Movement (KDH), and 
+         | its LEADER I, Jan Figel, data is unavailable for variables  
+         | D3011_I, D3012_I and D3013_I.
+         |
+         | PARTY 24 - The Civic Conservative Party (OKS) did not run 
+         | in the 2016 Slovak national election. However, it was 
+         | mentioned as a party that respondents feel close to 
+         | (Variable D3018_3).
+         |
+         | For additional numerical party codes referring to the previous 
+         | vote choice variable D3008_LH_PL for SLOVAKIA (2016), please 
+         | see election study note for SLOVAKIA (2016) for variable 
+         | D3008_LH_PL in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SLOVENIA (2011)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Liberalno Demokratska Stranka Slovenije (LZJ-PS)
+              Zoran Jankovic List - Positive Slovenija 
+    LEADER A  Zoran Jankovic
+
+
+02.  PARTY B  Slovenska Demokratska Stranka (SDS)
+              Slovenian Democratic Party                  
+    LEADER B  Janez Jansa
+
+
+03.  PARTY C  Socialni Demokrati (SD)
+              Social Democrats 
+    LEADER C  Borut Pahor
+
+
+04.  PARTY D  Drzavljanska Lista Gregorja Viranta (DIGV)
+              Gregor Virant's Civic List 
+    LEADER D  Gregor Virant
+
+
+05.  PARTY E  Demokraticna Stranka Upokojencev Slovenije (DeSUS)
+              Democratic Party of Retired Persons 
+    LEADER E  Karel Erjavec
+
+
+06.  PARTY F  Slovenska Ljudska Stranka (SLS)
+              Slovenian People's Party
+    LEADER F  Radovan Zerjav
+
+
+07.  PARTY G  Nova Slovenija - Krscanska Ljudska Stranka (N.Si)
+              New Slovenia - Christian People's Party          
+    LEADER G  Ljudmila Novak
+
+
+08.  PARTY H  Slovenska Nacionalna Stranka (SNS)
+              Slovenian National Party
+    LEADER H  Zmago Jelincic Plemeniti
+
+
+09.           Liberalna Demokracija Slovenije (LDS)
+              Liberal Democracy of Slovenia 
+
+
+10.           Zares - Nova Politika (Zares)
+              Zares - New Politics
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SOUTH AFRICA (2014)
+---------------------------------------------------------------------------
+
+01.  PARTY A  African National Congress (ANC) - SEE ELECTION STUDY NOTE
+    LEADER A  Jacob Zuma
+
+
+02.  PARTY B  Democratic Alliance (DA)
+    LEADER B  Helen Zille
+
+
+03.  PARTY C  Economic Freedom Fighters (EFF)
+    LEADER C  Julius Malema
+
+
+04.  PARTY D  Inkatha Freedom Party (IFP)
+    LEADER D  Mangosuthu Buthelezi
+
+
+05.  PARTY E  National Freedom Party (NFP)
+    LEADER E  Zanele kaMagwaza-Msibi
+
+
+06.  PARTY F  United Democratic Movement (UDM)
+    LEADER F  Bantu Holomisa
+
+
+07.  PARTY G  Freedom Front Plus (FF+)
+    LEADER G  Pieter Mulder
+
+
+08.  PARTY H  Congress of the People (COPE)
+    LEADER H  Mosiuoa "Terror" Lekota
+
+
+09.  PARTY I  African Christian Democratic Party (ACDP)
+    LEADER I  Kenneth Moshoe
+
+
+10.           Agang South Africa (Agang)
+
+
+11.           Pan Africanist Congress(PAC)
+
+
+12.           Africa Muslim Party (AMP)
+
+
+13.           Afrikaner Unity Movement (AEB)
+
+
+14.           Minority Front (MF)
+
+
+15.           United Christian Democratic Party	(UCDP)
+
+
+16.           Federal Alliance (FA)
+
+
+17.           New National Party (NNP)
+
+
+18.           Azanian People's Organization (APO)
+
+
+         | ELECTION STUDY NOTES - SOUTH AFRICA (2014): PARTIES AND LEADERS
+         |
+         | One alliance formed in the 2014 South African Election. It had 
+         | no official name and was made up of the African National 
+         | Congress (ANC), the Congress of South African Trade Unions 
+         | (COSATU) and the South African Communist Party (SACP).   
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SOUTH KOREA (2012)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Saenuri Dang (NFP)
+              New Frontier Party, former Grand National Party
+    LEADER A  Park Geun-hye
+
+
+02.  PARTY B  Minju Tonghabdang (DUP)
+              Democratic United Party
+    LEADER B  Moon Jae-in
+
+
+03.  PARTY C  Tonghap Jinbo Dang (UPP)
+              Unified Progressive Party, former Democratic Labor Party 
+    LEADER C  SEE ELECTION STUDY NOTE
+
+
+04.  PARTY D  Jayou Seonjin Dang (LFP)
+              Liberty Forward Party
+    LEADER D  SEE ELECTION STUDY NOTE
+
+
+     PARTY E  Christian Party - SEE ELECTION STUDY NOTE
+
+
+05.  PARTY F  Jinbo Shin Dang (NPP)
+              New Progressive Party 
+    LEADER F  SEE ELECTION STUDY NOTE
+
+
+         | ELECTION STUDY NOTES - SOUTH KOREA (2012): PARTIES AND LEADERS
+         |
+         | No numerical code was assigned to the Christian Party (PARTY E) 
+         | because it was not mentioned by any respondent. As per CSES 
+         | conventions, it is was assigned an alphabetical code because it
+         | achieved more than one percent in the 2012 South Korean lower 
+         | house elections. 
+         |
+         | For PARTY C (Unified Progressive Party) and PARTY D (Liberty 
+         | Forward Party), data is unavailable for variable D3012_.
+         |
+         | For PARTY E(Christian Party), data is unavailable for variables
+         | D3011_E, D3012_E, D3013_E and D4004_E.
+         |
+         | For PARTY F (New Progressive Party - NPP), data is unavailable 
+         | for variables D3011_F, D3013_F and D4004_F.
+         |
+         | For additional/deviating numerical party codes referring to the
+         | previous vote choice variables D3008_LH_PL and D3008_LH_DC for 
+         | SOUTH KOREA (2012), please see election study notes for SOUTH
+         | KOREA (2012) for variables D3008_LH_PL and D3008_LH_DC in Part 
+         | 2 of the Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SWEDEN (2014)
+---------------------------------------------------------------------------
+
+01.  PARTY F  Vaensterpartiet (V)
+              Left Party 
+    LEADER F  Jonas Sjostedt
+
+
+02.  PARTY A  Sverige socialdemokratiska arbetareparti (SAP)
+              Social Democrats
+    LEADER A  Stefan Lofven
+
+
+03.  PARTY E  Centerpartiet (C)
+              Centre Party 
+    LEADER E  Annie Loof
+
+
+04.  PARTY G  Folkpartiet liberalerna (FP)
+              Liberal People's Party
+    LEADER G  Jan Bjorklund
+
+
+05.  PARTY B  Moderata samlingspartiet (M)
+              Moderate Party
+    LEADER B  Frederik Reinfeldt
+
+
+06.  PARTY H  Kristdemokraterna (KD)
+              Christian Democrats
+    LEADER H  Goran Hagglund
+
+
+07.  PARTY D  Miljoepartiet de groena (MP) 
+              Green Party     
+    LEADER D  Gustav Fridolin
+
+
+08.  PARTY C  Sverigedemokraterna (SD) 
+              Sweden Democrats
+    LEADER C  Jimmie Akesson
+
+
+09.  PARTY I  Feministiskt initiativ (FI)
+              Feminist Party
+    LEADER I  Gudrun Schyman
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SWITZERLAND (2011)
+---------------------------------------------------------------------------
+
+01.  PARTY C  Die Liberalen (FDP / PLR)
+              The Liberals
+    LEADER C  Didier Burkhalter
+
+
+02.  PARTY D  Christlichdemokratische Volkspartei (CVP / PDC)
+              Christian Democratic People's Party
+    LEADER D  Doris Leuthard
+
+
+03.  PARTY B  Sozialdemokratische Partei der Schweiz (SP / PS)
+              Social Democratic Party
+    LEADER B  Simonetta Sommaruga
+
+
+04.  PARTY A  Schweizerische Volkspartei (SVP / UDC)
+              Swiss People's Party
+    LEADER A  Christoph Blocher
+
+
+05.           Liberale Partei der Schweiz (LPS / PLS)
+              Liberal Party of Switzerland
+
+
+06.           Evangelische Volkspartei der Schweiz (EVP / PEP)
+              Evangelical People's Party
+
+
+07.           Christlich-soziale Partei (CsP / PCS)
+              Christian Social Party
+
+
+08.           Partei der Arbeit der Schweiz (PdA / PST)
+              Swiss Party of Labour
+
+
+09.  PARTY G  Buergerlich-Demokratische Partei (BDP / PBD)
+              Conservative Democratic Party 
+    LEADER G  SEE ELECTION STUDY NOTE
+
+
+10.  PARTY F  Gruenliberale Partei der Schweiz (GLP / PVL)
+              Green Liberal Party 
+    LEADER F  SEE ELECTION STUDY NOTE
+
+
+11.  PARTY E  Gruene Partei (GPS / PES)
+              Green Party
+    LEADER E  SEE ELECTION STUDY NOTE
+
+
+12.           Schweizer Demokraten (SD / DS)
+              Swiss Democrats
+
+
+13.           Eidgenoessisch-Demokratische Union (EDU / UDF)
+              Federal Democratic Union
+
+
+14.           Freiheitspartei der Schweiz (FPS /PSL)
+              Freedom Party
+
+
+15.           Lega dei Ticinesi (Lega)
+              Ticino League 
+
+
+16.           Mouvement Citoyens Genevois (MCG)
+              Geneva Citizens' Movement
+
+
+21.           Left parties
+
+
+22.           Right parties
+
+
+23.           Centre parties
+
+
+88.           Other answer, i.e.: voted blank on party list vote
+              (only cast candidate vote)
+
+
+         | ELECTION STUDY NOTES - SWITZERLAND (2011): PARTIES AND LEADERS
+         |
+         | Original party names are listed primarily in German and English.
+         | Abbreviations indicate German abbreviation and French 
+         | abbreviation of the party (GERMAN/FRENCH) where applicable.
+         |
+         | No party leader likeability measures available for PARTY E
+         | (Green Party - GPS / PES), PARTY F (Green Liberal Party - 
+         | GLP / PVL) and PARTY G (Conservative Democratic Party - 
+         | BDP / PBD).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: TAIWAN (2012)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Guomindang (KMT)
+              Kuomintang Recommendation 
+    LEADER A  Ma Ying-Jeou - SEE ELECTION STUDY NOTE
+    LEADER G  Wu Den-Yih - SEE ELECTION STUDY NOTE
+
+
+02.  PARTY B  Minjindang (DPP)
+              Democratic Progressive Party               
+    LEADER B  Tsai Ing-Wen - SEE ELECTION STUDY NOTE
+    LEADER H  Su Jia-Chyuan - SEE ELECTION STUDY NOTE
+
+
+03.  PARTY C  Qinmindang (PFP)
+              People First Party 
+    LEADER C  James Soong - SEE ELECTION STUDY NOTE
+    LEADER I  Lin Ruey-Shiung - SEE ELECTION STUDY NOTE
+
+
+04.           Taiwan Tuanjie Lianmeng (TSU)
+              Taiwan Solidarity Union 
+
+
+05.  PARTY D  Wudang Tuanjie Lianmeng (NPSU)
+              Non-Partisan Solidarity Union 
+
+
+06.           Tai-oan Lek Tong (GPT)
+              Green Party Taiwan
+
+
+07.           Xindang (NP)
+              New Party - Xin Dang
+
+
+08.           Free National Health Insurance Alliance (NHSA)
+
+
+09.           Republic of China the Basic Laws of
+              Taiwan Corporation
+
+
+10.           Taiwan National Congress
+
+
+11.           Taiwanism Party
+
+
+12.           People Largest Party
+
+
+13.           Taiwan Farmers' Party
+
+
+14.           Third Society Party
+
+
+15.           Communist Party
+
+
+16.           Civil Party
+
+
+17.           Hakka Party
+
+
+18.           Home Party
+
+
+19.           Taiwan Constitution Association (TCA)
+
+
+         | ELECTION STUDY NOTES - TAIWAN (2012): PARTIES AND LEADERS
+         |
+         | The order of PARTY A through PARTY C was determined by the
+         | results of the first round of the 2012 presidential election
+         | om Taiwan.
+         |
+         | LEADERS A (Ma Ying-Jeou), B (Tsai Ing-Wen), and C (James Soong)
+         | were the presidential candidates of their respective parties.
+         | LEADERS G (Wu Den-Yih), H (Su Jia-Chyuan), and I (Lin Ruey-
+         | Shiung) were the vice presidential candidates of their 
+         | respective parties.
+         |
+         | In variable series D3012 (like-dislike leaders), D3012_G asked
+         | about Wu Den-Yih (KMT), variables D3012_H asked about Su
+         | Jia-Chyuan (DPP) and variable D3012_I asked about Lin
+         | Ruey-Shiung (PFP).
+         |
+         | For PARTY C (People First Party, PFP), data is unavailable for 
+         | variable D3015_C. 
+         |
+         | For PARTY D (Non-Partisan Solidarity Union, NPSU), data is 
+         | unavailable for D3011_D and D3015_D. 
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: THAILAND (2011)
+---------------------------------------------------------------------------
+
+01.  PARTY B  Phak Prachaatipat (DP)
+              Democrat Party 
+    LEADER B  Abhisit Vejjajiva
+
+
+02.  PARTY A  Phak Pheu Thai (PPT)
+              For Thais Party
+    LEADER A  Yongyuth Wichaidit
+
+
+03.  PARTY F  Phak Chart Pattana Peua Pandin 
+              National Development of the Motherland P.
+    LEADER F  Wannarat Channukul
+
+
+04.  PARTY E  Phak Chartthaipattana (CP)               
+              Thai Nation Development Party
+    LEADER E  Chumpol Silapa-Archa
+
+
+05.           Phak Kit Sangkhom 
+              Social Action Party
+
+
+06.  PARTY C  Phak Bhumjaithai (BJT)
+              Thai Pride Party 
+    LEADER C  Newin Chidchob
+
+
+07.           Karn Muang Mai (KMM)
+              New Politics Party
+
+
+08.  PARTY H  Phak Matubhum
+              Motherland Party
+    LEADER H  Sonthi Boonyaratglin
+
+
+09.  PARTY G  Phak Rak Santi
+              Peaceloving Party
+    LEADER G  Purachai Piumsomboon
+
+
+10.  PARTY D  Phak Rak Thailand
+              Love Thailand Party 
+    LEADER D  Chuwit Kamolvisit
+
+
+11.           Phak Mahachon
+              Great People Party
+
+
+12.  PARTY I  Phak Phalang Chon
+              Power of Chonburi Party
+    LEADER I  SEE ELECTION STUDY NOTE
+
+
+13.           Phak Prachaatippadtai Mai
+              New Democracy Party
+
+
+14.           Phak Palang Prachachon
+              People Power Party
+
+
+15.           Phak Chart Thai
+              Thai Nation Party
+
+
+16.           Puea Pandin Party
+              For the Motherland Party
+
+
+17.           Phak Ruam Jai Thai Chat Pattana
+              Thais United National Development Party
+
+
+18.           Phak Pracha Raj
+              Royal People Party
+
+
+19.           Phak Khwam Wang Mai
+              New Aspiration Party
+
+
+20.           Phak Prachakon Thai
+              Thai Citizen Party
+
+
+88.           The respondent mentioned a wrong party name
+
+
+         | ELECTION STUDY NOTES - THAILAND (2011): PARTIES AND LEADERS
+         |
+         | PARTIES 14-18 are only used in questions about the previous
+         | election in 2007.
+         |
+         | The People Power Party (PPP) was dissolved before the 2011
+         | election. One of the PPP's former members founded the Pheu Thai
+         | Party (PP). In questions about the previous election, when a
+         | respondent answers the "Pheu Thai Party", the variable
+         | is coded as "88 - wrong party name" because the party
+         | did not exist in the 2011 election.
+         |
+         | Chaovarat Chanweerakul and Chuan Likphai are the former leaders
+         | of the Democrat Party.
+         |
+         | Numerical code 89 means that the respondent chose to cast a 
+         | 'no vote', which is an option on the ballot. 
+         |
+         | No party leader likeability measure available for PARTY I 
+         | (Power of Chonburi Party).
+         |
+         | For additional numerical party codes referring to the previous 
+         | vote choice variables D3008_LH_PL and D3008_LH_DC for THAILAND
+         | (2011), please see election study notes for THAILAND (2011) for
+         | variables D3008_LH_PL and D3008_LH_DC in Part 2 of the CSES 
+         | Codebook.  
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: TURKEY (2015)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Adalet ve Kalkinma Partisi (AKP)
+              Justice and Development Party
+    LEADER A  Ahmet Davutoglu
+
+
+02.  PARTY B  Cumhuriyet Halk Partisi (CHP)
+              Republican People's Party
+    LEADER B  Kemal Kilicdaroglu
+
+
+03.  PARTY C  Milliyetci Hareket Partisi (MHP)
+              Nationalist Action Party 
+    LEADER C  Devlet Bahceli
+
+
+04.  PARTY D  Halklarin Demokratik Partisi (HDP)
+              Peoples' Democratic Party 
+    LEADER D  Selahattin Demirtas
+
+
+05.  PARTY E  Saadet Partisi (SP)
+              Felicity Party 
+    LEADER E  Mustafa Kamalak
+
+
+06.  PARTY F  Vatan Partisi (VP)
+              Patriotic Party
+    LEADER F  Dogu Perincek
+
+
+07.           Anadolu Partisi (AnaParti)
+              Anatolia Party
+
+
+08.           Huer Dava Partisi (Hueda-Par)
+              Free Cause Party 
+
+
+         | ELECTION STUDY NOTES - TURKEY (2015): PARTIES AND LEADERS
+         |
+         | For additional numerical party codes referring to the previous 
+         | vote choice variable D3008_LH_PL for TURKEY (2015), please see
+         | election study notes for TURKEY (2015) for variable D3008_LH_PL
+         | in Part 2 of the CSES Codebook.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: UNITED STATES (2012)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Democratic Party (DEM)
+    LEADER A  Barack H. Obama
+
+
+02.  PARTY B  Republican Party (REP)
+    LEADER B  Mitt Romney
+	
+	
+     PARTY G  Libertarian (LP) - SEE ELECTION STUDY NOTE
+	
+
+     PARTY H  Green (GPUS) - SEE ELECTION STUDY NOTE
+
+
+     PARTY I  Constitution Party (Con) - SEE ELECTION STUDY NOTE
+	 
+	 
+         | ELECTION STUDY NOTES - UNITED STATES (2012): PARTIES AND LEADERS
+         |
+         | Parties G, H, and I have been coded only for variables D5005, 
+         | D5016, and D5017. 
+         |
+         | For variables D5005 and D5017, data for Parties G (Libertarian 
+         | Party, LP), H (Green Party, GPUS) and I (Constitution Party, 
+         | Con) are listed in slots C (Libertarian Party, LP), D (Green 
+         | Party, GPUS) and E (Constitution Party, Con).
+
+
+===========================================================================
+))) PARTY IDENTIFIERS FROM OTHER COMPARATIVE STUDIES 
+===========================================================================
+For all parties that are assigned an alphabetical code in the CSES dataset,
+CSES provides party identifiers from two other comparative projects, 
+namely the Manifesto Research on Political Representation (MARPOR, 
+formerly the Comparative Manifesto Project, CMP) project, and The 
+Parliament and Government (ParlGov) database. Below, we list the 
+identifiers assigned by each project to a party included in CSES Module 4.
+Inclusion of these identifiers allow for easy data bridging between
+CSES Module 4 and these datasets. 
+
+Data only listed for polities where information is available. Polities are 
+listed in alphabetical order. Parties are listed in order of their A-I 
+assignment in each polity. In circumstances where there are multiple 
+elections that are included in Module 4 for one polity, parties are first 
+listed according to alphabetical assignment for the first election 
+study in question. 
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: AUSTRALIA (2013)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Liberal Party (LPNP)                                   63620           2286
+Australian Labor Party (ALP)                           63320           1253
+Australian Greens (AG)                                 63110            751
+Palmer United Party (PUP)                              63410           2259
+National (Country) Party (NP)                          63621            184
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: AUSTRIA (2013)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Social Democratic Party of Austria (SPO)               42320            973
+Austrian People's Party (OVP)                          42520           1013
+Freedom Party of Austria (FPO)                         42420             50
+Green Party (GRUENE)                                   42110           1429
+Team Stronach for Austria (TEAM STRONACH)              42951           2150
+The New Austria (NEOS)                                 42430           2255
+Alliance for the Future of Austria (BZO)               42710           1536
+Communist Party of Austria (KPO)                      999999            769
+Pirate Party (PIRATEN)                                999999           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: BULGARIA (2014)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Citizens for European Development of Bulgaria (GERB)   80510           1541
+BSP Left Bulgaria - Coalition for Bulgaria (KzB | DL)  80221            982
+Movement for Rights and Freedoms (DPS)                 80951           1286
+Reformist Bloc (RB)                                    80061           2363
+Patriotic Front (NFSB and IMRO)                        80062           9999
+Bulgaria without Censorship (BBZ)                      80630           2362
+Attack (Ataka)                                         80710            535
+Alternative for Bulgarian Revival (ABV)                80330           2364
+Movement 21 (D21)                                     999999           2379
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: CANADA (2011 & 2015)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Conservative Party (CP)                                62623           1255
+New Democratic Party (NDP)                             62320            296
+Liberal Party (Lib)                                    62420            368
+Bloc Quebecois (BQ)                                    62901            448
+Green Party (GP)                                       62110           1259
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: CZECH REPUBLIC (2013)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Czech Social Democratic Party (CSSD)                   82320            789
+Action of Dissatisfied Citizens 2011 (ANO 2011)        82430           2263
+Communist Party of Bohemia and Moravia (KSCM)          82220           1173
+Tradition, Responsibility, Prosperity 09 (TOP 09)      82530              2
+Civic Democratic Party (ODS)                           82413            829
+Dawn of Direct Democracy of Tomio Okamura (Usvit)      82720           2262
+Christian and Democratic Union-Czech People's Party    82523           1245
+Party of Greens (SZ)                                   82110            196
+Czech Pirate Party (Pirati)                           999999           2261
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: FINLAND (2015)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Center Party of Finland (KESK)                         14810             94
+National Coalition Party (KOK)                         14620           1118
+True Finns (PS)                                        14820            200
+Social Democratic Party of Finland (SDP)               14320            395
+Green League (VIHR)                                    14110           1062
+Left Alliance (VAS)                                    14223           1292
+Swedish People's Party in Finland (RKP)                14901            585
+Christian Democrats in Finland (KD)                    14520           1463
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: FRANCE (2012)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Socialist Party (PS)                                   31320           1539
+Union for a Popular Movement (UMP)                     31626            658
+Front National (FN)                                    31720            270
+Left Front (FDG)                                       31021            686
+Democratic Movement (MoDem)                            31624            509
+Europe Ecology - The Greens (EELV)                     31110            873
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: GERMANY (2013)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Christian Democratic Union of Germany (CDU)            41521            808
+Social Democratic Party (SPD)                          41320            558
+Left Party (Linke)                                     41223            791
+Alliance 90; The Greens (Gruene)                       41113            772
+Christian Social Union of Bavaria (CSU)                41521           1180
+Free Democratic Party (FDP)                            41420            543
+Alternative for Germany (AfD)                          41953           2253
+Pirate Party of Germany (Piraten)                      41952            865
+National Democratic Party of Germany (NPD)            999999           1537
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: GREAT BRITAIN (2015)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Conservatives (Con)                                    51620            773
+Labour (Lab)                                           51320           1556
+United Kingdom Independence Party (UKIP)               51951           1272
+Liberal Democrats (LD)                                 51421            659
+Scottish National Party (SNP)                          51902           1284
+Green Party (GP)                                       51110            467
+Plaid Cymru (PC)                                      999999            311
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: GREECE (2012 & 2015)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+New Democracy (ND)                                     34511             47
+The Coalition of the Radical Left (SYRIZA)             34020           1592
+The Panhellenic Socialist Movement (PASOK)             34313           1338
+The Independent Greeks (ANEL)                          34730           2091
+Golden Dawn (LS - XA)                                  34720           2092
+Democratic Left (DIMAR)                                34213           2093
+The Communist Party of Greece (KKE)                    34210            614
+The River                                              34340           2346
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: ICELAND (2013)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Independence Party (Sj)                                15620           1342
+Progressive Party (F)                                  15810           1455
+Social Democratic Alliance (Sam)                       15328           1006
+Left-Green Movement (Graen)                            15111            210
+Bright Future (BF)                                     15440           2204
+Pirate Party (Pi)                                      15952           2205
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: IRELAND (2011)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Fine Gael (FG)                                         53520           1393
+Labour Party (Lab)                                     53320            318
+Fianna Fail (FF)                                       53620            280
+Sinn Fein (SF)                                         53951           2217
+United Left Alliance (ULA)                             53021           9999
+Green Party (GP)                                       53110           1573
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: ISRAEL (2013)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+National Liberal Party / Israel Is Our Home (L-YB)     72622            678
+There is a Future (YA)                                 72440           2321
+Israeli Labor Party (MHH)                              72323            244
+The Jewish Home (HH)                                   72701            214
+Sfarad's Keepers of the Torah (Shas)                   72533            788
+United Torah Judaism (YH)                              72535           1303
+The Movement (Hat)                                     72431           2320
+Energy (Meretz)                                        72326           1419
+United Arab List (Ra'am)                               72092           2311
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: JAPAN (2013)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Liberal Democratic Party (LDP)                         71620           1193
+Democratic Party of Japan (DPJ)                        71624            439
+Japanese Communist Party (JSP)                         71220           1540
+Your Party (YP)                                        71410           1124
+Japan Restoration Party (JReP)                        999999           2136
+New Komeito (NK)                                      999999            837
+People's Life Party (PLP)                              71111           2069
+Social Democratic Party (SDP)                          71320            940
+Green Wind                                            999999           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: LATVIA (2011 & 2014)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Harmony Centre (SC)                                    87021           1100
+Zetlers' Reform Party (ZRP)                            87620           1942
+Unity (V)                                              87062           1666
+National Alliance (NA)                                 87071            521
+Union of Greens and Farmers (ZZS)                      87110            466
+Slesers LPP / LC Reform Party (LPP/LC)                 87041            662
+For Human Rights in United Latvia (PCTVL)              87422           1520
+Harmony (SDPS)                                         87340           1100
+For Latvia from the Heart (NSL)                        87630           2365
+Latvian Association of Regions (LRa)                   87901           2366
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: MEXICO (2012 & 2015)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Institutional Revolutionary Party (PRI)               171301           9999
+National Action Party (PAN)                           171601           9999
+Party of Democratic Revolution (PRD)                  171305           9999
+Ecological Green Party of Mexico (PVEM)               171101           9999
+Labor Party (PT)                                      171306           9999
+New Alliance Party (PNA)                              171309           9999
+Citizens` Movement (MC)                               171311           9999
+National Regeneration Movement (MORENA)               999999           9999
+Social Encounter Party (PES)                          999999           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: MONTENEGRO (2012)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Coalition "For a European Montenegro"                  91020           9999
+Democratic Front (DF)                                  91060           9999
+Socialist People's Party (SNP)                         91224           9999
+Positive Montenegro (PCG)                              91330           9999
+Bosniak Party (BS)                                     91920           9999
+Serbian Unity (SS)                                    999999           9999
+Force for Unity (FZJ - FPB)                           999999           9999
+Albanian Coalition (AK)                               999999           9999
+Croatian Civic Initiative (HGI)                       999999           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: NEW ZEALAND (2011 & 2014)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+National Party (NP)                                    64620            997
+Labour Party (Lab)                                     64320            878
+Green Party (GP)                                       64110           1171
+New Zealand First (NZF)                                64621            891
+Conservative Party (CP)                               999999           1973
+Maori Party (MP)                                       64901            114
+MANA Movement (MANA)                                   64902           1972
+Act New Zealand (ACT)                                  64420            617
+United Future (UFNZ)                                   64421           1313
+Internet MANA                                         999999           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: NORWAY (2013)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Labour Party (Ap)                                      12320            104
+Conservative Party (H)                                 12620           1435
+Progress Party (FrP)                                   12951            351
+Christian Peoples Party (KrF)                          12520           1532
+Center Party (Sp)                                      12810            702
+Liberals Party (V)                                     12420            647
+Socialist Left Party (SV)                              12221             81
+The Greens (MDG)                                      999999           2254
+Red (R)                                               999999           1638
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: POLAND (2011)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Civic Platform (PO)                                    92435            512
+Law and Justice Party (PiS)                            92436            528
+Palikots Movement (RP)                                 92440           1945
+Polish Peoples Party (PSL)                             92811            664
+Democratic Left Alliance (SLD)                         92210            629
+Poland Comes First (PJN)                              999999           1679
+Congress of the New Right (KNP)                       999999           1549
+German Minority (MN)                                   92953            900
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: PORTUGAL (2015)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Portugal Ahead (PaF) (PPD/PSD, CDS-PP)                999999           9999
+Socialist Party (PS)                                   35311            725
+Left Block (BE)                                        35211            557
+Unitary Democratic Coalition (CDU) (PCP-PEV)           35229           1295
+Party for People, Animals and Nature (PAN)            999999           1781
+Democratic Republican Party (PDR)                     999999           2597
+Worker's Communist Party (PCTP/MRPP)                  999999            281
+People's Party (CDS-PP)                               999999            251
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: ROMANIA (2012, 2014)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Social Liberal Union (USL)                             93031           9999
+The Alliance for a Just Romania (ARD)                  93061           9999
+People's Party - Dan Diaconescu (PP-DD)                93981           2130
+Hungarian Democratic Union of Romania (UDMR)           93951            948
+Greater Romania Party (PRM)                           999999            713
+Social Democratic Party (PSD)                         999999           1120
+National Liberal Party (PNL)                          999999           1015
+Liberal Democratic Party (P-DL)                       999999            958
+PSD-UNPR-PC Electoral Alliance                        999999           9999
+Christian - Liberal Alliance (ACL)                    999999           9999
+Popular Movement Party (PMP)                          999999           2395
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SERBIA (2012)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Serbian Progressive Party (SNS)                        95071           9999
+Democratic Party (DS)                                  95430           9999
+Socialist Party of Serbia (SPS)                        95221           9999
+Democratic Party of Serbia (DSS)                       95712           9999
+Liberal Democratic Party (LDP)                         95431           9999
+United Regions of Serbia (URS)                         95451           9999
+Serbian Radical Party (SRS)                            95711           9999
+Alliance of Vojvodina Hungarians (SVM)                 95902           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SLOVAKIA (2016)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Direction - Social Democracy (Smer)                    96423            220
+Freedom and Solidarity (SaS)                           96440           1460
+Ordinary people - Independents personalities (OLaNO)   96620           1759
+Slovak National Party (SNS)                            96710           1072
+People's Party Our Slovakia (LsNS)                    999999            586
+We are family - Boris Kollar (SR)                     999999           2623
+Bridge (MH)                                            96955           1620
+Network (S)                                           999999           2624
+Christian Democratic Movement (KDH)                    96521           1432
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SLOVENIA (2011)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Zoran Jankovic List - Positive Slovenija (LZJ-PS)      97340           1987
+Slovenian Democratic Party (SDS)                       97330            179
+Social Democrats (SD)                                  97322            706
+Gregor Virant's Civic List (DIGV)                      97450           1988
+Democratic Party of Retired Persons (DeSUS)            97951           1587
+Slovenian People's Party (SLS)                         97521             16
+New Slovenia - Christian People's Party (NSi)          97522           1047
+Slovenian National Party (SNS)                         97710            981
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SOUTH AFRICA (2014)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+African National Congress (ANC)                       181310           9999
+Democratic Alliance (DA)                              181411           9999
+Economic Freedom Fighters (EFF)                       181210           9999
+Inkatha Freedom Party (IFP)                           181910           9999
+National Freedom Party (NFP)                          999999           9999
+United Democratic Movement (UDM)                      999999           9999
+Freedom Front Plus (FF+)                              999999           9999
+Congress of the People (COPE)                         181420           9999
+African Christian Democratic Party (ACDP)             999999           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SOUTH KOREA (2012)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+New Frontier Party (NFP)                              113630           9999
+Democratic United Party (DUP)                         113440           9999
+Unified Progressive Party (UPP)                       113321           9999
+Liberty Forward Party (LFP)                           113651           9999
+Christian Party                                       999999           9999
+New Progressive Party (NPP)                           999999           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SWEDEN (2014)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Sweden's Social Democratic Worker's Party (SAP)        11320            904
+Moderate Party (MP)                                    11620            657
+Sweden Democrats (SD)                                  11710           1546
+Green Party (MP)                                       11110           1154
+Centre Party (C)                                       11810           1461
+Left Party (V)                                         11220            882
+Liberal People's Party (FP)                            11420            892
+Christian Democrats (KD)                               11520            282
+Feminist Party (Fi)                                   999999           1521
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: SWITZERLAND (2011)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Swiss People's Party (SVP / UDC)                       43810            750
+Social Democratic Party (SP / PS)                      43320             35
+The Liberals (FDP / PLR)                               43420             26
+Christian Democratic People's Party (CVP / PDC)        43520            531
+Green Party (GPS / PES)                                43110            141
+Green Liberal Party (GLP / PVL)                        43120            308
+Conservative Democratic Party (BDP / PBD)              43811           1213
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: TURKEY (2015)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Justice and Development Party (AKP)                    74628            901
+Republican People's Party (CHP)                        74321            507
+Nationalist Action Party (MHP)                         74712            408
+Peoples' Democratic Party (HDP)                        74210           2572
+Felicity Party (SP)                                   999999           1315
+Patriotic Party (VP)                                  999999           9999
+
+
+---------------------------------------------------------------------------
+>>> PARTY IDS FROM OTHER COMPARATIVE STUDIES: UNITED STATES (2012)
+---------------------------------------------------------------------------
+
+PARTY NAME                                         MARPOR ID     ParlGov ID
+---------------------------------------------------------------------------
+Democratic Party (DEM)                                 61320           9999
+Republican Party (REP)                                 61620           9999
+
+
+//END OF FILE

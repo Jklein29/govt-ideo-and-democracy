@@ -1,0 +1,4016 @@
+===========================================================================
+
+   COMPARATIVE STUDY OF ELECTORAL SYSTEMS (CSES) - MODULE 2 (2001-2006)
+
+                            CODEBOOK: APPENDICES
+
+                       APPENDIX I: PARTIES AND LEADERS
+                  APPENDIX II: PRIMARY ELECTORAL DISTRICTS
+
+                 FULL RELEASE - DECEMBER 15, 2015 VERSION
+
+                             CSES Secretariat
+                               www.cses.org
+
+===========================================================================
+
+HOW TO CITE THE STUDY:
+
+The Comparative Study of Electoral Systems (www.cses.org). CSES MODULE 2
+FULL RELEASE [dataset]. December 15, 2015 version.
+doi:10.7804/cses.module2.2015-12-15
+
+These materials are based on work supported by the National Science
+Foundation (www.nsf.gov) under grant numbers SES-0112029 and SES-0451598,
+the GESIS - Leibniz Institute for the Social Sciences, the University of
+Michigan, in-kind support of participating election studies, the many
+organizations that sponsor planning meetings and conferences, and the many
+organizations that fund election studies by CSES collaborators.
+
+Any opinions, findings and conclusions, or recommendations expressed
+in these materials are those of the author(s) and do not necessarily
+reflect the views of the funding organizations.
+
+===========================================================================
+
+IMPORTANT NOTE REGARDING FULL RELEASES:
+
+This dataset and all accompanying documentation is the "Full Release"
+of CSES Module 2 (2001-2006).
+
+Users of the Final Release may wish to monitor the errata for
+CSES Module 2 on the CSES website, to check for known errors which may 
+impact their analyses. To view errata for CSES Module 2, go to the Data
+Center on the CSES website, navigate to the CSES Module 2 download page, 
+and click on the Errata link in the gray box to the right of the page.
+
+===========================================================================
+TABLE OF CONTENTS
+===========================================================================
+
+))) APPENDIX I: PARTIES AND LEADERS
+
+    >>> PARTIES AND LEADERS: ALBANIA (2005)
+    >>> PARTIES AND LEADERS: AUSTRALIA (2004)
+    >>> PARTIES AND LEADERS: BELGIUM (2003)
+    >>> PARTIES AND LEADERS: BRAZIL (2002)
+    >>> PARTIES AND LEADERS: BULGARIA (2001)
+    >>> PARTIES AND LEADERS: CANADA (2004)
+    >>> PARTIES AND LEADERS: CHILE (2005)
+    >>> PARTIES AND LEADERS: CZECH REPUBLIC (2002)
+    >>> PARTIES AND LEADERS: DENMARK (2001)
+    >>> PARTIES AND LEADERS: FINLAND (2003)
+    >>> PARTIES AND LEADERS: FRANCE (2002)
+    >>> PARTIES AND LEADERS: GERMANY (2002)
+    >>> PARTIES AND LEADERS: GREAT BRITAIN (2005)
+    >>> PARTIES AND LEADERS: HONG KONG (2004)
+    >>> PARTIES AND LEADERS: HUNGARY (2002)
+    >>> PARTIES AND LEADERS: ICELAND (2003)
+    >>> PARTIES AND LEADERS: IRELAND (2002)
+    >>> PARTIES AND LEADERS: ISRAEL (2003)
+    >>> PARTIES AND LEADERS: ITALY (2006)
+    >>> PARTIES AND LEADERS: JAPAN (2004)
+    >>> PARTIES AND LEADERS: KYRGYZSTAN (2005)
+    >>> PARTIES AND LEADERS: MEXICO (2003)
+    >>> PARTIES AND LEADERS: NETHERLANDS (2002)
+    >>> PARTIES AND LEADERS: NEW ZEALAND (2002)
+    >>> PARTIES AND LEADERS: NORWAY (2001)
+    >>> PARTIES AND LEADERS: PERU (2006)
+    >>> PARTIES AND LEADERS: PHILIPPINES (2004)
+    >>> PARTIES AND LEADERS: POLAND (2001)
+    >>> PARTIES AND LEADERS: PORTUGAL (2002)
+    >>> PARTIES AND LEADERS: PORTUGAL (2005)
+    >>> PARTIES AND LEADERS: ROMANIA (2004)
+    >>> PARTIES AND LEADERS: RUSSIA (2004)
+    >>> PARTIES AND LEADERS: SLOVENIA (2004)
+    >>> PARTIES AND LEADERS: SOUTH KOREA (2004)
+    >>> PARTIES AND LEADERS: SPAIN (2004)
+    >>> PARTIES AND LEADERS: SWEDEN (2002)
+    >>> PARTIES AND LEADERS: SWITZERLAND (2003)
+    >>> PARTIES AND LEADERS: TAIWAN (2001)
+    >>> PARTIES AND LEADERS: TAIWAN (2004)
+    >>> PARTIES AND LEADERS: UNITED STATES (2004)
+
+))) APPENDIX II: PRIMARY ELECTORAL DISTRICTS
+
+    >>> PRIMARY ELECTORAL DISTRICTS: ALBANIA (2005)
+    >>> PRIMARY ELECTORAL DISTRICTS: AUSTRALIA (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: BELGIUM (2003)
+    >>> PRIMARY ELECTORAL DISTRICTS: BRAZIL (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: BULGARIA (2001)
+    >>> PRIMARY ELECTORAL DISTRICTS: CANADA (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: CHILE (2005)
+    >>> PRIMARY ELECTORAL DISTRICTS: CZECH REPUBLIC (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: DENMARK (2001)
+    >>> PRIMARY ELECTORAL DISTRICTS: FINLAND (2003)
+    >>> PRIMARY ELECTORAL DISTRICTS: FRANCE (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: GERMANY (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: GREAT BRITAIN (2005)
+    >>> PRIMARY ELECTORAL DISTRICTS: HONG KONG (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: HUNGARY (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: ICELAND (2003)
+    >>> PRIMARY ELECTORAL DISTRICTS: IRELAND (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: ISRAEL (2003)
+    >>> PRIMARY ELECTORAL DISTRICTS: ITALY (2006)
+    >>> PRIMARY ELECTORAL DISTRICTS: JAPAN (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: KYRGYZSTAN (2005)
+    >>> PRIMARY ELECTORAL DISTRICTS: MEXICO (2003)
+    >>> PRIMARY ELECTORAL DISTRICTS: NETHERLANDS (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: NEW ZEALAND (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: NORWAY (2001)
+    >>> PRIMARY ELECTORAL DISTRICTS: PERU (2006)
+    >>> PRIMARY ELECTORAL DISTRICTS: PHILIPPINES (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: POLAND (2001)
+    >>> PRIMARY ELECTORAL DISTRICTS: PORTUGAL (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: PORTUGAL (2005)
+    >>> PRIMARY ELECTORAL DISTRICTS: ROMANIA (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: RUSSIA (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: SLOVENIA (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: SOUTH KOREA (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: SPAIN (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: SWEDEN (2002)
+    >>> PRIMARY ELECTORAL DISTRICTS: SWITZERLAND (2003)
+    >>> PRIMARY ELECTORAL DISTRICTS: TAIWAN (2001)
+    >>> PRIMARY ELECTORAL DISTRICTS: TAIWAN (2004)
+    >>> PRIMARY ELECTORAL DISTRICTS: UNITED STATES (2004)
+
+
+===========================================================================
+))) APPENDIX I: PARTIES AND LEADERS
+===========================================================================
+
+
+         | NOTES: PARTIES AND LEADERS
+         |
+         | This appendix identifies parties active during a polity's
+         | election and (where available) their leaders.
+         |
+         | Provided are the party labels for the codes used in the micro
+         | data variables. Parties A through F are the six most popular
+         | parties, listed in descending order according to their share of
+         | the popular vote in the "lowest" level election held (i.e.,
+         | wherever possible, the first segment of the lower house).
+         |
+         | Note that in countries represented with more than a single
+         | election study the order of parties may change between the two
+         | elections.
+         |
+         | Leaders A through F are the corresponding party leaders or
+         | presidential candidates referred to in the micro data items.
+         | This appendix reports these names and party affiliations.
+         |
+         | Parties G, H, and I are supplemental parties and leaders
+         | voluntarily provided by some election studies. However, these
+         | are in no particular order.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ALBANIA (2005)
+---------------------------------------------------------------------------
+
+02.  Party A  PD    Democratic Party                           Sali Berisha
+01.  Party B  PS    Socialist Party                              Fatos Nano
+04.  Party C  PR    Republican Party                           Fatmir Mediu
+05.  Party D  PSD   Social Democratic Party                Skender Gjinushi
+03.  Party E  LSI   Socialist Movement for Integration            Ilir Meta
+10.  Party F  PDR   New Democratic Party                         Genc Pollo
+09.  Party G  PAA   Agrarian Party                           Lufter Xhuveli
+08.  Party H  PAD   Democratic Alliance Party                  Neritan Ceka
+07.  Party I  PDK   Christian Democratic Party                 Nikolle Lesi
+06.           LZhK  Movement of Leka Zogu  I                      Leka Zogu
+11.           PBDNj Human Rights Union Party
+12.                 Union for Victory (Partia Demokratike+
+                    PR+PLL+PBK+PBL)
+89.                 Other
+
+
+         | ELECTION STUDY NOTES - ALBANIA (2005): PARTIES AND LEADERS
+         |
+         | Please note that parties are ordered from A to I according to
+         | their total seats share, after both candidate and party list
+         | votes are taken into account (as reported in B5002).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: AUSTRALIA (2004)
+---------------------------------------------------------------------------
+
+01.  Party A  Liberal Party of Australia                        John Howard
+02.  Party D  National Party of Australia                     John Anderson
+03.  Party B  Australian Labor Party                            Mark Latham
+04.  Party C  Australian Greens                                   Bob Brown
+05.  Party E  Family First                                   Steve Fielding
+06.  Party F  Australian Democrats                          Andrew Bartlett
+07.  Party G  One Nation                                     Pauline Hanson
+08.           Christian Democratic Party
+09.           Independent
+10.           Others
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: BELGIUM (2003)
+---------------------------------------------------------------------------
+01.  Party A  VLD     Vlaamse Liberalen en Democraten        Karel De Gucht
+                      (Flemish Liberals and Democrats)
+02.  Party B  SP.A    Socialistische Partij Anders           Steve Stevaert
+                      (Socialist Party Differently)
+03.  Party C  CD&V    Christen-Democratisch & Vlaams      Stefaan De Clercq
+                      (Christian Democratic & Flemish)
+04.  Party E          Vlaams Blok (Flemish Block)           Frank Van Hecke
+05.  Party H  NV-A    New Flemish Alliance                 Geert Bourgeouis
+                      (Nieuw-Vlaamse Alliantie)
+06.                   Agalev/Groen!
+07.                   RESIST
+08.                   Vivant
+09.  Party D  PS      Parti Socialiste (Socialist Party)       Elio Di Rupo
+10.  Party F  MR      Mouvement Réformateur (Reformist       Daniël Ducarme
+                      Movement)
+11.  Party G  CDH     Centre Démocrate Humaniste             Joëlle Milquet
+                      (Humanist Democratic Centre)
+12.  Party I          Ecolo                                         De Feyt
+13.           FN      Front National (National Front)
+14.           PTB-UA  Parti du Travail de Belgique
+                      (Belgian Labor POarty)
+15.           FDF     Front Démocratique des Francophones   Olivier Mangain
+                      (Democratic Francophones Front)
+16.           CVP     Christelijke Volkspartij
+                      (Christian Peoples Party)
+17.           VU      Volksunie (People’s Union)
+18.           WOW     Waardig Ouder Worden
+19.           PVDA-AE Partij Van De Arbeid
+20.           PSC     Parti Social Chrétien
+21.           PRL-FDF Parti Réformateur Liberal
+22.           AGIR
+23.           SP      Socialistische Partij
+24.           SPIRIT
+50.           Other
+
+
+         | ELECTION STUDY NOTES - BELGIUM (2003): PARTIES AND LEADERS
+         |
+         | Between the elections of 1999 and 2003 a number of parties
+         | changed their names or ceased to exist. The changes have been as
+         | follows:
+         |
+         | Old Name       New name
+         | -----------------------
+         | CVP            CD&V
+         | VU             N-VA
+         | WOW            no longer exists
+         | PSC            CDH
+         | SP             SP.A-SPIRIT
+         | PRL-FDF        MR
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: BRAZIL (2002)
+---------------------------------------------------------------------------
+
+13.  Party A  PT      Workers’ Party            Luiz Inácio ‘Lula’ da Silva
+                      (Partido dos
+                      Trabalhadores)
+45.  Party B  PSDB    Brazilian Social                           José Serra
+                      Democratic Party
+                      (Partido da Social
+                      Democracia Brasileira)
+25.  Party C  PFL     Party of the Liberal         Antônio Carlos Magalhães
+                      Front
+15.  Party D  PMDB    Party of the Brazilian                 Jader Barbalho
+                      Democratic Movement
+11.  Party E  PPB     Brazilian Progressive                     Paulo Maluf
+                      Party (Partido
+                      Progressista Brasileiro)
+40.  Party F  PSB     Brazilian Socialist                 Anthony Garotinho
+                      Party
+                      (Partido Socialista
+                      Brasileiro)
+12.  Party G  PDT     Labor Democratic Party                 Leonel Brizola
+                      (Partido Democratico
+                      Trabalhista)
+14.  Party H  PTB     Brazilian Labor Party
+22.  Party I  PL      Liberal Party
+16.           PSTU
+17.           PSL
+18.           PST
+21.           PCB
+23.           PPS     Popular Socialist Party                   Ciro Gomes
+                      (Partido Popular
+                      Socialista)
+28.           PRTB
+27.           PSDC
+29.           PCO
+30.           PSD
+31.           PMN
+32.           PNR
+33.           PSC
+35.           PRN
+43.           PV
+44.           PRP
+51.           PDN
+54.           PP
+56.           PRONA    National Order                        Eneas Carneiro
+                       Reconstruction Party
+                       (Partido da
+                       Reedificacao da Ordem
+                       Nacional)
+65.           PC do B
+70.           PT do B
+89.           Other
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: BULGARIA (2001)
+---------------------------------------------------------------------------
+
+01.           Coalition For Bulgaria (CB - KzB)
+02.  Party B  United Democratic Forces (UDF)
+03.  Party D  Movement For Rights And Freedoms (MRF)
+04.  Party F  Euroleft
+05.           The Bloc of G. Ganchev
+07.           Bulgarian Agricultural National Forces-United
+08.           Bulgarian Communist Party
+09.           Bulgarian Social Democratic Party (BDSP)
+10.           Fatherland Party Of Labour
+15.  Party E  Movement 'Georgievden'
+17.           Christian Social Union
+19.           Bulgarian Agricultural National Forces,
+              A. Mauser, National Union
+21.           Green Party
+24.           Coalition United Agricultural Forces
+25.  Party G  Inner Macedonian Revolutionary Organization (VMRO)
+30.           National Union
+50.           Bulgarian Agricultural National Forces - 'N. Petkov'
+52.           Bulgarian Agricultural National Forces - 'Al. Stamboliski'
+57.           Eurorama
+63.  Party A  National Movement Simeon The Second (NMS II - NDST)
+66.           Coalition: Georgievden, Inner Macedonian Revolutionary
+              Organization
+70.           National Union, Fatherland Left
+81.           Coalition: Bulgarian Social Democratic Party,
+              Democratic Left
+82.           Union For National Salvation
+83.           Euroleft
+84.           Bulgarian Business Bloc
+85.           Democratic Alternative For The Republic
+86.  Party C  Bulgarian Socialist Party (BSP)
+87.           Union Bulgaria
+89.           Other
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: CANADA (2004)
+---------------------------------------------------------------------------
+
+01.  Party A  Liberal Party of Canada                  Rt. Hon. Paul Martin
+02.  Party B  Conservative Party of Canada          Rt. Hon. Stephen Harper
+03.  Party C  New Democratic Party (NDP)               Rt. Hon. Jack Layton
+04.  Party D  Bloc Quebecois                            Hon. Gilles Duceppe
+05.           Alliance (Canadian Reform
+              Conservative Alliance)
+06.           Progressive Conservative Party
+07.           Reform
+08.  Party E  Green Party                                        Jim Harris
+10.           Marijuana Party
+89.           Other
+90.           None of them
+
+
+         | ELECTION STUDY NOTES - CANADA (2004): PARTIES AND LEADERS
+         |
+         | On October 15, 2003 party "02. Conservative Party of Canada" was
+         | created by the merger of parties "05. Canadian Alliance" and
+         | "06. Progressive Conservative Party".
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: CHILE (2005)
+---------------------------------------------------------------------------
+
+01.  Party A  Unión Demócrata Independiente (Independent      Joaquín Lavín
+              Democrat Union-UDI)
+02.  Party B  Partido Demócrata Cristiano (Christian
+              Democrat Party-PDC)
+03.  Party C  Partido Por la Democracia (Party for
+              Democracy-PPD)
+04.  Party D  Renovación Nacional (National Renewal-RN)    Sebastian Pinera
+05.  Party E  Partido Socialista de Chile (Socialist
+              Party of Chile-PS)                          Michelle Bachelet
+06.  Party F  Partido Comunista de Chile (Communist
+              Party of Chile-PC)
+07.           Partido Radical Socialdemócrata (Social
+              Democrat Radical Party-PRSD)
+08.           Partido Humanista (Humanist Party)               Tomas Hirsch
+09.           Alianza Nacional de los Independientes
+              (National Alliance of Independents)
+10.           Concertación (Concertation)
+11.           Juntos Podemos (Toghether We Can)
+12.           Alianza por Chile (Alliance for Chile)
+13.           Partidos de derecha (Right wing party)
+14.           Partidos de Izquierda (Left wing party)
+15.           Independent Candidate
+16.           Other
+
+
+         | ELECTION STUDY NOTES - CHILE (2006): PARTIES AND LEADERS
+         |
+         | The specified political leaders are the presidential candidates
+         | of the 2005 contest. Michelle Bachelet was the candidate of the
+         | center-left coalition the Concertation, which grouped the PDC,
+         | PPD, PS and PRSD. Parties UDI and RN were members of the
+         | Alliance for Chile coalition, but ran on separate candidates.
+         | Parties PC and PH ran with one common candidate under the
+         | coalition "Together we can do more".
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: CZECH REPUBLIC (2002)
+---------------------------------------------------------------------------
+
+01.           National Democratic Party (NDS)
+02.           Democratic League (DL)
+03.  Party A  Czech Social Democratic Party                 Vladimír Spidla
+              (CSSD)
+04.           Balbin’S Poetic Party (BPS)
+05.           Civic Democratic Alliance (ODA)
+06.           Choice For Tomorrow (VPB)
+07.           Humanistic Alliance (HA)
+08.           Action For The Abolition Of The
+              Senate And Against Tunnelling Of
+              The Pension Funds (AZS)
+09.           Hope (N)
+10.           New Movement (NH)
+11.           Miroslav Sladek’S Republicans
+              (RMS)
+12.           Path Of Change (CZ)
+13.           Czech National Socialist Party
+              (CSNS)
+14.           Roma Civic Initiative In The Czech
+              Republic (ROI CR)
+15.           Common Sense Party (SZR)
+16.           Rural Party - Citizens Joint
+              Strength (SV-SOS)
+17.           Czechoslovak Socialist Party (CSS)
+18.           Czech Social Democratic Movement
+              (CSDH)
+19.           Czech Right (CP)
+20.           Republicans (R)
+21.           Association of Independents (SN)
+22.  Party B  Civic Democratic Party (ODS)                     Václav Klaus
+23.  Party C  Communist Party Of The Czech
+              Lands And Moravia (KSCM)                  Miroslav Grebenicek
+24.           Moravian Democratic Party (MDS)
+25.           Koalice (Coalition US-DEU &
+              KDU-CSL)
+26.           Party For Life Security (SZJ)
+27.           Right Block (PB)
+28.           Green Party (SZ)
+29.           Democratic Socialism Party (SDS)
+30.  Party D  Christian Democratic Union -                    Cyril Svoboda
+              Czechoslovak People’S Party
+              (KDU-CSL)
+31.  Party E  Freedom Union - Democratic Union                   Petr Mares
+              (US-DEU)
+32.           Independent
+33.           Democratic Union
+34.           Citizen Coalition - Political Club
+35.           Association For The Republic-
+              Republican Party Of Czechoslovakia
+              (SPR-RSC)
+36.           Freedom Union (US)
+37.           Association Of Pensioners Of
+              The Czech Republic (SDCR)
+38.           National Citizens’ Platform
+              (Celostátní Aktiv Obcanù)
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: DENMARK (2001)
+---------------------------------------------------------------------------
+
+01.  Party B  Social Democrats                         Poul Nyrup Rasmussen
+02.  Party F  Radical Left, Social Liberal                  Marianne Jelved
+              Party
+03.  Party D  Conservative People’s                          Bendt Bendtsen
+              Party
+04.  Party I  Centrist Democrats                              Mimi Jakobsen
+05.  Party E  Socialist People’S Party                    Holger K. Nielsen
+06.  Party C  Danish People’S Party                          Pia Kjærsgaard
+07.  Party H  Christian People’S Party                          Jan Sjursen
+08.  Party A  Left, Liberal Party                     Anders Fogh Rasmussen
+09.           Progress Party                                Mogens Glistrup
+10.  Party G  Red-Green Unity List          Frank Aaen (no official leader)
+11.           Other Parties
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: FINLAND (2003)
+---------------------------------------------------------------------------
+
+01.  Party B  Social Democratic Party of Finland             Paavo Lipponen
+02.  Party A  Center Party                              Anneli Jaatteenmaki
+03.  Party C  National Coalition Party                          Ville Itala
+04.  Party D  Left Alliance                                Suvi-Anne Siimes
+05.  Party G  Swedish People's Party in Finland            Jan-Erik Enestam
+06.  Party E  Green League                                       Satu Hassi
+07.  Party F  Christian Democrats
+08.           True Finns
+09.           Progressive Finnish Party
+49.           Other party
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: FRANCE (2002)
+---------------------------------------------------------------------------
+
+01.           National Republican Movement                        B. Mégret
+              Mouvement National Républicain
+02.  Party B  National Front                                      J. Le Pen
+              Front National
+03.           Movement For France                            P. De Villiers
+              Le Mouvement Pour La France
+04.           Rally For France                                    C. Pasqua
+              Le Rassemblement Pour La France
+05.  Party A  Rally For The Republic                              J. Chirac
+              Rassemblement Pour La République
+06.  Party H  Liberal Democracy                                  A. Madelin
+              Démocratie Libérale
+07.  Party D  Union For French Democracy                          F. Bayrou
+              Union Pour La Démocratie Française
+08.           Hunting, Fishing, Nature                       J. Saint-Josse
+              And Tradition
+              Chasse, Pêche, Nature Et
+              Tradition
+09.  Party G  Greens                                              N. Mamere
+              Les Verts
+10.           Other Ecological Parties
+              Un Autre Mouvement Écologiste
+11.           Left Radical Party                                 C. Taubira
+              Parti Radical De Gauche
+12.  Party F  Republican And Civic Movement                   J. Chevenment
+              Mouvement Des Citoyens/Pôle Républicain
+13.  Party C  Socialist Party                                     L. Jospin
+              Parti Socialiste
+14.  Party I  French Communist Party                                 R. Hue
+              Parti Communiste Français
+15.           Revolutionary Communist League                  O. Becancenot
+              Ligue Communiste Révolutionnaire
+16.  Party E  Workers' Struggle                                A. Laguiller
+              Lutte Ouvrière
+17.           Workers' Party                                  D. Gluckstein
+              Parti Des Travailleurs
+18.           Forum Of Social Republicans                         C. Boutin
+              Forum Des Républicains Sociaux
+19.           Citizenship Action                                  C. Lepage
+              Participation For The 21St
+              Century
+              Cap 21
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: GERMANY (2002)
+---------------------------------------------------------------------------
+
+01.  Party A  Social Democratic Party (SPD)                Gerhard Schröder
+02.  Party B  Christian Democratic Union (CDU)                Angela Merkel
+03.  Party C  Christian Social Union (CSU)                   Edmund Stoiber
+04.  Party D  Alliance 90/Greens (B90/GREUNE)       Fritz Kuhn/Claudia Roth
+05.  Party E  Free Democratic Party (FDP)                 Guido Westerwelle
+06.  Party F  Party Of Democratic Socialism (PDS)              Gabi Zimmer
+07.  Other G  The Republicans (Republikaner)
+08.  Other H  Party Of The Rule Of Law Offensive
+              (Schill-Partei)
+10.           German People's Union (DVU)
+11.           National Democratic Party Of Germany
+              (NPD)
+12.           Ecological Democratic Party (OEDP)
+13.           The Greys (Graue Panther)
+79.           Other
+
+
+         | ELECTION STUDY NOTES - GERMANY (2002): PARTIES AND LEADERS
+         |
+         | This Parties and Leaders list is for use with both the Germany
+         | (2002) telephone study and the Germany (2002) mail-back study.
+
+         | ELECTION STUDY NOTES - GERMANY (2002): PARTIES AND LEADERS
+         |
+         | The Christian Democratic Union does not contest seats in
+         | Bavaria; rather it forms an electoral block with her "sister"
+         | party, Christian Social Union, which only contests seats in
+         | Bavaria.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: GREAT BRITAIN (2005)
+---------------------------------------------------------------------------
+
+01.    Party A  Labour (Lab)                                     Tony Blair
+02.    Party B  Conservative (Con)                           Michael Howard
+03.    Party C  Liberal Democrats (LD)                      Charles Kennedy
+04.    Party D  Scotish National Party (SNP)                   Alex Salmond
+05.    Party E  Plaid Cymru (PC)                                Daffyd Iwan
+06.    Others                                                  Other Leader
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: HONG KONG (2004)
+---------------------------------------------------------------------------
+
+01.  Party A  Democratic Party                                    Yeung Sum
+02.           The Frontier                               Emily Lau Wai-Hing
+03.  Party D  Hong Kong Association For              Frederick Fung Kin-Kee
+              Democracy And People's
+              Livelihood
+04.  Party G  Hong Kong Federation of                        Cheng Yiu-Tong
+              Trade Unions
+05.  Party F  Neighborhood & Worker's                       Leung Yiu-Chung
+              Service Centre
+06.  Party B  Democratic Alliance For                                Ma Lik
+              Betterment of Hong Kong
+07.  Party C  Liberal Party                             James Tien Pei-Chun
+08.           The Hong Kong Progressive
+              Alliance
+09.  Party E  April Fifth Action                            Leung Kwok-Hung
+11.           Article 45 Concern Group
+12.           New Century Forum
+20.           Other
+21.           Independents
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: HUNGARY (2002)
+---------------------------------------------------------------------------
+
+01.  Party E  Alliance For Hungary - Center Party (ÖMC)         Mihály Kupa
+02.  Party B  Fidesz - Hungarian Civic Party (Fidesz-MPP)     Viktor Orbán*
+03.  Party F  Hungarian Democratic Forum (MDF)                 Ibolya Dávid
+04.  Party D  Hungarian Justice And Life Party (MIÉP)         István Csurka
+05.  Party A  Hungarian Socialist Party (MSZP)            Péter Medgyessy**
+06.  Party C  Alliance Of Free Democrats (SZDSZ)               Gábor Kuncze
+07.           Workers Party (Munkaspart)
+08.           Independent Small Holders Party (FKgP)
+09.           Others
+10.           Coalition: Fidesz - Hungarian Civic Party &
+              Hungarian Democratic Forum
+
+
+         | ELECTION STUDY NOTES - HUNGARY (2002): PARTIES AND LEADERS
+         |
+         | * Orbán was prime minister, The Fidesz-MPP's candidate for prime
+         | minister and the de facto party leader. The formal party leader
+         | Was Zoltán Pokorny.
+         |
+         | ** Medgyessy was the MSZP’S candidate for prime minister.
+         | Formally this candidate was not Even a member of the party. The
+         | formal and also de facto party leader was László Kovács.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ICELAND (2003)
+---------------------------------------------------------------------------
+
+03.  Party A  Independence Party (IP)                         Davíd Oddsson
+              (Sjálfstæðisflokkur)
+01.  Party B  Social Alliance Party            Ingibjörg Sólrún Gísladóttir
+              (Samfylkingin)                  (Prime Ministerial Candidate)
+02.  Party C  Progressive Party (PP)                     Halldór Ásgrímsson
+              (Framsóknarflokkur)
+04.  Party D  Left-Green Movement (Vinstri         Steingrímur J. Sigfússon
+              hreyfingin-grænt framboð)
+05.  Party E  Liberal Party (Frjálslyndi          Gudjón Arnar Kristjánsson
+              Flokkurinn)
+08.           Anarchists
+09.           Christian democracy party
+10.           Others
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: IRELAND (2002)
+---------------------------------------------------------------------------
+
+01.  Party A  Fianna Fail ('Soldiers Of Destiny')              Bertie Ahern
+02.  Party B  Fine Gael ('Family Of The Irish')              Michael Noonan
+03.  Party F  Green (Comhaontas Glas)                        Trevor Sargent
+04.  Party C  Labour (Páirti Lucht Oibre)                       Ruari Quinn
+05.  Party E  Progressive Democrats (Dan Pairtí                 Mary Harney
+              Daonlathach)
+06.  Party D  Sinn Fein ('We Ourselves')                        Gerry Adams
+07.           Independents
+12.           Others
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ISRAEL (2003)
+---------------------------------------------------------------------------
+
+01.  Party A  Likud                                            Ariel Sharon
+02.  Party B  Labor                                            Mitzna Amram
+03.  Party C  Shinui                                            Tommy Lapid
+04.  Party F  Meretz                                             Yosi Sarid
+05.  Party E  National Union                               Liberman Avigdor
+06.           Mafdal
+07.           Yahadut Hatora
+08.  Party D  Shas                                                Eli Ishay
+09.           Israel Acheret
+10.           Israel Baaliya
+11.           Am Ehad
+12.           Greenleaf
+13.           Herut
+14.           Tzomet
+15.           Gesher
+16.           Greens
+17.           Lehava
+18.           Lidar
+19.           Moreshet Avot
+20.           Male Rights
+21.           Ahavat Israel
+22.           Citizen And State
+23.           Democratic Action
+24.           Natl Progressive
+25.           Center
+26.           Zaam
+27.           Balad
+28.           Raam
+29.           Chadash
+30.           Left Bloc
+31.           Right Bloc
+32.           Religious Bloc
+33.           Labor-Meimad
+34.           Meretz-Habhira Hademocratit-Shahar
+35.           National Union-Israel Beytenu-Moledet-Tkuma
+36.           Hadash-Taal
+37.           Yahadut Hatora-Agudat Israel-Degel Tora
+38.           Israel Beytenu
+39.           Third Way
+40.           Other
+90.           Did not vote but had right to vote
+91.           Did not have right to vote
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ITALY (2006)
+---------------------------------------------------------------------------
+
+01.  Party A  Forward Italy (Forza Italia (-FI)           Silvio Berlusconi
+02.  Party B  Democrats of the Left (Democratici
+              di Sinistra-DS)                                 Piero Fassino
+03.  Party C  National Alliance (Alleanza Nazionale-AN)     Gianfranco Fini
+04.  Party D  Daisy-Democracy is Freedom
+              (La Margherita-Democrazia è Libertà-DL)     Francesco Rutelli
+05.  Party E  Union of Christian and Centre
+              Democrats (Unione dei Democratici
+              Cristiani e di Centro-UDC)             Pier Ferdinando Casini
+06.  Party F  Communist Refoundation Party
+              (Partito della Rifondazione Comunista-PRC)  Fausto Bertinotti
+07.           Northern League (Lega Nord)                     Umberto Bossi
+08.           Rose in the Fist (La Rosa del Pugno)           Enrico Boselli
+                                                                Emma Bonino
+09.           Party of Italian Communists
+              (Partito Dei Comunisti Italiani)
+10.           Italy of Values
+              (Di Pietro-Italia Dei Valori)               Antonio Di Pietro
+11.           Federation fo the Greens
+              (Federazione dei Verdi)               Alfonso Pecoraro Scanio
+12.           Popular-UDEUR (Populari-UDEUR)              Clemente Mastella
+13.           Pensioners' Party (Partito dei Pensionati)
+14.           Christian Democracy-New PSI
+              (Democrazia Cristiana-Partito Socialista)
+15.           Social Alternative (Alternative Sociale)
+16.           Tricolour Flame (Movimento Sociale Fiamma
+              Tricolore)
+17.           The Socialists (I Socialisti)
+18.           Ambientalista-Ecologisti Democratici
+19.           Terzo Polo
+20.           Solidarieta
+21.           South Tyrolean People's Party (Südtiroler
+              Volkspartei-SVP)
+22.           Lista Bonino/Radicali
+23.           The Olive (Ulivo)
+24.           The Union (Unione)                               Romano Prodi
+25.           House of Liberties (Casa de la Liberta)
+26.           Other
+
+
+         | ELECTION STUDY NOTES - ITALY (2006): PARTIES AND LEADERS
+         |
+         | Note that The Union and the House of Liberties were,
+         | respectively, the center-left and center-right coalitions. Many
+         | of the parties in the list were members of one of these two
+         | coalitions. For details see ES note B5025.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: JAPAN (2004)
+---------------------------------------------------------------------------
+
+02.  Party A   Democratic Party of Japan                      Katsuya Okada
+01.  Party B   Liberal Democratic Party                   Junichiro Koizumi
+03.  Party C   New Komeito (Clean Government Party)        Takenori Kanzaki
+05.  Party D   Japanese Communist Party                          Kazuo Shii
+04.  Party E   Social Democratic Party                     Mizuho Fukushima
+06.            Other minor parties or Independent
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: KYRGYZSTAN (2005)
+---------------------------------------------------------------------------
+
+01.  PARTY A  Ar Namys
+02.           Communist Party
+03.  PARTY H  Communist Party of Kyrgyzstan (K. Azhybekova)
+04.  PARTY B  Communist Party of Masaliev
+05.  PARTY C  Ata Meken (Socialist Party)
+06.  PARTY D  Alga Kyrgyzstan
+07.           Social-Democrats Party
+08.  PARTY E  Asaba (Republic National Party)
+09.           KDK
+10.  PARTY G  Free Kyrgyzstan (Erkin Kyrgyzstan)
+11.           Moy Kyrgyzstan
+12.           Molodej Kyrgyzstana
+13.           Zastroyshik party
+14.           Kel-Kel (Youth Party)
+15.  PARTY F  Noviy Kyrgyzstan (New Kyrgyzstan)
+16.           Adilet
+17.           Jetigen-Yntymak
+18.           Edinstvo i Trud
+19.           Narodnoe Dvijenie Kyrgyzstana(NDK)
+20.           Mekenim Kyrgyzstan
+21.           Coalition for Democracy and Civil Society
+22.           Avangard Sultanova
+23.           "Manas" youth organization
+24.           Aris
+25.           Azattyk party
+26.           Baitik Ata
+27.           Builders' movement
+28.           Democratic Movement of Kyrgyzstan
+29.           NGO "Gender development"
+30.           "Svobodniy Kyrgyzstan" party
+89.           Other
+90.           None of the above
+
+
+         | ELECTION STUDY NOTES - KYRGYZSTAN (2005): PARTIES AND LEADERS
+         |
+         | Note that in items that code parties from A to F (or I) (e.g.,
+         | B3037, B3038, B5011, etc.), Kyrgyz parties are not ordered
+         | according to the election returns, but according to their
+         | popularity as expressed in the CSES party identification item
+         | B3029_1. Kyrgyzstan CSES election study is focused on the early
+         | presidential election of July 10, 2005, but the candidates
+         | basically did not represent parties that respondents were asked
+         | about in the aforementioned items. As a result, the list of the
+         | parties is not applicable to the presidential election results
+         | items (B5005). These items list election results of the
+         | candidates that participated in the presidential election (see
+         | the corresponding election study note).
+
+         | ELECTION STUDY NOTES - KYRGYZSTAN (2005): LEADERS REPORTED IN
+         |                                           B3005_1, B3017, B3026
+         |
+         | The connection between political parties and political leaders
+         | is very loose. Therefore, in variables B3005_1, B3017 and B3026,
+         | are reported just candidates and leaders. There is no
+         | straightforward connection between them and political parties
+         | recorded in other CSES items and listed in the Appendix.
+         |
+         | 01.  Akbarali Aitikeev
+         | 02.  Kurmanbek Bakiev
+         | 03.  Bakir uulu Tursunbai
+         | 04.  Keneshbek Dushebaev
+         | 05.  Zhipar Zheksheev
+         | 06.  Toktaiim Umetalieva
+         | 07.  Eshimkanov Melis
+         | 08.  Askar Akaev
+         | 09.  Akunov Tursunbai
+         | 10.  Atambaev Almazbek
+         | 11.  Masaliev Apsamat
+         | 12.  Tekebaev Omurbek
+         | 13.  Bakiev and Kulov "Tandem"
+         | 14.  Kulov
+         |
+         | 90.  None of the above
+
+         | ELECTION STUDY NOTES - KYRGYZSTAN (2005): PRESIDENTIAL ELECTION
+         |                                           RESULTS (B5005)
+         |
+         | These items list election results of the candidates that
+         | participated in the 2005 presidential election. Candidates and
+         | parties listed in this item from A to F do not correspond to
+         | parties in the other items that code parties from A to F (or I)
+         | (e.g., B3037, B3038, B5011). Kyrgyzstan CSES election study is
+         | focused on the early presidential election of July 10, 2005, but
+         | the candidates basically did not represent parties that
+         | respondents were asked about in the aforementioned items.
+         |
+         |          Candidate                 Party/Organization
+         | ---------------------------        -----------------------------
+         | LEADER A  Kurmanbek Bakiev         Tandem/People's Movement of
+         |                                    Kyrgyzstan
+         | LEADER B  Bakir uulu Tursunbai     Independent candidate
+         | LEADER C  Akbarali Aitikeev        Party of "Defence"
+         | LEADER D  Zhipar Zheksheev         Democratic Movement of
+         |                                    Kyrgyzstan
+         | LEADER E  Toktaiim Umetalieva      Independent candidate
+         | LEADER F  Keneshbek Dushebaev      Justice - "Akyitkat"
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: MEXICO (2003)
+---------------------------------------------------------------------------
+
+01.  Party A  PAN      National Action Party         Luis Felipe Bravo Mena
+                       (Partido Ación Nacional)
+02.  Party B  PRI      Institutional Revolutionary  Roberto Madrazo Pintado
+                       Party (Partido
+                       Revolucionario
+                       Institucional)
+03.  Party C  PRD      Democratic Revolution Party  Rosario Robles Berlanga
+                       (Partido De La Revolución
+                       Democrática)
+04.  Party D  PVEM     Mexican Green Ecological       Jorge Emilio González
+                       Party (Partido Verde
+                       Ecologista De México)
+05.  Party E  PT       Labor Party (Partido Del     Alberto Anaya Gutiérrez
+                       Trabajo)
+06.  Party F           Convergencia                   Dante Delgado Renauro
+07.           PRI-PVEM Coalition Of Pri And Pvem
+08.  Party H  PAS      Social Alliance Party            José Antonio Tinoco
+                       (Partido Alianza Social)
+09.           PSN      Nationalist Society Party
+                       (Partido De La Sociedad
+                       Nacionalista)
+10.  Party G           Possible Mexico              Patricia Mercado Castro
+11.  Party I  PLM      Mexican Liberal Party          Salvador Ordaz Montes
+                       (Partido Liberal Mexicano)     De Oca
+12.                    Citizens' Force
+                       (Fuerza Ciudadana)
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: NETHERLANDS (2002)
+---------------------------------------------------------------------------
+
+01.  Party D  PvdA Labour Party                                  Ad Melkert
+                   (Partij van de Arbeid
+02.  Party A  CDA  Christian Democratic Appeal         Jan Peter Balkenende
+                   (Christen Democratisch Appèl)
+03.  Party C  VVD  People's Party for Freedom                 Hans Dijkstal
+                   and Democracry (Volkspartij
+                   voor Vrijheid en Democratie)
+04.  Party G  D66  Democrats 66 (Democraten 66)               Thom de Graaf
+05.  Party E  GL   Green Left (GroenLinks)                 Paul Rosenmöller
+06.  Party I  SGP  Political Reformed Party
+                   (Staatkundig Gereformeerde
+                   Partij)
+07.  Party H  CU   Christian Union (ChristenUnie)
+                   (GPV, RPF)
+08.                Livable Netherlands (Leefbaar
+                   Nederland)
+09.  Party B  LPF  List Pim Fortuyn (Lijst Pim                  Pim Fortuyn
+                   Fortuyn)
+10.  Party F  SP   Socialist Party                          Jan Marijnissen
+                   (Socialistische Partij)
+11.                Verenigde Senioren Partij
+12.                Nieuwe Midden Partij
+13.                Partij van de Toekomst
+14.                Vrije Indische Partij en
+                   Ouderenunie
+15.                Duurzaam Nederland
+16.                Vrouwelijke Interactie
+17.                Republikeinse Volkspartij
+19.                Blank vote
+22.                GPV
+23.                RPF
+24.                CentrumDemocraten
+25.                Unie 55+
+26.                AOV
+27.                Local list
+89.                Other
+
+
+         | ELECTION STUDY NOTES - NETHERLANDS (2002): PARTIES AND LEADERS
+         |
+         | Note: Code "19. Blank vote" means that the voter did vote, but
+         | not for one of the parties. This option has always been a
+         | possibility in Dutch elections, dating from the time of
+         | compulsory voting.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: NEW ZEALAND (2002)
+---------------------------------------------------------------------------
+
+01.  Party A  Labour
+02.  Party B  National
+03.  Party C  New Zealand First
+04.  Party D  Act New Zealand
+05.  Party E  Green Party
+06.  Party F  United Future
+07.  Other G  Jim Anderton's Progressive
+              Coalition
+08.  Other H  Alliance
+09.           Christian Heritage
+10.           Aotearoa Legalise Cannabis
+              Party
+11.           Other
+12.           Mana Maori Movement
+13.           Outdoor Recreation New
+              Zealand
+14.           Independent
+15.           Libertarian
+16.           One Nation
+17.           Mana Motuhake
+18.           Democrat
+19.           Future Nz
+20.           Liberal
+21.           Blokes' Libertarian
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: NORWAY (2001)
+---------------------------------------------------------------------------
+
+01.           Red Electoral Alliance
+02.  Party D  Socialist Left Party                        Kristin Halvorsen
+03.  Party A  Labour Party                     Jens Stoltenberg (Labour PM)
+04.  Party G  Liberal Party                                   Lars Sponheim
+05.  Party E  Christian Peoples Party             Valgerd Svarstad Haugland
+06.  Party F  Center Party                                Odd Roger Enoksen
+08.  Party B  Conservative Party                               Jan Petersen
+09.  Party C  Progress Party                                  Carl I. Hagen
+10.           Other Parties
+11.                                 Thorbjørn Jagland (Labour Party Leader)
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: PERU (2006)
+---------------------------------------------------------------------------
+
+01.    Party A  Union for Peru
+                (Union por el Peru-UPP)                Ollanta Humala Tasso
+02.    Party B  Aprista Peruvian Party
+                Partido Aprista Peruano (APRA)            Alan García Pérez
+03.    Party C  National Unity (Unidad Nacional/
+                Partido Popular Cristiano-UN)           Lourdes Flores Nano
+04.    Party D  Alliance for the Future
+                (Alianza Por El Futuro-AF)             Martha Chávez Cossío
+05.    Party E  Center Front/ Popular Action
+                (Frente de Centro/ Acción
+                Popular-FDC)                      Valentín Paniagua Corazao
+06.    Party F  National Restoration
+                (Restauración Nacional-RN)                 Humberto Lay Sun
+07.    Party G  Possible Peru (Perú Posible-PP)
+08.             Others                                               Others
+
+
+         | ELECTION STUDY NOTES - PERU (2006): PARTIES AND LEADERS
+         |
+         | See election study note at variable B5011 for details about
+         | coalitions.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: PHILIPPINES (2004)
+---------------------------------------------------------------------------
+
+01.  Party A  LAKAS-CMD  Lakas - Christian-Muslim         Macapagal-Arroyo,
+                         Democrats                    Gloria Macaraeg 'GMA'
+02.  Party B  NPC        Nationalist People's
+                         Coalition
+03.  Party C  LP         Liberal Party
+04.  Party D  LDP        Laban ng Demokratikong             Lacson, Panfilo
+                         Pilipino (Struggle for               Morena 'Ping'
+                         Democratic Philipinos)
+05.           NP         Nationalist Party
+06.           PMP        Partido ng Masang Pilipino
+                         (Filipino Workers' Party)
+07.           KAMPI      Kabalikat ng Malazang
+                         Pilipino
+08.           KNP        Koalisyon ng Nagkakaisan        Poe, Fernando, Jr.
+                         Pilipino (Coalition of          Ronald Allan Kelly
+                         United Filipinos)                            'FPJ'
+09.           PDP        Pilipino Democratic Party
+10.  Party E  AD         Aksyon Demokratiko                      Roco, Raul
+                         Democratic Action)              Sagarbarria 'Raul'
+11.           PDR & LM   REPORMA (PDR) - Lapiang
+                         manggagawa (LM)
+12.  Party F             Bangon Pilipinas (Arise        Villanueva, Eduardo
+                         Philippines)                     Cruz 'Bro. Eddie'
+13.           PRP        People's Reform Party
+14.           K4         Coalition of Lakas-CMD, LP,
+                         NPC, KAMPI, & some regional
+                         parties
+15.                  08. Mayor ng Meycauayan
+16.                  09. Partido ng Administration
+17.                  11. Partido ni Allan Cayetano
+18.                  13. Partido ni Ramos
+19.                  15. Partido ni Zubiri
+20                   17. Sa Linya ni Pichay
+21.                      Bayan Muna (Nation First)
+22.                  22. Lamp
+23.                  29. Partido ni Legarda
+24.                  21. Kay Digs Dilangalen
+25.                  32. Yung Kay Angara
+26.                  33. Yung Kay Erap At Kay Fpj (Pareho Lang Yun)
+27.                  37. An Waray
+28.                  38. Abe
+29.                  39. Akbayan
+30.                  40. Alayon - Pablo Garcia Party (Administration/Gma)
+31.                  44. Anak Pawis
+32.                  45. Apec - Association Of Power Electric Cooperatives
+33.                  50. Bigkis Pinoy
+34.                  51. Bopk (Bando Osmeña Pundok Kauswagan)
+35.                  52. Buhay
+36.                  53. Bumangon
+37.                  54. Butil
+38.                  55. Cibac Party
+39.                  57. COOP NATCCO
+40.                  58. CPP/NPA
+41.                  59. Gabriela
+42.                  64. MAD - Mamamayan Ayaw Sa Droga
+43.                  67. NATU
+44.                  69. PM - Partidong Manggagawa
+45.                  14. Partido ni Raul Gonzales
+46.                  24. MASA
+47.                  41. Alvin Almirante Group
+48.                  42. Alyansa ng Partidong Pilipino
+49.                  65. Marcos Party
+50.                  71. UGYON
+51.                  30. Partido ni Recom Liping Kalookan
+52.                  43. ANAD
+53.                  60. KBL
+54.                  66. Migrante Int'l
+55.                  70. PROMDI
+56.                  72. UNEDO
+57.                  73. VFP - Veterans Federation of the Philippines
+58.                  02. BUNYE
+59.                  12. Partido ni Mayor Alarilla Meycauan Bulacan
+60.                  27. Partido ng Masa Sa Jiabong
+61.                  28. Partido ni Juan Ponce Enrile
+62.                  46. ASSALAM
+63.                  61. KMU - Kilusang Mayo Uno
+71.                      ALAYON- NACIONAISTA PARTY - NP
+72.                      PDSP
+73.                      PDP-LABAN
+74.                      ALAYON-NATIONAL PEOPLE'S COALITION - NPC
+75.                      KNP-PMP-NPC
+80.                      PMDI-PPCV
+82.                      KPP
+83.                      PBM
+85.              Candidates with no information about party affiliation
+86.              Independents
+87.              Others
+90.              Voted but did not vote for a presidential candidate
+91.              Voted but did not vote for a lower house candidate
+
+
+         | ELECTION STUDY NOTES - PHILIPPINES (2004): PARTIES AND LEADERS
+         |
+         | Note that in the presidential election variable (B5005),
+         | Fernando Poe Jr. was entered as a candidate representing LDP
+         | (PARTY D). As a presidential candidate he was backed up by the
+         | KNP coalition, where LDP was the senior member. LDP split just
+         | before the election on the issue of who will be the presidential
+         | candidate. The minority fraction supported Panfilo Lacson
+         | (obtained 10.88% votes). Codes in B3005_1 corresponds to the
+         | above table.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: POLAND (2001)
+---------------------------------------------------------------------------
+
+01.  Party A  Coalition Of The Alliance Of The Democratic Left
+              And The Union Of Labor (SLD-UP)
+02.  Other G  Coalition Electoral Action Solidarity Of The Right (AWSP)
+03.  Other H  Freedom Union (UW)
+04.  Party C  Self Defence Of The Polish Republic (S)
+05.  Party D  Law And Justice (PIS)
+06.  Party E  Polish People's Party (PSL)
+07.  Party B  Citizen's Platform (PO)
+08.           Alternative Social Movement
+10.  Party F  League Of Polish Families (LPR)
+11.           German Minority
+13.           Polish Economic Union
+14.           Polish Socialist Party
+15.           German Minority Of Upper Silesia
+20.           Blok Senat 2001
+21.           Ryszard Matusiak
+22.           Taduesz Dabrowski
+23.           "Klub Sluzby Niepodleglsoci- Okregu Wyborczego Nr 10"
+24.           Niezalezny Pozapartyjny Komitet Wyborczy Wyborcow
+25.           Opolski Komitet Obywatelski
+26.           Sympatykow Lecha Kaczynskiego
+27.           Henryk Tadeusz Stoklosa
+28.           Citizen's Forum(FO)-Christian Democracy
+30.  Party I  Labor Union (UP)
+31.           National Christian Democratic Bloc For Poland
+32.           National Alliance Of Retired Of The Republic Of Poland
+33.           Coalition Electoral Solidarity
+34.           Alliance Of The Democratic Left
+35.           Union Of The Reoublic's Rightists
+36.           Movement For The Reconstruction Of Poland
+37.           National Pensioner's Party
+38.           "Porozumienie Prawicy Polskiej"
+39.           German Social And Cultural Association Of
+              Opole Silesia
+40.           Polish National Commonwealth-Polish National Party
+41.           German Minority - Prawoslawni Slavic Ethnic Association
+              -'Orthodox Believers'
+42.           Reconciliation And The Future
+43.           German Minority Association In Olsztyn
+44.           German Minority Association In Opole Silesia
+45.           People's Alliance -'Poland Labour Justice'
+50.           Social Movement-Solidarity Electoral Action
+51.           Christian National Union
+52.           Polish Party Of Christian Democrats
+53.           Realpolitik Union
+54.           Polish National Party
+55.           Polish "Robotniczo" Party- Chlopska
+56.           Solidarity (without identifying more specific party)
+57.           Conservative Peasent Party
+58.           National Catholic Movement (RK-N)
+59.           Polish Understanding
+60.           Christian Democratic Party of the Third Republic
+61.           Confederation for Independent Poland
+88.           Independent and non-partisan
+89.           Other party
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: PORTUGAL (2002)
+---------------------------------------------------------------------------
+
+01.  Party A  Social Democratic Party (PPD/PSD)
+              Partido Social Democrata
+02.  Party B  Socialist Party (PS)
+              Partido Socialista
+03.  Party C  Popular Party (CDS/PP)
+              Partido Popular
+04.  Party D  Unitary Democratic Coalition (CDU)
+              Coligação Democrática Unitária
+05.  Party E  Left Bloc (BE)
+              Bloco De Esquerda
+06.  Party F  Portuguese Communist Workers'
+              Party (PCTP/MRPP)
+              Partido Comunista Dos Trabalhadores Portugueses/
+              Movimento Reorganizativo Do Proletariado Português
+     Party G  Movimento O Partido Da Terra (MPT)
+07.  Party H  Popular Monarchist Party (PPM)
+              Partido Popular Monarquico
+08.  Party I  Humanist Party (PH)
+              Partido Humanista
+09.           Communist Party (PCP)
+              Partido Comunista Português
+10.           Green Party (PEV)
+              Partido Ecologista- Os Verdes
+11.           Popular Democratic Union (UDP)
+              União Democrática Popular
+12.           Revolutionary Socialist Party (PSR)
+              Partido Socialista Revolucionário
+13.           Politics Xxi
+              Política Xxi
+14.           Other
+15.           Spoiled ballot
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: PORTUGAL (2005)
+---------------------------------------------------------------------------
+
+01.  Party E  Left Bloc (BE)                                Francisco Louçã
+              Bloco De Esquerda
+02.  Party D  Popular Party (CDS/PP)                           Paulo Portas
+              Partido Popular
+03.  Party C  Unitary Democratic Coalition (CDU)          Jerónimo de Sousa
+              Coligação Democrática Unitária
+04.  Party B  Social Democratic Party (PPD/PSD)         Pedro Santana Lopes
+              Partido Social Democrata
+05.  Party A  Socialist Party (PS)                            José Sócrates
+              Partido Socialista
+06.  Party G  Ecologist Party "The Greens" (PEV)
+              Partido Ecologista - "Os Verdes"
+07.  Party F  Portuguese Communist Party (PCP)            Jerónimo de Sousa
+              Partido Comunista Português
+10.           Other
+11.           Blank/Null
+
+
+         | ELECTION STUDY NOTES - PORTUGAL (2005): PARTIES AND LEADERS
+         |
+         | PARTY C (CDU - Coligação Democrática Unitária)is a coalition
+         | between PCP and PEV (parties F and G here). Since the formation
+         | of the coalition in 1987, the parties never participated
+         | separated in any election.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: ROMANIA (2004)
+---------------------------------------------------------------------------
+
+09.  PARTY A  Social Democratic Party (PSD)
+06.  PARTY B  National Liberal Party (PNL)
+07.  PARTY C  Democratic Party (PD)
+03.  PARTY D  Greater Romania Party (PRM)              Corneliu Vadim Tudor
+04.  PARTY E  Democratic Alliance of Hungarians                 Marko Bella
+              in Romania (UDMR)
+08.  PARTY F  Humanist Party of Romania (PUR)
+10.  PARTY G  New Generation Party (PNG)
+05.  PARTY H  Christian Democratic National               Gheorghe Ciuhandu
+              Peasants’ Party (PNTCD)
+
+01.           National Alliance: Social Democratic           Adrian Nastase
+              Party + Romanian Humanistic Party (PSD+PUR)
+02.           Truth and Justice Alliance: National Liberal   Traian Basescu
+              Party - Democratic Party (PNL+PD)
+11.           CDR 2000
+89.           Other
+
+
+         | ELECTION STUDY NOTES - ROMANIA (2004): PARTIES AND LEADERS
+         |
+         | For the 2004 election, parties 09 and 08 were members of the
+         | National Alliance coalition (01). Parties 06 and 07 were members
+         | of the coalition Truth and Justice Alliance (02).
+         |
+         | The following candidates were mentioned in the previous
+         | presidential election item (B3017) (Presidential candidates in
+         | 2000 election):
+         |
+         | 03.  Corneliu Vadim Tudor (PRM)
+         | 04.  Frunda Gyorgy (UDMR)
+         | 06.  Theodor Stolojan (PNL)
+         | 07.  Petre Roman (PD)
+         | 09.  Ion Iliescu (PSD)
+         | 11.  Mugur Isarescu (CDR 2000)
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: RUSSIA (2004)
+---------------------------------------------------------------------------
+
+01. Party A     United Russia (Edinaya Rossiya, ER)
+                Boris Vyacheslavovich GRYZLOV and Sergei SHOIGU
+02. Party B     Communist Party of the Russian Federation
+                (Kommunistieskaya Partiya Rossiiskoi Federatsii, KPRF)
+                Gennadiy Andreyavich ZYUGANOV
+03. Party C     Liberal Democratic Party of Russia
+                (Liberalno Demokratieskoi Partii Rossii, LDPR)
+                Vladimir Volfovich ZHIRINOVSKY
+04. Party D     Homeland People's-Patriotic Union
+                (Rodina Narodno-Patriotieskii Soyuz, RNPS)
+                Dmitry ROGOZIN and Sergey Y. GLAZIEV
+05. Party E     Union Right Forces (Soyuz Pravikh Sil, SPS)
+                Boris NEMTSOV, Anatoliy Borisovich CHUBAYS,
+                Yegor Timurovich GAYDAR,
+                Irinia Mutsuovna KHAKAMADA
+06. Party F     Russian Democratic Party - Yavlinski Bloc
+                (Rossiiskaya Demokratiskaya Partiya - YaBloko, RDPY)
+                Grigorily Aekseyavich YAVLINSKIY
+07.             Russian Pensioners' Party (Rossiiskaya Partiya Pensionerov,
+                RPP)
+08.             Agrarian Party of Russia (Agrarnaya Partiya Rossii, APR)
+09.             People's Party of the Russian Federation
+                (Narodnaya Partiya Rossiiskoi Federatsii, NPRF)
+10.             Civic Dignity
+11.             New Course - Automotive Party
+12.             Beer Lovers
+13. Party I     Rebirth of Russia Party (Partiya Vozrozhdeniya Rossii, PVR)
+14.             Rus
+15.             National Bolsh
+16.             Liberal
+17.             Entrepreneurship
+18.             Russian Ecological Party ‘The Greens’
+90.             Against All Candidates
+91.             Other answer.
+
+
+         | ELECTION STUDY NOTES - RUSSIA (2004): PARTIES AND LEADERS
+         |
+         | Because of the fluid party system in Russia, it was very
+         | difficult to find appropriate information for parties and
+         | leaders, espacially for small parties that do not exist anymore.
+         | Moreover, more than single political figures were reported
+         | as the party leaders of some parties.
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SLOVENIA (2004)
+---------------------------------------------------------------------------
+
+01.  Party A  Slovenian Democratic Party                        Janez Jansa
+              (Slovenska demokratska stranka-SDS)
+02.  Party B  Liberal Democracy of Slovenia                       Anton Rop
+              (Liberalna demokracija Slovenije-LDS)          Janez Drnovsek
+03.  Party C  United List of Social Democrats                   Borut Pahor
+              (Zdruzena Lista socialnih demokratov-ZLSD)        Milan Kucan
+04.  Party D  New Slovenia-Christian People's Party            Andrej Bajuk
+              (Nova Slovenija-Krscanska ljudska stranka-NSi)  Alojz Peterle
+05.  Party E  Slovenian People's Party
+              (Slovenska ljudska stranka-SLS)                Janez Podobnik
+06.  Party F  Slovenian National Party (Slovenska
+              nacionalna stranka-SNS)                        Zmago Jelincic
+07.  Party G  Democratic Party of Pensioners of Slovenia
+              (Demokraticna stranka upokojencev
+              Slovenije-DeSUS)                                   Anton Rous
+08.           Active Slovenia (Aktivna Slovenija-AS)
+09.           Youth Party of Slovenia
+              (Stranka mladih Slovenije- SMS)
+10.           Slovenia is Ours (Slovenija je Nasa)
+11.           Greens of Slovenia (Zeleni Slovenije)
+12.           Junijska lista
+13.           Za podjetno Slovenijo
+90.           Other Parties
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SOUTH KOREA (2004)
+---------------------------------------------------------------------------
+
+03.  Party A  UD   Our Party (Uri Dang)                    Jung, Dong Young
+01.  Party B  HD   Grand National Party (Hannara Dang)       Park, Geun Hye
+06.  Party C  MDD  Democratic Labor Party                   Gwon, Young Gil
+                   (Minjunodong Dang)
+02.  Party D  SMD  Millennium Democratic Party                   Chu, Mi Ae
+                   (Saecheonnyeonminju Dang)
+04.  Party E  JMY  United Liberal Democrats                   Kim, Jong Pil
+                   (Jayu Minju Yonmaeng)
+05.  Party F  NA21 National Integration 21
+07.                Other Party
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SPAIN (2004)
+---------------------------------------------------------------------------
+
+01.  Party B  Popular Party (Partido Popular-PP)              Mariano Rajoy
+02.  Party A  Spanish Socialist Party
+              (Partido Socialista              José Luis Rodríguez Zapatero
+              Obrero Español (PSOE)
+03.  Party C  United Left (Izquierda Unida-IU)            Gaspar Llamazares
+04.  Party D  Convergence and Union
+              (Convergencia i Unió-CiU)                          Arturo Mas
+05.  Party F  Basque Nationalist Party
+              (Partido Nacionalista Vasco-PNV)          Juan José Ibarretxe
+06.           Eusko Alkartasuna (EA)
+07.           Galician Coalition (Coalición Gallega-CG)
+08.           Cantabrian Regionalist Party (Partido
+              Regionalista Cántabro-PRC)
+09.           Regionalista Aragonese Party (Partido
+              Aragonés Regionalista-PAR)
+10.           Union for the People of Navarra (Unión
+              del Pueblo Navarro-UPN)
+11.           Andalucista Party (Partido Andalucista-PA)
+12.           Valencian Union (Unión Valenciana-UV)
+13.           Extremadura Unida (EU)
+14.  Party G  Canarian Coalition (Coalición
+              Canaria-CC)
+15.  Party E  Republican Left of Catalonia
+              (Esquerra Republicana de
+              Cataluña-ERC)                          José Luis Carod-Rovira
+              (ERC)
+16.           Aragonese Council (Chunta Aragonesista)
+17.  Party H  Galician Nationalist Bloc (Bloque
+              Nacionalista Gallego-BNG)
+18.           Ecologists (Verdes)
+19.           Other
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SWEDEN (2002)
+---------------------------------------------------------------------------
+
+01.  Party E  Left Party                                     Gudrun Schyman
+02.  Party A  Social Democrats                                Göran Persson
+03.  Party F  Centre Party                                    Maud Olofsson
+04.  Party C  People’S Party Liberals                       Lars Leijonborg
+05.  Party B  Conservative Party                                Bo Lundgren
+06.  Party D  Christian Democrats                              Alf Svensson
+07.           Green Party                                    Peter Eriksson
+                                                         Maria Wetterstrand
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: SWITZERLAND (2003)
+---------------------------------------------------------------------------
+
+01.  Party C  Radical-Democratic Party (FDP/PRD)    Langenberger Christiane
+02.  Party D  Christian-Democratic People's Party          Stähelin Philipp
+              (CVP/PDC)
+03.  Party B  Social-Democratic Party (SP/PS)            Brunner Christiane
+04.  Party A  Swiss People's Party (SVP/UDC)                    Maurer Ueli
+05.           Liberal Party (LPS,PLS)
+06.           LdU,AdI
+07.           Protestant Poeple's Party (EVP,PEP)
+08.           Christian-Social Party (CSP/PCS)
+09.           Swiss Labor Party (PdA,PdT)
+11.           POCH/POB
+12.           Fga Women, Alternative Green
+13.  Party E  Green Party (GPS/PES)             Genner Ruth & Mugny Patrice
+15.           Swiss Democrats Party (SD,DS)
+16.           Federal Democratic Union (EDU,UDF)
+17.           Freedom Party Of Switzerland (FPS,PSL)
+18.           Lega
+27.           Solidarite, Alliance De Gauche
+30.           Other Left parties
+31.           Other Right parties
+35.           Other Party
+40.           Several parties
+42.           Other answer
+89.           Tacit election
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: TAIWAN (2001)
+---------------------------------------------------------------------------
+
+01.  Party B  Kuomintang (KMT)                                    Lien Chan
+02.  Party A  Democratic Progressive Party (DPP)                Frank Hsieh
+03.  Party E  New Party (NP)                                   Chi-Ta Hsieh
+04.  Party C  People First Party (PFP)                     James C.Y. Soong
+05.           Taiwan Independent Party
+06.  Party D  Taiwan Solidarity Union (TSU)                   Chu-Wen Huang
+07.           Independent TSU
+08.           Green Party
+09.           Independent TSU
+
+
+         | ELECTION STUDY NOTES - TAIWAN (2001): PARTIES AND LEADERS
+         |
+         | In B3017 (Previous Election: Vote Choice - President) the
+         | following leaders were identified.
+         |
+         | Presidential candidate  Party
+         | ----------------------  ---------
+         | 01.  Lien Chan          KMT
+         | 02.  Chen Shui-Bian     DPP
+         | 03.  Lee Ao             NP
+         | 07.  Soong Chu-Yu       Independent
+         | 09.  Hsu Hsin Liang     Independent
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: TAIWAN (2004)
+---------------------------------------------------------------------------
+
+01.  Party A  Democratic Progressive Party (DPP)             Chen Shui-bian
+                                                               Lu Hsiu-lien
+02.  Party B  Kuomintang (KMT)                                    Lien Chan
+03.  Party C  People First Party (PFP)                         Soong Chu-yu
+04.  Party D  Taiwan Solidarity Union (TSU)
+05.  Party E  New Party (NP)
+06.           Taiwan Independence Party (TAIP)
+07.           Democracy School
+08.           Pan-Green Coalition (DPP,TSU, & TAIP)
+09.           Pan-Blue Coalition (KMT, PFP, & NP)
+11.           Independent
+
+
+         | ELECTION STUDY NOTES - TAIWAN (2004): PARTIES AND LEADERS
+         |
+         | Lu Hsiu-lien was the vice-presidential candidate of the
+         | Pan-Green Coalition (which consisted of the DPP, PFP and the
+         | smaller TAIP). She belonged to the DPP. James Soong was the
+         | vice-presidential candidate of the Pan-Blue Coalition (which
+         | consisted of the Kuomintang (KMT), the People First Party (PFP),
+         | and the smaller New Party (NP)).
+
+
+---------------------------------------------------------------------------
+>>> PARTIES AND LEADERS: UNITED STATES (2004)
+---------------------------------------------------------------------------
+
+01.  Party A  Republican Party                               George W. Bush
+02.  Party B  Democratic Party                                John F. Kerry
+03.  Party C  Reform Party                                      Ralph Nader
+04.           Libertarian Party                            Michael Badnarik
+05.           Other
+06.           Pat Buchanan
+07.           Independent
+
+
+         | ELECTION STUDY NOTES - UNITED STATES (2004): PARTIES AND LEADERS
+         |
+         | The following candidates were mentioned in Previous Election
+         | items (presidential election of 2000):
+         |
+         | 01. George W. Bush
+         | 02. Al Gore
+         | 03. Ralph Nader
+         | 06. Pat Buchanan
+
+
+===========================================================================
+))) APPENDIX II: PRIMARY ELECTORAL DISTRICTS
+===========================================================================
+
+
+         | NOTES: PRIMARY ELECTORAL DISTRICTS
+         |
+         | To follow are value labels for codes reported in variable B2031.
+         | Wherever possible, we have provided the offical labels used by
+         | each country's electoral commissions.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ALBANIA (2005)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - ALBANIA (2005): ELECTORAL DISTRICTS
+         |
+         | Primary electoral districts are not available for the
+         | Albania (2005) study.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: AUSTRALIA (2004)
+---------------------------------------------------------------------------
+
+00101.  Banks                     00226.  La Trobe
+00102.  Barton                    00227.  Mcewen
+00103.  Bennelong                 00228.  Mcmillan
+00104.  Berowra                   00229.  Mallee
+00105.  Blaxland                  00230.  Maribyrnong
+00106.  Bradfield                 00231.  Melbourne
+00107.  Calare                    00232.  Melbourne Ports
+00108.  Charlton                  00233.  Menzies
+00109.  Chifley                   00234.  Murray
+00110.  Cook                      00235.  Scullin
+00111.  Cowper                    00236.  Wannon
+00112.  Cunningham                00237.  Wills
+00113.  Dobell                    00301.  Blair
+00114.  Eden-Monaro               00302.  Bonner
+00115.  Farrer                    00303.  Bowman
+00116.  Fowler                    00304.  Brisbane
+00117.  Gilmore                   00305.  Capricornia
+00118.  Grayndler                 00306.  Dawson
+00119.  Greenway                  00307.  Dickson
+00120.  Gwydir                    00308.  Fadden
+00121.  Hughes                    00309.  Fairfax
+00122.  Hume                      00310.  Fisher
+00123.  Hunter                    00311.  Forde
+00124.  Kingsford-Smith           00312.  Griffith
+00125.  Lindsay                   00313.  Groom
+00126.  Lowe                      00314.  Herbert
+00127.  Lyne                      00315.  Hinkler
+00128.  Macarthur                 00316.  Kennedy
+00129.  Mackellar                 00317.  Leichardt
+00130.  Macquarie                 00318.  Lilley
+00131.  Mitchell                  00319.  Longman
+00132.  New England               00320.  Maranoa
+00133.  Newcastle                 00321.  Mcpherson
+00134.  North Sydney              00322.  Moncrieff
+00135.  Page                      00323.  Moreton
+00136.  Parkes                    00324.  Oxley
+00137.  Parramatta                00325.  Petrie
+00138.  Paterson                  00326.  Rankin
+00139.  Prospect                  00327.  Ryan
+00140.  Reid                      00328.  Wide Bay
+00141.  Richmond                  00401.  Adelaide
+00142.  Riverina                  00402.  Barker
+00143.  Robertson                 00403.  Boothby
+00144.  Shortland                 00404.  Grey
+00145.  Sydney                    00405.  Hindmarsh
+00146.  Throsby                   00406.  Kingston
+00147.  Warringah                 00407.  Makin
+00148.  Watson                    00408.  Mayo
+00149.  Wentworth                 00409.  Port Adelaide
+00150.  Werriwa                   00410.  Sturt
+00201.  Aston                     00411.  Wakefield
+00202.  Ballarat                  00501.  Brand
+00203.  Batman                    00502.  Canning
+00204.  Bendigo                   00503.  Cowan
+00205.  Bruce                     00504.  Curtin
+00206.  Calwell                   00505.  Forrest
+00207.  Casey                     00506.  Fremantle
+00208.  Chisholm                  00507.  Hasluck
+00209.  Corangamite               00508.  Kalgoorlie
+00210.  Corio                     00509.  Moore
+00211.  Deakin                    00510.  O'connor
+00212.  Dunkley                   00511.  Pearce
+00213.  Flinders                  00512.  Perth
+00214.  Gellibrand                00513.  Stirling
+00215.  Gippsland                 00514.  Swan
+00216.  Goldstein                 00515.  Tangney
+00217.  Gorton                    00601.  Bass
+00218.  Higgins                   00602.  Braddon
+00219.  Holt                      00603.  Denison
+00220.  Hotham                    00604.  Franklin
+00221.  Indi                      00605.  Lyons
+00222.  Isaacs                    00701.  Canberra
+00223.  Jagajaga                  00702.  Fraser
+00224.  Kooyong                   00801.  Lingiari
+00225.  Lalor                     00802.  Solomon
+
+
+         | ELECTION STUDY NOTES - AUSTRALIA (2004): ELECTORAL DISTRICTS
+         |
+         | Primary electoral districts are divisions within the
+         | Australian state or territory. Each electorate has been given a
+         | four digit number. The first two digits are indicative of state
+         | or territory as listed in B2027.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: BELGIUM (2003)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - BELGIUM (2003): ELECTORAL DISTRICTS
+         |
+         | Primary electoral districts are not available for the Belgium
+         | (2003) study.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: BRAZIL (2002)
+---------------------------------------------------------------------------
+
+00011.  Rondônia                  00028.  Sergipe
+00012.  Acre                      00029.  Bahia
+00013.  Amazonas                  00031.  Minas Gerais
+00014.  Roraima                   00032.  Espírito Santo
+00015.  Pará                      00033.  Rio De Janeiro
+00016.  Amapá                     00035.  São Paulo
+00017.  Tocantins                 00041.  Paraná
+00021.  Maranhão                  00042.  Santa Catarina
+00022.  Piauí                     00043.  Rio Grande Do Sul
+00023.  Ceará                     00050.  Mato Grosso Do Sul
+00024.  Rio Grande Do Norte       00051.  Mato Grosso Do Sul
+00025.  Paraíba                   00052.  Goiás
+00026.  Pernambuco                00053.  Distrito Federal
+00027.  Alagoas
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: BULGARIA (2001)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - BULGARIA (2001): ELECTORAL DISTRICTS
+         |
+         | Primary electoral districts are not available for the Bulgaria
+         | (2001) study.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: CANADA (2004)
+---------------------------------------------------------------------------
+
+10001.  Avalon
+10002.  Bonavista - Exploits
+10003.  Humber - St. Barbe - Baie Verte
+10004.  Labrador
+10005.  Random - Burin - St. George's
+10006.  St. John's North/St. John's - Nord
+10007.  St. John's South/St.John's - Sud
+11001.  Cardigan
+11002.  Charlottetown
+11003.  Egmont
+11004.  Malpeque
+12001.  Cape Breton - Canso
+12002.  Central Nova/Nova - Centre
+12003.  Dartmouth - Cole Harbour
+12004.  Halifax
+12005.  Halifax West/Halifax - Ouest
+12006.  Kings - Hants
+12007.  North Nova/Nova - Nord
+12008.  Sackville - Eastern Shore
+12009.  South Shore - St. Margaret's
+12010.  Sydney - Victoria
+12011.  West Nova/Nova - Ouest
+13001.  Acadie - Bathurst
+13002.  Beauséjour
+13003.  Fredericton
+13004.  Fundy
+13005.  Madawaska - Restigouche
+13006.  Miramichi
+13007.  Moncton - Riverview - Dieppe
+13008.  St. Croix - Belleisle
+13009.  Saint John
+13010.  Tobique - Mactaquac
+24001.  Abitibi - Témiscamingue
+24002.  Ahuntsic
+24003.  Alfred - Pellan
+24004.  Argenteuil - Mirabel
+24005.  Beauce
+24006.  Beauharnois - Salaberry
+24007.  Beauport
+24008.  Berthier - Maskinongé
+24009.  Bourassa
+24010.  Brome - Missisquoi
+24011.  Brossard - La Prairie
+24012.  Chambly - Borduas
+24013.  Charlesbourg
+24014.  Charlevoix - Montmorency
+24015.  Châteauguay - Saint - Constant
+24016.  Chicoutimi - Le Fjord
+24017.  Compton - Stanstead
+24018.  Drummond
+24019.  Gaspésie - Îles-de-la-Madeleine
+24020.  Gatineau
+24021.  Hochelaga
+24022.  Honoré - Mercier
+24023.  Hull - Aylmer
+24024.  Jeanne - Le Ber
+24025.  Joliette
+24026.  Jonquière - Alma
+24027.  Lac-Saint-Louis
+24028.  La Pointe-de-l'Île
+24029.  LaSalle - Émard
+24030.  Laurentides - Labelle
+24031.  Laurier
+24032.  Laval
+24033.  Laval - Les Îles
+24034.  Lévis - Bellechasse
+24035.  Longueuil
+24036.  Lotbinière - Chutes-de-la-Chaudière
+24037.  Louis-Hébert
+24038.  Louis-Saint-Laurent
+24039.  Manicouagan
+24040.  Marc-Aurèle-Fortin
+24041.  Matapédia - Matane
+24042.  Mégantic - L'Érable
+24043.  Montcalm
+24044.  Mount Royal/Mont-Royal
+24045.  Notre-Dame-de-Grâce - Lachine
+24046.  Nunavik - Eeyou
+24047.  Outremont
+24048.  Papineau
+24049.  Pierrefonds - Dollard
+24050.  Pontiac
+24051.  Portneuf
+24052.  Québec
+24053.  Repentigny
+24054.  Richelieu
+24055.  Richmond - Arthabaska
+24056.  Rimouski - Témiscouata
+24057.  Rivière-des-Mille-Îles
+24058.  Rivière-du-Loup - Montmagny
+24059.  Rivière-du-Nord
+24060.  Robervaln
+24061.  Rosemont - La Petite-Patrie
+24062.  Saint-Bruno - Saint-Hubert
+24063.  Saint-Hyacinthe - Bagot
+24064.  Saint-Jean
+24065.  Saint-Lambert
+24066.  Saint-Laurent - Cartierville
+24067.  Saint-Léonard - Saint-Michel
+24068.  Saint-Maurice - Champlain
+24069.  Shefford
+24070.  Sherbrooke
+24071.  Terrebonne - Blainville
+24072.  Trois-Rivières
+24073.  Vaudreuil-Soulanges
+24074.  Verchères - Les Patriotes
+24075.  Westmount - Ville-Marie
+35001.  Ajax - Pickering
+35002.  Algoma - Manitoulin - Kapuskasing
+35003.  Ancaster - Dundas - Flamborough - Westdale
+35004.  Barrie
+35005.  Beaches - East York
+35006.  Bramalea - Gore - Malton
+35007.  Brampton - Springdale
+35008.  Brampton West/Brampton-Ouest
+35009.  Brant
+35010.  Burlington
+35011.  Cambridge
+35012.  Carleton - Lanark
+35013.  Chatham-Kent - Essex
+35014.  Clarington - Scugog - Uxbridge
+35015.  Davenport
+35016.  Don Valley East/Don Valley-Est
+35017.  Don Valley West/Don Valley-Ouest
+35018.  Dufferin - Caledon
+35019.  Eglinton - Lawrence
+35020.  Elgin - Middlesex - London
+35021.  Essex
+35022.  Etobicoke Centre/Etobicoke-Centre
+35023.  Etobicoke - Lakeshore
+35024.  Etobicoke North/Etobicoke-Nord
+35025.  Glengarry - Prescott - Russell
+35026.  Grey - Bruce - Owen Sound
+35027.  Guelph
+35028.  Haldimand - Norfolk
+35029.  Haliburton - Kawartha Lakes - Brock
+35030.  Halton
+35031.  Hamilton Centre/Hamilton-Centre
+35032.  Hamilton East - Stoney Creek/Hamilton-Est - Stoney Creek
+35033.  Hamilton Mountain
+35034.  Huron - Bruce
+35035.  Kenora
+35036.  Kingston and the Islands/Kingston et les Îles
+35037.  Kitchener Centre/Kitchener-Centre
+35038.  Kitchener - Conestoga
+35039.  Kitchener - Waterloo
+35040.  Lanark - Frontenac - Lennox and Addington
+35041.  Leeds - Grenville
+35042.  London - Fanshawe
+35043.  London North Centre/London-Centre-Nord
+35044.  London West/London-Ouest
+35045.  Markham - Unionville
+35046.  Middlesex - Kent - Lambton
+35047.  Mississauga - Brampton South/Mississauga - Brampton-Sud
+35048.  Mississauga East - Cooksville/Mississauga-Est-Cooksville
+35049.  Mississauga - Erindale
+35050.  Mississauga South/Mississauga-Sud
+35051.  Mississauga - Streetsville
+35052.  Nepean - Carleton
+35053.  Newmarket - Aurora
+35054.  Niagara Falls
+35055.  Niagara West - Glanbrook/Niagara-Ouest - Glanbrook
+35056.  Nickel Belt
+35057.  Nipissing - Timiskaming
+35058.  Northumberland - Quinte West
+35059.  Oak Ridges - Markham
+35060.  Oakville
+35061.  Oshawa
+35062.  Ottawa Centre/Ottawa-Centre
+35063.  Ottawa - Orléans
+35064.  Ottawa South/Ottawa-Sud
+35065.  Ottawa - Vanier
+35066.  Ottawa West - Nepean/Ottawa-Ouest - Nepean
+35067.  Oxford
+35068.  Parkdale - High Park
+35069.  Parry Sound - Muskoka
+35070.  Perth - Wellington
+35071.  Peterborough
+35072.  Pickering - Scarborough East/Pickering - Scarborough-Est
+35073.  Prince Edward - Hastings
+35074.  Renfrew - Nipissing - Pembroke
+35075.  Richmond Hill
+35076.  St. Catharines
+35077.  St. Paul's
+35078.  Sarnia - Lambton
+35079.  Sault Ste. Marie
+35080.  Scarborough - Agincourt
+35081.  Scarborough Centre/Scarborough-Centre
+35082.  Scarborough - Guildwood
+35083.  Scarborough - Rouge River
+35084.  Scarborough Southwest/Scarborough-Sud-Ouest
+35085.  Simcoe - Grey
+35086.  Simcoe North/Simcoe-Nord
+35087.  Stormont - Dundas - South Glengarry
+35088.  Sudbury
+35089.  Thornhill
+35090.  Thunder Bay - Rainy River
+35091.  Thunder Bay - Superior North/Thunder Bay - Superior-Nord
+35092.  Timmins - James Bay/Timmins - Baie James
+35093.  Toronto Centre/Toronto-Centre
+35094.  Toronto - Danforth
+35095.  Trinity - Spadina
+35096.  Vaughan
+35097.  Welland
+35098.  Wellington - Halton Hills
+35099.  Whitby - Oshawa
+35100.  Willowdale
+35101.  Windsor - Tecumseh
+35102.  Windsor West/Windsor-Ouest
+35103.  York Centre/York-Centre
+35104.  York - Simcoe
+35105.  York South - Weston/York-Sud - Weston
+35106.  York West/York-Ouest
+46001.  Brandon - Souris
+46002.  Charleswood - St. James
+46003.  Churchill
+46004.  Dauphin - Swan River
+46005.  Elmwood - Transcona
+46006.  Kildonan - St. Paul
+46007.  Portage - Lisgar
+46008.  Provencher
+46009.  Saint Boniface/Saint-Boniface
+46010.  Selkirk - Interlake
+46011.  Winnipeg Centre/Winnipeg-Centre
+46012.  Winnipeg North/Winnipeg-Nord
+46013.  Winnipeg South/Winnipeg-Sud
+46014.  Winnipeg South Centre/Winnipeg-Centre-Sud
+47001.  Battlefords - Lloydminster
+47002.  Blackstrap
+47003.  Churchill River/Rivière Churchill
+47004.  Cypress Hills - Grasslands
+47005.  Palliser
+47006.  Prince Albert
+47007.  Regina - Lumsden - Lake Centre
+47008.  Regina - Qu'Appelle
+47009.  Saskatoon _ Humboldt
+47010.  Saskatoon - Rosetown  Biggar
+47011.  Saskatoon - Wanuskewin
+47012.  Souris - Moose Mountain
+47013.  Wascana
+47014.  Yorkton - Melville
+48001.  Athabasca
+48002.  Calgary East/Calgary-Est
+48003.  Calgary North Centre/Calgary-Centre-Nord
+48004.  Calgary Northeast/Calgary-Nord-Est
+48005.  Calgary - Nose Hill
+48006.  Calgary South Centre/Calgary-Centre-Sud
+48007.  Calgary Southeast/Calgary-Sud-Est
+48008.  Calgary Southwest/Calgary-Sud-Ouest
+48009.  Calgary West/Calgary-Ouest
+48010.  Crowfoot
+48011.  Edmonton - Beaumont
+48012.  Edmonton Centre/Edmonton-Centre
+48013.  Edmonton East/Edmonton-Est
+48014.  Edmonton - Leduc
+48015.  Edmonton - St. Albert
+48016.  Edmonton - Sherwood Park
+48017.  Edmonton - Spruce Grove
+48018.  Edmonton - Strathcona
+48019.  Lethbridge
+48020.  Macleod
+48021.  Medicine Hat
+48022.  Peace River
+48023.  Red Deer
+48024.  Vegreville - Wainwright
+48025.  Westlock - St. Paul
+48026.  Wetaskiwin
+48027.  Wild Rose
+48028.  Yellowhead
+59001.  Abbotsford
+59002.  Burnaby - Douglas
+59003.  Burnaby - New Westminster
+59004.  Cariboo - Prince George
+59005.  Chilliwack - Fraser Canyon
+59006.  Delta - Richmond East/Delta - Richmond-Est
+59007.  Dewdney - Alouette
+59008.  Esquimalt - Juan de Fuca
+59009.  Fleetwood - Port Kells
+59010.  Kamloops - Thompson
+59011.  Kelowna
+59012.  Kootenay - Columbia
+59013.  Langley
+59014.  Nanaimo - Alberni
+59015.  Nanaimo - Cowichan
+59016.  Newton - North Delta/Newton - Delta-Nord
+59017.  New Westminster - Coquitlam
+59018.  North Okanagan - Shuswap/Okanagan-Nord - Shuswap
+59019.  North Vancouver
+59020.  Okanagan - Coquihalla
+59021.  Port Moody - Westwood - Port Coquitlam
+59022.  Prince George - Peace River
+59023.  Richmond
+59024.  Saanich - Gulf Islands
+59025.  Skeena - Bulkley Valley
+59026.  Southern Interior
+59027.  South Surrey - White Rock - Cloverdale/Surrey-Sud - White Rock -
+        Cloverdale
+59028.  Surrey North/Surrey-Nord
+59029.  Vancouver Centre/Vancouver-Centre
+59030.  Vancouver East/Vancouver-Est
+59031.  Vancouver Island North/Île de Vancouver-Nord
+59032.  Vancouver Kingsway
+59033.  Vancouver Quadra
+59034.  Vancouver South/Vancouver-Sud
+59035.  Victoria
+59036.  West Vancouver - Sunshine Coast
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: CHILE (2005)
+---------------------------------------------------------------------------
+
+00001.  District Number 1         00025.  District Number 25
+00002.  District Number 2         00026.  District Number 26
+00003.  District Number 3         00027.  District Number 27
+00004.  District Number 4         00028.  District Number 28
+00005.  District Number 5         00029.  District Number 29
+00007.  District Number 7         00030.  District Number 30
+00008.  District Number 8         00032.  District Number 32
+00010.  District Number 10        00036.  District Number 36
+00012.  District Number 12        00037.  District Number 37
+00013.  District Number 13        00039.  District Number 39
+00014.  District Number 14        00041.  District Number 41
+00015.  District Number 15        00043.  District Number 43
+00016.  District Number 16        00044.  District Number 44
+00017.  District Number 17        00045.  District Number 45
+00018.  District Number 18        00046.  District Number 46
+00019.  District Number 19        00047.  District Number 47
+00020.  District Number 20        00050.  District Number 50
+00021.  District Number 21        00053.  District Number 53
+00022.  District Number 22        00055.  District Number 55
+00023.  District Number 23        00057.  District Number 57
+00024.  District Number 24
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: CZECH REPUBLIC (2002)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - CZECH REPUBLIC (2002): ELECTORAL
+         |                                               DISTRICTS
+         |
+         | Primary electoral districts are not available for the Czech
+         | Republic (2002) study.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: DENMARK (2001)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - DENMARK (2001): ELECTORAL DISTRICTS
+         |
+         | Primary electoral districts are not available for the Denmark
+         | (2001) study.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: FINLAND (2003)
+---------------------------------------------------------------------------
+
+00001.  Helsinki                  00008.  Etelä-Savo
+00002.  Uusimaa                   00009.  Pohjois-Savo
+00003.  Varsinais-Suomi           00010.  Pohjois-Karjala
+00004.  Satakunta                 00011.  Keski-Suomi
+00005.  Häme                      00012.  Vaasa
+00006.  Pirkanmaa                 00013.  Oulu
+00007.  Kymi                      00014.  Lappi
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: FRANCE (2002)
+---------------------------------------------------------------------------
+
+00101.  Ain - 1Ère Circonscription
+00102.  Ain - 2Ème Circonscription
+00103.  Ain - 3Ème Circonscription
+00104.  Ain - 4Ème Circonscription
+00201.  Aisne - 1Ère Circonscription
+00202.  Aisne - 2Ème Circonscription
+00203.  Aisne - 3Ème Circonscription
+00204.  Aisne - 4Ème Circonscription
+00205.  Aisne - 5Ème Circonscription
+00301.  Allier - 1Ère Circonscription
+00302.  Allier - 2Ème Circonscription
+00303.  Allier - 3Ème Circonscription
+00304.  Allier - 4Ème Circonscription
+00401.  Alpes De Haute Provence  - 1Ère Circonscription
+00402.  Alpes De Haute Provence  - 2Ème Circonscription
+00501.  Hautes Alpes  - 1Ère Circonscription
+00502.  Hautes Alpes  - 2Ème Circonscription
+00601.  Alpes Maritimes - 1Ère Circonscription
+00602.  Alpes Maritimes - 2Ème Circonscription
+00603.  Alpes Maritimes - 3Ème Circonscription
+00604.  Alpes Maritimes - 4Ème Circonscription
+00605.  Alpes Maritimes - 5Ème Circonscription
+00606.  Alpes Maritimes - 6Ème Circonscription
+00607.  Alpes Maritimes - 7Ème Circonscription
+00608.  Alpes Maritimes - 8Ème Circonscription
+00609.  Alpes Maritimes - 9Ème Circonscription
+00701.  Ardeche - 1Ère Circonscription
+00702.  Ardeche - 2Ème Circonscription
+00703.  Ardeche - 3Ème Circonscription
+00801.  Ardenne - 1Ère Circonscription
+00802.  Ardennes - 2Ème Circonscription
+00803.  Ardennes - 3Ème Circonscription
+00901.  Ariege - 1Ère Circonscription
+00902.  Ariege - 2Ème Circonscription
+01001.  Aube - 1Ère Circonscription
+01002.  Aube - 2Ème Circonscription
+01003.  Aube - 3Ème Circonscription
+01101.  Aude - 1Ère Circonscription
+01102.  Aude - 2Ème Circonscription
+01103.  Aude - 3Ème Circonscription
+01201.  Aveyron - 1Ère Circonscription
+01202.  Aveyron - 2Ème Circonscription
+01203.  Aveyron - 3Ème Circonscription
+01301.  Bouches Du Rhone - 1Ère Circonscription
+01302.  Bouches Du Rhone - 2Ème Circonscription
+01303.  Bouches Du Rhone - 3Ème Circonscription
+01304.  Bouches Du Rhone - 4Ème Circonscription
+01305.  Bouches Du Rhone - 5Ème Circonscription
+01306.  Bouches Du Rhone - 6Ème Circonscription
+01307.  Bouches Du Rhone - 7Ème Circonscription
+01308.  Bouches Du Rhone - 8Ème Circonscription
+01309.  Bouches Du Rhone - 9Ème Circonscription
+01310.  Bouches Du Rhone - 10Ème Circonscription
+01311.  Bouches Du Rhone - 11Ème Circonscription
+01312.  Bouches Du Rhone - 12Ème Circonscription
+01313.  Bouches Du Rhone - 13Ème Circonscription
+01314.  Bouches Du Rhone - 14Ème Circonscription
+01315.  Bouches Du Rhone - 15Ème Circonscription
+01316.  Bouches Du Rhone - 16Ème Circonscription
+01401.  Calvados - 1Ère Circonscription
+01402.  Calvados - 2Ème Circonscription
+01403.  Calvados - 3Ème Circonscription
+01404.  Calvados - 4Ème Circonscription
+01405.  Calvados - 5Ème Circonscription
+01406.  Calvados - 6Ème Circonscription
+01501.  Cantal - 1Ère Circonscription
+01502.  Cantal - 2Ème Circonscription
+01601.  Charente - 1Ère Circonscription
+01602.  Charente - 2Ème Circonscription
+01603.  Charente - 3Ème Circonscription
+01604.  Charente - 4Ème Circonscription
+01701.  Charente Maritime - 1Ère Circonscription
+01702.  Charente Maritime - 2Ème Circonscription
+01703.  Charente Maritime - 3Ème Circonscription
+01704.  Charente Maritime - 4Ème Circonscription
+01705.  Charente Maritime - 5Ème Circonscription
+01801.  Cher - 1Ère Circonscription
+01802.  Cher - 2Ème Circonscription
+01803.  Cher - 3Ème Circonscription
+01901.  Correze  - 1Ère Circonscription
+01902.  Correze  - 2Ème Circonscription
+01903.  Correze  - 3Ème Circonscription
+02001.  Corse Sud - 1Ère Circonscription
+02002.  Corse Sud - 2Ème Circonscription
+02101.  Cote D'or - 1Ère Circonscription
+02102.  Cote D'or - 2Ème Circonscription
+02103.  Cote D'or - 3Ème Circonscription
+02104.  Cote D'or - 4Ème Circonscription
+02105.  Cote D'or - 5Ème Circonscription
+02201.  Cotes D'armor - 1Ère Circonscription
+02202.  Cotes D'armor - 2Ème Circonscription
+02203.  Cotes D'armor - 3Ème Circonscription
+02204.  Cotes D'armor - 4Ème Circonscription
+02205.  Cotes D'armor - 5Ème Circonscription
+02301.  Creuse - 1Ère Circonscription
+02302.  Creuse - 2Ème Circonscription
+02401.  Dordogne - 1Ère Circonscription
+02402.  Dordogne - 2Ème Circonscription
+02403.  Dordogne - 3Ème Circonscription
+02404.  Dordogne - 4Ème Circonscription
+02501.  Doubs - 1Ère Circonscription
+02502.  Doubs - 2Ème Circonscription
+02503.  Doubs - 3Ème Circonscription
+02504.  Doubs - 4Ème Circonscription
+02505.  Doubs - 5Ème Circonscription
+02601.  Drome - 1Ère Circonscription
+02602.  Drome - 2Ème Circonscription
+02603.  Drome - 3Ème Circonscription
+02604.  Drome - 4Ème Circonscription
+02701.  Eure - 1Ère Circonscription
+02702.  Eure - 2Ème Circonscription
+02703.  Eure - 3Ème Circonscription
+02704.  Eure - 4Ème Circonscription
+02705.  Eure - 5Ème Circonscription
+02801.  Eure Et Loir - 1Ère Circonscription
+02802.  Eure Et Loir - 2Ème Circonscription
+02803.  Eure Et Loir - 3Ème Circonscription
+02804.  Eure Et Loir - 4Ème Circonscription
+02901.  Finistere - 1Ère Circonscription
+02902.  Finistere - 2Ème Circonscription
+02903.  Finistere - 3Ème Circonscription
+02904.  Finistere - 4Ème Circonscription
+02905.  Finistere - 5Ème Circonscription
+02906.  Finistere - 6Ème Circonscription
+02907.  Finistere - 7Ème Circonscription
+02908.  Finistere - 8Ème Circonscription
+03001.  Gard - 1Ère Circonscription
+03002.  Gard - 2Ème Circonscription
+03003.  Gard - 3Ème Circonscription
+03004.  Gard - 4Ème Circonscription
+03005.  Gard - 5Ème Circonscription
+03101.  Haute Garonne - 1Ère Circonscription
+03102.  Haute Garonne - 2Ème Circonscription
+03103.  Haute Garonne - 3Ème Circonscription
+03104.  Haute Garonne - 4Ème Circonscription
+03105.  Haute Garonne - 5Ème Circonscription
+03106.  Haute Garonne - 6Ème Circonscription
+03107.  Haute Garonne - 7Ème Circonscription
+03108.  Haute Garonne - 8Ème Circonscription
+03201.  Gers - 1Ère Circonscription
+03202.  Gers - 2Ème Circonscription
+03301.  Gironde - 1Ère Circonscription
+03302.  Gironde - 2Ème Circonscription
+03303.  Gironde - 3Ème Circonscription
+03304.  Gironde - 4Ème Circonscription
+03305.  Gironde - 5Ème Circonscription
+03306.  Gironde - 6Ème Circonscription
+03307.  Gironde - 7Ème Circonscription
+03308.  Gironde - 8Ème Circonscription
+03309.  Gironde - 9Ème Circonscription
+03310.  Gironde - 10Ème Circonscription
+03311.  Gironde - 11Ème Circonscription
+03401.  Herault - 1Ère Circonscription
+03402.  Herault - 2Ème Circonscription
+03403.  Herault - 3Ème Circonscription
+03404.  Herault - 4Ème Circonscription
+03405.  Herault - 5Ème Circonscription
+03406.  Herault - 6Ème Circonscription
+03407.  Herault - 7Ème Circonscription
+03501.  Ille Et Vilaine - 1Ère Circonscription
+03502.  Ille Et Vilaine - 2Ème Circonscription
+03503.  Ille Et Vilaine - 3Ème Circonscription
+03504.  Ille Et Vilaine - 4Ème Circonscription
+03505.  Ille Et Vilaine - 5Ème Circonscription
+03506.  Ille Et Vilaine - 6Ème Circonscription
+03507.  Ille Et Vilaine - 7Ème Circonscription
+03601.  Indre - 1Ère Circonscription
+03602.  Indre - 2Ème Circonscription
+03603.  Indre - 3Ème Circonscription
+03701.  Indre Et Loire - 1Ère Circonscription
+03702.  Indre Et Loire - 2Ème Circonscription
+03703.  Indre Et Loire - 3Ème Circonscription
+03704.  Indre Et Loire - 4Ème Circonscription
+03705.  Indre Et Loire - 5Ème Circonscription
+03801.  Isere - 1Ère Circonscription
+03802.  Isere - 2Ème Circonscription
+03803.  Isere - 3Ème Circonscription
+03804.  Isere - 4Ème Circonscription
+03805.  Isere - 5Ème Circonscription
+03806.  Isere - 6Ème Circonscription
+03807.  Isere - 7Ème Circonscription
+03808.  Isere - 8Ème Circonscription
+03809.  Isere - 9Ème Circonscription
+03901.  Jura - 1Ère Circonscription
+03902.  Jura - 2Ème Circonscription
+03903.  Jura - 3Ème Circonscription
+04001.  Landes - 1Ère Circonscription
+04002.  Landes - 2Ème Circonscription
+04003.  Landes - 3Ème Circonscription
+04101.  Loir Et Cher - 1Ère Circonscription
+04102.  Loir Et Cher - 2Ème Circonscription
+04103.  Loir Et Cher - 3Ème Circonscription
+04201.  Loire - 1Ère Circonscription
+04202.  Loire - 2Ème Circonscription
+04203.  Loire - 3Ème Circonscription
+04204.  Loire - 4Ème Circonscription
+04205.  Loire - 5Ème Circonscription
+04206.  Loire - 6Ème Circonscription
+04207.  Loire - 7Ème Circonscription
+04301.  Haute Loire - 1Ère Circonscription
+04302.  Haute Loire - 2Ème Circonscription
+04401.  Loire Atlantique - 1Ère Circonscription
+04402.  Loire Atlantique - 2Ème Circonscription
+04403.  Loire Atlantique - 3Ème Circonscription
+04404.  Loire Atlantique - 4Ème Circonscription
+04405.  Loire Atlantique - 5Ème Circonscription
+04406.  Loire Atlantique - 6Ème Circonscription
+04407.  Loire Atlantique - 7Ème Circonscription
+04408.  Loire Atlantique - 8Ème Circonscription
+04409.  Loire Atlantique - 9Ème Circonscription
+04410.  Loire Atlantique - 10Ème Circonscription
+04501.  Loiret - 1Ère Circonscription
+04502.  Loiret - 2Ème Circonscription
+04503.  Loiret - 3Ème Circonscription
+04504.  Loiret - 4Ème Circonscription
+04505.  Loiret - 5Ème Circonscription
+04601.  Lot  - 1Ère Circonscription
+04602.  Lot  - 2Ème Circonscription
+04701.  Lot Et Garonne - 1Ère Circonscription
+04702.  Lot Et Garonne - 2Ème Circonscription
+04703.  Lot Et Garonne - 3Ème Circonscription
+04801.  Lozere - 1Ère Circonscription
+04802.  Lozere - 2Ème Circonscription
+04901.  Maine Et Loire - 1Ère Circonscription
+04902.  Maine Et Loire - 2Ème Circonscription
+04903.  Maine Et Loire - 3Ème Circonscription
+04904.  Maine Et Loire - 4Ème Circonscription
+04905.  Maine Et Loire - 5Ème Circonscription
+04906.  Maine Et Loire - 6Ème Circonscription
+04907.  Maine Et Loire - 7Ème Circonscription
+05001.  Manche - 1Ère Circonscription
+05002.  Manche - 2Ème Circonscription
+05003.  Manche - 3Ème Circonscription
+05004.  Manche - 4Ème Circonscription
+05005.  Manche - 5Ème Circonscription
+05101.  Marne - 1Ère Circonscription
+05102.  Marne - 2Ème Circonscription
+05103.  Marne - 3Ème Circonscription
+05104.  Marne - 4Ème Circonscription
+05105.  Marne - 5Ème Circonscription
+05106.  Marne - 6Ème Circonscription
+05201.  Haute Marne - 1Ère Circonscription
+05202.  Haute Marne - 2Ème Circonscription
+05301.  Mayenne - 1Ère Circonscription
+05302.  Mayenne - 2Ème Circonscription
+05303.  Mayenne - 3Ème Circonscription
+05401.  Meurthe Et Moselle - 1Ère Circonscription
+05402.  Meurthe Et Moselle - 2Ème Circonscription
+05403.  Meurthe Et Moselle - 3Ème Circonscription
+05404.  Meurthe Et Moselle - 4Ème Circonscription
+05405.  Meurthe Et Moselle - 5Ème Circonscription
+05406.  Meurthe Et Moselle - 6Ème Circonscription
+05407.  Meurthe Et Moselle - 7Ème Circonscription
+05501.  Meuse - 1Ère Circonscription
+05502.  Meuse - 2Ème Circonscription
+05601.  Morbihan - 1Ère Circonscription
+05602.  Morbihan - 2Ème Circonscription
+05603.  Morbihan - 3Ème Circonscription
+05604.  Morbihan - 4Ème Circonscription
+05605.  Morbihan - 5Ème Circonscription
+05606.  Morbihan - 6Ème Circonscription
+05701.  Moselle - 1Ère Circonscription
+05702.  Moselle - 2Ème Circonscription
+05703.  Moselle - 3Ème Circonscription
+05704.  Moselle - 4Ème Circonscription
+05705.  Moselle - 5Ème Circonscription
+05706.  Moselle - 6Ème Circonscription
+05707.  Moselle - 7Ème Circonscription
+05708.  Moselle - 8Ème Circonscription
+05709.  Moselle - 9Ème Circonscription
+05710.  Moselle - 10Ème Circonscription
+05801.  Nievre - 1Ère Circonscription
+05802.  Nievre - 2Ème Circonscription
+05803.  Nievre - 3Ème Circonscription
+05901.  Nord - 1Ère Circonscription
+05902.  Nord - 2Ème Circonscription
+05903.  Nord - 3Ème Circonscription
+05904.  Nord - 4Ème Circonscription
+05905.  Nord - 5Ème Circonscription
+05906.  Nord - 6Ème Circonscription
+05907.  Nord - 7Ème Circonscription
+05908.  Nord - 8Ème Circonscription
+05909.  Nord - 9Ème Circonscription
+05910.  Nord - 10Ème Circonscription
+05911.  Nord - 11Ème Circonscription
+05912.  Nord - 12Ème Circonscription
+05913.  Nord - 13Ème Circonscription
+05914.  Nord - 14Ème Circonscription
+05915.  Nord - 15Ème Circonscription
+05916.  Nord - 16Ème Circonscription
+05917.  Nord - 17Ème Circonscription
+05918.  Nord - 18Ème Circonscription
+05919.  Nord - 19Ème Circonscription
+05920.  Nord - 20Ème Circonscription
+05921.  Nord - 21Ème Circonscription
+05922.  Nord - 22Ème Circonscription
+05923.  Nord - 23Ème Circonscription
+05924.  Nord - 24Ème Circonscription
+06001.  Oise - 1Ère Circonscription
+06002.  Oise - 2Ème Circonscription
+06003.  Oise - 3Ème Circonscription
+06004.  Oise - 4Ème Circonscription
+06005.  Oise - 5Ème Circonscription
+06006.  Oise - 6Ème Circonscription
+06007.  Oise - 7Ème Circonscription
+06101.  Orne - 1Ère Circonscription
+06102.  Orne - 2Ème Circonscription
+06103.  Orne - 3Ème Circonscription
+06201.  Pas De Calais - 1Ère Circonscription
+06202.  Pas De Calais - 2Ème Circonscription
+06203.  Pas De Calais - 3Ème Circonscription
+06204.  Pas De Calais - 4Ème Circonscription
+06205.  Pas De Calais - 5Ème Circonscription
+06206.  Pas De Calais - 6Ème Circonscription
+06207.  Pas De Calais - 7Ème Circonscription
+06208.  Pas De Calais - 8Ème Circonscription
+06209.  Pas De Calais - 9Ème Circonscription
+06210.  Pas De Calais - 10Ème Circonscription
+06211.  Pas De Calais - 11Ème Circonscription
+06212.  Pas De Calais - 12Ème Circonscription
+06213.  Pas De Calais - 13Ème Circonscription
+06214.  Pas De Calais - 14Ème Circonscription
+06301.  Puy De Dome - 1Ère Circonscription
+06302.  Puy De Dome - 2Ème Circonscription
+06303.  Puy De Dome - 3Ème Circonscription
+06304.  Puy De Dome - 4Ème Circonscription
+06305.  Puy De Dome - 5Ème Circonscription
+06306.  Puy De Dome - 6Ème Circonscription
+06401.  Pyrenees Atlantiques - 1Ère Circonscription
+06402.  Pyrenees Atlantiques - 2Ème Circonscription
+06403.  Pyrenees Atlantiques - 3Ème Circonscription
+06404.  Pyrenees Atlantiques - 4Ème Circonscription
+06405.  Pyrenees Atlantiques - 5Ème Circonscription
+06406.  Pyrenees Atlantiques - 6Ème Circonscription
+06501.  Hautes Pyrenees  - 1Ère Circonscription
+06502.  Hautes Pyrenees  - 2Ème Circonscription
+06503.  Hautes Pyrenees  - 3Ème Circonscription
+06601.  Pyrenees Orientales - 1Ère Circonscription
+06602.  Pyrenees Orientales - 2Ème Circonscription
+06603.  Pyrenees Orientales - 3Ème Circonscription
+06604.  Pyrenees Orientales - 4Ème Circonscription
+06701.  Bas Rhin - 1Ère Circonscription
+06702.  Bas Rhin - 2Ème Circonscription
+06703.  Bas Rhin - 3Ème Circonscription
+06704.  Bas Rhin - 4Ème Circonscription
+06705.  Bas Rhin - 5Ème Circonscription
+06706.  Bas Rhin - 6Ème Circonscription
+06707.  Bas Rhin - 7Ème Circonscription
+06708.  Bas Rhin - 8Ème Circonscription
+06709.  Bas Rhin - 9Ème Circonscription
+06801.  Haut Rhin - 1Ère Circonscription
+06802.  Haut Rhin - 2Ème Circonscription
+06803.  Haut Rhin - 3Ème Circonscription
+06804.  Haut Rhin - 4Ème Circonscription
+06805.  Haut Rhin - 5Ème Circonscription
+06806.  Haut Rhin - 6Ème Circonscription
+06807.  Haut Rhin - 7Ème Circonscription
+06901.  Rhone - 1Ère Circonscription
+06902.  Rhone - 2Ème Circonscription
+06903.  Rhone - 3Ème Circonscription
+06904.  Rhone - 4Ème Circonscription
+06905.  Rhone - 5Ème Circonscription
+06906.  Rhone - 6Ème Circonscription
+06907.  Rhone - 7Ème Circonscription
+06908.  Rhone - 8Ème Circonscription
+06909.  Rhone - 9Ème Circonscription
+06910.  Rhone - 10Ème Circonscription
+06911.  Rhone - 11Ème Circonscription
+06912.  Rhone - 12Ème Circonscription
+06913.  Rhone - 13Ème Circonscription
+06914.  Rhone - 14Ème Circonscription
+07001.  Haute Saone - 1Ère Circonscription
+07002.  Haute Saone - 2Ème Circonscription
+07003.  Haute Saone - 3Ème Circonscription
+07101.  Saone Et Loire - 1Ère Circonscription
+07102.  Saone Et Loire - 2Ème Circonscription
+07103.  Saone Et Loire - 3Ème Circonscription
+07104.  Saone Et Loire - 4Ème Circonscription
+07105.  Saone Et Loire - 5Ème Circonscription
+07106.  Saone Et Loire - 6Ème Circonscription
+07201.  Sarthe - 1Ère Circonscription
+07202.  Sarthe - 2Ème Circonscription
+07203.  Sarthe - 3Ème Circonscription
+07204.  Sarthe - 4Ème Circonscription
+07205.  Sarthe - 5Ème Circonscription
+07301.  Savoie - 1Ère Circonscription
+07302.  Savoie - 2Ème Circonscription
+07303.  Savoie - 3Ème Circonscription
+07401.  Haute Savoie  - 1Ère Circonscription
+07402.  Haute Savoie  - 2Ème Circonscription
+07403.  Haute Savoie  - 3Ème Circonscription
+07404.  Haute Savoie  - 4Ème Circonscription
+07405.  Haute Savoie  - 5Ème Circonscription
+07501.  Paris - 1Ère Circonscription
+07502.  Paris - 2Ème Circonscription
+07503.  Paris - 3Ème Circonscription
+07504.  Paris - 4Ème Circonscription
+07505.  Paris - 5Ème Circonscription
+07506.  Paris - 6Ème Circonscription
+07507.  Paris - 7Ème Circonscription
+07508.  Paris - 8Ème Circonscription
+07509.  Paris - 9Ème Circonscription
+07510.  Paris - 10Ème Circonscription
+07511.  Paris - 11Ème Circonscription
+07512.  Paris - 12Ème Circonscription
+07513.  Paris - 13Ème Circonscription
+07514.  Paris - 14Ème Circonscription
+07515.  Paris - 15Ème Circonscription
+07516.  Paris - 16Ème Circonscription
+07517.  Paris - 17Ème Circonscription
+07518.  Paris - 18Ème Circonscription
+07519.  Paris - 19Ème Circonscription
+07520.  Paris - 20Ème Circonscription
+07521.  Paris - 21Ème Circonscription
+07601.  Seine Maritime - 1Ère Circonscription
+07602.  Seine Maritime - 2Ème Circonscription
+07603.  Seine Maritime - 3Ème Circonscription
+07604.  Seine Maritime - 4Ème Circonscription
+07605.  Seine Maritime - 5Ème Circonscription
+07606.  Seine Maritime - 6Ème Circonscription
+07607.  Seine Maritime - 7Ème Circonscription
+07608.  Seine Maritime - 8Ème Circonscription
+07609.  Seine Maritime - 9Ème Circonscription
+07610.  Seine Maritime - 10Ème Circonscriptio
+07611.  Seine Maritime - 11Ème Circonscriptio
+07612.  Seine Maritime - 12Ème Circonscriptio
+07701.  Seine Et Marne - 1Ère Circonscription
+07702.  Seine Et Marne - 2Ème Circonscription
+07703.  Seine Et Marne - 3Ème Circonscription
+07704.  Seine Et Marne - 4Ème Circonscription
+07705.  Seine Et Marne - 5Ème Circonscription
+07706.  Seine Et Marne - 6Ème Circonscription
+07707.  Seine Et Marne - 7Ème Circonscription
+07708.  Seine Et Marne - 8Ème Circonscription
+07709.  Seine Et Marne - 9Ème Circonscription
+07801.  Yvelines - 1Ère Circonscription
+07802.  Yvelines - 2Ème Circonscription
+07803.  Yvelines - 3Ème Circonscription
+07804.  Yvelines - 4Ème Circonscription
+07805.  Yvelines - 5Ème Circonscription
+07806.  Yvelines - 6Ème Circonscription
+07807.  Yvelines - 7Ème Circonscription
+07808.  Yvelines - 8Ème Circonscription
+07809.  Yvelines - 9Ème Circonscription
+07810.  Yvelines - 10Ème Circonscription
+07811.  Yvelines - 11Ème Circonscription
+07812.  Yvelines - 12Ème Circonscription
+07901.  Deux Sevres - 1Ère Circonscription
+07902.  Deux Sevres - 2Ème Circonscription
+07903.  Deux Sevres - 3Ème Circonscription
+07904.  Deux Sevres - 4Ème Circonscription
+08001.  Somme - 1Ère Circonscription
+08002.  Somme - 2Ème Circonscription
+08003.  Somme - 3Ème Circonscription
+08004.  Somme - 4Ème Circonscription
+08005.  Somme - 5Ème Circonscription
+08006.  Somme - 6Ème Circonscription
+08101.  Tarn - 1Ère Circonscription
+08102.  Tarn - 2Ème Circonscription
+08103.  Tarn - 3Ème Circonscription
+08104.  Tarn - 4Ème Circonscription
+08201.  Tarn Et Garonne - 1Ère Circonscription
+08202.  Tarn Et Garonne - 2Ème Circonscription
+08301.  Var - 1Ère Circonscription
+08302.  Var - 2Ème Circonscription
+08303.  Var - 3Ème Circonscription
+08304.  Var - 4Ème Circonscription
+08305.  Var - 5Ème Circonscription
+08306.  Var - 6Ème Circonscription
+08307.  Var - 7Ème Circonscription
+08401.  Vaucluse - 1Ère Circonscription
+08402.  Vaucluse - 2Ème Circonscription
+08403.  Vaucluse - 3Ème Circonscription
+08404.  Vaucluse - 4Ème Circonscription
+08501.  Vendee - 1Ère Circonscription
+08502.  Vendee - 2Ème Circonscription
+08503.  Vendee - 3Ème Circonscription
+08504.  Vendee - 4Ème Circonscription
+08505.  Vendee - 5Ème Circonscription
+08601.  Vienne - 1Ère Circonscription
+08602.  Vienne - 2Ème Circonscription
+08603.  Vienne - 3Ème Circonscription
+08604.  Vienne - 4Ème Circonscription
+08701.  Haute Vienne - 1Ère Circonscription
+08702.  Haute Vienne - 2Ème Circonscription
+08703.  Haute Vienne - 3Ème Circonscription
+08704.  Haute Vienne - 4Ème Circonscription
+08801.  Vosges - 1Ère Circonscription
+08802.  Vosges - 2Ème Circonscription
+08803.  Vosges - 3Ème Circonscription
+08804.  Vosges - 4Ème Circonscription
+08901.  Yonne - 1Ère Circonscription
+08902.  Yonne - 2Ème Circonscription
+08903.  Yonne - 3Ème Circonscription
+09001.  Territoire De Belfort  - 1Ère Circonscription
+09002.  Territoire De Belfort  - 2Ème Circonscription
+09101.  Essonne - 1Ère Circonscription
+09102.  Essonne - 2Ème Circonscription
+09103.  Essonne - 3Ème Circonscription
+09104.  Essonne - 4Ème Circonscription
+09105.  Essonne - 5Ème Circonscription
+09106.  Essonne - 6Ème Circonscription
+09107.  Essonne - 7Ème Circonscription
+09108.  Essonne - 8Ème Circonscription
+09109.  Essonne - 9Ème Circonscription
+09110.  Essonne - 10Ème Circonscription
+09201.  Hauts De Seine - 1Ère Circonscription
+09202.  Hauts De Seine - 2Ème Circonscription
+09203.  Hauts De Seine - 3Ème Circonscription
+09204.  Hauts De Seine - 4Ème Circonscription
+09205.  Hauts De Seine - 5Ème Circonscription
+09206.  Hauts De Seine - 6Ème Circonscription
+09207.  Hauts De Seine - 7Ème Circonscription
+09208.  Hauts De Seine - 8Ème Circonscription
+09209.  Hauts De Seine - 9Ème Circonscription
+09210.  Hauts De Seine - 10Ème Circonscription
+09211.  Hauts De Seine - 11Ème Circonscription
+09212.  Hauts De Seine - 12Ème Circonscription
+09213.  Hauts De Seine - 13Ème Circonscription
+09301.  Seine Saint - Denis - 1Ère Circonscription
+09302.  Seine Saint - Denis - 2Ème Circonscription
+09303.  Seine Saint - Denis - 3Ème Circonscription
+09304.  Seine Saint - Denis - 4Ème Circonscription
+09305.  Seine Saint - Denis - 5Ème Circonscription
+09306.  Seine Saint - Denis - 6Ème Circonscription
+09307.  Seine Saint - Denis - 7Ème Circonscription
+09308.  Seine Saint - Denis - 8Ème Circonscription
+09309.  Seine Saint - Denis - 9Ème Circonscription
+09310.  Seine Saint - Denis - 10Ème Circonscription
+09311.  Seine Saint - Denis - 11Ème Circonscription
+09312.  Seine Saint - Denis - 12Ème Circonscription
+09313.  Seine Saint - Denis - 13Ème Circonscription
+09401.  Val De Marne - 1Ère Circonscription
+09402.  Val De Marne - 2Ème Circonscription
+09403.  Val De Marne - 3Ème Circonscription
+09404.  Val De Marne - 4Ème Circonscription
+09405.  Val De Marne - 5Ème Circonscription
+09406.  Val De Marne - 6Ème Circonscription
+09407.  Val De Marne - 7Ème Circonscription
+09408.  Val De Marne - 8Ème Circonscription
+09409.  Val De Marne - 9Ème Circonscription
+09410.  Val De Marne - 10Ème Circonscriptio
+09411.  Val De Marne - 11Ème Circonscriptio
+09412.  Val De Marne - 12Ème Circonscriptio
+09501.  Val D'oise - 1Ère Circonscription
+09502.  Val D'oise - 2Ème Circonscription
+09503.  Val D'oise - 3Ème Circonscription
+09504.  Val D'oise - 4Ème Circonscription
+09505.  Val D'oise - 5Ème Circonscription
+09506.  Val D'oise - 6Ème Circonscription
+09507.  Val D'oise - 7Ème Circonscription
+09508.  Val D'oise - 8Ème Circonscription
+09509.  Val D'oise - 9Ème Circonscription
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: GERMANY (2002)
+---------------------------------------------------------------------------
+
+00001.  Flensburg - Schleswig
+00002.  Nordfriesland - Dithmarschen-Nord
+00003.  Steinburg - Dithmarschen-Sued
+00004.  Rendsburg-Eckernfoerde
+00005.  Kiel
+00006.  Ploen - Neumuenster
+00007.  Pinneberg
+00008.  Segeberg - Stormarn-Nord
+00009.  Ostholstein
+00010.  Herzogtum Lauenburg - Stormarn-Sued
+00011.  Luebeck
+00012.  Wismar - Nordwestmecklenburg - Parchim
+00013.  Schwerin - Ludwigslust
+00014.  Rostock
+00015.  Stralsund - Nordvorpommern - Ruegen
+00016.  Greifswald - Demmin - Ostvorpommern
+00017.  Bad Doberan - Guestrow - Mueritz
+00018.  Neubrandenburg - Mecklenburg-Strelitz - Uecker-Randow
+00019.  Hamburg-Mitte
+00020.  Hamburg-Altona
+00021.  Hamburg-Eimsbuettel
+00023.  Hamburg-Wandsbek
+00024.  Hamburg-Bergedorf - Harburg
+00025.  Aurich - Emden
+00026.  Unterems
+00027.  Friesland - Wilhelmshaven
+00028.  Oldenburg - Ammerland
+00029.  Delmenhorst - Wesermarsch - Oldenburg-Land
+00030.  Cuxhaven - Osterholz
+00031.  Stade - Cuxhaven
+00032.  Mittelems
+00033.  Cloppenburg - Vechta
+00034.  Diepholz - Nienburg I
+00035.  Rotenburg - Verden
+00036.  Soltau-Fallingbostel - Winsen L.
+00037.  Luechow-Dannenberg - Lueneburg
+00038.  Osnabrueck-Land
+00039.  Stadt Osnabrueck
+00040.  Nienburg Ii - Schaumburg
+00041.  Stadt Hannover I
+00042.  Stadt Hannover Ii
+00043.  Hannover-Land I
+00044.  Celle - Uelzen
+00045.  Gifhorn - Peine
+00046.  Hameln-Pyrmont - Holzminden
+00047.  Hannover-Land Ii
+00048.  Hildesheim
+00049.  Salzgitter - Wolfenbuettel
+00050.  Braunschweig
+00051.  Helmstedt - Wolfsburg
+00052.  Goslar - Northeim - Osterode
+00053.  Goettingen
+00054.  Bremen I
+00055.  Bremen Ii - Bremerhaven
+00056.  Prignitz - Ostprignitz-Ruppin - Havelland I
+00057.  Uckermark - Barnim I
+00058.  Oberhavel - Havelland Ii
+00059.  Maerkisch-Oderland - Barnim Ii
+00060.  Brandenburg A.D. Havel - Potsdam-Mittelmark I - Havelland Ii
+00061.  Potsdam - Potsdam-Mittelmark Ii - Teltow-Flaeming Ii
+00062.  Dahme-Spreewald - Teltow-Flaeming Iii - Oberspreewald-Lausit
+00063.  Frankfurt (Oder) - Oder-Spree
+00064.  Cottbus - Spree-Neisse
+00065.  Elbe-Elster - Oberspreewald-Lausitz Ii
+00066.  Altmark
+00067.  Elbe-Havel-Gebiet
+00068.  Harz
+00069.  Magdeburg
+00070.  Boerde
+00071.  Anhalt
+00072.  Bernburg - Bitterfeld - Saalkreis
+00073.  Halle
+00074.  Burgenland
+00075.  Mansfelder Land
+00076.  Berlin-Mitte
+00077.  Berlin-Pankow
+00078.  Berlin-Reinickendorf
+00079.  Berlin-Spandau - Charlottenburg-Nord
+00080.  Berlin-Steglitz - Zehlendorf
+00081.  Berlin-Charlottenburg - Wilmersdorf
+00082.  Berlin-Tempelhof - Schoeneberg
+00083.  Berlin-Neukoelln
+00084.  Berlin-Friedrichshain - Kreuzberg - Prenzlauer Berg-Ost
+00085.  Berlin-Treptow - Koepenick
+00086.  Berlin-Marzahn - Hellersdorf
+00087.  Berlin-Lichtenberg - Hohenschoenhausen
+00088.  Aachen
+00089.  Kreis Aachen
+00090.  Heinsberg
+00091.  Dueren
+00092.  Erftkreis I
+00093.  Euskirchen - Erftkreis Ii
+00094.  Koeln I
+00095.  Koeln Ii
+00096.  Koeln Iii
+00097.  Bonn
+00098.  Rhein-Sieg-Kreis I
+00099.  Rhein-Sieg-Kreis Ii
+00100.  Oberbergischer Kreis
+00101.  Rheinisch-Bergischer Kreis
+00102.  Leverkusen - Koeln Iv
+00103.  Wuppertal I
+00104.  Solingen - Remscheid - Wuppertal Ii
+00105.  Mettmann I
+00106.  Mettmann Ii
+00107.  Duesseldorf I
+00108.  Duesseldorf Ii
+00109.  Neuss I
+00110.  Moenchengladbach
+00111.  Krefeld I - Neuss Ii
+00112.  Viersen
+00113.  Kleve
+00114.  Wesel I
+00115.  Krefeld Ii - Wesel Ii
+00116.  Duisburg I
+00117.  Duisburg Ii
+00118.  Oberhausen - Wesel Iii
+00119.  Muelheim - Essen I
+00120.  Essen Ii
+00121.  Essen Iii
+00122.  Recklinghausen I
+00123.  Recklinghausen Ii
+00124.  Gelsenkirchen
+00125.  Steinfurt I - Borken I
+00126.  Bottrop - Recklinghausen Iii
+00127.  Borken Ii
+00128.  Coesfeld - Steinfurt Ii
+00129.  Steinfurt Iii
+00130.  Muenster
+00131.  Warendorf
+00132.  Guetersloh
+00133.  Bielefeld
+00134.  Herford - Minden-Luebbecke Ii
+00135.  Minden-Luebbecke I
+00136.  Lippe I
+00137.  Hoexter - Lippe Ii
+00138.  Paderborn
+00139.  Hagen - Ennepe-Ruhr-Kreis I
+00140.  Ennepe-Ruhr-Kreis Ii
+00141.  Bochum I
+00142.  Herne - Bochum Ii
+00143.  Dortmund I
+00144.  Dortmund Ii
+00145.  Unna I
+00146.  Hamm - Unna Ii
+00147.  Soest
+00148.  Hochsauerlandkreis
+00149.  Siegen-Wittgenstein
+00150.  Olpe - Maerkischer Kreis I
+00151.  Maerkischer Kreis Ii
+00152.  Delitzsch - Torgau-Oschatz - Riesa
+00153.  Leipzig I
+00154.  Leipzig II
+00155.  Leipziger-Land - Muldentalkreis
+00156.  Kamenz - Hoyerswerda - Grossenhain
+00157.  Loebau-Zittau - Goerlitz - Niesky
+00158.  Bautzen - Weisswasser
+00159.  Saechsische Schweiz - Weisseritzkreis
+00160.  Dresden I
+00161.  Dresden Ii - Meissen I
+00162.  Freiberg - Mittlerer Erzgebirgskreis
+00163.  Doebeln - Mittweida - Meissen Ii
+00164.  Chemnitz
+00165.  Chemnitzer Land - Stollberg
+00166.  Annaberg - Aue-Schwarzenberg
+00167.  Zwickauer Land - Zwickau
+00168.  Vogtland - Plauen
+00169.  Waldeck
+00170.  Kassel
+00171.  Werra-Meissner - Hersfeld
+00172.  Schwalm-Eder
+00173.  Marburg
+00174.  Lahn-Dill
+00175.  Giessen
+00176.  Fulda
+00177.  Hochtaunus
+00178.  Wetterau
+00179.  Rheingau-Taunus - Limburg
+00180.  Wiesbaden
+00181.  Hanau
+00182.  Main-Taunus
+00183.  Frankfurt Am Main I
+00184.  Frankfurt Am Main Ii
+00185.  Gross-Gerau
+00186.  Offenbach
+00187.  Darmstadt
+00188.  Odenwald
+00189.  Bergstrasse
+00190.  Eichsfeld - Nordhausen
+00191.  Wartburgkreis - Kreisfreie Stadt Eisenach - Unstrut-Hainich-
+00192.  Kyffhaeuserkreis - Soemmerda - Unstrut-Hainich-Kreis Ii
+00193.  Gotha - Ilm-Kreis
+00194.  Erfurt
+00195.  Jena - Weimar - Weimarer Land
+00196.  Gera - Saale-Holzland-Kreis
+00197.  Greiz - Altenburger Land
+00198.  Sonneberg - Saalfeld-Rudolstadt - Saale-Orla-Kreis
+00199.  Suhl - Schmalkalden-Meiningen - Hildburghausen
+00200.  Neuwied
+00201.  Ahrweiler
+00202.  Koblenz
+00203.  Mosel/Rhein-Hunsrueck
+00204.  Kreuznach
+00205.  Bitburg
+00206.  Trier
+00207.  Montabaur
+00208.  Mainz
+00209.  Worms
+00210.  Ludwigshafen/Frankenthal
+00211.  Neustadt - Speyer
+00212.  Kaiserslautern
+00213.  Pirmasens
+00214.  Suedpfalz
+00215.  Altoetting
+00216.  Freising
+00217.  Fuerstenfeldbruck
+00218.  Ingolstadt
+00219.  Muenchen-Nord
+00220.  Muenchen-Ost
+00221.  Muenchen-Sued
+00222.  Muenchen-West/Mitte
+00223.  Muenchen-Land
+00224.  Rosenheim
+00225.  Starnberg
+00226.  Traunstein
+00227.  Weilheim
+00229.  Landshut
+00230.  Passau
+00231.  Rottal-Inn
+00232.  Straubing
+00233.  Amberg
+00234.  Regensburg
+00235.  Schwandorf
+00236.  Weiden
+00237.  Bamberg
+00238.  Bayreuth
+00240.  Hof
+00241.  Kulmbach
+00242.  Ansbach
+00243.  Erlangen
+00244.  Fuerth
+00245.  Nuernberg-Nord
+00247.  Roth
+00248.  Aschaffenburg
+00249.  Bad Kissingen
+00250.  Main-Spessart
+00251.  Schweinfurt
+00252.  Wuerzburg
+00253.  Augsburg-Stadt
+00254.  Augsburg-Land
+00255.  Donau-Ries
+00256.  Neu-Ulm
+00257.  Oberallgaeu
+00258.  Ostallgaeu
+00259.  Stuttgart I
+00260.  Stuttgart Ii
+00261.  Boeblingen
+00262.  Esslingen
+00263.  Nuertingen
+00264.  Goeppingen
+00265.  Waiblingen
+00266.  Ludwigsburg
+00267.  Neckar-Zaber
+00268.  Heilbronn
+00269.  Schwaebisch Hall - Hohenlohe
+00270.  Backnang - Schwaebisch Gmuend
+00271.  Aalen - Heidenheim
+00272.  Karlsruhe-Stadt
+00273.  Karlsruhe-Land
+00274.  Rastatt
+00275.  Heidelberg
+00276.  Mannheim
+00277.  Odenwald - Tauber
+00278.  Rhein-Neckar
+00279.  Bruchsal - Schwetzingen
+00280.  Pforzheim
+00281.  Calw
+00282.  Freiburg
+00283.  Loerrach - Muellheim
+00284.  Emmendingen - Lahr
+00285.  Offenburg
+00286.  Rottweil - Tuttlingen
+00287.  Schwarzwald-Baar
+00288.  Konstanz
+00289.  Waldshut
+00290.  Reutlingen
+00291.  Tuebingen
+00292.  Ulm
+00293.  Biberach
+00294.  Ravensburg - Bodensee
+00295.  Zollernalb - Sigmaringen
+00296.  Saarbruecken
+00297.  Saarlouis
+00298.  Sankt Wendel
+00299.  Homburg
+
+
+         | ELECTION STUDY NOTES - GERMANY (2002): ELECTORAL DISTRICTS
+         |
+         | This Primary Electoral Districts list is for use with both the
+         | Germany (2002) telephone study and the Germany (2002) mail-back
+         | study.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: GREAT BRITAIN (2005)
+---------------------------------------------------------------------------
+
+000006.  Aldershot
+000007.  Aldridge - Brownhills
+000008.  Altrincham & Sale West
+000009.  Alyn & Deeside
+000016.  Arundel & South Downs
+000017.  Ashfield
+000018.  Ashford
+000019.  Ashton under Lyne
+000020.  Aylesbury
+000024.  Banbury
+000025.  Banff & Buchan
+000027.  Barnsley Central
+000029.  Barnsley West & Penistone
+000030.  Barrow & Furness
+000031.  Basildon
+000032.  Basingstoke
+000033.  Bassetlaw
+000034.  Bath
+000035.  Batley & Spen
+000040.  Bedfordshire Mid
+000042.  Bedfordshire South West
+000049.  Bethnal Green & Bow
+000051.  Bexhill & Battle
+000054.  Birkenhead
+000056.  Birmingham Erdington
+000058.  Birmingham Hodge Hill
+000059.  Birmingham Ladywood
+000061.  Birmingham Perry Barr
+000065.  Bishop Auckland
+000069.  Blackpool South
+000071.  Blaydon
+000073.  Bognor Regis & Littlehampton
+000074.  Bolsover
+000080.  Bosworth
+000083.  Bracknell
+000084.  Bradford North
+000085.  Bradford South
+000087.  Braintree
+000090.  Brent North
+000091.  Brent South
+000092.  Brentford & Isleworth
+000094.  Bridgend
+000097.  Brighton Kemptown
+000098.  Brighton Pavilion
+000100.  Bristol North West
+000103.  Bromley & Chislehurst
+000104.  Bromsgrove
+000107.  Buckingham
+000110.  Bury North
+000112.  Bury St Edmunds
+000113.  Caernarfon
+000116.  Calder Valley
+000117.  Camberwell & Peckham
+000118.  Cambridge
+000119.  Cambridgeshire North East
+000121.  Cambridgeshire South
+000123.  Cannock Chase
+000124.  Canterbury
+000125.  Cardiff Central
+000133.  Castle Point
+000137.  Cheadle
+000139.  Cheltenham
+000142.  Chesterfield
+000144.  Chingford & Woodford Green
+000148.  Cities of London & Westminster
+000154.  Colne Valley
+000156.  Conwy
+000159.  Cornwall North
+000160.  Cornwall South East
+000163.  Coventry North West
+000166.  Crewe & Nantwich
+000168.  Croydon Central
+000169.  Croydon North
+000170.  Croydon South
+000171.  Cumbernauld, Kilsyth & Kirkintilloch East
+000176.  Daventry
+000178.  Denton & Reddish
+000183.  Derbyshire West
+000186.  Devon North
+000190.  Don Valley
+000193.  Dorset Mid & Poole North
+000194.  Dorset North
+000195.  Dorset South
+000196.  Dorset West
+000197.  Dover
+000200.  Dudley North
+000201.  Dudley South
+000204.  Dumfriesshire, Clydesdale & Tweeddale
+000207.  Dundee East
+000208.  Dundee West
+000210.  Durham North
+000212.  Durham, City of
+000213.  Ealing Acton & Shepherd's Bush
+000215.  Ealing Southall
+000216.  Easington
+000218.  East Kilbride, Strathaven & Lesmahagow
+000219.  East Lothian
+000220.  Eastbourne
+000224.  Edinburgh East
+000225.  Edinburgh North & Leith
+000230.  Ellesmere Port & Neston
+000238.  Erith & Thamesmead
+000239.  Esher & Walton
+000240.  Essex North
+000241.  Exeter
+000242.  Falkirk
+000243.  Falmouth & Camborne
+000250.  Folkestone & Hythe
+000253.  Fylde
+000254.  Gainsborough
+000256.  Gedling
+000262.  Glasgow North West
+000264.  Glasgow South West
+000269.  Gower
+000271.  Gravesham
+000272.  Great Grimsby
+000273.  Great Yarmouth
+000275.  Guildford
+000276.  Hackney North & Stoke Newington
+000277.  Hackney South & Shoreditch
+000278.  Halesowen & Rowley Regis
+000280.  Haltemprice & Howden
+000281.  Halton
+000282.  Hammersmith & Fulham
+000285.  Hampshire North West
+000290.  Harrow East
+000298.  Hemel Hempstead
+000300.  Hendon
+000304.  Hertfordshire North East
+000306.  Hertsmere
+000310.  Hitchin & Harpenden
+000316.  Hove
+000317.  Huddersfield
+000319.  Hull North
+000321.  Huntingdon
+000322.  Hyndburn
+000323.  Ilford North
+000326.  Inverness, Nairn, Badenoch  & Strathspey
+000327.  Ipswich
+000328.  Isle of Wight
+000331.  Islwyn
+000332.  Jarrow
+000333.  Keighley
+000334.  Kensington & Chelsea
+000335.  Kettering
+000336.  Kilmarnock & Loudoun
+000340.  Knowsley North & Sefton East
+000341.  Knowsley South
+000344.  Lancashire West
+000345.  Lancaster & Wyre
+000346.  Leeds Central
+000349.  Leeds North West
+000350.  Leeds West
+000352.  Leicester South
+000357.  Lewes
+000358.  Lewisham Deptford
+000359.  Lewisham East
+000365.  Liverpool Garston
+000373.  Loughborough
+000375.  Ludlow
+000376.  Luton North
+000378.  Macclesfield
+000379.  Maidenhead
+000381.  Makerfield
+000382.  Maldon & Chelmsford East
+000384.  Manchester Central
+000385.  Manchester Gorton
+000388.  Medway
+000390.  Meriden
+000398.  Mole Valley
+000399.  Monmouth
+000401.  Moray
+000402.  Morecambe & Lunesdale
+000404.  Motherwell & Wishaw
+000413.  Newcastle upon Tyne North
+000414.  Newcastle-under-Lyme
+000416.  Newport West
+000419.  Norfolk North
+000422.  Norfolk South West
+000427.  Norwich North
+000428.  Norwich South
+000429.  Nottingham East
+000431.  Nottingham South
+000433.  Ochil & South Perthshire
+000435.  Old Bexley & Sidcup
+000436.  Oldham East & Saddleworth
+000437.  Oldham West & Royton
+000446.  Perth & Perthshire North
+000448.  Plymouth Devonport
+000451.  Pontypridd
+000455.  Portsmouth South
+000456.  Preseli Pembrokeshire
+000459.  Putney
+000462.  Reading West
+000465.  Regent's Park & Kensington North
+000468.  Rhondda
+000469.  Ribble South
+000470.  Ribble Valley
+000480.  Rotherham
+000482.  Ruislip Northwood
+000484.  Rushcliffe
+000485.  Rutherglen & Hamilton West
+000486.  Rutland & Melton
+000487.  Ryedale
+000490.  Salisbury
+000491.  Scarborough & Whitby
+000493.  Sedgefield
+000498.  Sheffield Central
+000502.  Sherwood
+000503.  Shipley
+000504.  Shrewsbury & Atcham
+000508.  Sleaford & North Hykeham
+000512.  South Holland & The Deepings
+000513.  South Shields
+000515.  Southampton Test
+000521.  St Helens North
+000525.  Staffordshire Moorlands
+000526.  Staffordshire South
+000527.  Stalybridge & Hyde
+000531.  Stockton North
+000533.  Stoke-on-Trent Central
+000536.  Stone
+000540.  Streatham
+000541.  Stretford & Urmston
+000543.  Suffolk Central & Ipswich North
+000544.  Suffolk Coastal
+000548.  Sunderland South
+000550.  Surrey Heath
+000552.  Sussex Mid
+000556.  Swansea West
+000557.  Swindon North
+000564.  Tewkesbury
+000570.  Tooting
+000571.  Torbay
+000573.  Totnes
+000576.  Tunbridge Wells
+000577.  Twickenham
+000579.  Tynemouth
+000587.  Vale of Glamorgan
+000589.  Vauxhall
+000591.  Wallasey
+000593.  Walsall South
+000596.  Wansdyke
+000597.  Wantage
+000598.  Warley
+000599.  Warrington North
+000600.  Warrington South
+000603.  Watford
+000605.  Wealden
+000606.  Weaver Vale
+000619.  Wimbledon
+000621.  Windsor
+000626.  Wokingham
+000628.  Wolverhampton South East
+000631.  Worcester
+000632.  Worcestershire Mid
+000634.  Workington
+000636.  Worthing East & Shoreham
+000637.  Worthing West
+000640.  Wycombe
+000641.  Wyre Forest
+000643.  Yeovil
+000645.  York, City of
+000646.  Yorkshire East
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: HONG KONG (2004)
+---------------------------------------------------------------------------
+
+00001.  Hong Kong Island
+00002.  Kowloon West
+00003.  Kowloon East
+00004.  New Territories West
+00005.  New Territories East
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: HUNGARY (2002)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - HUNGARY (2002): ELECTORAL DISTRICTS
+         |
+         | Primary electoral districts are not available for the
+         | Hungary (2002) study.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ICELAND (2003)
+---------------------------------------------------------------------------
+
+00001.  Reykjavik North
+00002.  Reykjavik South
+00003.  South West
+00004.  South
+00005.  North East
+00006.  North West
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: IRELAND (2002)
+---------------------------------------------------------------------------
+
+00001.  Carlow-Kilkenny           00022.  Dun Laoghaire
+00002.  Cavan - Monaghan          00023.  Galway East
+00003.  Clare                     00024.  Galway West
+00004.  Cork East                 00025.  Kerry North
+00005.  Cork North-Central        00026.  Kerry South
+00006.  Cork North-West           00027.  Kildare North
+00007.  Cork South-Central        00028.  Kildare South
+00008.  Cork South-West           00029.  Laois - Offaly
+00009.  Donegal North East        00030.  Limerick East
+00010.  Donegal South West        00031.  Limerick West
+00011.  Dublin Central            00032.  Longford-Roscommon
+00012.  Dublin Mid-West           00033.  Louth
+00013.  Dublin North              00034.  Mayo
+00014.  Dublin North-East         00035.  Meath
+00015.  Dublin North-West         00036.  Sligo - Leitrim
+00016.  Dublin North-Central      00037.  Tipperary North
+00017.  Dublin-South              00038.  Tipperary South
+00018.  Dublin South-Central      00039.  Waterford
+00019.  Dublin South-East         00040.  Westmeath
+00020.  Dublin South-West         00041.  Wexford
+00021.  Dublin West               00042.  Wicklow
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ISRAEL (2003)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - ISRAEL (2003): ELECTORAL DISTRICTS
+         |
+         | There is only one primary electoral district in Israel in which
+         | all candidates compete. Therefore, these data report national
+         | returns.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: ITALY (2006)
+---------------------------------------------------------------------------
+
+00001.  Piemonte 1                00015.  Lazio 1
+00002.  Piemonte 2                00016.  Lazio 2
+00003.  Lombardia 1               00017.  Abruzzi
+00004.  Lombardia 2               00018.  Molise
+00005.  Lombardia 3               00019.  Campania 1
+00007.  Veneto 1                  00020.  Campania 2
+00008.  Veneto 2                  00021.  Puglia
+00009.  Friuli                    00022.  Basilicata
+00010.  Liguria                   00023.  Calabria
+00011.  Emilia Romagna            00024.  Sicilia 1
+00012.  Toscana                   00025.  Sicilia 2
+00013.  Umbria                    00026.  Sardegna
+00014.  Marche                    00027.  Valle D'aosta
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: JAPAN (2004)
+---------------------------------------------------------------------------
+
+00001.  Hokkaido                  00025.  Shiga
+00002.  Aomori                    00026.  Kyoto
+00003.  Iwate                     00027.  Osaka
+00004.  Miyagi                    00028.  Hyogo
+00005.  Akita                     00029.  Nara
+00006.  Yamagata                  00030.  Wakayama
+00007.  Fukushima                 00031.  Tottori
+00008.  Ibaragi                   00032.  Shimane
+00009.  Tochigi                   00033.  Okayama
+00010.  Gunma                     00034.  Hiroshima
+00011.  Saitama                   00035.  Yamaguchi
+00012.  Chiba                     00036.  Tokushima
+00013.  Tokyo                     00037.  Kagawa
+00014.  Kanagawa                  00038.  Ehime
+00015.  Niigata                   00039.  Kouchi
+00016.  Toyama                    00040.  Fukuoka
+00017.  Ishikawa                  00041.  Saga
+00018.  Fukui                     00042.  Nagasaki
+00019.  Yamanashi                 00043.  Kumamoto
+00020.  Nagano                    00044.  Ooita
+00021.  Gifu                      00045.  Miyazaki
+00022.  Shizuoka                  00046.  Kagoshima
+00023.  Aichi                     00047.  Okinawa
+00024.  Mie
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: KYRGYZSTAN (2005)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - KYRGYZSTAN (2005): ELECTORAL DISTRICTS
+         |
+         | Primary electoral districts are not available for the
+         | Kyrgyzstan (2005) study.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: MEXICO (2003)
+---------------------------------------------------------------------------
+
+01xxx.  Aguascalientes            17xxx.  Morelos
+02xxx.  Baja California           18xxx.  Nayarit
+03xxx.  Baja California Sur       19xxx.  Nuevo Leon
+04xxx.  Campeche                  20xxx.  Oaxaca
+05xxx.  Coahuila                  21xxx.  Puebla
+06xxx.  Colima                    22xxx.  Queretaro
+07xxx.  Chiapas                   23xxx.  Quintana Roo
+08xxx.  Chihuahua                 24xxx.  San Luis Potosi
+09xxx.  Distrito Federal          25xxx.  Sinaloa
+10xxx.  Durango                   26xxx.  Sonora
+11xxx.  Guanajuato                27xxx.  Tabasco
+12xxx.  Guerrero                  28xxx.  Tamaulipas
+13xxx.  Hidalgo                   29xxx.  Tlaxcala
+14xxx.  Jalisco                   30xxx.  Veracruz
+15xxx.  Mexico                    31xxx.  Yucatan
+16xxx.  Michoacan                 32xxx.  Zacatecas
+
+
+         | ELECTION STUDY NOTES - MEXICO (2003): ELECTORAL DISTRICTS
+         |
+         | The list above describes the first two digits of the code for
+         | each district. The country is divided into 300 single-member
+         | primary electoral districts (distritos uninominales). They
+         | are nested in the above listed 32 Mexican Federal States.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: NETHERLANDS (2002)
+---------------------------------------------------------------------------
+
+
+         | ELECTION STUDY NOTES - NETHERLANDS (2002): ELECTORAL DISTRICTS
+         |
+         | In the Netherlands, the entire country functions as a single
+         | electoral district. Thus, figures entered in these variables
+         | correspond to the national election results.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: NEW ZEALAND (2002)
+---------------------------------------------------------------------------
+
+00001.  Aoraki                    00036.  Ohariu-Belmont
+00002.  Auckland Central          00037.  Otago
+00003.  Banks Peninsula           00038.  Otaki
+00004.  Bay Of Plenty             00039.  Pakuranga
+00005.  Christchurch Cen          00040.  Palmerston North
+00006.  Christchurch Eas          00041.  Piako
+00007.  Clevedon                  00042.  Port Waikato
+00008.  Clutha-Southland          00043.  Rakaia
+00009.  Coromandel                00044.  Rangitikei
+00010.  Dunedin North             00045.  Rimutaka
+00011.  Dunedin South             00046.  Rodney
+00012.  East Coast                00047.  Rongotai
+00013.  East Coast Bays           00048.  Rotorua
+00014.  Epsom                     00049.  Tamaki
+00015.  Hamilton East             00050.  Taranaki-King Co
+00016.  Hamilton West             00051.  Taupo
+00017.  Helensville               00052.  Tauranga
+00018.  Hutt South                00053.  Te Atatu
+00019.  Ilam                      00054.  Tukituki
+00020.  Invercargill              00055.  Waimakariri
+00021.  Kaikoura                  00056.  Wairarapa
+00022.  Mana                      00057.  Waitakere
+00023.  Mangere                   00058.  Wellington Centr
+00024.  Manukau East              00059.  West Coast-Tasma
+00025.  Manurewa                  00060.  Whanganui
+00026.  Maungakiekie              00061.  Whangarei
+00027.  Mt Albert                 00062.  Wigram
+00028.  Mt Roskill                00063.  Ikaroa-Rawhiti
+00029.  Napier                    00064.  Tainui
+00030.  Nelson                    00065.  Tamaki Makaurau
+00031.  New Lynn                  00066.  Tai Hauauru
+00032.  New Plymouth              00067.  Te Tai Tokerau
+00033.  North Shore               00068.  Te Tai Tonga
+00034.  Northcote                 00069.  Waiariki
+00035.  Northland
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: NORWAY (2001)
+---------------------------------------------------------------------------
+
+00001.  Ostfold                   00011.  Rogaland
+00002.  Akershus                  00012.  Hordaland
+00003.  Oslo                      00014.  Sogn Og Fjordane
+00004.  Hedmark                   00015.  More Og Romsdal
+00005.  Oppland                   00016   Sor-Trondelag
+00006.  Buskerud                  00017.  Nord-Trondelag
+00007.  Vestfold                  00018.  Nordland
+00008.  Telemark                  00019.  Troms
+00009.  Austagder                 00020.  Finmark
+00010.  Vest-Agder
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: PERU (2006)
+---------------------------------------------------------------------------
+
+00002.  Ancash                    00012.  Junin
+00004.  Arequipa                  00013.  La Libertad
+00005.  Ayacucho                  00014.  Lambayeque
+00006.  Cajamarca                 00015.  Lima
+00007.  Callao                    00016.  Loreto
+00008.  Cusco                     00020.  Piura
+00009.  Huancavelica              00021.  Puno
+00010.  Huanuco                   00023.  Tacna
+00011.  Ica                       00025.  Ucayali
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: PHILIPPINES (2004)
+---------------------------------------------------------------------------
+
+01552.  Pangasinan - second district
+01553.  Pangasinan - third district
+01554.  Pangasinan - fourth district
+01555.  Pangasinan - fifth district
+01556.  Pangasinan - sixth district
+02151.  Cagayan - first district
+02152.  Cagayan - second district
+02153.  Cagayan - third district
+03141.  Bulacan - first district
+03142.  Bulacan - second district
+03143.  Bulacan - third district
+03144.  Bulacan - fourth district
+03691.  Tarlac - first district
+03693.  Tarlac - third district
+04341.  Laguna - first district
+04342.  Laguna - second district
+04343.  Laguna - third district
+04344.  Laguna - fourth district
+04561.  Quezon - first district
+04563.  Quezon - third district
+04564.  Quezon - fourth district
+04581.  Rizal - first district
+04582.  Rizal - second district
+05171.  Camarines Sur - first district
+05172.  Camarines Sur - second district
+05173.  Camarines Sur - third district
+05174.  Camarines Sur - fourth district
+05412.  Masbate - second district
+06191.  Capiz - first district
+06192.  Capiz - third district
+06301.  Iloilo - first district
+06302.  Iloilo - second district
+06303.  Iloilo - third district
+06304.  Iloilo - fourth district
+06305.  Iloilo - fifth district
+06306.  Iloilo City
+07121.  Bohol - first district
+07122.  Bohol - second district
+07123.  Bohol - third district
+07221.  Cebu - first district
+07222.  Cebu - second district
+07223.  Cebu - third district
+07224.  Cebu - fourth district
+07225.  Cebu - fifth district
+07226.  Cebu - sixth district
+07227.  Cebu City - first district
+07228.  Cebu City - second district
+08601.  Samar - first district
+08602.  Samar - second district
+09721.  Zamboanga Del Norte - first district
+09722.  Zamboanga Del Norte - second district
+09723.  Zamboanga Del Norte - third district
+10131.  Bukidnon - first district
+10133.  Bukidnon - third district
+11631.  South Cotabato - first district
+11632.  South Cotabato - second district
+12651.  Sultan Kudarat
+14271.  Ifugao
+15381.  Maguindanao - first district
+15382.  Maguindanao - second district
+16681.  Surigao Del Sur - first district
+16682.  Surigao Del Sur - second district
+23391.  Manila - first district
+23394.  Manila - fourth district
+23395.  Manila - fifth district
+23396.  Manila - sixth district
+24741.  Mandaluyong City and San Juan
+25741.  Marikina City
+26741.  Pasig City
+27741.  Quezon City - first district
+27742.  Quezon City - second district
+27743.  Quezon City - third district
+27744.  Quezon City - fourth district
+29751.  Caloocan City - first district
+29752.  Caloocan City - second district
+31751.  Malabon and Navotas
+32751.  Valenzuela City
+33761.  Las Piñas City and Muntinlupa City
+34761.  Makati City
+36761.  Parañque City
+37761.  Pasay City
+39761.  Pateros and Taguig
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: POLAND (2001)
+---------------------------------------------------------------------------
+
+00001.  Legica                    00022.  Krosno
+00002.  Walbrzych                 00023.  Rzeszow
+00003.  Wroclaw                   00024.  Bialystok
+00004.  Bydgoszcz                 00025.  Gdansk
+00005.  Torun                     00026.  Gdynia
+00006.  Lublin                    00027.  Bielsko-Biala
+00007.  Chelm                     00028.  Czestochowa
+00008.  Zielona Gora              00029.  Gliwice
+00009.  Lodz                      00030.  Rybnik
+00010.  Piotrkow Trybunalski      00031.  Katowice
+00011.  Sieradz                   00032.  Sosnowiec
+00012.  Chrzanow                  00033.  Kielce
+00013.  Krakow                    00034.  Elblag
+00014.  Nowy Sacz                 00035.  Olsztyn
+00015.  Tarnow                    00036.  Kalisz
+00016.  Plock                     00037.  Konin
+00017.  Radom                     00038.  Pila
+00018.  Siedlce                   00039.  Poznan
+00019.  Warszawa                  00040.  Koszalin
+00020.  Warszawa II               00041.  Szczecin
+00021.  Opole
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: PORTUGAL (2002)
+---------------------------------------------------------------------------
+
+00001.  Aveiro                    00011.  Lisboa
+00002.  Beja                      00013.  Porto
+00003.  Braga                     00014.  Santarém
+00005.  Castelo Branco            00015.  Setúbal
+00006.  Coimbra                   00016.  Viana do Castelo
+00007.  Évora                     00017.  Vila Real
+00008.  Faro                      00018.  Viseu
+00009.  Guarda                    00019.  Açores
+00010.  Leiria                    00029.  Europe and Outside Europe
+
+
+         | ELECTION STUDY NOTES - PORTUGAL (2002): ELECTORAL DISTRICTS
+         |
+         | There are two electoral districts for Portuguese people living
+         | abroad: Europe and outside Europe. They are combined in the CSES
+         | data file, as indicated above.
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: PORTUGAL (2005)
+---------------------------------------------------------------------------
+
+00001.  Aveiro                    00010.  Leiria
+00002.  Beja                      00011.  Lisboa
+00003.  Braga                     00013.  Porto
+00004.  Bragança                  00014.  Santarém
+00005.  Castelo Branco            00015.  Setúbal
+00006.  Coimbra                   00016.  Viana do Castelo
+00007.  Evora                     00017.  Vila Real
+00008.  Faro                      00018.  Viseu
+00009.  Guarda
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICT: ROMANIA (2004)
+---------------------------------------------------------------------------
+
+00001.  Alba                      00022.  Harghita
+00002.  Arad                      00023.  Hunedoara
+00003.  Arges                     00024.  Ialomita
+00004.  Bacau                     00025.  Iasi
+00005.  Bihor                     00026.  Ilfov
+00006.  Bistrita-Nasaud           00027.  Maramures
+00007.  Botosani                  00028.  Mehedinti
+00008.  Braila                    00029.  Mures
+00009.  Brasov                    00030.  Neamt
+00010.  Bucuresti                 00031.  Olt
+00011.  Buzau                     00032.  Prahova
+00012.  Calarasi                  00033.  Salaj
+00013.  Caras-Severin             00034.  Satu Mare
+00014.  Cluj                      00035.  Sibiu
+00015.  Constanta                 00036.  Suceava
+00016.  Covasna                   00037.  Teleorman
+00017.  Dambovita                 00038.  Timis
+00018.  Dolj                      00039.  Tulcea
+00019.  Galati                    00040.  Valcea
+00020.  Giurgiu                   00041.  Vaslui
+00021.  Gorj                      00042.  Vrancea
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS:  RUSSIA (2004)
+---------------------------------------------------------------------------
+
+00014.  Kabardino-Balkarsky (Kabardino-Balkariia)
+00018.  Syktyvkarsky (Komi)
+00027.  Privolzhsky (Tatarstan)
+00030.  Udmurtsky (Udmurtiia)
+00033.  Kanashsky (Chuvashiia)
+00035.  Aleisky (AltaiKrai)
+00037.  Biisky (AltaiKrai)
+00041.  Dinskoi (Krasnodar)
+00042.  Kanevsky (Krasnodar)
+00043.  Krasnodarsky (Krasnodar)
+00047.  Achinsky (Krasnoiarsk)
+00048.  Eniseisky (Krasnoiarsk)
+00050.  Krasnoiarsky (Krasnoiarsk)
+00052.  Vladivostoksky (Primorsky)
+00054.  Georgievsky (Stavropol)
+00060.  Blagoveshchensky (Amur)
+00072.  Mikhailovsky (Volgograd)
+00086.  Dzerzhinsky (Kaluga)
+00096.  Kurgansky (Kurgan)
+00101.  Kingiseppsky (LeningradOblast)
+00103.  Lipetsky (Lipetsk)
+00108.  Liuberetsky (Moscow Oblast)
+00109.  Mytishchinsky (Moscow Oblast)
+00114.  Pushkinsky (Moscow Oblast)
+00115.  Serpukhovsky (Moscow Oblast)
+00117.  Avtozavodsky (Nizhny Novgorod)
+00120.  Kanavinsky (Nizhny Novgorod)
+00127.  Iskitimsky (Novosibirsk)
+00133.  Orsky (Orenburg)
+00135.  Zheleznodorozhny (Penza)
+00137.  Bereznikovsky (Perm)
+00145.  Proletarsky (Rostov)
+00156.  Balakovsky (Saratov)
+00158.  Saratovsky (Saratov)
+00159.  Engel'ssky (Saratov)
+00169.  Smolensky (Smolensk)
+00170.  Michurinsky (Tambov)
+00173.  Tverskoi (Tver)
+00174.  Tomsky (Tomsk)
+00176.  Tul'sky (Tula)
+00183.  Kalininsky (Cheliabinsk)
+00184.  Kyshtymsky (Cheliabinsk)
+00186.  Sovetsky (Cheliabinsk)
+00191.  Avtozavodsky (Moscow City)
+00192.  Babushkinsky (Moscow City)
+00194.  Leningradsky (Moscow City)
+00197.  Orekhovo-Borisovsky (Moscow City)
+00198.  Perovsky (Moscow City)
+00200.  Tushinsky (Moscow City)
+00201.  Universitetsky (Moscow City)
+00202.  Tsentral'ny (Moscow City)
+00206.  Admiralteisky (St. Petersburg)
+00207.  Vostochny (St. Petersburg)
+00209.  Severny (St. Petersburg)
+00210.  Severo-Zapadny (St. Petersburg)
+00211.  Tsentral'ny (St. Petersburg)
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SLOVENIA (2004)
+---------------------------------------------------------------------------
+
+00001.  1 VE
+00002.  2 VE
+00003.  3 VE
+00004.  4 VE
+00005.  5 VE
+00006.  6 VE
+00007.  7 VE
+00008.  8 VE
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SOUTH KOREA (2004)
+---------------------------------------------------------------------------
+
+00001.  Jongnogu
+00002.  Yongsangu
+00003.  Sungdonggu Ul
+00004.  Gwangjingu Gab
+00005.  Gwangjingu Ul
+00006.  Dongdaemungu Gab
+00007.  Kangbukgu Ul
+00008.  Dobonggu Ul
+00009.  Seodaemungu Ul
+00010.  Yangchonggu Gab
+00011.  Gangseogu Ul
+00012.  Gurogu Gab
+00013.  Yeongduengpogu Gab
+00014.  Yeongduengpogu Ul
+00015.  Gwanakgu Ul
+00016.  Seochogu Gab
+00017.  Songpagu Gab
+00018.  Songpagu Byung
+00019.  Incheon Namgu Ul
+00020.  Incheon Namdonggu Gab
+00021.  Incheon Namdonggu Ul
+00022.  Incheon Bupyong Gab
+00023.  Gyeonggi Sungnam Sujeong
+00024.  Gyeonggi Sungnam Bundang Gab
+00025.  Gyeonggi Anyang Dongan Gab
+00026.  Gyeonggi Bucheon Sosa
+00027.  Gyeonggi Gwangmyeong Gab
+00028.  Gyeonggi Ansan danwongu Ul
+00029.  Gyeonggi Siheung Ul
+00030.  Gyeonggi Gunpo
+00031.  Gyeonggi Hanam
+00032.  Gyeonggi Uiwang Gwacheon
+00033.  Gyeonggi Guri
+00034.  Gyeonggi Namyangju Gab
+00035.  Gyeonggi Yangju Dongducheon
+00036.  Gyeonggi Pocheon Yeoncheon
+00037.  Busan Seogu
+00038.  Busan Namgu Gab
+00039.  Busan Namgu Ul
+00040.  Busan Sahagu Gab
+00041.  Busan Guemjeonggu
+00042.  Busan Bukgu Gangseogu Gab
+00043.  Busan Suyeonggu
+00044.  Ulsan Namgu Ul
+00045.  Ulsan Bukgu
+00046.  Gyeongnam Masan Gab
+00047.  Gyeongnam Masan Ul
+00048.  Gyeongnam Jinju Gab
+00049.  Gyeongnam Uiryeong Haman Habcheon
+00050.  Gyeongnam Sancheong Hamyang Geochang
+00051.  Daejeon Donggu
+00052.  Daejeon Daedukgu
+00053.  Chungbuk Cheongju Heungdeok Gab
+00054.  Chungbuk Cheongju Heungdeok Ul
+00055.  Chungbuk Chungju
+00056.  Chungnam asan
+00057.  Chungnam Buyeo Cheonyang
+00058.  Chungnam Dangjin
+00059.  Gwangju Donggu
+00060.  Gwangju Seogu Ul
+00061.  Jeonbuk Jeonju Wansan Gab
+00062.  Jeonbuk Iksan Gab
+00063.  Jeonbuk Jeongeup
+00064.  Jeonbuk Gimje Wanju
+00065.  Jeonnam Mokpo
+00066.  Jeonnam Yeosu Gab
+00067.  Jeonnam Yeosu Ul
+00068.  Jeonnam Haenam Jindo
+00069.  Gangwon Gangneung
+00070.  Gangwon Sokcho Goseong Yangyang
+00071.  Gangwon Hongcheon Hoengseong
+00072.  Daegu Donggu Ul
+00073.  Daegu Bukgu Gab
+00074.  Daegu Dalseo Gab
+00075.  Daegu Dalseong Gab
+00076.  Gyeongbuk Andong
+00077.  Gyeongbuk Youngju
+00078.  Gyeongbuk Seongju
+00079.  Gyeongbuk Gyeongsan Cheongdo
+00080.  Gyeongbuk Goryeong Seongju Chilgok
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SPAIN (2004)
+---------------------------------------------------------------------------
+
+00001.  Alava                     00026.  Logroño
+00002.  Albacete                  00027.  Lugo
+00003.  Alicante                  00028.  Madrid
+00004.  Almería                   00029.  Málaga
+00005.  Avila                     00030.  Murcia
+00006.  Badajoz                   00031.  Navarra
+00007.  Baleares                  00032.  Orense
+00008.  Barcelona                 00033.  Oviedo
+00009.  Burgos                    00034.  Palencia
+00010.  Cáceres                   00035.  Las Palmas
+00011.  Cádiz                     00036.  Pontevedra
+00013.  Ciudad Real               00037.  Salamanca
+00014.  Córdoba                   00038.  St. Cruz de Tenerife
+00015.  La Coruña                 00039.  Santander
+00016.  Cuenca                    00040.  Segovia
+00017.  Gerona                    00041.  Sevilla
+00018.  Granada                   00043.  Tarragona
+00019.  Guadalajara               00045.  Toledo
+00020.  Guipúzcoa                 00046.  Valencia
+00021.  Huelva                    00047.  Valladolid
+00022.  Huesca                    00048.  Vizcaya
+00023.  Jaén                      00050.  Zaragoza
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SWEDEN (2002)
+---------------------------------------------------------------------------
+
+00001.  Stockholm City
+00002.  Stockholm County
+00003.  Uppsala County
+00004.  Södermanland County
+00005.  Östergötland County
+00006.  Jönköping County
+00007.  Kronobergs County
+00008.  Kalmar County
+00009.  Gotland County
+00010.  Blekinge County
+00011.  Malmö County
+00012.  Skåne County, West
+00013.  Skåne County, South
+00014.  Skåne County, North and East
+00015.  Halland County
+00016.  Göteborg City
+00017.  Västra Götaland County, West
+00018.  Västra Götaland County, North
+00019.  Västra Götaland County, South
+00020.  Västra Götaland County, East
+00021.  Värmland County
+00022.  Örebro County
+00023.  Västmanland County
+00024.  Dalarna County
+00025.  Gävleborg County
+00026.  Västernorrland County
+00027.  Jämtland County
+00028.  Västerbotten County
+00029.  Norbotten County
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: SWITZERLAND (2003)
+---------------------------------------------------------------------------
+
+00001.  Zürich                    00014.  Schaffhausen
+00002.  Bern                      00015.  Appenzell A.R.
+00003.  Luzern                    00016.  Appenzell A.I.
+00004.  Uri                       00017.  St. Gallen
+00005.  Schwyz                    00018.  Graubünden
+00006.  Obwalden                  00019.  Aargau
+00007.  Nidwalden                 00020.  Thurgau
+00008.  Glarus                    00021.  Ticino
+00009.  Zug                       00022.  Vaud
+00010.  Fribourg                  00023.  Valais
+00011.  Solothurn                 00024   Neuchâtel
+00012.  Basel-Stadt               00025.  Genève
+00013.  Basel-Land                00026.  Jura
+
+
+---------------------------------------------------------------------------
+>>>  PRIMARY ELECTORAL DISTRICTS: TAIWAN (2001)
+---------------------------------------------------------------------------
+
+00001.  Taipei City (North)       00016.  Nantou County
+00002.  Taipei City (South)       00017.  Changhua County
+00003.  Kaohsiung City (North)    00018.  Yunlin County
+00004.  Kaohsiung City (South)    00019.  Chiayi County
+00005.  Taipei County             00020.  Chiayi City
+00006.  Taipei County (Distr. 2)  00021.  Tainan County
+00007.  Taipei County (Distr. 3)  00022.  Tainan City
+00008.  Keelung City              00023.  Kaohsiung County
+00009.  Yilan County              00024.  Pingtung County
+00010.  Taoyuan County            00025.  Taitung County
+00011.  Hsinchu County            00026.  Hualien County
+00012.  Hsinchu City              00027.  Penghu County
+00013.  Miaoli County             00028.  Kinmen County
+00014.  Taichung County           00029.  Lienchiang County
+00015.  Taichung City
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: TAIWAN (2004)
+---------------------------------------------------------------------------
+
+00001.  Taipei County             00012.  Kaohsiung County
+00002.  Yilan County              00013.  Pingtung County
+00003.  Taoyuan County            00014.  Taitung County
+00005.  Miaoli County             00015.  Hualien County
+00006.  Taichung City             00017.  Keelung City
+00007.  Changhua County           00019.  Taichung City
+00008.  Nantou County             00020.  Chiayi City
+00009.  Yunlin County             00021.  Tainan City
+00010.  Chiayi County             00063.  Taipei City
+00011.  Tainan County             00064.  Kaohsiung City
+
+
+---------------------------------------------------------------------------
+>>> PRIMARY ELECTORAL DISTRICTS: UNITED STATES (2004)
+---------------------------------------------------------------------------
+
+001xx.  Connecticut               044xx.  Georgia
+002xx.  Maine                     045xx.  Louisiana
+003xx.  Massachusetts             046xx.  Mississippi
+004xx.  New Hampshire             047xx.  North Carolina
+005xx.  Rhode Island              048xx.  South Carolina
+006xx.  Vermont                   049xx.  Texas
+011xx.  Delaware                  051xx.  Kentucky
+012xx.  New Jersey                052xx.  Maryland
+013xx.  New York                  053xx.  Oklahoma
+014xx.  Pennsylvania              054xx.  Tennessee
+021xx.  Illinois                  055xx.  Washington DC
+022xx.  Indiana                   056xx.  West Virginia
+023xx.  Michigan                  061xx.  Arizona
+024xx.  Ohio                      062xx.  Colorado
+025xx.  Wisconsin                 063xx.  Idaho
+031xx.  Iowa                      064xx.  Montana
+032xx.  Kansas                    065xx.  Nevada
+033xx.  Minnesota                 066xx.  New Mexico
+034xx.  Missouri                  067xx.  Utah
+035xx.  Nebraska                  068xx.  Wyoming
+036xx.  North Dakota              071xx.  California
+037xx.  South Dakota              072xx.  Oregon
+040xx.  Virginia                  073xx.  Washington
+041xx.  Alabama                   081xx.  Alaska
+042xx.  Arkansas                  082xx.  Hawaii
+043xx.  Florida
+
+
+         | ELECTION STUDY NOTES - UNITED STATES (2004): ELECTORAL DISTRICTS
+         |
+         | The list above describes the first three digits of the code for
+         | each district. The last two digits ("xx") give the congressional
+         | district number within the designated state (there are a
+         | varying number of districts within each state).
+
+
+//END OF FILE
