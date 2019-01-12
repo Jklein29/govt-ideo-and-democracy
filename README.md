@@ -1,5 +1,5 @@
 # govt-ideo-and-democracy
-Using CSES &amp; FIW data to study the relationship between ruling party ideology an democracy
+Using CSES &amp; FIW data to study the relationship between ruling party ideology and democracy
 
 CSES data: http://www.cses.org/datacenter/download.htm
 
