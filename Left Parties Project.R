@@ -106,7 +106,11 @@ names(status) <- c("Status_2002", "Status_2003", "Status_2004")
 
 # Create full 2002-2004 dataset
 
-cbind(status, PR_rt, CL_rt)[order(c(seq_along(status), seq_along(PR_rt), seq_along(CL_rt)))] %>% 
+cbind(status, PR_rt, CL_rt, 
+      select(FIW_02_04, starts_with("PR.Aggr")), 
+      select(FIW_02_04, starts_with("CL.Aggr")))[order(c(seq_along(status), seq_along(PR_rt), seq_along(CL_rt), 
+                                                         seq_along(select(FIW_02_04, starts_with("PR.Aggr"))), 
+                                                         seq_along(select(FIW_02_04, starts_with("CL.Aggr")))))] %>% 
   cbind(select(FIW_02_04, Country.Territory), .) %>% 
   mutate(Country.Territory = trimws(Country.Territory)) -> FIW_02_04_new
 
